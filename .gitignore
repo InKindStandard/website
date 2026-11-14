@@ -1,0 +1,9 @@
+# Windows adds this to folders; it is not part of the site.
+desktop.ini
+# A copy for opening from a disk (python3 build.py --local); never published.
+local/
+__pycache__/
+# The build folder until 12 November 2026; the build now writes docs/ (decision sheet 2, E5 A).
+/public/
+# A released folder's README is a note to this project, not part of the site (RUNBOOK.md, section 5).
+src/released/**/README.md

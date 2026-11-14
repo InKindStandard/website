@@ -1,0 +1,352 @@
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+*LICENSE: CC0 1.0 Universal (Public Domain Dedication). To the extent possible under law, Timothy Smith has waived all copyright and related or neighboring rights to this instrument.*
+
+*ADOPTION NOTICE. **No attribution, notice, citation, credit, or acknowledgment of any kind is required in any adopted ordinance, executed agreement, staff report, or recorded instrument**, and no provision of this document shall be construed to require one. A jurisdiction may adopt, modify, renumber, or reject any portion without notice to or consent of the author. Attribution is requested only in derivative published works, and only as a courtesy.*
+
+---
+
+**FLORIDA MODEL INSTRUMENTS FOR DATA CENTER DEVELOPMENT**
+
+**Schedule of Supplemental Operating Covenants**
+
+Exhibit “S” to the Model Host Community Development Agreement · Exhibit “S” to a County Ground Lease · Model form for Florida counties
+
+*Model form. Remove this heading block, and every drafting note, before the County first makes the draft public.*
+
+**What this is.** A schedule of site-specific operating covenants, attached as Exhibit “S” to the Model Host Community Development Agreement or to a County ground lease (the “Instrument”), which names the Operator, the Property and the Facility and makes each covenant run with the land for the life of the use (Section S-1.1).
+
+**What it does.** Part S-1 sets the terms, a definition of Sensitive Receptor that applies whether or not the County has adopted the Standards, and an anti-evasion rule. Parts S-5 to S-13, from siting to equipment stewardship, are numbered to match the model standards’ sections on the same subjects and add to them, most citing the Standards for the base rule; Section S-21.2 overlaps Sec. 11A of the Standards in part. Parts S-20 to S-25, from construction traffic to grid service, cover subjects the Standards do not address.
+
+**Works with.** The Standards the Instrument attaches supply the base rules and terms, and Section S-1.2(b) maps each other reference, such as the Impact Findings, to the Instrument. Under the development agreement, each reference to Part S-25, such as in its Sections 5.3, 5.4 and 5.6(c), takes effect only where Part S-25 is attached. Module M2, where elected, uses the Readiness Date of Section S-1.2(a). The Drafter’s Notes list each blank and choice.
+
+**Before use.** Part S-1 is always attached. Under a host community development agreement, attach each other covenant only where the Impact Findings show a part of an impact the Standards leave unanswered at the site, sized to that part, and set a bracketed figure stricter than the Standards, or not set by them, only as the Impact Findings support (Agreement Section 10.5); under a County ground lease, the covenants are terms the County sets as landowner. An unset bracket of the form “[__; Std. Sec. __]” takes the cited Standards figure (Section S-1.2(c)). Section S-10.1(d) and the end of Section S-10.5 work as written only where the attached Standards include Sec. 10(e). Complete every bracket before the Instrument is executed.
+
+**Known gaps.** No county has adopted this model, and no licensed attorney has reviewed it. No Impact Findings have been prepared for any project. Some covenants rest on law that is not settled: the generator testing limits of Sections S-10.3(b)(1) and S-10.5 under s. 366.032, Florida Statutes, and Parts S-7 and S-8, on water and cooling and on water withdrawal, as covenants of a development agreement. The Open Legal Questions give the current reading of each.
+
+**Terms in brief.** Development Unit: the land grouped with the Property by common ownership or control, as the Standards define it (Section S-1.4). Approved Capacity and the other terms Section S-1.2(a) names: as the Instrument defines them.
+
+**SCHEDULE OF SUPPLEMENTAL OPERATING COVENANTS**
+
+**PART S-1. GENERAL**
+
+**Section S-1.1 Application.** This Schedule is attached to and forms part of a host community development agreement or a county ground lease (the “Instrument”). The Instrument names the person bound by this Schedule (the “Operator”), the land it covers (the “Property”), and the data center on that land (the “Facility”), and makes each covenant of this Schedule binding as a covenant running with the land for the period it states (the “life of the use”). The Operator shall perform each covenant of this Schedule.
+
+**Section S-1.2 Terms; Figures.**
+
+(a) **Terms.** “Standards” means the County’s data center standards as the Instrument attaches them. A reference to a section of the Standards by number is to the section of the attached standards that corresponds to that section of Exhibit A, Data Center Standards, of the model data center standards ordinance, or, for Sec. 15A, of Module M1. [Drafting note, remove before the draft is made public: Before removing this note, replace each Standards section number in this Schedule, brackets included, with the County’s own, as numbered in Exhibit “O,” and strike the words tying the numbers to the model.] “Fire Department” means the County’s fire rescue agency, and “District” means [WATER MANAGEMENT DISTRICT]. “Readiness Date” means [June 1] of each year, which is also the date by which Module M2, where the Instrument includes it, requires emergency power for County facilities to be ready. Approved Capacity, BESS, Compute Hall, Interconnecting Utility, Operations Commencement Date, Phase, and State of Emergency have the meanings the Instrument gives them. Other terms defined in the Standards have those meanings, and other capitalized terms have the meanings the Instrument gives them.
+
+(b) **Instrument references.** In this Schedule:
+
+| Term | Host community development agreement | County ground lease |
+|---|---|---|
+| Impact Findings | Exhibit “B-1” | Exhibit “B,” Part 2 |
+| Site Design Exhibit (Landscape Plan) | Exhibit “C” (Landscape Plan: Part C-1) | Exhibit “J” (Landscape Plan: Part J-1) |
+| Acoustic Protocol | Exhibit “D” | Exhibit “J,” Part J-3 |
+| Emergency Operations Plan Outline | Exhibit “E” | Exhibit “J,” Part J-4 |
+| annual compliance report | Section 6.1 | Exhibit “C” (Development Agreement Section 6.1) |
+| decommissioning security | Section 7.2 | Section 13.3 |
+| reimbursement of County costs | Section 4.6(c) | Exhibit “C” (Development Agreement Section 4.6(c)) |
+| amendment of the Instrument | Section 9.2 (capacity: Section 3.1) | Section 15.13 (capacity: Section 6.5) |
+| phase review | Section 3.2(c) | Section 7.1 (plans) |
+
+(c) **County-set figures.** A bracket in the form “[__; Std. Sec. __]” is a figure the County sets in completing this Schedule. If the County does not set it, the figure is the one the cited section of the Standards states.
+
+(d) **Omitted Parts.** A reference in this Schedule to a Part or Section it does not contain is of no effect, and the remaining text has its ordinary meaning without that reference.
+
+**Section S-1.3 Sensitive Receptor.** “Sensitive Receptor” means the property line of any parcel outside the Property, in any zoning district, containing a dwelling unit, a licensed child care facility, a public or private school serving grades K through 12, a hospital or licensed health care facility, a nursing home or assisted living facility, a place of worship, a public park, or a licensed campground. This definition applies whether or not, and in whatever form, the County has adopted the Standards. A Sensitive Receptor exists from the earlier of the date the use is established and the date a building permit or development order is issued for it.
+
+**Section S-1.4 Anti-Evasion.**
+
+(a) Neither the Operator nor any affiliate under common control with it shall divide land, form or dissolve entities, separate or reconfigure electrical service, sequence or withdraw and refile applications, or create leasehold, condominium, or licensee interests for the purpose or with the effect of placing any development outside the applicability of the Standards or this Schedule, or in a lower tier under Sec. 3 of the Standards. “Common control” and “Development Unit” have the meanings the Standards give them.
+
+(b) Any development by the Operator or such an affiliate on land within the Development Unit is subject to this Schedule and the Standards as though it were part of the Facility, whether or not that land is within the Property. The Operator shall cause the affiliate to join in a recorded instrument to that effect before a development order issues for that land.
+
+(c) This Section does not enlarge any monetary or in-kind obligation of the Instrument, each of which continues to be measured by the Facility’s Approved Capacity.
+
+**Section S-1.5 No County Duty from Receipt.** The County’s receipt or review of any survey, notice, plan, inventory, delineation, assessment, permit, monitoring data, or other submittal under this Schedule imposes on the County no operational responsibility, no ownership of any contamination, and no liability.
+
+**PART S-5. SITING**
+
+**Section S-5.1 Setbacks.**
+
+(a) Primary compute halls, high-voltage substation switchyards, BESS enclosures, and mechanical chiller plants are set back as Sec. 5(a) of the Standards requires from residentially or agriculturally designated property lines and from each Sensitive Receptor existing when the site plan showing the structure or equipment is approved. No reduction under Sec. 5(b) of the Standards applies.
+
+(b) No commercial computing equipment or high-voltage line may encroach on the setback zone.
+
+**PART S-6. SCREENING, LIGHTING, AND CONSTRUCTION**
+
+**Section S-6.1 Berm and Planting.**
+
+(a) **Berm.** Before any commercial information-technology server racks are activated, the Operator shall construct a continuous, structurally stabilized earthen berm within the setback zone under Section S-5.1, along each part of the boundary of the Property that faces a property line or Sensitive Receptor from which that Section requires a setback, not less than [__; Std. Sec. 6(a)] feet high relative to the natural grade of the adjacent parcels.
+
+(b) **Planting.** The exterior slope of the berm shall be planted in a staggered double row with native canopy and understory species from a County-approved planting list, giving priority to Florida slash pine (Pinus elliottii), live oak (Quercus virginiana), and sand live oak (Quercus geminata). Canopy trees shall be at least ten (10) feet tall and two and one-half (2.5) inches in caliper at installation, planted and staked to current wind-resilience standards, and shall achieve full screening density within five (5) years of installation, as the Landscape Plan shows.
+
+(c) **Maintenance.** The Operator bears one hundred percent (100%) of the long-term capital and operating costs of irrigation, fertilization, pest management, and replacement of the planted canopy for the life of the use, and shall replace in kind, within one growing season, any tree that dies or substantially declines.
+
+(d) **Security.** Performance of this Section is secured by a bond or irrevocable letter of credit equal to one hundred ten percent (110%) of the certified installation cost plus five (5) years of estimated maintenance, renewed and resized on each fifth anniversary of the date the County accepts the planting.
+
+**Section S-6.2 Lighting.** Exterior lighting, including security lighting, shall be full-cutoff and dark-sky compliant, and the light trespass limit of Sec. 6(b) of the Standards applies also at each agricultural property line.
+
+**Section S-6.3 Construction.** During construction, the Operator shall:
+
+(a) implement a stormwater pollution prevention plan, obtain and comply with coverage under the NPDES Construction Generic Permit, and maintain erosion and sediment controls until the site is stabilized;
+
+(b) control fugitive dust from clearing, grading, and haul operations;
+
+(c) limit all noise-generating construction activity to the hours the County’s land development regulations, including Sec. 6(c) of the Standards, prescribe, and conduct pile driving and other high-vibration work only during daytime hours; and
+
+(d) monitor ground vibration during pile driving and deep-foundation work, use low-vibration installation methods where feasible near karst features identified under Section S-11.2, and halt work and notify the County on any indication of subsidence or sinkhole formation.
+
+**PART S-7. WATER AND COOLING**
+
+**Section S-7.1 Groundwater.** The Facility shall extract zero (0.0) gallons of raw groundwater from the Floridan Aquifer for daily mechanical operations, primary cooling, or secondary thermal management. No water derived from groundwater withdrawal, wherever and by whomever withdrawn, shall be delivered to the Property by vehicle, pipeline, or other means for those purposes. This Section does not restrict the delivery of potable water by the County or a public utility through a metered connection, or the delivery of water during a declared State of Emergency for fire suppression or life safety.
+
+**Section S-7.2 Domestic Water.** Potable water for ordinary employee sanitary and domestic needs shall be supplied solely through metered connections to County utility systems and shall not exceed [__] gallons per day measured on a rolling thirty (30) day average, a figure derived in the Impact Findings from the Facility’s certified occupant count. No water supplied under this Section shall be used, stored, treated, transferred, or routed for mechanical cooling, thermal management, humidification, or any process purpose, and the Operator shall maintain separate metering and physical separation between the domestic system and any thermal system.
+
+**Section S-7.3 Closed-Loop Cooling.**
+
+(a) Primary cooling shall be by a one hundred percent (100%) closed-loop liquid-to-air or liquid-to-chip mechanical circulation system.
+
+(b) All thermal transfer fluids shall be housed in fully welded, pressure-monitored internal piping loops that transfer heat to dry air-cooled heat exchangers.
+
+(c) Evaporative cooling may be used only as emergency secondary cooling during an atmospheric thermal event defined by the engineering criteria in the approved site plan, and then only with municipal reclaimed water drawn from the County’s reclaimed water system, within District allocations and s. 373.262(3), Florida Statutes.
+
+(d) The Operator bears all capital costs of extending reclaimed water lines from the municipal connection point to the Property.
+
+(e) Where the Facility is a large-scale data center as defined in s. 373.203(4), Florida Statutes, the Operator acknowledges that it is subject to ss. 373.262(2) to (4) and 373.239(2), Florida Statutes, including the hearing and showings for a consumptive use permit, the use of reclaimed water in lieu of surface water or groundwater where s. 373.262(3) applies, the source-and-loss accounting and water conservation plan required for an application for an average daily flow of at least one hundred thousand (100,000) gallons per day, and the treatment of permit modifications as initial applications.
+
+**Section S-7.4 Metering and Water Report.** All water sources serving the Property, including reclaimed water, shall be metered. The Operator shall file with the County an annual water balance report identifying all sources, amounts, and losses of water used for cooling, industrial and treatment processes, personal or sanitary needs of employees, and landscape irrigation, in the categories s. 373.262(4)(a)1., Florida Statutes, uses for a permit application.
+
+**PART S-8. WATER WITHDRAWAL**
+
+**Section S-8.1 No Wells.** The drilling or operation of an on-site groundwater extraction well for any purpose is prohibited. This Section does not bar a recovery well a federal or state agency requires for remediation, or equipment used temporarily for construction dewatering.
+
+**Section S-8.2 Passby Floor.** No surface water withdrawal for the Facility shall occur when streamflow at the point of withdrawal is below the lowest seven-day average flow occurring once every ten years. That flow is computed from the gauge record for the source or, where no gauge record is adequate to compute it, set by a study the Operator funds, prepared by a Florida-licensed professional engineer or professional geologist and stating the data and method used. Before the withdrawal begins, the Operator files with the County and the District the flow so computed or set and its basis, including any study. The Operator measures streamflow at the point of withdrawal, or indexes it to a gauge it names by the transfer method its filing states, records it at least daily while it withdraws, and reports it in the water balance report under Section S-7.4. The County may have the study reviewed by an engineer it engages, and the cost of that review is reimbursed as the Instrument provides for reimbursement of County costs. Where the District has adopted a minimum flow or level for the source under s. 373.042, Florida Statutes, this Section and each condition of the Operator’s permit that implements it both apply.
+
+**PART S-9. SOUND**
+
+**Section S-9.1 Where the Limits Apply.**
+
+(a) The sound limits of Sec. 9(a) of the Standards and the tonal penalty of Sec. 9(b) apply to the cumulative sound of the Facility’s continuous operations, including server exhaust fans, chiller loops, and substation transformers, at every point along the property line of each adjacent residential or agricultural parcel and at each Sensitive Receptor, whenever it comes to exist.
+
+(b) Measurements use the method of measurement that Sec. 9(a) of the Standards applies and the ambient-exclusion and weather-screening protocol of the Acoustic Protocol.
+
+(c) “Sound Contour” has the meaning the Standards give it. Where the Standards do not define it, or no acoustic study or update under them maps it for the Facility, it means the area outside the Property within which the Facility’s predicted sound at full build-out, with all heat rejection and mechanical equipment at maximum rated operation and any generator testing the Standards permit at night, and with any penalty under Sec. 9(b) of the Standards, comes within [five (5)] dB of, or exceeds, a night-period limit of Sec. 9(a) of the Standards, as the Operator maps it from the acoustic study on which the Acoustic Protocol relies or, where there is none, from an acoustic study of the Facility at full build-out that the Operator has prepared at its cost by a qualified acoustical consultant, and files it with the County within [thirty (30)] days after the County’s written request; the County may have the map reviewed, and the cost of that review is reimbursed as the Instrument provides for reimbursement of County costs.
+
+**Section S-9.2 Ambient Baseline.** Before first energization, the Operator shall complete a seventy-two (72) hour pre-operational ambient baseline survey on consecutive days, including not fewer than two (2) weekdays that are not County holidays, at the stations fixed under Section S-9.3, and shall repeat it in a second season not less than ninety (90) days after the first. The lower of the two seasonal results sets the ambient floor at each station. The County may observe either survey and shall be given not less than [ten (10)] days’ notice of its start.
+
+**Section S-9.3 Monitoring Stations and Telemetry.**
+
+(a) The Operator shall purchase, install, calibrate, and maintain three (3) permanent Type 1 sound level monitoring stations on the property line at the receptor-facing toe of the perimeter berm, not on the berm crest or interior slope, with microphones five feet zero inches above grade, each sited to keep an unobstructed line of sight to the nearest rooftop and elevated mechanical equipment.
+
+(b) Station locations are fixed in the Acoustic Protocol and are the points at which compliance is continuously determined. A station may not be moved without the County’s written approval and a demonstration that the new location is not more shielded from any elevated source than the location it replaces. The County may also determine compliance at any Sensitive Receptor at which Section S-9.1 applies, measuring there by the method and under the protocol of Section S-9.1(b). Where a Sensitive Receptor that no station faces lies, in whole or in part, within the Sound Contour, the County may, by written notice, require the Operator to add a station facing it, in addition to those of subsection (a), on the property line of the Property and, where the perimeter berm faces that Sensitive Receptor, at the berm’s receptor-facing toe, and otherwise as this Section provides. The notice fixes the location of the added station, which is a point at which compliance is continuously determined; the Acoustic Protocol applies to it as to the stations it names; and the ambient floor at that station is [the lower of the ambient floors at the two nearest stations].
+
+(c) The stations shall stream un-redacted, real-time sound data directly to the County at all times and to a public County dashboard, in the open, machine-readable formats and through the documented application programming interface the Acoustic Protocol specifies. Where the County finds in writing that real-time publication would disclose security-sensitive operating information, the Operator may delay the stream to the dashboard by up to [__] hours and aggregate it to intervals not exceeding [one (1) hour], and the stream to the County continues unchanged. Sound data are measured sound levels and spectra. No station records, stores or transmits audio, or other data, from which speech can be understood.
+
+(d) The Operator waives any right to shield that data as a trade secret or as proprietary information. Data delivered to the County are public records under Chapter 119, Florida Statutes.
+
+**Section S-9.4 Exceedance Response.** On a verified exceedance of a limit that applies under Section S-9.1, the Operator shall notify the County within twenty-four (24) hours, deliver a corrective action plan within forty-eight (48) hours, and, if the exceedance persists beyond seventy-two (72) hours, reduce mechanical and compute loading as necessary to restore compliance. Sec. 9(d) of the Standards also applies.
+
+**PART S-10. GENERATORS**
+
+**Section S-10.1 Authorized Generation.**
+
+(a) The Facility may include only the on-site generation, of any technology, that the Impact Findings and the approved site plan describe by Phase, type, nameplate capacity, function (emergency, primary, bridging, or storage), location, and fuel storage, and only where its air, acoustic, water, and fuel-storage impacts are measured in the Impact Findings.
+
+(b) Any other on-site generation, any increase in its nameplate capacity, and any change in its function requires an amendment of the Instrument, with the public hearings and supplemented Impact Findings the Instrument requires for an increase in capacity. Generation or storage for a Phase that matches what the Impact Findings state for that Phase is reviewed under the Instrument’s phase review.
+
+(c) Bridging generation ceases within [__] months after permanent utility service to the Phase it serves is energized.
+
+(d) This Part does not restrict, prefer, or disfavor any fuel or generating technology, and does not restrict the use of any appliance in a way that s. 366.032(2), Florida Statutes, is held, or is determined under Sec. 10(e) of the Standards, to prohibit, and Section S-10.5 states how this Part then applies. It requires that on-site generation, whatever its fuel, be disclosed, measured, and approved with its impacts and operate within this Part, Part S-9, the Standards, and every applicable permit. It does not restrict the types or fuel sources of energy that any public utility, electric utility, natural gas utility, natural gas transmission company, liquefied-petroleum-gas dealer, or entity formed under s. 163.01, Florida Statutes, may use, deliver, convert, or supply to serve the customers it is authorized to serve.
+
+**Section S-10.2 Scope.** This Part applies only to the Operator’s own on-site generation for the Facility’s own consumption. Generation located on the Property, or on land leased or subdivided from it, is the Operator’s for this purpose unless it is owned, dispatched, and rate-regulated as part of the Interconnecting Utility’s own system and is not dedicated to serving the Facility alone. Whoever owns it, any generator yard on the Property remains subject to the setback, floodplain, sound, storage, and aggregation standards of this Schedule and the Standards.
+
+**Section S-10.3 Operating Limits.**
+
+(a) **Authorizing Emergency.** An “Authorizing Emergency” is (1) a loss, or an imminent loss declared by the Interconnecting Utility, of utility service to the Facility sufficient to require generation to maintain life-safety or code-required systems; or (2) a written direction of the Interconnecting Utility or the applicable reliability coordinator, during an Energy Emergency Alert Level 3 event or under an order issued under section 202(c) of the Federal Power Act, to reduce the Facility’s load on the grid.
+
+(b) **Limits.** Generation the Impact Findings describe as emergency generation may operate only (1) for routine maintenance and testing, not exceeding [__] hours in any calendar year in the aggregate across all units [set from the Impact Findings], and (2) during an Authorizing Emergency. Operation on any other utility request may not exceed the non-emergency hours the unit’s air permit and federal engine rules allow. Participation in a demand-response, load-flexibility, or emergency load-management program for any other purpose is not an Authorizing Emergency and does not authorize operation of emergency generation.
+
+**Section S-10.4 Air Permits.** The Operator shall file with the County a copy of each air permit the Department of Environmental Protection issues for an on-site generating unit, and of each renewal or modification of one, within [__] days after it issues. No state permit is a condition of this Schedule or of any development permit (s. 125.022(4), Florida Statutes). This Schedule sets no emission limit of its own and does not displace the Department’s jurisdiction.
+
+**Section S-10.5 Testing.** Routine maintenance and testing of emergency generators shall occur only between [__; Std. Sec. 10(a)] on [__; Std. Sec. 10(a)], excluding County holidays, and automated control systems shall prevent more than [__; Std. Sec. 10(b)] generator units from operating at once during testing. [Drafting note, remove before the draft is made public: Where the County sets the hours, a window that fits a continuous run of four hours lets a test of that length run within them; a shorter window narrows the hours in which routine testing may run, and such a test may then run only under the exceptions that follow.] A test the Florida Fire Prevention Code or a state or federal permit requires, and readiness testing before forecast tropical-storm-force winds, may proceed outside those hours or with more units as, and on the notice, Sec. 10(d) of the Standards allows. No other exception applies, except that the County Administrator may approve a written variance for a post-repair commissioning run on forty-eight (48) hours’ notice. Where Sec. 10(a) and (b) of the Standards do not apply to a unit under Sec. 10(e) of the Standards, this Section and Section S-10.3(b)(1) apply to that unit only as Sec. 10(c) and (d) of the Standards then apply.
+
+**Section S-10.6 Fuel.**
+
+(a) [Reserved.]
+
+(b) The Operator shall file an annual fuel report stating the fuel type, volumes, and supplier certifications.
+
+(c) For liquid-fueled emergency generation, the Operator shall maintain an on-site fuel reserve sufficient for [__] hours of operation at the critical load stated in the Impact Findings [study-dependent; confirm with the fire official and against regional fuel supply], within the fuel storage limits of Sec. 12(b) of the Standards, and shall deliver to the County by the Readiness Date of each year an officer’s attestation stating the reserve then held and the supply arrangements for the coming hurricane season.
+
+**PART S-11. STORMWATER, KARST, AND FLOOD**
+
+**Section S-11.1 Stormwater.** On-site stormwater retention and treatment systems shall meet the treatment performance standards that Sec. 11(c) of the Standards sets, and shall attenuate post-development peak discharge rates to pre-development rates through and including the 100-year, 24-hour design storm, with no net increase in off-site discharge volume for the design storm Sec. 11(c) of the Standards sets.
+
+**Section S-11.2 Karst.** Before construction, the Operator shall complete a geotechnical and geophysical investigation, including ground-penetrating radar of building pads, BESS foundations, and basin footprints, identifying karst features, and shall incorporate the findings into foundation and stormwater design, including liners and setbacks for basins near identified features, and file a sinkhole response and remediation plan with the County. Stormwater design shall protect the quality of recharge to the Floridan Aquifer, and no untreated runoff shall be directed to any karst feature.
+
+**Section S-11.3 Pollution Prevention.** The Operator shall maintain a Spill Prevention, Control, and Countermeasure plan; provide secondary containment for all transformers and coolant chemical storage; operate and maintain the stormwater management system for the life of the use; and file with the County an annual inspection certification by a Florida-licensed professional engineer.
+
+**Section S-11.4 Floodplain.**
+
+(a) The Operator shall comply with the County’s floodplain management ordinance, the flood-resistant design and construction provisions of the Florida Building Code, and the standards of the National Flood Insurance Program, and shall show on its site plans the Federal Emergency Management Agency flood zones and the base flood elevation applicable to the Property.
+
+(b) All occupied buildings and all critical electrical, mechanical, cooling, fuel, and emergency-power systems, including equipment supporting the Facility’s emergency functions, shall be elevated or dry-floodproofed to at least the base flood elevation plus the freeboard the County’s floodplain ordinance requires, and in no event below the design flood elevation the Florida Building Code requires.
+
+(c) The Facility shall not cause a net reduction in floodplain or stormwater storage capacity; shall not raise the water surface elevation of the base flood off the Property; shall not raise the peak stage of water on adjacent or downstream property in any storm through and including the 100-year, 24-hour design storm, or in any storm through and including the design storm Sec. 11(c) of the Standards sets; and shall not increase the rate or volume of stormwater discharge onto adjacent or downstream property beyond the limits of Sec. 11(c) of the Standards or of Section S-11.1. Each stage and elevation under this subsection is computed to the nearest 0.01 foot. Before each site plan approval, the Operator shall file a hydrologic and hydraulic analysis by a Florida-licensed professional engineer showing that this subsection is met, for acceptance in writing by the County’s reviewing engineer, who shall state the reasons for any refusal. Acceptance waives no part of this subsection. The cost of the County’s review of the analysis is reimbursed as the Instrument provides for reimbursement of County costs. Where fill or construction occurs in a regulated floodplain, the Operator shall provide compensating storage as the County’s ordinance and the District’s rules require.
+
+(d) The Operator shall coordinate floodplain and stormwater permitting with the County and the District.
+
+**Section S-11.5 Wetlands and Surface Waters.**
+
+(a) The Operator shall cause the wetlands and other surface waters on the Property to be delineated by a qualified professional under applicable state methodology, shall design the Facility to avoid impacts to them and, where avoidance is not practicable, to minimize them, and shall give the County the delineation and an impact assessment.
+
+(b) Before conducting any regulated activity in wetlands or surface waters, the Operator shall obtain, and shall then comply with, every environmental resource permit required under Part IV of Chapter 373, Florida Statutes, from the District or the Department of Environmental Protection, and any authorization required under Section 404 of the Clean Water Act from the agency then exercising jurisdiction.
+
+(c) For unavoidable impacts, the Operator shall provide the mitigation the permitting agencies require, including through the purchase of credits from a permitted mitigation bank under s. 373.4131, Florida Statutes, where available.
+
+**PART S-12. HAZARDOUS SYSTEMS AND EMERGENCY PLANNING**
+
+**Section S-12.1 Battery Storage and Fire Suppression.**
+
+(a) The BESS, and each centralized uninterruptible power supply system to the extent the uniform firesafety standards under s. 633.206, Florida Statutes, apply to it, shall comply with those standards, including NFPA 855 and the Florida Fire Prevention Code as Rule 69A-73.002, Florida Administrative Code, applies them, and BESS equipment shall be listed to UL 9540 where those standards require it. Before installation, the Operator shall furnish to the Fire Department any UL 9540A test data that exist for the installed technology, under whatever edition they were produced, and any large-scale fire test results the uniform firesafety standards require for the installation.
+
+(b) [Optional. Include only where the site has historic, geographic, or unusual conditions for which the Operator may seek an equivalent alternative standard for a BESS enclosure. Where omitted, mark this subsection reserved.] Where, at the Operator’s request, the local authority with firesafety jurisdiction over the Property authorizes for a BESS enclosure, on a case-by-case basis under s. 633.206(2)(b), Florida Statutes, an equivalent alternative standard, such as continuous gas detection paired with explosion control, the Operator shall install and maintain the enclosure as that authorization provides. This subsection binds the Operator only to an alternative it has sought, and imposes no firesafety requirement more stringent than the uniform firesafety standards.
+
+(c) Primary server halls shall use a pre-action gaseous clean-agent fire suppression system, such as a non-conductive synthetic or inert gas system.
+
+**Section S-12.2 Emergency Operations.**
+
+(a) The Operator shall maintain a site-specific Joint Emergency Operations Plan covering at least the Emergency Operations Plan Outline, updated and resubmitted annually to the County Emergency Management Director and the Fire Chief, including pre-incident plans consistent with NFPA 1620 and Knox-Box rapid-entry provisions.
+
+(b) The Operator shall provide a dedicated, on-site, twenty-four (24) hour technical emergency liaison authorized to coordinate directly with incident commanders and to execute immediate remote substation disconnection.
+
+(c) The site plan shall show fire department access to the BESS yard as the uniform firesafety standards under s. 633.206, Florida Statutes, require, and a dedicated, unencumbered, thirty (30) foot-wide heavy-vehicle access loop around the compute halls, engineered to support Fire Department ladder trucks during sustained emergency operations.
+
+**Section S-12.3 Joint Exercise.** The Operator shall take part in, and bear its own cost of, at least one joint tabletop or functional exercise with the Fire Department, County Emergency Management, and, for emergency response at the Property, the County Sheriff’s Office, not less often than [__; Std. Sec. 12(c)]. Any County cost of an exercise is reimbursed only as the Instrument provides for reimbursement of County costs, and no cost of the County Sheriff’s Office is reimbursed.
+
+**Section S-12.4 Hazardous Materials.** The Operator shall maintain a written hazardous-materials management plan covering the regulated chemicals stored or used on the Property, including fuels, coolants and glycols, water-treatment chemicals, battery electrolyte, and refrigerants, and shall manage refrigerants as federal law requires, including leak repair and recovery. The Operator shall comply with the Emergency Planning and Community Right-to-Know Act and shall give the County, the Fire Department, and the Local Emergency Planning Committee, annually and on any material change, the hazardous-chemical inventory it is required to report, including Safety Data Sheets and storage locations.
+
+**Section S-12.5 PFAS.**
+
+(a) The Operator shall not store, use, or discharge on the Property any firefighting foam containing intentionally added per- and polyfluoroalkyl substances (PFAS), including aqueous film-forming foam, and shall use only fluorine-free firefighting alternatives.
+
+(b) The Operator shall disclose to the County any intentionally added PFAS in liquid- or immersion-cooling fluids and shall select PFAS-free cooling fluids where a commercially available alternative exists that is compatible with the selected cooling system, as a Florida-licensed professional engineer certifies in each annual compliance report. Sec. 12(d) of the Standards also applies.
+
+(c) This Section does not require removal of PFAS lawfully present in components for which no commercially available alternative exists, but any such use shall be disclosed.
+
+**Section S-12.6 Hazardous Waste; Monitoring; Remediation.**
+
+(a) The Operator shall handle, accumulate, manifest, and dispose of all hazardous and universal waste generated on the Property, including spent batteries and electrolyte, used oil, and spent coolant, through licensed transporters and facilities under the Resource Conservation and Recovery Act and Florida law.
+
+(b) If the operating Facility is subject to industrial stormwater permitting, the Operator shall obtain and comply with the applicable National Pollutant Discharge Elimination System multi-sector or industrial permit, in addition to the construction coverage under Section S-6.3(a).
+
+(c) Before construction, the Operator shall complete a Phase I environmental site assessment, and a Phase II assessment if the Phase I so indicates, to establish baseline conditions. Throughout operations, the Operator shall conduct groundwater and soil monitoring suited to the quantities of regulated materials stored and to the site’s karst and aquifer conditions, on a scope and schedule coordinated with the Department of Environmental Protection or the District, and shall give the County the results.
+
+(d) On decommissioning, the Operator shall remediate contamination of soil or groundwater caused by its operations to the cleanup target levels of Chapter 62-780, Florida Administrative Code. The Operator is not responsible under this subsection for pre-existing contamination, or for off-site contamination, that it did not cause. This obligation is secured by the decommissioning security and survives termination of the Instrument.
+
+**PART S-13. EQUIPMENT STEWARDSHIP**
+
+**Section S-13.1 Scope.** Sec. 13 of the Standards applies to all decommissioned, failed, or technologically obsolete electronic hardware at the Facility, including microprocessors, graphics processing units, tensor processing units, server blades, internal liquid-cooling chemical compounds, and high-voltage circuit fabrics, as though each were Covered Equipment, and none of it shall be disposed of in any municipal landfill in the County.
+
+**Section S-13.2 Routing and Data-Bearing Media.**
+
+(a) The Operator shall safely uninstall and pack that hardware and route it, as Sec. 13(b) of the Standards provides, to an electronics recycler holding current R2v3 or e-Stewards certification, through a documented manufacturer takeback, exchange, or warranty program, into verified functional secondary use, or, at the Operator’s election, by donation or transfer at or below market value, as-is and without warranty, to a qualified nonprofit, governmental, or educational refurbisher, other than the County or a department, agency, or dependent special district of the County, for public, educational, or community purposes.
+
+(b) No data-bearing media shall leave the Property by any pathway unless it has first been sanitized on site under NIST Special Publication 800-88, with sanitization verified (including by cryptographic erasure of self-encrypting media), or physically destroyed on site. Media that cannot be verifiably sanitized, including failed or inoperable storage devices, shall be physically destroyed on site and routed only to a certified recycler, and media returned under a manufacturer warranty or exchange program shall first be sanitized.
+
+(c) A serialized certificate of sanitization or destruction shall be generated for each device and retained for County inspection.
+
+(d) Compliance with the disposal and protection duties of the Florida Information Protection Act, s. 501.171, Florida Statutes, is an independent covenant of the Operator, enforceable by the County as a default under the Instrument.
+
+**Section S-13.3 Audited Manifest.** Every twelve (12) months after the Operations Commencement Date, the Operator shall submit to the County’s [Development Services Department] an independently audited, third-party chain-of-custody manifest, reconciled to the Operator’s serialized asset inventory and the certificates under Section S-13.2(c), showing that one hundred percent (100%) of the Facility’s decommissioned electronic hardware was processed in compliance with this Part. No permit for secondary hardware installation shall issue while the Operator is in default of this Section.
+
+**PART S-20. CONSTRUCTION TRAFFIC**
+
+**Section S-20.1 Haul Routes.** The Operator shall use County-approved haul routes for heavy construction and equipment-delivery traffic and shall avoid residential streets except as the County Engineer approves in writing.
+
+**Section S-20.2 Road Restoration.** The Operator shall document the baseline condition of affected County roads before construction and shall repair, at its cost, damage to County roads and rights-of-way attributable to its construction traffic, secured by a road-damage bond or letter of credit in an amount the County Engineer approves.
+
+**Section S-20.3 Escorts and Traffic Control.** The Operator arranges and pays for each law enforcement escort a permit requires for the Facility’s construction or equipment deliveries, and for any traffic control on public roads the County Engineer requires for them. This Section gives no law enforcement agency any other role.
+
+**PART S-21. NATURAL AND CULTURAL RESOURCES**
+
+**Section S-21.1 Listed Species and Clearing.**
+
+(a) Before any land clearing, the Operator shall have a qualified ecologist conduct a listed-species and habitat survey addressing species protected under state and federal law, including the gopher tortoise (Gopherus polyphemus), and shall obtain any required authorization from the Florida Fish and Wildlife Conservation Commission and the U.S. Fish and Wildlife Service before disturbing occupied habitat.
+
+(b) Any gopher tortoise present shall be relocated under a Florida Fish and Wildlife Conservation Commission permit to an authorized recipient site before clearing.
+
+(c) Land clearing shall be limited to the area necessary for the approved Facility. The Operator shall comply with the County’s tree-protection and land-clearing regulations, and shall retain native canopy outside the development footprint where practicable and incorporate it into the screening under Section S-6.1 where suitable.
+
+**Section S-21.2 Archaeological, Historical, and Cemetery Resources.**
+
+(a) Before any land clearing or ground disturbance, the Operator shall have a qualified professional conduct a Phase I archaeological and historical survey of the areas to be disturbed, shall coordinate with the Florida Division of Historical Resources consistent with Chapter 267, Florida Statutes, shall deliver the survey, including any information identifying the location of an archaeological site, cemetery, or burial, to the Division for the Florida Master Site File, and shall give the County a certification by the qualified professional that the survey is complete and has been so delivered, with a summary that states no location more precise than the parcel.
+
+(b) If previously unidentified archaeological or historical resources are encountered during construction, the Operator shall immediately stop work near the discovery, secure the area, and notify the County and the Division of Historical Resources before resuming work there. A notice to the County does not state the location of the discovery within the site. If human remains are encountered, the Operator shall stop work, comply with ss. 872.05 and 872.02, Florida Statutes, and notify the medical examiner and other authorities as the law requires.
+
+(c) In coordination with the Division of Historical Resources, the Operator shall avoid or appropriately treat each significant resource identified, including by preservation in place or by recovery where avoidance is not practicable.
+
+(d) Where Sec. 11A of the Standards applies to the Facility, a field survey under that Section may serve as the survey under subsection (a) for the areas it covers, and the discovery plan under that Section may be used to carry out subsection (b), if each also meets this Section.
+
+**PART S-22. GRID SUPPORT**
+
+**Section S-22.1 Demand Flexibility.**
+
+(a) The Operator shall enroll the BESS and all curtailable compute load in the Interconnecting Utility’s Commission-approved demand-response and load-flexibility programs to the extent offered and as they become available, and shall keep them enrolled for the life of the use.
+
+(b) During a capacity emergency declared by the Interconnecting Utility or the applicable reliability coordinator, including a North American Electric Reliability Corporation Energy Emergency Alert Level 2 or 3 event affecting the local distribution system, the Operator’s energy management systems shall, on dispatch, curtail non-safety-critical compute load by not less than [__] percent within [__] minutes [set from the Interconnecting Utility’s Commission-approved program or large load tariff terms; study-dependent] and discharge the BESS as the Interconnecting Utility dispatches. This subsection is met by load curtailment and storage discharge.
+
+**Section S-22.2 Load Reduction on Emergency Request.** On a request or order described in Section S-10.3(a)(2), the Operator shall reduce the Facility’s load on the grid by curtailing non-safety-critical load and by running the Facility on its own storage and, where needed, its emergency generation, within the limits of its air permits. This Section authorizes load reduction only, and the Operator shall not export electricity beyond the Property.
+
+**Section S-22.3 No County Dispatch.** Nothing in this Schedule gives the County authority to dispatch any resource into the Interconnecting Utility’s system.
+
+**PART S-23. HEAT RECOVERY**
+
+**Section S-23.1 Boundary Interface.**
+
+(a) The Facility’s primary cooling loops shall be designed and built with plate heat-exchanger tie-in stubs and a valved thermal interface at a designated point at or near the boundary of the Property, so that thermal energy is physically recoverable without retrofit of the compute halls.
+
+(b) The Operator shall keep free of permanent obstruction a corridor, shown on the site plan, from that interface to the boundary of the Property, wide enough for a future offtaker connection, and shall grant an easement over it to the offtaker that is party to an agreement described in Section S-23.3, when that agreement is executed. The corridor and any easement over it are not a dedication or reservation of land for public purposes. The duty to grant the easement arises only under an agreement the Operator chooses to execute, which the County shall not require.
+
+(c) The Operator shall file an annual report of the Facility’s recoverable thermal output, in megawatts-thermal.
+
+**Section S-23.2 Plant-Side Accommodation.**
+
+(a) At original construction, and again on any replacement of the heat rejection plant, the Operator shall (1) reserve an area [Select one: of not less than [__] square feet] [Or: shown in the Site Design Exhibit] adjacent to the heat rejection plant for future thermal recovery equipment; (2) install a capped and valved thermal interface point at the plant, sized to [__] percent of design heat rejection; and (3) give the County as-built documentation of the interface point and design heat rejection data. Where the Operator demonstrates by a Florida-licensed professional engineer’s certification that accommodation is not technically feasible for the cooling architecture selected, this subsection is met by that certification, if the County’s reviewing engineer accepts it in writing, answering with reasons for any refusal within [__] days after receiving it, and by delivery of the data under subsection (b).
+
+(b) The Operator shall report design and actual heat rejection at the interface point in each annual compliance report, in a machine-readable open format.
+
+(c) This Section is not counted as a benefit. It does not enlarge any monetary obligation of the Operator or require it to degrade the Facility’s energy performance or to violate any applicable design or performance standard.
+
+**Section S-23.3 No Grant of Thermal Energy.** This Part grants no person a right to thermal energy and conveys no interest in it. Any right to take recovered thermal energy arises only under a separately negotiated agreement. The Operator is not obligated to deliver thermal energy in the absence of a willing offtaker, and a delivery of thermal energy is not electric utility service.
+
+**PART S-24. SITE SECURITY**
+
+**Section S-24.1 Site Security.**
+
+(a) The Operator shall secure the Property against unauthorized entry consistent with Crime Prevention Through Environmental Design principles and the Facility’s critical-infrastructure character. No security measure shall impair emergency access or response.
+
+(b) The Operator shall install and maintain perimeter security fencing and controlled vehicle and pedestrian access points serving the compute halls, the substation switchyard, and the BESS yard, with intrusion detection at the perimeter and critical infrastructure. No intrusion detection equipment records, stores or transmits images or sound. The Operator shall aim each camera on the Property away from every dwelling unit outside the Property and from the yard or other open area used with it, and shall mask any part of a camera’s field of view that would still include one, so that no camera captures an image of either.
+
+(c) All security fencing, gates, and access controls shall have Knox-Box or equivalent rapid-entry systems keyed to the Fire Department, shall not obstruct, narrow, or gate across the access loop or the fire department access to the BESS yard under Section S-12.2(c) except by gates openable under this subsection, and shall be configured so that powered gates open automatically on fire-alarm activation and remain openable by Fire Department rapid-entry means on loss of normal power.
+
+(d) The Operator shall prepare its physical security plan in consultation with the Fire Department and, for emergency response at the Property only, the County Sheriff’s Office, integrate it with the Joint Emergency Operations Plan, and update it at least annually.
+
+**PART S-25. GRID SERVICE**
+
+**Section S-25.1 Curtailment.** Consistent with s. 366.043(6), Florida Statutes, no provision of the Instrument or of any contract of the Operator shall prevent or hinder the curtailment or interruption of electric service to the Facility where intended to ensure grid stability, reduce the likelihood or breadth of wider outages, or ensure public safety during an emergency. The Operator waives any claim against the County arising from any such curtailment.
+
+**Section S-25.2 No Load Splitting.** Consistent with ss. 366.043(4) and 373.203(4), Florida Statutes, the Operator shall not separate the Facility’s electrical load on the Property into multiple smaller connections, or structure colocation arrangements, to avoid classification as a large load customer or large-scale data center under those statutes. The Facility’s classification is determined on the aggregated basis those statutes prescribe.
+
+**Section S-25.3 Utility Ownership.** This Part applies whatever the Interconnecting Utility’s ownership form.
+
+---
+
+## AUTHOR
+
+*Prepared by Timothy Smith · Citizen-prepared working draft · Not legal advice.*
+
+*Citizen-prepared. Not legal advice. The author is not licensed to practice law and is not affiliated with, and does not write on behalf of, any university, law school, clinic, law firm, or governmental body. No attorney-client relationship is created by this document or by any use of it. Any jurisdiction considering adoption should obtain review by licensed counsel admitted in that jurisdiction.*
+
+*The release notes (CHANGELOG) published with each release identify its contents and the current version of each instrument.*

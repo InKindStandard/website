@@ -1,0 +1,624 @@
+*Clean copy, with the heading block and drafting notes removed, except a title or a list of abbreviations the text needs; the annotated copy keeps both, including steps to take before use. No county has adopted the instruments of this release, no developer has signed them, no licensed attorney has reviewed them, and none of the studies they depend on has been done. Remove this note, the license and notice lines below, and the status, author and release-notes lines at the end before the text is adopted, signed or recorded.*
+
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+*LICENSE: CC0 1.0 Universal (Public Domain Dedication). To the extent possible under law, Timothy Smith has waived all copyright and related or neighboring rights to this instrument.*
+
+*ADOPTION NOTICE. **No attribution, notice, citation, credit, or acknowledgment of any kind is required in any adopted ordinance, executed agreement, staff report, or recorded instrument**, and no provision of this document shall be construed to require one. A jurisdiction may adopt, modify, renumber, or reject any portion without notice to or consent of the author. Attribution is requested only in derivative published works, and only as a courtesy.*
+
+---
+
+**GROUND LEASE**
+
+THIS GROUND LEASE (this “Lease”) is made as of the ___ day of ________, 20__, between [COUNTY NAME] COUNTY, a political subdivision of the State of Florida, by and through its Board of County Commissioners (the “County” or “Landlord”), and [INSERT TENANT ENTITY NAME], a [Delaware] [corporation / limited liability company] authorized to transact business in Florida (the “Tenant”) (each a “Party”).
+
+**RECITALS**
+
+A. The County owns fee simple title to the land described in Exhibit “A.” The Board of County Commissioners (the “Board”) has determined by resolution that leasing that land is in the best interest of the County, as Section 125.35(1)(a), Florida Statutes, provides [or under disposition standards adopted by ordinance under Section 125.35(3), Florida Statutes, or the County’s charter disposition procedure], and, after public notice of the solicitation identified in Exhibit “B,” has awarded this Lease to the highest and best bidder for the particular use the Board deems to be the highest and best.
+
+B. The Tenant proposes to construct and operate on the Premises a high-density compute campus with an initial Approved Capacity of [__] Megawatts (the “Project”).
+
+C. The Board finds that this Lease serves public purposes, including revenue to the County at not less than fair market value, as the appraisals summarized in Exhibit “B” show, employment, and the reversion of the improvements, and that the County receives full and adequate consideration, consistent with Article VII, Section 10 of the Florida Constitution.
+
+NOW, THEREFORE, the Parties agree as follows:
+
+**ARTICLE 1. DEFINITIONS AND INTERPRETATION**
+
+**Section 1.1 Definitions.** In this Lease:
+
+“Abandonment” and “Distress Event” have the meanings given in Section 7.3 of the Development Agreement.
+
+“Affiliate” of a person means an entity that controls, is controlled by, or is under common control with that person, and, used alone, means an Affiliate of the Tenant. “Control” means the power to direct management or policies, by ownership, contract, or otherwise.
+
+“Appointing Authority” means [Name], which is never the County or any other local government.
+
+“Approvals” means the development approvals and permits the Project requires from the County in its regulatory capacity or from any other agency, and never an act of the County as landowner.
+
+“Approved Capacity” means the maximum Aggregate Infrastructure Demand authorized for the Project, initially the figure stated in Recital B [and [__] Megawatts of critical information technology load within the meaning of Section 212.08(5)(r), Florida Statutes], derived at a design Power Usage Effectiveness of [__], as increased only under Section 6.5.
+
+“CPI-U” means the Consumer Price Index for All Urban Consumers published by the United States Bureau of Labor Statistics, or its successor or substitute index under Section 15.17.
+
+“Development Agreement” means the Model Host Community Development Agreement for Florida counties, with its Exhibits and Forms, in the text dated [DATE OF ATTACHED TEXT] that Exhibit “C” attaches, together with any later amendment of that model that an amendment of this Lease approved by the Board expressly identifies. Only the provisions Exhibit “C” attaches apply under this Lease.
+
+“Effective Date” means the date of this Lease.
+
+“Emergency Obligations” means the covenants of Exhibit “S,” Part S-22, and, where the Board elects Module M2, Sections M2.1 and M2.2.
+
+“Health and Safety Standards” means the Operating Standards on sound, on-site generation, hazardous systems, emergency planning, and site security (Secs. 9, 10, and 12 of the Standards and Exhibit “S,” Parts S-9 and S-10, Sections S-12.1 to S-12.3, Part S-24, and Section S-6.2 as it applies to security lighting) and, where the Board elects Module M2, the emergency power obligations of Sections M2.1 and M2.2.
+
+“Impact Findings” means the impact findings in Part 2 of Exhibit “B.”
+
+“Minimum lease terms” means the terms the Board sets and publishes before the solicitation identified in Exhibit “B.”
+
+“Module M2” and “Module M3” mean the optional modules on emergency power for County facilities and on civic compute allocation, where the Board elects them under Sections 6.4 and 4.7.
+
+“Operating Standards” means the covenants of Exhibits “O” and “S,” the provisions of the Development Agreement that Exhibit “C” attaches, and, where the Board elects it, Module M2, each as Section 6.2 applies it.
+
+“Operations Commencement Date” means the date of issuance of the first certificate of occupancy for any Compute Hall on the Premises or, if earlier, the date on which information-technology equipment on the Premises is first energized for production computation.
+
+“Phase” means each phase of the Project that the approved site plan states or, where none is stated, the Project as a whole.
+
+“Premises” means the land described in Exhibit “A,” excluding each area Exhibit “A” describes as retained by the County for its own facilities.
+
+“Standards” means the County’s data center standards attached as Exhibit “O.” A reference to a section of the Standards by number is to the section of Exhibit “O” that corresponds to that section of Exhibit A, Data Center Standards, of the model data center standards ordinance, or, for Sec. 15A, of Module M1.
+
+“Base Rent,” “Decommissioning Security,” “Due Diligence Period,” “Event of Default,” “Force majeure,” “Initial Term,” “Leasehold Mortgagee,” “life of the use,” “Rent Commencement Date,” “successor holder,” and “Term” have the meanings given in Sections 4.1, 13.3, 3.3, 14.1, 15.10(a), 3.1, 11.1, 6.3, 4.1, 6.3, and 3.1.
+
+**Section 1.2 Interpretation.**
+
+(a) A capitalized term not defined in this Lease has the meaning Section 1.1 of the Development Agreement gives it, read as Exhibit “C” provides, or, if that Section does not define it, the meaning the Standards give it.
+
+(b) If this Lease conflicts with the Operating Standards, this Lease controls as to term, rent, taxes, financing, default, termination, surrender, and reversion, and the Operating Standards control as to environmental, operational, and community performance.
+
+(c) Where the Board does not elect Module M2, each reference in this Lease, Exhibit “C,” or Exhibit “S” to Module M2, to its sections or forms, or to emergency power for County facilities has no effect, and the remaining text has its ordinary meaning without that reference.
+
+**ARTICLE 2. PREMISES**
+
+**Section 2.1 Demise.** The County leases the Premises to the Tenant, and the Tenant leases the Premises from the County, for the Term, together with the non-exclusive appurtenant easements Exhibit “A” describes. The County reserves each easement and right of access that Exhibit “A” describes as retained by the County for its own facilities.
+
+**Section 2.2 Condition of the Premises.** The Tenant accepts the Premises AS IS, WHERE IS, without representation or warranty by the County of any kind, express or implied, including as to title matters of record, physical or environmental condition, suitability, or the availability of any entitlement, having made its own investigations during the Due Diligence Period. The County makes no representation that any Approval will issue, and the Tenant bears the risk of obtaining the Approvals.
+
+**Section 2.3 Quiet Enjoyment.** So long as no Event of Default is uncured, the Tenant shall peaceably hold the Premises during the Term without hindrance by the County acting in its proprietary capacity, subject to this Lease.
+
+**ARTICLE 3. TERM; CONTINGENCIES**
+
+**Section 3.1 Term.** The initial term is [__] years from the Rent Commencement Date (the “Initial Term”). The Initial Term together with any extension is the “Term.”
+
+**Section 3.2 Extension.**
+
+(a) [Optional: The Tenant may request [__] extension(s) of [__] years each, by notice given not less than eighteen (18) months before the end of the term then in effect, each extension [exercisable only with the approval of the Board at a public meeting] [exercisable by the Tenant if, on the date of exercise, there is no uncured Event of Default and no more than [__] violations of the Operating Standards determined by the County in the preceding five (5) years].]
+
+(b) Any extension of the Term, whether under subsection (a), under Section 125.35(1)(b)2, Florida Statutes, or under any other authority, is made only after a determination of fair market rental value under Section 4.4 for the Term as extended, on appraisals whose date of value is not more than one (1) year before the date the extension is approved or, where no approval is needed, exercised, and which are published at least [__] days before that date. Each extension resets Base Rent under Section 4.2(c). If the Board approves an extension at a rent below that value, the County reports it under Section 125.045(5)(a)4, Florida Statutes. The Tenant shall not seek or accept an extension on other terms.
+
+**Section 3.3 Due Diligence; Approvals.**
+
+(a) For [eighteen (18)] months after execution (the “Due Diligence Period”), the Tenant may investigate the Premises and shall diligently pursue the Approvals at its sole cost and risk.
+
+(b) If, despite diligent pursuit, the Approvals are finally denied, the Tenant may terminate this Lease by notice, and the Parties are then released except from obligations that survive. Holding-period rent under Section 4.5 is not refundable.
+
+(c) The County, as fee owner, shall sign within [__] days after request any owner’s authorization or joinder that an application for the Approvals requires, for a use Section 6.1 permits, unless an Event of Default is uncured or the application is inconsistent with this Lease. No such signature dedicates, conveys, or encumbers any interest of the County, and any dedication, easement, or other conveyance of County land that an application requires is a separate act of the County, taken by the authority and procedure that act requires.
+
+**ARTICLE 4. RENT**
+
+**Section 4.1 Base Rent.** Beginning on the earlier of the issuance of the first certificate of occupancy for the Project and [twenty-four (24)] months after the Due Diligence Period expires (the “Rent Commencement Date”), the Tenant shall pay annual base rent equal to the fair market rental value of the Premises established by the appraisals summarized in Exhibit “B” and the competitive award, initially $[______] per year (“Base Rent”), in equal monthly installments in advance.
+
+**Section 4.2 Adjustment and Reset.**
+
+(a) **Index.** Base Rent adjusts annually by CPI-U.
+
+(b) **Scheduled reset.** Every [five (5)] years, Base Rent is reset to the greater of the then-indexed amount and fair market rental value determined under Section 4.4. No adjustment or reset reduces Base Rent below the prior year’s level, except a downward reset the Board elects under Section 4.3(d).
+
+(c) **Event reset.** Base Rent is also reset, to the greater of the then-indexed amount and fair market rental value determined under Section 4.4 as of the date of the event, on each assignment under Section 10.1, each transfer of a controlling interest under Section 10.3, each new lease under Section 11.3 to a designee other than the Leasehold Mortgagee or an entity it controls, each amendment increasing the Approved Capacity under Section 6.5, and each extension of the Term under Section 3.2 (as of the date it is approved or exercised). If the reset raises Base Rent above the then-indexed amount, the [five (5)]-year cycle then runs from that date; otherwise the scheduled resets are unchanged.
+
+(d) **Transfers that do not reset.** Neither a transfer by which the person that ultimately controls the Tenant does not change nor a transfer that Section 10.1 frees from the County’s consent resets Base Rent. The next transfer that does is valued as of its own date.
+
+(e) **Sale and financing proceeds.** No rent under this Lease is measured by the price or proceeds of any sale, assignment, financing, or refinancing of the leasehold, the improvements, or any interest in the Tenant.
+
+**Section 4.3 Optional Rent Terms.** Each of the following applies only if the Board elects it in the solicitation.
+
+(a) [**Per-Megawatt increase.** Instead of a reset on an amendment increasing the Approved Capacity, Base Rent increases by $[______] for each added Megawatt of Approved Capacity, adjusted by CPI-U from the Rent Commencement Date and published in the solicitation, unless either Party elects, by notice given within [__] days after the Board approves the amendment, a reset under Section 4.2(c).]
+
+(b) [**Reset cap.** A reset under Section 4.2 raises Base Rent by not more than [__] percent above the Base Rent in effect immediately before it. The increase not taken because of this limit is carried forward: at each later reset, the rent determined is the greater of the rent then determined and the Base Rent then in effect plus the amount carried forward, the limit applies to it again, and any part not taken is carried forward again. Amounts carried forward bear no interest and are payable only as this subsection adds them to Base Rent.]
+
+(c) [**CPI-U cap.** No annual CPI-U adjustment raises Base Rent by more than [__] percent.]
+
+(d) [**Downward reset.** At any scheduled reset, the Tenant may request, by notice given at least [__] months before it, that Base Rent be reset to fair market rental value determined under Section 4.4 even if that value is below the Base Rent then in effect, and Base Rent is then reset to the greater of that value and [__] percent of the Base Rent in effect immediately before the reset. No downward reset applies while an Event of Default is uncured, and none reduces any other obligation of this Lease.]
+
+**Section 4.4 Fair Market Rental Value.**
+
+(a) **Instructions.** Each appraisal of fair market rental value under this Lease, including the appraisals summarized in Exhibit “B,” is made on written instructions that state the requirements of this Section and are kept with the record of the determination.
+
+(b) **Appraisers.** For each determination after execution, each Party engages one independent MAI appraiser, the two from different firms, and the Tenant bears both appraisers’ costs. If a Party has not engaged its appraiser within [__] days after the other Party’s request, or its appraiser has not delivered an appraisal within [__] days after the other appraisal is delivered, the determination is the other appraisal, as reviewed under subsection (f).
+
+(c) **Premise.** The appraisal states the fair market rental value of the Premises, and not only the value of the fee, as land, for the use Section 6.1 permits, for the leasehold this Lease grants (being the part of the Term remaining on the date of value, any extension the Tenant then has the right to exercise under Section 3.2, and the rights the County reserves), on the terms of this Lease other than rent, and subject to the Operating Standards. It:
+
+(1) disregards any improvement made by the Tenant;
+
+(2) assumes that the Tenant pays the taxes and any payment in lieu of taxes under Article 5;
+
+(3) assumes only the entitlements the Premises would have in private ownership, discloses any assumption about pending approvals as a hypothetical condition, and includes no premium or discount for any County regulatory action; and
+
+(4) values the Premises with the electric service that a new customer could obtain at that location under the serving utility’s tariffs and rules then in effect, as if the Tenant’s load were not on the system, and with the fiber routes available to any user at that location, and disregards every facility, contribution, deposit, service agreement, capacity reservation, queue position, and other right that the Tenant or any Affiliate paid for or holds, and every fiber route either of them built or leases.
+
+(d) **Method.** Each appraisal derives a land rent rate, meaning the annual rent for the land as a percentage of the market value of the land, on the assumptions of this Section, and states its evidence: rents under comparable ground leases, the rates public landlords charge for land leased for comparable uses, and the yield on long-term United States Treasury securities on the date of value plus a spread the appraisal states and explains. It states the market value of the land, applies the land rent rate to it, and checks the result against comparable ground leases where any exist. A capitalization rate drawn from sales of a landlord’s interest in leased property is not a land rent rate and is not used as one, and no appraisal values the land from the rent or other income this Lease produces. [The land rent rate is not less than [__] percent [and not more than [__] percent], the band the Board published before the solicitation.]
+
+(e) **Report.** Each appraisal is an Appraisal Report, and not a Restricted Appraisal Report, under the Uniform Standards of Professional Appraisal Practice in effect on its date; lists as a hypothetical condition every assumption contrary to fact that this Section requires or the appraiser makes; states its other assumptions, the comparable transactions on which it relies, its adjustments, and the derivation of its land rent rate; and is delivered to both Parties. Each appraisal also states, for information only, the fair market rental value without the assumptions of subsection (c)(4), and the difference. Only the value on the premise of subsection (c) is used in a determination.
+
+(f) **Date of value; review.** The date of value for a reset is the date the reset takes effect, except that for a reset on an extension it is the date of value of the appraisals Section 3.2(b) requires. An appraisal whose date of value is more than one (1) year before the award, the date an extension is approved or exercised, or the date a reset takes effect is updated to a current date of value before it is used. A review appraiser independent of both Parties and of the appraisers, from a firm other than theirs and engaged by the County, reviews each appraisal for conformity with this Section and the written instructions before it is used, and an appraiser corrects any nonconformity the review identifies. The Tenant bears the review appraiser’s cost.
+
+(g) **Independence.** Each appraiser, the review appraiser, and the neutral shall disclose in writing to both Parties, before engagement and until the determination is final, every engagement and prospective engagement by either Party or any Affiliate and every other financial or professional relationship with either of them or with another appraiser under this Section. The review appraiser and the neutral shall have had no engagement by either Party or any Affiliate, other than under this Section, within [__] years before their engagement, and shall accept none until the determination is final.
+
+(h) **Determination.** If the conclusions of the two appraisals differ by not more than ten percent (10%) of the lower, the determination is their average. Otherwise each Party submits to the neutral, within [__] days after the neutral is named, its final figure, not less than the lower nor more than the higher of the two conclusions, with its appraiser’s report and any written statement in support, and a Party that submits none within that period is taken to have submitted its appraiser’s conclusion. The neutral is an MAI appraiser, independent of both Parties and of the appraisers, named on either Party’s request by the Appointing Authority. The neutral selects the final figure closer to the fair market rental value the neutral finds on the reports, the statements, the review, and this Section, and no other figure, and delivers, within [__] days after the last submission, a written decision stating its reasons. The Party whose figure is not selected bears the neutral’s cost.
+
+(i) **Arbitration.** A selection by the neutral is an award in an arbitration under the Revised Florida Arbitration Code, chapter 682, Florida Statutes, held in [COUNTY] County, in which the neutral is the arbitrator and the only question is the amount of fair market rental value under this Section. Either Party may apply to confirm, vacate, modify, or correct it as that chapter provides. Every other dispute about a determination is decided under Section 15.12.
+
+(j) **Payment pending determination.** Until a determination for a reset is final, the Tenant pays Base Rent at the then-indexed amount, and within [__] days after it is final the Party that owes the difference between the rent paid and the rent determined pays it, with interest at the rate established under Section 55.03, Florida Statutes, from the date each installment was due.
+
+**Section 4.5 Holding-Period Rent.** From execution until the Rent Commencement Date, the Tenant shall pay holding-period rent of $[______] per year, [creditable] [not creditable] against the first year’s Base Rent.
+
+**Section 4.6 Participation Rent.** [Optional: The Tenant shall pay participation rent of [__]% of its gross revenues from the Premises above a threshold of $[______], certified annually and subject to audit.]
+
+**Section 4.7 Rent in Kind.** [Reserved. Where the Board elects Module M3, attach it as Exhibit “G”; each provision of this Lease that Section 2.12 of Exhibit “G” names then reads as that Section provides.]
+
+**Section 4.7A Public Facilities Given as Rent.** [Where this Lease requires the Tenant to construct a building, structure, or other public construction works for the County or another public body as rent, the Tenant shall: (a) award the construction of each project whose estimated cost exceeds the applicable amount in s. 255.20(1), Florida Statutes, as adjusted under s. 255.20(2), without dividing a project to come under that amount, to an appropriately licensed contractor, by sealed bids, to the lowest qualified and responsive bidder, or by a publicly advertised request for proposals or request for qualifications, in each case under solicitation and award procedures the County approves in writing as following those its ordinance sets for its own construction contracts; (b) require the contractor to execute and record the payment and performance bond s. 255.05, Florida Statutes, requires, naming the County or that public body as an additional obligee, and to deliver a certified copy of the recorded bond, before work begins, to the County and, where the facility is for another public body, to that body; (c) execute and record any bond s. 255.05 requires of the Tenant itself; (d) build it outside the Premises, on an area Exhibit “A” describes as retained by the County or on other land of the County or that public body, under a written license from the owner of that land, to plans the County or that public body approves in writing; and (e) complete it as Section 6.4 of the Development Agreement, as Exhibit “C” attaches it, provides. Section 7.2 does not apply to the facility, which, free of liens, belongs to the owner of the land on which it stands, and the Tenant bears its risk of loss until completion is confirmed. The facility is not part of the Premises or the Project. Section 9.2 reaches the facility’s construction as it reaches construction on the Premises, and the Tenant shall discharge, or transfer to bond, any lien for that construction filed against the facility or its site within thirty (30) days after it is filed. Until completion is confirmed, the Tenant shall keep in force for that construction the coverages Section 7.6(a)(1), (4) and (5) and (b) of the Development Agreement, as Exhibit “C” attaches it, require during construction, and after completion is confirmed, the products and completed operations coverage of Section 7.6(a)(1) for the facility for as long as Section 7.6(a) requires that coverage for the Project, with the County and, where the facility is for another public body, that body named as additional insureds wherever Section 7.6(a)(5) and (b) name the County. The facility is rent in addition to Base Rent, with no credit against Base Rent, and is not credited against, or the basis of any abatement, exemption or refund of, any tax, payment in lieu of taxes, fee or assessment, except a credit against an impact fee that s. 163.31801(5), Florida Statutes, requires. No facility under this Section is or includes any means of surveillance of members of the public, or serves a law enforcement agency other than for emergency services. “Emergency services” means response to a fire, medical emergency, hazardous materials release, disaster or other emergency that threatens life or property, and not surveillance or the investigation of crime.]
+
+**Section 4.8 Late Charges.** Rent unpaid five (5) days after it is due bears interest at the rate established under Section 55.03, Florida Statutes, plus a late charge of [three percent (3%)] of the overdue amount.
+
+**Section 4.9 Net Lease.** This Lease is absolutely net to the County. The Tenant pays, as they become due, all costs of every kind arising from the Premises and the Project, including taxes and assessments under Article 5, utilities, insurance, maintenance, repair, replacement, and compliance. Base Rent and additional rent are paid to the County without deduction, offset, abatement, or counterclaim, including by reason of casualty, except as Section 12.2 and Article 14 expressly provide.
+
+**Section 4.10 Airport Property.** Where any part of the Premises is airport property subject to 49 U.S.C. 47107(b) or 47133, this Section governs over any other provision of this Lease and its exhibits. Rent is paid only in cash, and no rent is taken in kind: Sections 4.7 and 4.7A do not apply, and no facility, work, service, capacity, or other thing of value is given or accepted as rent. Whatever the award, any bid, or any other term of this Lease provides, Base Rent is never less than the fair market rental value most recently determined by appraisal under Section 4.4, including the appraisals summarized in Exhibit “B”; Sections 4.3(a) and (b), and any maximum land rent rate under Section 4.4(d), do not apply; and holding-period rent under Section 4.5 is not less than the fair market rental value of the Premises for the holding period, determined by appraisal under Section 4.4, and is not creditable against Base Rent. Rent under this Article is revenue of the airport. The County uses that rent, and any other payment under this Lease that is revenue of the airport under 49 U.S.C. 47107(b) or 47133, only as those sections permit, and this sentence gives the Tenant no right or remedy.
+
+**ARTICLE 5. TAXES; PAYMENT IN LIEU OF TAXES**
+
+**Section 5.1 Taxes.** The Tenant shall pay before delinquency all taxes, assessments, and governmental charges of every kind levied on or with respect to the leasehold estate, the improvements, the Project’s operations, and the Tenant’s tangible personal property, including ad valorem taxes on Tenant-owned improvements and equipment and any tax on the leasehold interest under Section 196.199, Florida Statutes.
+
+**Section 5.2 No Exemption.**
+
+(a) The Project is fully taxable notwithstanding the County’s ownership of the fee. The Tenant’s use is proprietary and not a governmental, municipal, or public purpose or function within Section 196.199(2)(a), Florida Statutes, and its improvements and tangible personal property on the Premises are not exempt by reason of the County’s ownership of the fee.
+
+(b) The Tenant shall not apply for, claim, or accept any exemption or immunity derived from the County’s ownership of the fee, or any exclusion from or reduction of the tax on the leasehold by reason of the County’s ownership of the fee, whether under Section 196.199(2)(b), Florida Statutes, or otherwise, including any claimed for space a lessee must provide for a governmental entity, whether on account of Module M2 or any other provision of this Lease. This subsection does not limit a contest under Section 5.4.
+
+(c) The Tenant shall not seek or accept, and shall cause its Affiliates not to seek or accept, any rebate, reimbursement, grant, or other payment measured by, or paid from, tax increment attributable to the Premises, the leasehold, or the improvements, including a payment from a redevelopment trust fund under Section 163.387, Florida Statutes.
+
+(d) This Lease grants the Tenant no option to purchase the fee and no automatic or perpetual renewal, and nothing in it vests equitable ownership of the fee in the Tenant.
+
+(e) Nothing in this Section bars an exemption, abatement, or other treatment that would be available to the Tenant on the same terms if it held fee title to the Premises, including an economic development exemption the Board grants by ordinance under Section 196.1995, Florida Statutes. Subsection (c) still bars any payment measured by, or paid from, tax increment, and Section 5.3 does not reach an exemption this subsection permits.
+
+**Section 5.3 Payment in Lieu of Taxes.**
+
+(a) **Amount.** For each tax year, the Tenant shall pay to the County, as additional rent, a payment in lieu of taxes equal to the ad valorem taxes that would have been levied on the Premises, the leasehold, the improvements, and the Tenant’s tangible personal property had the Tenant held fee title to the Premises, less the ad valorem taxes levied on them for that tax year and less the tax on the leasehold as intangible personal property under Section 196.199(2)(b), Florida Statutes, actually paid for that tax year.
+
+(b) **Reach.** The payment reaches every part of the Premises, the leasehold, the improvements, and that property that is not assessed or taxed at the value it would carry in the Tenant’s fee ownership by reason of the County’s ownership of the fee, whether by operation of Section 196.199(2)(b), Florida Statutes, or by a determination of a court, the Property Appraiser, the value adjustment board, or the Department of Revenue, including any part of the improvements not assessed to the Tenant because it is to revert to the County.
+
+(c) **Computation.** The taxes that would have been levied are computed, at the millage each taxing authority adopted for that year, on the assessed value of each such part, determined from its just value as of January 1 of the tax year. Where the Property Appraiser, at the County’s request and at its own election, states the just value a part would carry if assessed in the Tenant’s fee ownership, that value is used; otherwise the value is determined for each tax year by an independent appraiser who is a certified general appraiser under part II of chapter 475, Florida Statutes, engaged by the County at the Tenant’s cost, applying the factors of Section 193.011, Florida Statutes, and the land schedules and methods the Property Appraiser uses for comparable parcels in the County for that tax year. That valuation is for ad valorem taxation and not under Section 4.4: it follows the Property Appraiser’s methods for comparable parcels, including their treatment of electric service, and not the instructions of Section 4.4. In that computation, the assessed value of each part [is, for each levy, limited by the limitations on increases in assessment that would apply to it for that levy in the Tenant’s fee ownership under Article VII, Section 4 of the Florida Constitution and Section 193.1555, Florida Statutes, as amended from time to time, applied as if the Tenant had acquired the fee when it acquired the leasehold and as if each assignment under Section 10.1 and each transfer under Section 10.3 were a change of ownership] [is its just value, without any limitation on increases in assessment].
+
+(d) **Statement; due date.** Each year, on or after the date ad valorem taxes for that tax year become due under Section 197.333, Florida Statutes, the County delivers to the Tenant a statement of the payment with its computation, and the payment is due [__] days after the statement is delivered. Section 4.8 applies to any amount not paid when due.
+
+(e) **Objection.** The Tenant may object to the computation within [__] days after delivery and pays the amount stated pending decision. Any difference finally determined is paid by the Party that owes it, with interest at the rate established under Section 55.03, Florida Statutes.
+
+(f) **Exclusions raise the payment.** Any exclusion from, or reduction of, the tax on the leasehold that is claimed or applied raises the payment for that tax year by the amount of tax excluded or reduced, and by no more.
+
+(g) **Other taxing authorities.** The County holds the share of each payment attributable to each other taxing authority whose millage applies to the Premises in a custodial fund for that authority, never as County revenue, and remits it as the interlocal agreement under Section 163.01, Florida Statutes, that the County entered into with that authority before the award of this Lease provides, or, for an authority that is not party to one, within [__] days after the County receives it.
+
+**Section 5.4 Contests.** The Tenant may contest valuations or charges in good faith at its sole cost, if the contest does not expose the Premises or the County’s fee to loss and the Tenant deposits security for the contested amount where the law permits nonpayment pending the contest.
+
+**ARTICLE 6. USE; OPERATING STANDARDS; UTILITIES**
+
+**Section 6.1 Permitted Use.** The Premises shall be used solely for a high-density compute campus, being a data center within the meaning of the Standards, and uses accessory to it, in strict compliance with the Operating Standards, the Approvals, and applicable law, and for no other use without the County’s written consent. The Board decides each request for another use, as landowner and in its proprietary discretion, at a public meeting held within [__] days after the County receives a written request describing the proposed use and any change it requires to the Premises or the Operating Standards, and states in writing the reasons for its decision. The Board consents to another use only on a finding, stated in its decision, that the change does not require a new disposition under Section 125.35, Florida Statutes; where a new disposition may be required, the change is made only after one.
+
+**Section 6.2 Operating Standards.**
+
+(a) **Covenants.** The Tenant shall perform:
+
+(1) each requirement of Exhibit “O” that applies to a Covered Facility or to its applicant or operator, the Project being a Covered Facility for that purpose whatever its capacity and whether or not the Standards apply to it by their own terms, and the Tenant being its applicant and operator;
+
+(2) each covenant of Exhibit “S,” in which the Tenant is the “Operator,” the Premises are the “Property,” the Project is the “Facility,” and this Lease is the “Instrument”;
+
+(3) each provision of the Development Agreement that Exhibit “C” attaches, as Exhibit “C” applies it; and
+
+(4) where the Board elects it, Module M2.
+
+(b) **Enforcement.** Each Operating Standard is a covenant of this Lease, and a violation of one is an Event of Default under Article 14. Where the Standards also apply to the Project by their own terms, the County may also enforce them in its regulatory capacity.
+
+(c) **Text fixed at execution.** Exhibits “O” and “S” are the texts attached at execution, with every bracket completed. Exhibit “O” is the County’s data center standards as in effect on the date of this Lease. No later amendment or repeal of the County’s data center standards changes either Exhibit, and each is amended only by an amendment of this Lease under Section 15.13.
+
+(d) **County decisions.** Each determination, approval, reduction, or extension that Exhibit “O” or Exhibit “S” assigns to the County or a County official is made by that official, for the County as landowner, on the terms the Exhibit states. A provision of Exhibit “O” that withholds or conditions a County permit or development order applies only where the Standards apply to the Project by their own terms, and then in the County’s regulatory capacity. A provision of Exhibit “S” that does so is a covenant of this Lease only, enforced under Article 14, and is not a condition of any permit or development order.
+
+(e) **Stricter standard governs.** Where two or more Operating Standards address the same subject, the stricter governs on each point, including a lower limit, a shorter averaging period, a larger interface, or an earlier deadline. No Operating Standard is a maximum, a safe harbor, or a limit on the County’s police power as to its subject.
+
+**Section 6.3 Life of the Use; Successors.**
+
+(a) **Covenants run with the land.** The Operating Standards and Section 6.6 run with the Premises and the leasehold and bind the Tenant and every successor holder for the life of the use. A “successor holder” is each person that holds or succeeds to any interest in the leasehold, the improvements, or the Premises while the use continues, including an assignee, a subtenant as to its space, a Leasehold Mortgagee or other transferee on enforcement of a leasehold mortgage, a tenant under a new lease under Section 11.3, and each later lessee or grantee of the Premises or the improvements. The Tenant and each successor holder are bound only while they hold their interest and, after ceasing to hold it, remain liable only for obligations that accrued while they held it, for the obligations of Articles 8 and 13, and as Section 10.1(c) provides for an assignor.
+
+(b) **Life of the use.** The “life of the use” begins on the date of this Lease and ends only on the permanent cessation of information-technology load on the Premises and the completion of the work that the County’s election under Section 13.2 requires. A change in computational modality, ownership, tenancy, or business model does not end it. The covenants of subsection (a) survive the expiration or termination of the Term while the use continues, and no expiration or termination of the Term ends them.
+
+(c) **References.** Each reference in Exhibit “C,” Exhibit “S,” or Module M2 to the life of the use, to the life of the High-Density Compute Use, or to the period while that use continues means the life of the use under this Section.
+
+(d) **Later instruments.** While the use continues, the County shall state the covenants of subsection (a) in each later lease or conveyance of the Premises or the improvements, and its succession to the improvements on reversion does not release them.
+
+**Section 6.4 Emergency Power for County Facilities.** [Reserved for Module M2. Where the Board elects it, insert its Sections M2.0 to M2.2 here and attach its forms as Exhibits “H” and “I.”] No easement over the Premises is granted for emergency power for County facilities.
+
+**Section 6.5 Approved Capacity.** The Project shall not exceed the Approved Capacity, and no seasonal, ambient, or operational excursion in power usage effectiveness expands the Approved Capacity, excuses an exceedance of it, or is a basis for an amendment. The Approved Capacity may increase only by written amendment of this Lease approved by the Board and supported by an updated Exhibit “B” consideration summary. On each such amendment, rents and securities stated as percentages or per Megawatt scale by their own terms, Base Rent changes as Sections 4.2(c) and 4.3(a) provide, and Section 3.1(b) of the Development Agreement applies as Exhibit “C” attaches it.
+
+**Section 6.6 Related Development.** Neither the Tenant nor any affiliate under common control with it shall develop, operate, or hold an interest in a data center on land within the Development Unit, as determined under the Standards, unless that land is brought within this Lease by amendment. Shared use of substation capacity, transmission interconnection, fiber path, water service, or reclaimed water service with the Premises is evidence that the land is within the Development Unit. This Section does not enlarge any monetary or in-kind obligation measured by the Approved Capacity.
+
+**Section 6.7 Utilities.** The Tenant is solely responsible for obtaining utility service. Article 5 of the Development Agreement applies as Exhibit “C” attaches it, and the affidavit under its Section 5.2(b) is in the form of Exhibit “F.”
+
+**ARTICLE 7. CONSTRUCTION; IMPROVEMENTS; LIENS**
+
+**Section 7.1 Construction.** The Tenant shall construct the Project at its sole cost, in accordance with plans the County approves as landowner, with the construction-phase security and insurance that Article 9 and the Operating Standards require, prosecuted diligently to completion of the first Phase within [__] months after the Rent Commencement Date. The County approves plans it finds conform to this Lease and states in writing any respect in which they do not.
+
+**Section 7.2 Improvements.** All buildings and improvements the Tenant constructs are the Tenant’s property during the Term, taxable to the Tenant as Article 5 provides, and shall not be removed except for refresh and modernization as the Operating Standards permit. Article 13 governs their reversion.
+
+**Section 7.3 Liens.** Under Section 713.10, Florida Statutes, the interest of the County is not subject to liens for improvements made by the Tenant, and the memorandum of this Lease states this prohibition in the words of this Section. The Tenant shall discharge, or transfer to bond, any lien filed against the leasehold within thirty (30) days after it is filed.
+
+**ARTICLE 8. MAINTENANCE; ENVIRONMENTAL**
+
+**Section 8.1 Maintenance.** The Tenant shall keep the Premises and improvements in good, safe, and first-class operating condition at its sole cost. The County has no obligation of any kind to maintain, repair, restore, or rebuild the Premises or the improvements, including after a casualty.
+
+**Section 8.2 Environmental.**
+
+(a) During the Term the Tenant is solely responsible for all environmental conditions arising from its use of the Premises. It is not responsible for conditions that the baseline assessment under Exhibit “S,” Section S-12.6(c), shows to have existed before its possession and that it did not worsen.
+
+(b) At surrender, the Tenant shall deliver the Premises remediated to the cleanup target levels of Chapter 62-780, Florida Administrative Code, for the County’s reasonably anticipated reuse.
+
+(c) The Tenant’s indemnity under Section 9.2 covers environmental claims arising from its use and survives the expiration or termination of this Lease without limit of time.
+
+**ARTICLE 9. INSURANCE; INDEMNITY**
+
+**Section 9.1 Insurance.** The Tenant shall maintain the insurance that Section 7.6 of the Development Agreement requires, as Exhibit “C” attaches it. Proceeds of the property coverage are applied under Articles 11 and 12.
+
+**Section 9.2 Indemnity.** To the fullest extent permitted by law, the Tenant shall indemnify, defend, and hold harmless the County and its officers, employees, and agents from claims arising out of the Tenant’s use, construction, operation, or decommissioning of the Premises, except to the extent caused by the County’s sole negligence or willful misconduct.
+
+**ARTICLE 10. ASSIGNMENT; SUBLETTING; TRANSFER**
+
+**Section 10.1 Assignment.**
+
+(a) **Consent.** The Tenant shall not assign this Lease except with the County’s written consent, which shall not be unreasonably withheld for an assignee that has a tangible net worth of not less than [$__] or a senior unsecured credit rating of not less than [__], and not less than [__] years’ experience, itself or through an operator it engages by written agreement, operating facilities of the character and scale of the Project, each set by the Board before the solicitation and published as minimum lease terms, and that executes a written assumption of this Lease, delivers replacement security and insurance, and satisfies Section 10.4.
+
+(b) **Procedure.** The County shall respond to a complete written request for consent within [__] days after receipt and may withhold consent only for failure of the criteria of this Section or Section 10.4, or for an uncured Event of Default. If the County does not respond within that period, the Tenant may give a second notice, and the Board shall decide the request at its next regular meeting held at least [__] days after the second notice.
+
+(c) **Release.** The assignor is released only from obligations accruing after the County’s written confirmation and, absent confirmation, remains liable. The County shall give that confirmation when, and only when, the assignee meets the criteria of this Section and Section 10.4.
+
+(d) **Lender transfers.** The County’s consent is not required for a transfer of the leasehold to a Leasehold Mortgagee, or to an entity the Leasehold Mortgagee controls, by foreclosure, by deed or assignment in lieu of foreclosure, or by other enforcement of its leasehold mortgage. A transfer by foreclosure to any other person, and the first transfer by a Leasehold Mortgagee or such an entity after it acquires the leasehold, needs the County’s consent on the criteria and by the procedure of this Section, except that consent may not be withheld for an Event of Default of a former Tenant that the transferee has cured or that by its nature only that former Tenant could cure, other than a continuing violation of the Health and Safety Standards.
+
+(e) **Every transferee.** Section 10.4 applies to every transfer. Every transferee, including a Leasehold Mortgagee or such an entity, assumes this Lease, including the Operating Standards, in writing, the liability of a Leasehold Mortgagee being limited as Section 11.4 provides.
+
+**Section 10.2 Subleases and Colocation.** Subleases and colocation licenses of computing space in the ordinary course are permitted without consent, if each is expressly subordinate to this Lease, no sublease conveys an interest in the fee, aggregate use remains within the Approved Capacity and Exhibit “S,” Section S-25.2, and the Tenant remains fully liable. The Tenant shall deliver a schedule of subtenants annually with the annual compliance report.
+
+**Section 10.3 Change of Control.** A transfer of a controlling interest in the Tenant is an assignment for purposes of this Article and is subject to the notice and disclosure covenants of Section 5.5 of the Development Agreement. Consent to it is given or withheld on the criteria, and by the procedure and within the periods, of Section 10.1. A “controlling interest” means [__] percent or more of the voting or economic interests in the Tenant, or the power to direct its management or policies, by ownership, contract, or otherwise, acquired by a person or a group of persons acting together, directly or through one or more intermediate entities, in one transaction or a series of related transactions. [Optional: A transfer of interests in the Tenant to an institutional lender, or to an entity it controls, on enforcement of a pledge of those interests that secures financing of the Project, is treated as a transfer to a Leasehold Mortgagee under Section 10.1(d).]
+
+**Section 10.4 Foreign Principals; Disclosure.** The Tenant represents that before execution it delivered to the County a written disclosure, under oath and subject to the penalties for perjury, of its name and address and the name and address of every person having a beneficial interest in it, however small, made as subsection (1) of Section 286.23, Florida Statutes, provides for a person conveying real property to a public body, with the exemptions of its subsection (3)(a). It represents, and shall confirm by annual certificate, that it is not a foreign country of concern, a subdivision of one, or an entity controlled by a foreign country of concern, as Section 288.860(1)(a) and (2)(a), Florida Statutes, use those terms; that it is not, and is not controlled by, a person or entity that Section 692.202(1), 692.203(1), or 692.204(1)(a), Florida Statutes, bars from owning or acquiring an interest in the Premises or in the buildings, fixtures, and other improvements on them; and that it has delivered, and shall keep current, an affidavit in the form Sections 692.202(5)(a), 692.203(6)(a), and 692.204(6)(a), Florida Statutes, require of a buyer of real property. Terms used in this Section have the meanings Sections 288.860(1) and 692.201 to 692.205, Florida Statutes, give them. Any transfer in violation of those sections or this Section is void to the extent the law provides and is an Event of Default.
+
+**ARTICLE 11. LEASEHOLD FINANCING**
+
+**Section 11.1 Leasehold Mortgages.** The Tenant may, without the County’s consent, mortgage its leasehold estate and improvements to one or more institutional lenders (each, a “Leasehold Mortgagee”) that give the County notice and an address. The County’s fee and reversion are never subordinated, mortgaged, or encumbered by or for the Tenant’s financing, and no Leasehold Mortgagee acquires any interest in them.
+
+**Section 11.2 Notice and Cure.** The County shall give each Leasehold Mortgagee copies of default notices. No termination is effective unless the Leasehold Mortgagee has received notice and the Tenant’s cure period plus thirty (30) additional days for monetary defaults and ninety (90) additional days for other defaults, extended, for defaults curable only with possession, for so long as the Leasehold Mortgagee is diligently prosecuting foreclosure and performing the monetary obligations of this Lease, but not more than one hundred eighty (180) additional days. Section 14.5 applies.
+
+**Section 11.3 New Lease.** If this Lease terminates for an Event of Default, or is rejected or disaffirmed in a bankruptcy or insolvency proceeding of the Tenant, the County shall, on written request of the most senior Leasehold Mortgagee made within thirty (30) days after the termination or rejection, enter into a new lease with that Leasehold Mortgagee, an entity it controls, or another designee to which the County consents under Section 10.1 as for a transfer by foreclosure to any other person, for the remainder of the Term on the same rents, covenants, and priority, conditioned on cure of monetary defaults and assumption of this Lease’s obligations, including the Operating Standards. Section 10.4 applies to every new tenant. This covenant is independent of this Lease, survives its termination, rejection, or disaffirmance, and runs to each Leasehold Mortgagee as an intended beneficiary of this Article only.
+
+**Section 11.4 Protections.** So long as a leasehold mortgage of which the County has notice exists, the County and the Tenant shall not amend, terminate by agreement, or accept surrender of this Lease without the Leasehold Mortgagee’s written consent. A Leasehold Mortgagee’s liability under this Lease is limited to the period of its ownership of the leasehold. The fee and the leasehold do not merge, even if one person comes to hold both, without the written consent of each Leasehold Mortgagee. If the County is ever a debtor in a case under title 11 of the United States Code and this Lease is rejected, neither the Tenant nor any Leasehold Mortgagee shall elect to treat this Lease as terminated under 11 U.S.C. 365(h)(1)(A)(i), and the Tenant retains its rights for the balance of the Term under 11 U.S.C. 365(h)(1)(A)(ii).
+
+**ARTICLE 12. CASUALTY; CONDEMNATION**
+
+**Section 12.1 Casualty.** If the improvements are damaged, the Tenant shall restore them with reasonable diligence, applying insurance proceeds under a customary depository arrangement with the senior Leasehold Mortgagee, or, if the damage occurs in the final [five (5)] years of the Term and the restoration cost exceeds [fifty percent (50%)] of replacement value, the Tenant may elect by notice to terminate this Lease, in which case it shall perform the decommissioning and surrender obligations of Article 13, applying insurance proceeds first to that performance.
+
+**Section 12.2 Condemnation.** If all or substantially all of the Premises is taken by an authority other than the County, this Lease terminates as of the taking, and the award is allocated to the County for the value of the fee and its reversion, and to the Tenant and Leasehold Mortgagees, as their interests appear, for the value of the leasehold and Tenant-owned improvements. A partial taking results in an equitable adjustment of rent and restoration by the Tenant from the award. A taking of the leasehold by the County is compensated as law provides, and the award is allocated under this Section.
+
+**ARTICLE 13. EXPIRATION; REVERSION; DECOMMISSIONING**
+
+**Section 13.1 Surrender and Reversion.**
+
+(a) On expiration or earlier termination of this Lease, the Tenant shall surrender the Premises, and title to the buildings and shell improvements vests automatically in the County, without payment by the County, free of liens, tenancies (other than any the County elects in writing to recognize), and Tenant equipment, in the condition the County elects under Section 13.2, with all operating manuals, warranties, and as-built plans assigned and delivered. The reversion, at the natural or an accelerated end of the Term, is not a forfeiture or a penalty.
+
+(b) The decommissioning plan includes a schedule, set by class of asset in the published minimum lease terms and kept current by the Tenant as it builds, of every power and cooling asset the Tenant builds or installs on the Premises, including each substation, switchyard, generating facility, BESS, and cooling plant, stating for each whether it reverts to the County with the improvements, is removed by the Tenant at surrender, or reverts or is removed as the County elects under Section 13.2. An asset the schedule omits reverts or is removed as the County elects. Facilities owned by the serving utility are outside the reversion, and Section 13.2(a) governs hazardous systems whatever the schedule states.
+
+**Section 13.2 County Election.** Not later than eighteen (18) months before expiration, or promptly on earlier termination, the County shall elect, in its discretion:
+
+(a) reversion for adaptive reuse, in which case the Tenant shall deliver the shell improvements broom-clean, structurally sound, and weather-tight, with base building systems in working order, hazardous systems (including the BESS, fuels, and coolants) lawfully removed, and environmental closure completed under Section 8.2; or
+
+(b) decommissioning and restoration, in which case the Tenant shall perform the decommissioning plan to the standards of Sections 7.1 and 7.5 of the Development Agreement and Sec. 14 of the Standards, including demolition, removal, stabilization, and revegetation.
+
+If the County makes no election by that date, subsection (b) applies unless the County elects subsection (a) not later than [__] months before expiration.
+
+**Section 13.3 Decommissioning Plan and Security.**
+
+(a) The decommissioning plan is the plan Section 7.1 of the Development Agreement requires.
+
+(b) The Tenant shall deliver the security that Section 7.2 of the Development Agreement requires (the “Decommissioning Security”), in the form of Exhibit “E,” before the earliest of the issuance of the first building permit for any Compute Hall, energized substation work, or BESS, the Rent Commencement Date, and the Operations Commencement Date, and shall maintain it until it has performed the County’s election under Section 13.2, the County has confirmed that performance under Section 6.4(b) of the Development Agreement as Exhibit “C” attaches it, and no well owner claim under Sec. 8(e) of the Standards made before that confirmation remains unpaid. The Decommissioning Security is on the terms of that Section as to form, amount, issuer, renewal, and restoration after a draw, is sized and recertified as there provided, secures either election and each well owner claim under Sec. 8(e) of the Standards, and is drawable on presentation when an amount it secures remains unpaid thirty (30) days after it was due, or work it secures remains unperformed sixty (60) days after performance was due. Notice under Section 14.1 is given where the law permits it, but is not a condition of the draw. Proceeds of a draw for decommissioning are applied as Sec. 14(b)(4) of the Standards provides.
+
+(c) The engineer’s estimate on which the Decommissioning Security is sized is made by a professional engineer licensed in Florida and independent of the Tenant, states the cost of performing the more costly of the two elections, and is recertified, with the security resized to it and to any claims amount Sec. 14(b) of the Standards requires, at each reset of Base Rent under Section 4.2 as well as when Section 7.2 of the Development Agreement requires.
+
+**Section 13.4 Abandonment.** On Abandonment, in addition to the remedies of Article 14 and subject to Article 11, the County may terminate this Lease and take the reversion without awaiting expiration. On Abandonment, Section 7.5 of the Development Agreement applies only if the County terminates this Lease and elects Section 13.2(b), or makes no election within [__] days after it terminates, and an election under Section 13.2(a) to keep the improvements governs over Section 7.5.
+
+**Section 13.5 Reuse After Reversion.**
+
+(a) After any reversion, the County may, among its lawful options, lease or convey the improvements and Premises to a governmental unit or to a not-for-profit organization organized to promote community interest and welfare, at private sale and without advertisement, under Section 125.38, Florida Statutes, on the findings that section requires, or re-let them under Section 125.35, Florida Statutes.
+
+(b) Each conveyance or lease under Section 125.38, Florida Statutes, states the following terms, which bind the grantee or lessee and every successor, and the County records them with the deed or with a memorandum of the lease:
+
+(1) the improvements and Premises are used only for the public purpose that the Board’s findings under that section state;
+
+(2) they are not conveyed, leased, or otherwise transferred except to a governmental unit or not-for-profit organization that could receive them under Section 125.38 and that assumes these terms for the same purpose, other than by a lease or license of part of them, for a term of not more than [__] years, for a use that serves that purpose;
+
+(3) the net proceeds of any disposition, and any insurance or condemnation proceeds not applied to restoration, are paid into an account restricted to the same purpose, and never into a general fund;
+
+(4) if the holder uses them for another purpose, transfers them contrary to clause (2), dissolves, or does not use them for that purpose for [__] consecutive months, they pass to the next governmental unit or not-for-profit organization, in the order the deed or lease names, that accepts them on these terms within [__] days after notice and that applied under Section 125.38 and is named, with its use, in the Board’s resolution under that section, and, failing any acceptance, to the County, which may use them for any public purpose and conveys or leases them again only under this Section, paying the net proceeds of any later disposition into the account clause (3) describes; and
+
+(5) these terms are conditions of the conveyance or lease and covenants running with the land, and the County and each holder named under clause (4) may enforce them by injunction (Section 689.18(7), Florida Statutes).
+
+(c) Where clause (4) of subsection (b) names a not-for-profit organization that is not a charity, an interest it holds, and an interest that follows it, must vest within the period Section 689.225(2), Florida Statutes, allows.
+
+(d) The County does not convey the improvements or Premises to the Tenant or an Affiliate, or lease them to either under Section 125.38, Florida Statutes, and no gift-over or reversion under this Section runs to either.
+
+(e) Where an interest in the improvements is acquired or improved with federal funds, federal requirements govern the disposition of the federal share, and clause (3) of subsection (b) applies to the rest.
+
+**ARTICLE 14. DEFAULT; REMEDIES**
+
+**Section 14.1 Events of Default.** Each of the following is an “Event of Default”:
+
+(a) failure to pay Base Rent, additional rent, taxes, or the payment in lieu of taxes within ten (10) days after notice;
+
+(b) failure to maintain required insurance or security instruments, uncured within ten (10) days after notice;
+
+(c) violation of an Operating Standard or any other covenant, uncured within thirty (30) days after notice or, if not reasonably curable within thirty (30) days, failure to commence cure within that period and diligently complete it within ninety (90) days, subject to Section 14.5;
+
+(d) a transfer in violation of Article 10;
+
+(e) Abandonment; and
+
+(f) attachment, levy, or taking in execution of the leasehold estate, or appointment of a receiver for it other than at the request of a Leasehold Mortgagee, not discharged, bonded, or stayed within [__] days.
+
+**Section 14.2 Remedies.**
+
+(a) On an Event of Default, subject to Article 11, the County may, cumulatively: terminate this Lease and re-enter as Florida law permits for nonresidential tenancies under part I of chapter 83, Florida Statutes; recover rents and damages as law and this Lease provide; draw any security instrument on presentation; obtain specific performance and injunctive relief; and exercise every other remedy at law or in equity. The Parties stipulate that the Operating Standards are unique and that damages are inadequate for their structural components.
+
+(b) The County’s rights and remedies under this Lease do not require resort to, and are not limited by, its regulatory powers, which remain independent. The County may also, by its own legislative act, adopt any Operating Standard as a condition of [the High-Density Compute Overlay District], and adoption or non-adoption does not affect its force as a covenant of this Lease.
+
+**Section 14.3 County Default.** The County’s liability for any default is limited to the Tenant’s actual damages, and nothing in this Lease subjects the County to consequential or punitive damages. The Tenant’s exclusive remedies are damages as so limited, specific performance, and declaratory relief.
+
+**Section 14.4 County Right to Cure.** If the Tenant fails to perform an Operating Standard or an obligation under Article 8 or Article 13 after notice and the cure period of Section 14.1(c), or at once in an emergency that threatens public health or safety or the environment, the County may, but need not, perform it at the Tenant’s cost. The County enters the Premises for that purpose on reasonable notice or, in such an emergency, on such notice as is practicable, subject to the Tenant’s reasonable security protocols, and gives each Leasehold Mortgagee a copy of each notice under this Section. The Tenant shall reimburse the County’s reasonable costs, as additional rent for the remedies of Article 14 only, within thirty (30) days after the County’s invoice, delivered after the cost is incurred and with supporting documentation, with interest at the rate established under Section 55.03, Florida Statutes, from the date the County paid the cost. For an obligation under Article 8, and for work on hazardous systems, the County’s performance under this Section is limited to emergency containment; otherwise the County draws on security, seeks specific performance, or seeks the appointment of a receiver.
+
+**Section 14.5 Health and Safety Standards; Emergency Obligations.** No extension under Section 14.1(c) applies to an ongoing exceedance or failure of a Health and Safety Standard. No cure period of the Tenant or of a Leasehold Mortgagee suspends a Health and Safety Standard or an Emergency Obligation, each of which remains enforceable at all times. Force majeure excuses an Emergency Obligation only on physical destruction of the equipment that provides it and, for an obligation under Module M2, only until the temporary capability Section M2.1(h) of Module M2 requires is due; the Tenant shall repair or replace the equipment with diligence.
+
+**ARTICLE 15. GENERAL PROVISIONS**
+
+**Section 15.1 County as Landowner.**
+
+(a) The County executes this Lease solely in its proprietary capacity as owner of the Premises. Each consent, approval, election, signature, or joinder of the County under this Lease, including under Sections 3.3(c) and 7.1, is an act of the County as landowner that states no position on any application, is not a covenant to support, expedite, or not oppose any application, replaces no regulatory permit, and binds no regulatory body or official. This Lease is not a development agreement and grants, promises, or predetermines no legislative or quasi-judicial approval. The Approvals remain independent acts on their own records, and the County’s regulatory boards and staff owe the Tenant no different treatment by reason of this Lease. Nothing in this Lease limits the County’s police, regulatory, taxing, emergency, or eminent domain powers, and no exercise of them breaches this Lease, including Section 2.3. The Tenant waives any claim that the County’s regulatory action or inaction breaches this Lease.
+
+(b) The rents and covenants of this Lease are bargained-for consideration for the leasehold and not conditions on any permit. The Parties stipulate that the doctrines governing permit exactions do not apply to them, and no exaction findings are required for the rents.
+
+**Section 15.2 Third-Party Beneficiaries.** Except as Article 11 provides, no person is a third-party beneficiary of this Lease, and no provision of the Operating Standards makes any person one.
+
+**Section 15.3 No Partnership.** No partnership, joint venture, or agency is created between the County and the Tenant, and the County neither becomes a joint owner with nor lends its credit to any private party, consistent with Article VII, Section 10 of the Florida Constitution.
+
+**Section 15.4 Sovereign Immunity; No Duty; No Waiver.** Nothing in this Lease, including any designation of the County as an additional insured, waives the County’s sovereign immunity beyond the limits of Section 768.28, Florida Statutes. Nothing in this Lease creates any duty of the County to any third party, and no performance by the County of a Tenant obligation under Section 14.4 creates any duty of the County to the Tenant or any other person. No such performance, and no delay or failure of the County to enforce, waives any default.
+
+**Section 15.5 Consents in Writing.** No consent or approval of the County is given by silence or lapse of time, and each is given only in writing.
+
+**Section 15.6 Recording.** The Parties shall execute and record, under Section 695.01, Florida Statutes, a memorandum of this Lease in the form of Exhibit “D,” recorded within [__] days after execution and before any notice of commencement for improvements to the Premises, reciting the Term, any extension under Section 3.2, the Section 713.10 lien prohibition, the reversion, and the covenants of Section 6.3, and identifying Exhibits “C,” “O,” and “S” and the date of the attached text. The County shall make the attached text available in the Clerk’s records and on the County’s website. This Lease itself is not recorded except by mutual agreement.
+
+**Section 15.7 Estoppel Certificates.** Each Party shall deliver an estoppel certificate within thirty (30) days after request.
+
+**Section 15.8 Notices.** Notices shall be in writing and delivered by hand, nationally recognized overnight courier, or certified mail to the addresses beneath the signatures, with a copy of each notice to the County also delivered to the County Attorney.
+
+**Section 15.9 Holding Over.** Holding over without the County’s written consent creates a tenancy at sufferance at one hundred fifty percent (150%) of the Base Rent then in effect, with all covenants continuing, and does not defer the reversion.
+
+**Section 15.10 Force Majeure.**
+
+(a) **Defined.** “Force majeure” means an event beyond the reasonable control of the Party claiming it, not caused by its fault, negligence, or breach of this Lease, that prevents its performance despite its reasonable efforts, and is limited to: a hurricane, tropical storm, tornado, flood, wildfire, earthquake, or sinkhole; a fire or explosion; war, terrorism, sabotage, riot, or civil disorder; an epidemic or an order of a public health authority; a failure of the regional electric transmission system or of a public water or wastewater system; a strike or other labor disturbance that is general in the region or in an industry and is not directed only at that Party or its contractors; and an order of a court or of a governmental authority, other than the County acting as landlord under this Lease. Force majeure does not include (1) economic or market conditions, an increase in cost, or the unavailability of financing; (2) a delay or shortage in the supply of equipment, materials, or labor, or a delay of a contractor or supplier, unless itself caused by an event this subsection names; (3) a delay in utility service, interconnection, or a permit or approval; (4) the financial condition of the Party claiming it; or (5) an event that the obligation claimed to be excused exists to meet, except as Section 14.5 provides.
+
+(b) **Notice; mitigation.** The Party claiming force majeure shall give the other Party written notice within [__] days after it learns of the event, stating the event, the obligations affected, and the expected period of prevention; shall use reasonable efforts to mitigate the event’s effect and to resume performance; and shall give written notice when performance resumes. An event noticed late excuses performance only from the date of notice.
+
+(c) **Effect.** Force majeure extends the time for performing a non-monetary obligation, other than a Health and Safety Standard or an Emergency Obligation, by the period performance is prevented and a restoration period after the event of not more than [__] days, and does not otherwise excuse performance. It never excuses rent, any other monetary obligation, or the maintenance of any security. A Health and Safety Standard is excused only while, and to the extent that, performing it is physically impossible, with no restoration period, and Section 14.5 governs the Emergency Obligations.
+
+**Section 15.11 Radon Gas.** RADON GAS: Radon is a naturally occurring radioactive gas that, when it has accumulated in a building in sufficient quantities, may present health risks to persons who are exposed to it over time. Levels of radon that exceed federal and state guidelines have been found in buildings in Florida. Additional information regarding radon and radon testing may be obtained from your county health department. (Section 404.056(5), Florida Statutes.)
+
+**Section 15.12 Governing Law; Venue; Fees.** This Lease is governed by Florida law, and venue lies exclusively in [COUNTY] County. In any action to enforce or interpret this Lease, the prevailing party recovers its reasonable attorneys’ fees and costs at trial and on appeal; this provision is reciprocal under Section 57.105(7), Florida Statutes.
+
+**Section 15.13 Entire Agreement; Amendment; Counterparts.** This Lease and its exhibits are the entire agreement of the Parties and may be amended only by a written instrument approved by the Board. This Lease may be executed in counterparts and by electronic signature where the law allows, but the recorded memorandum bears original acknowledged signatures.
+
+**Section 15.14 Records and Audit.** The Tenant shall keep, and permit the County to audit, records supporting rent computations for [five (5)] years.
+
+**Section 15.15 Survival.** Provisions that by their nature survive, including Articles 5, 8, 9, 13, and 14, Sections 6.2, 6.3, 6.6, 13.5, 15.1, 15.4, 15.12, and 15.16, and Exhibits “C,” “O,” and “S,” survive the expiration or termination of this Lease. Each equipment lease or conveyance under Module M2 continues by its own terms after the expiration or termination of this Lease.
+
+**Section 15.16 Severability and Reformation.**
+
+(a) If any provision of this Lease or of the Operating Standards is held invalid or preempted, the remainder continues in effect. Pending a substitute, the Tenant shall comply with the closest lawful equivalent of the invalidated provision and with every related requirement that is not itself invalid, including applicable permit limits, and the invalidation does not authorize the activity the provision restricted except to the extent the controlling law affirmatively permits it.
+
+(b) The Parties shall negotiate in good faith a lawful substitute that most nearly achieves the purpose of the invalidated provision, shall use diligent efforts to agree within ninety (90) days, and shall state the substitute by amendment of this Lease. Failing agreement, the County may, in its regulatory capacity, adopt a substitute condition through its land development regulations and public hearing process.
+
+(c) If a rent or other monetary covenant is held invalid under the characterization the Parties intend, it is sustained under any other lawful characterization and reformed only to the minimum extent necessary, preserving in all events the caps, segregation, and expenditure rules of Sections 4.1(c), 4.2, and 4.6 of the Development Agreement as Exhibit “C” attaches them.
+
+**Section 15.17 Named Standards; Index.** A reference in this Lease or the Operating Standards to a named technical standard, certification, code, or protocol means the edition in effect on the Effective Date or, for a standard Exhibit “O” cites, the edition Exhibit “O” states, and that edition continues to govern if the standard is later revised or withdrawn. A later edition applies only by amendment of this Lease under Section 15.13 or, notwithstanding Section 6.2(c), as the County’s adopted data center standards incorporate it by ordinance, and no later edition applies so as to reduce the protection that the edition it replaces provides. The Florida Building Code, the Florida Fire Prevention Code, the uniform firesafety standards under s. 633.206, Florida Statutes, and the standards adopted in them apply as state law provides, and no edition of a named standard imposes on an energy storage system a firesafety requirement more stringent than those uniform firesafety standards. If CPI-U is discontinued without a successor, the County shall, after consultation with the Tenant, designate a comparable published index of general consumer inflation, and every no-decrease provision of this Lease applies to the substituted index from the date of substitution.
+
+**Section 15.18 Exhibits.** The following exhibits, each completed for the Project, are attached and form part of this Lease.
+
+| Exhibit | Title |
+|---|---|
+| “A” | Premises, Appurtenant Easements, and Retained Areas |
+| “B” | Consideration, Appraisal, and Impact Findings |
+| “C” | Development Agreement Provisions |
+| “D” | Form of Memorandum of Lease |
+| “E” | Form of Decommissioning Security |
+| “F” | Form of Utility Cost Affidavit |
+| “G” | Module M3, Civic Compute Allocation (only where the Board elects it) |
+| “H” | Form of Letter of Credit for Utility-Owned Emergency Power (Module M2 only) |
+| “I” | Form of Emergency Equipment Lease (Module M2 only) |
+| “J” | Site Plans and Protocols |
+| “O” | Data Center Standards |
+| “S” | Schedule of Supplemental Operating Covenants |
+
+IN WITNESS WHEREOF, the Parties have executed this Lease as of the date first written above.
+
+**[COUNTY NAME] COUNTY, FLORIDA**
+
+By: ______________________________, Chair, Board of County Commissioners
+
+ATTEST: ______________________________, Clerk of the Circuit Court and Comptroller
+
+APPROVED AS TO FORM AND LEGAL SUFFICIENCY: ______________________________, County Attorney
+
+**[INSERT TENANT ENTITY NAME]**
+
+By: ______________________________ Name and title: ______________________________
+
+[Witness and notary acknowledgment blocks in recordable form are attached to the memorandum.]
+
+**EXHIBIT “A”: PREMISES, APPURTENANT EASEMENTS, AND RETAINED AREAS**
+
+[Attach the legal description of the Premises and of each appurtenant easement, and describe each easement, right of access, and area the County retains for its own facilities under Section 2.1, including the site of any facility under Section 4.7A.]
+
+**EXHIBIT “B”: CONSIDERATION, APPRAISAL, AND IMPACT FINDINGS**
+
+**Part 1. Award record.** Part 1 states:
+
+(a) the solicitation and award record under Section 125.35, Florida Statutes [or an ordinance under Section 125.35(3) or the charter procedure], including the Board’s determination that leasing the Premises is in the best interest of the County;
+
+(b) the independent MAI appraisals of fair market rental value, with the written instructions given under Section 4.4 and the review under that Section;
+
+(c) the request for information made before the solicitation to prospective proposers and leasehold lenders, and a summary of the responses and of the lender term sheets received, on the term and the form of rent reset;
+
+(d) the order of the award, showing that the appraisals were completed before the solicitation was published and before other prospective proposers were invited;
+
+(e) the number of responsive proposals and, if only one offered Base Rent at or below the appraised fair market rental value, the Board’s reasons for accepting or rejecting it;
+
+(f) the identity of each person that, under an agreement executed before the Board’s vote on the award, is to use [__] percent or more of the Project’s capacity, or a statement that there is none, and each confidentiality or nondisclosure agreement relating to the Project between a proposer, its Affiliates, or such a person and the County, any County officer or employee, or any other public body, each stated on the record before that vote;
+
+(g) the interlocal agreements under Section 5.3(g);
+
+(h) the Board’s finding that the Premises are not needed for the County’s own facilities or operations during the Term, with any easement, access, or area the County retains described in Exhibit “A”;
+
+(i) the County administration cost, being the County’s estimate of its own annual cost as landlord to monitor and enforce this Lease; and
+
+(j) the basis of the Board’s findings stated in Recital C.
+
+**Part 2. Impact Findings.** Part 2 states the impact findings that size each obligation of the Operating Standards that the Development Agreement sizes by its Exhibit “B-1,” prepared, adopted, and revalidated as Section 4.1 of the Development Agreement provides. Each such obligation is sized by its own terms. Part 2 also states, for each attached covenant of Exhibit “S,” the impact it answers; no other finding under this Lease is needed for it, apart from the figures it takes from the Impact Findings.
+
+**EXHIBIT “C”: DEVELOPMENT AGREEMENT PROVISIONS**
+
+**Part 1. How the Provisions Apply**
+
+1. **Provisions attached.** The following provisions of the Development Agreement, set out in full in Part 2, are covenants of this Lease, with the changes this Exhibit states. No other provision of it is attached.
+
+(a) Section 1.1 (definitions, for terms this Lease does not define) and Section 1.2(b) (measurement of commitments scaled by capacity);
+
+(b) the last two sentences of Section 2.3(d) (critical information technology load figures not a tax determination), Section 2.4(d) (transportation), and the second sentence of Section 2.5 (shared conduit and thermal corridor not dedications);
+
+(c) Sections 3.1(b) (commitments on an increase in Approved Capacity), 3.5 (power usage effectiveness), and 3.8 (screening certification; elevated structures);
+
+(d) Sections 4.1 (impact findings), 4.2 (physical infrastructure mitigation payment), 4.3 (payment for first responders), 4.5 (shared conduit), 4.6 (Mitigation Account), and 4.7(b) to (e) (impact fees);
+
+(e) Sections 5.1, 5.2, 5.5, and 5.6 (cost of service; service agreement and affidavit; foreign entity and change of control; cooperative or municipal utility);
+
+(f) Sections 6.1 (annual compliance report), 6.2 (compliance monitoring), and 6.4 (commitment status and completion), and Section 9.5 (Marketable Record Title Act);
+
+(g) Sections 7.1, 7.2, 7.3, 7.5, and 7.6 (decommissioning plan; decommissioning security; abandonment and distress events; restoration; insurance);
+
+(h) Sections 10.3(a) (no conditioning), 10.4(a) (character of obligations), 10.10 (no enlargement of obligations), 10.14 (no County obligation or liability), and 10.18 (public records); and
+
+(i) Exhibits “K,” “L,” and “P” (forms of letter of credit, decommissioning security, and commitment status table and completion statement).
+
+2. **How they apply.**
+
+(a) Section 4.1 applies to the Impact Findings.
+
+(b) Section 4.6 applies only to payments under Sections 4.2 and 4.3 and, where the Board elects it, Module M2, and to the proceeds that Sections 4.3(b) and M2.1(c)(3) direct to the Mitigation Account, except that Section 4.6(c) also governs each reimbursement of County costs it names, including under Section 6.2 and Exhibit “S,” Sections S-8.2, S-11.4(c), and S-12.3.
+
+(c) Section 7.2 applies as Section 13.3 of this Lease applies it, and Exhibit “L” as Exhibit “E” of this Lease completes it.
+
+(d) Mitigation under the attached provisions is not rent, and each obligation is performed once: where the Project is also subject to a development agreement or an impact fee that carries the same obligation, performance under that agreement or fee satisfies the attached provision.
+
+(e) No attached provision, including Sections 3.1(b) and 4.6(c), limits the rent or any other payment this Lease requires of the Tenant, or the rent or other terms the Board may require as landlord for an amendment increasing the Approved Capacity.
+
+(f) The annual compliance report under Section 6.1 is filed with the County.
+
+(g) Section 6.4 reaches the Tenant’s obligations under this Lease and the attached provisions to construct, install, dedicate, convey, remove, or restore any improvement, equipment, land, or interest in land, including its obligations on expiration or earlier termination under Section 13.2 of this Lease.
+
+(h) In Section 6.4(c), the Tenant’s remedy to compel an answer is specific performance under Section 14.3 of this Lease, in place of an action under s. 163.3243, Florida Statutes, and no damages are recoverable for a late answer.
+
+3. **References.** In the attached provisions:
+
+| Reference | Means in this Lease |
+|---|---|
+| “this Agreement” | this Lease |
+| “the Agreement” in Exhibits “K” and “P” | this Lease, except that a section number refers to that section of the Development Agreement as Exhibit “C” attaches it; in Exhibit “P,” the instrument named is this Lease, and its recording is that of the memorandum under Section 15.6 |
+| “Developer”; “Project Site” | the Tenant; the Premises |
+| “Approvals”; a development order | the Approvals as Section 1.1 defines them, and never an act of the County as landowner |
+| “Qualified Mortgagee”; Section 10.21 | a Leasehold Mortgagee; Article 11 |
+| Article 8; Section 8.1 (notice and cure) | Article 14; Section 14.1 |
+| Section 8.2 (remedies) | Article 14 |
+| Section 3.1 (amendment increasing the Approved Capacity) | an amendment under Section 6.5 |
+| Section 9.2 (amendment) | Section 15.13 |
+| Section 7.7 (indemnification) | Section 9.2 |
+| Section 10.24; CPI-U | Section 15.17; CPI-U as Section 1.1 defines it |
+| Section 10.26 | Section 15.12 |
+| Section 2.3 and its Phase figures | the Approved Capacity and the Phases as Section 1.1 defines them |
+| the figure in Section 2.3 that Section 3.5(d) restates | the critical information technology load figure in the definition of Approved Capacity, and never the Aggregate Infrastructure Demand figure, which changes only under Section 6.5 |
+| Section 4.4; Module M2 | Section 6.4; Module M2 where the Board elects it |
+| Exhibit “B-1” | Part 2 of Exhibit “B” (the Impact Findings) |
+| Exhibit “C,” Parts C-1 and C-2 | Exhibit “J,” Parts J-1 and J-2 |
+| Exhibit “D” | Exhibit “J,” Part J-3 |
+| Exhibit “E” | Exhibit “J,” Part J-4 |
+| Exhibit “F” | Exhibit “J,” Part J-5 |
+| Exhibit “G” | Exhibit “F” |
+| Exhibits “H” and “I” | Exhibits “H” and “I” (Module M2 only) |
+| Exhibits “K,” “L,” and “P” | those forms as set out in Part 2 |
+| Exhibits “O” and “S” | Exhibits “O” and “S” |
+
+(a) A reference to an exhibit of the Development Agreement is read only as this table provides, and never as a reference to the exhibit of this Lease bearing the same letter unless the table so states.
+
+(b) Where an attached provision refers to an exhibit that has no counterpart in this Lease, the provision is satisfied by the corresponding requirement of this Lease or, where none exists, of the Standards.
+
+(c) A reference in an attached provision to a provision of the Development Agreement that this Exhibit does not attach or translate has no effect, and the remaining text has its ordinary meaning without it. This Lease supplies the function of each provision not attached.
+
+4. **Attached text.** The attached provisions are those of the text set out in Part 2, dated [DATE OF ATTACHED TEXT]. Where that text and the published model differ, the attached text governs between the County and the Tenant. Incorporation by reference to an instrument not attached binds no successor holder or Leasehold Mortgagee. A named technical standard, code, or protocol that an Operating Standard cites is not such an instrument, and binds every successor holder in the edition Section 15.17 provides.
+
+**Part 2. Attached Text**
+
+[Attach the full text of each provision listed in paragraph 1, from the Model Host Community Development Agreement and its Exhibits and Forms dated [DATE OF ATTACHED TEXT].]
+
+**EXHIBIT “D”: FORM OF MEMORANDUM OF LEASE**
+
+[Attach the form of memorandum to be recorded under Section 15.6, with the recitals Sections 7.3 and 15.6 require.]
+
+**EXHIBIT “E”: FORM OF DECOMMISSIONING SECURITY**
+
+The Decommissioning Security is in the form of Exhibit “L” of the Development Agreement, as set out in Exhibit “C” and completed for the Project, with these changes: the instrument it secures is this Lease, the County is the beneficiary or obligee as landlord under this Lease, and the Tenant is the applicant or principal. In that form, “the Agreement” means this Lease, “the Developer” means the Tenant, and Section 7.2 of the Agreement means Section 13.3 of this Lease, which also governs the amount, each recertification and the period for a draw, except that Section 7.2(d) of the Agreement means that subsection of the Development Agreement as Section 13.3(b) of this Lease applies it; and a default of Article 7 of the Agreement means a failure to perform the County’s election under Section 13.2 of this Lease or an obligation of Article 7 of the Development Agreement as Exhibit “C” attaches it.
+
+**EXHIBIT “F”: FORM OF UTILITY COST AFFIDAVIT**
+
+[Attach Exhibit “G” of the Development Agreement’s Exhibits and Forms, completed for the Project, reading this Lease for the Agreement and the Tenant for the Developer, except that a section number refers to that section of the Development Agreement as Exhibit “C” attaches it.]
+
+**EXHIBIT “G”: MODULE M3, CIVIC COMPUTE ALLOCATION**
+
+[Reserved. Where the Board elects Module M3, attach it here, with each provision of the Module M3 Options the Board elects inserted at its number.]
+
+**EXHIBITS “H” AND “I”: MODULE M2 FORMS**
+
+[Only where the Board elects Module M2, attach Exhibits “H” and “I” of the Development Agreement’s Exhibits and Forms, completed for the Project.]
+
+**EXHIBIT “J”: SITE PLANS AND PROTOCOLS**
+
+[Project-specific. Part J-1, Perimeter Berm and Landscape Plan, with the designated viewpoints (Development Agreement Section 3.8(a)); Part J-2, Supplemental Acoustic and Visual Mitigation Plan, once approved (Development Agreement Section 3.8); Part J-3, Acoustic Monitoring and Ambient-Exclusion Protocol (Exhibit “S,” Sections S-9.1(b) and S-9.3); Part J-4, Joint Emergency Operations Plan Outline (Exhibit “S,” Section S-12.2); Part J-5, Decommissioning and Adaptive Reuse Plan Outline (Sec. 14(a) of the Standards).]
+
+**EXHIBIT “O”: DATA CENTER STANDARDS**
+
+[Attach Exhibit A, Data Center Standards, and Exhibit B, Data Center Technical Manual, of the County’s data center standards ordinance [and Sec. 15A, where adopted], as adopted and in effect on the date of this Lease, or, where the County has not adopted them, the model Exhibits A and B with the values the Board sets for the Project in every bracket (Section 6.2).]
+
+**EXHIBIT “S”: SCHEDULE OF SUPPLEMENTAL OPERATING COVENANTS**
+
+[Attach the Schedule of Supplemental Operating Covenants, with every bracket completed (Section 6.2). The Board leaves out Sections S-7.1 to S-7.3 or S-8.1 only by a finding stated on the record.]
+
+*Citizen-prepared working draft; not legal advice.*
+
+---
+
+## AUTHOR
+
+*Prepared by Timothy Smith · Citizen-prepared working draft · Not legal advice.*
+
+*Citizen-prepared. Not legal advice. The author is not licensed to practice law and is not affiliated with, and does not write on behalf of, any university, law school, clinic, law firm, or governmental body. No attorney-client relationship is created by this document or by any use of it. Any jurisdiction considering adoption should obtain review by licensed counsel admitted in that jurisdiction.*
+
+*The release notes (CHANGELOG) published with each release identify its contents and the current version of each instrument.*

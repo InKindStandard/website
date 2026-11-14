@@ -1,0 +1,581 @@
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+*LICENSE: CC0 1.0 Universal (Public Domain Dedication). To the extent possible under law, Timothy Smith has waived all copyright and related or neighboring rights to this instrument.*
+
+*ADOPTION NOTICE. **No attribution, notice, citation, credit, or acknowledgment of any kind is required in any adopted ordinance, executed agreement, staff report, or recorded instrument**, and no provision of this document shall be construed to require one. A jurisdiction may adopt, modify, renumber, or reject any portion without notice to or consent of the author. Attribution is requested only in derivative published works, and only as a courtesy.*
+
+---
+
+**FLORIDA MODEL INSTRUMENTS FOR DATA CENTER DEVELOPMENT**
+
+**MODEL DATA CENTER STANDARDS ORDINANCE**
+
+Adopting ordinance and Exhibit A, Data Center Standards · Model form for Florida counties
+
+*Model form. Remove this heading block, and every drafting note, before the County first makes the draft public.*
+
+**What this is.** An ordinance that adds Exhibit A, Data Center Standards, to the land development code as a chapter, adds a data center entry in three tiers to the use table, and adopts Exhibit B, the Data Center Technical Manual, by reference (Sections 2, 3 and 5).
+
+**What it does.** Exhibit A places each data center in one of three tiers by the power demand, supply capacity or computing load of its Development Unit: the land used or proposed for a data center that is, or within a set period was, under common ownership or control within a set distance (Secs. 2 and 3). Every data center application, in any tier, receives a Development Unit determination and includes an ownership disclosure (Secs. 3(f) and 4(c)). For the largest tier, a Covered Facility, Exhibit A sets the other application requirements, standards on the physical effects of the use, and rules for review, monitoring, enforcement and existing facilities. Secs. 13, 17 and 18 also reach Covered Facilities approved earlier, from a set date (Sec. 1(b)), and with the optional Sec. 15A most standards also apply to the middle tier (Sec. 1(c)). The standards apply to every applicant on the same terms and impose no exaction, dedication, impact fee or other payment to the County beyond cost-based fees (Secs. 1(f) and (g)). In administering them the County does not consider, request or require any agreement or contribution (Sec. 16(b)); where kept, Sec. 16(e) allows a denial for an uncured mitigation default under a County development agreement that provides for it.
+
+**Works with.** The Technical Manual, published separately, holds the methods, submittal contents, tests and report formats, numbered to match Exhibit A. A separate impact fee ordinance or development agreement carries mitigation of a data center's measured impacts, each limited to what a study supports, and Section 4A sets the procedure for asking the County to consider such an agreement; on County land, a ground lease sets the County's terms as landowner. The optional Sec. 15A (Module M1, published separately) makes Tier 2 and Tier 3 data centers conditional uses decided on stated findings within set review periods. The County Procedure and Records Kit has the forms, and the Drafter's Notes list each blank and choice and what sets it.
+
+**Before use.** A bracketed choice is the County's; a bracketed figure is a placeholder set from the County's own studies and conditions, and a blank or "[insert]" has no default. The main choices are in Recitals 5 and 7, Sections 3 and 4, and Secs. 5(a) and (h), 7(a)(2) and (3), 8(e)(2), 15(g) and 16(e). Until 1 October 2027 (Section 28 of Chapter 2025-190, Laws of Florida) and for one year after a hurricane (s. 252.422, Florida Statutes), state law limits more restrictive or burdensome land development regulations and review procedures; while either applies, keep Recital 7, which records the County Attorney's written determination, made before notice, that neither bars this ordinance. Before Secs. 7 and 8 are enforced, file a certified copy of the ordinance with the Department of Environmental Protection (s. 373.023(2), Florida Statutes).
+
+**Known gaps.** No county has adopted this model, and no licensed attorney has reviewed it. None of the local studies its figures need has been done. Some provisions rest on law that is not settled: the water, well and generator terms (Secs. 7(a) and (f)(1), 8(e) and (f)(2), and 10(a) and (b)), the battery storage setbacks (Secs. 5(a) and 12(a)), the status of the PFAS and disposal bans as land development regulation (Secs. 12(d) and 13(a)), withholding approvals during an uncured violation (Sec. 18(d)), and the effect of a deemed approval of a later site plan under Option B (Sec. 15(g)). The Open Legal Questions give the current reading of each.
+
+**ORDINANCE NO. ______**
+
+**AN ORDINANCE OF THE BOARD OF COUNTY COMMISSIONERS OF [COUNTY NAME] COUNTY, FLORIDA, RELATING TO DATA CENTERS; AMENDING THE [COUNTY NAME] COUNTY LAND DEVELOPMENT CODE; ADOPTING [CHAPTER / ARTICLE __], DATA CENTER STANDARDS, WHICH CLASSIFIES DATA CENTERS IN TIERS BY SIZE AND SETS APPLICATION REQUIREMENTS, STANDARDS FOR SITING, DESIGN, WATER, SOUND, GENERATORS, STORMWATER, BURIALS AND ARCHAEOLOGICAL RESOURCES, HAZARDOUS SYSTEMS, EQUIPMENT, AND DECOMMISSIONING, AND PROVISIONS FOR REVIEW, MONITORING, ENFORCEMENT, AND EXISTING FACILITIES; AMENDING THE USE TABLE TO ADD A DATA CENTER USE IN THREE TIERS AND TO MAKE A TIER 3 DATA CENTER A [SPECIAL EXCEPTION / CONDITIONAL USE] IN THE [__] DISTRICTS; [ADOPTING SECTION 15A OF THE DATA CENTER STANDARDS, WHICH MAKES TIER 2 AND TIER 3 DATA CENTERS CONDITIONAL USES AND SETS THEIR REVIEW PROCEDURE;] ESTABLISHING PROCEDURES AND REQUIREMENTS UNDER SECTION 163.3223, FLORIDA STATUTES, FOR A REQUEST THAT THE COUNTY CONSIDER A DEVELOPMENT AGREEMENT FOR A DATA CENTER; ADOPTING THE DATA CENTER TECHNICAL MANUAL BY REFERENCE; PROVIDING FOR FINDINGS, CONFLICTS, SEVERABILITY, INCLUSION IN THE CODE, AND AN EFFECTIVE DATE.**
+
+WHEREAS, Part II of Chapter 163, Florida Statutes, including s. 163.3202, requires the County to adopt and enforce land development regulations consistent with its comprehensive plan, and Art. VIII, s. 1(f) and (g) of the Florida Constitution, ss. 125.01 and 403.706, Florida Statutes, and the County's police power further authorize this Ordinance; and
+
+WHEREAS, s. 163.326(2), Florida Statutes, created by Chapter 2026-65, Laws of Florida, preserves the authority of local governments to exercise their comprehensive planning and land development regulation powers with respect to large load customers and provides that a large load customer is not to be considered an electric substation for purposes of s. 163.3208, Florida Statutes; and
+
+WHEREAS, the Board finds, on [the planning department's report dated ______], that large-scale data centers are a heavy industrial use whose water demand, electrical load, continuous mechanical sound, battery energy storage, impervious coverage over karst terrain, specialized waste streams, and end-of-life risk materially exceed those of the uses the County's existing land development regulations contemplate, that each standard in Exhibit A addresses a physical characteristic of that use, and that uniform standards adopted in advance and applied to every applicant on the same terms protect the public health, safety, and welfare; and
+
+WHEREAS, the Board finds that those impacts depend on the total computing load and footprint developed on land under common control, from every source of electric supply, however the land, entities, electrical service, or approvals are divided, and that separately owned facilities sharing an aquifer, substation, or road network can impose a greater combined burden than one facility alone; and
+
+WHEREAS, as s. 163.3194(2), Florida Statutes, requires, this Ordinance was referred to the [local planning agency, designated under s. 163.3174, Florida Statutes,] [land development regulation commission] [both], which reviewed it on [date] and made its recommendation on the Ordinance's consistency with the [County Name] County Comprehensive Plan; and
+
+WHEREAS, the business impact estimate for this Ordinance that s. 125.66(3), Florida Statutes, requires was posted on the County's website on [date], no later than the date on which notice of the proposed enactment was published; and
+
+[WHEREAS, the Board has determined that Section 28 of Chapter 2025-190, Laws of Florida, and s. 252.422, Florida Statutes, do not prohibit the County from proposing or adopting this Ordinance on the dates on which it was proposed and adopted, as the County Attorney determined in writing before notice of it was first given; and]
+
+WHEREAS, notice of this Ordinance was given, and the public hearings on it were held, as s. 125.66(2) and (5)(b), Florida Statutes, require; now, therefore,
+
+BE IT ORDAINED BY THE BOARD OF COUNTY COMMISSIONERS OF [COUNTY NAME] COUNTY:
+
+**Section 1. Findings.** The recitals above are true and are adopted as the findings of the Board. The Board finds that this Ordinance is consistent with the [County Name] County Comprehensive Plan. Secs. 12(d), 13, and 17 of Exhibit A regulate the use of land under a development order. The Board finds, on [the planning department's report dated ______], that land under common control within [one (1) mile] can share a substation or transmission tap, water and reclaimed water service, a fiber path, and road access at the County's pattern of development, and so can be developed and operated as one facility. [Drafting note, remove before the draft is made public: State here the same radius as clause (2) of the definition of Development Unit in Sec. 2 of Exhibit A.]
+
+**Section 2. Adoption of Exhibit A.** Exhibit A, Data Center Standards, attached to this Ordinance and made a part of it, is adopted as [Chapter / Article __] of the [County Name] County Land Development Code, as a land development regulation under Part II of Chapter 163, Florida Statutes.
+
+**Section 3. Use Table.** [The use table in Section __ / The regulations of the [__] districts in Section __] of the Land Development Code [is / are] amended to add the following entry, shown underlined in the County's code amendment format: [conform to the County's table or district format]
+
+| Use | Tier | Districts and approval |
+|---|---|---|
+| Data center (Sec. 3 of [Chapter / Article __]) | Tier 1 | [as the Code now provides] in the [__] districts |
+| | Tier 2 | [as the Code now provides] in the [__] districts [; C in those districts, where Sec. 15A is adopted] |
+| | Tier 3 (Covered Facility) | [special exception / conditional use] in the [__] districts [; C in those districts, where Sec. 15A is adopted] |
+
+**Section 4. Conditional Use Review.** [Reserved. Where the Board adopts Module M1, insert its enactment clause as this Section.]
+
+**Section 4A. Development Agreement Procedures.** This Section establishes procedures and requirements under s. 163.3223, Florida Statutes. Terms that Exhibit A defines have the same meaning in this Section.
+
+(a) Where a person having a legal or equitable interest in the land asks the County to consider a development agreement under ss. 163.3220 to 163.3243, Florida Statutes, for a Covered Facility, the request is complete when the person has filed the information the County specifies in writing and has deposited into an escrow account, in an amount the County establishes by resolution and publishes, with its cost basis, on its fee schedule, funds sufficient to pay the County's reasonable cost of preparing the impact, nexus, and proportionality findings on which any mitigation in the agreement would rest. The deposit is not an application fee.
+
+(b) The County shall confirm receipt of a request within five (5) business days and, within thirty (30) days after receiving it, state in writing that it is complete or what it lacks. If the request is incomplete, the person has thirty (30) days to supply what it lacks. The Board shall take final action on a complete request within one hundred eighty (180) days after it is complete, unless the County and the person agree, in writing or in a public meeting or hearing, to a longer period, which may run to a stated number of days after the final decision under Sec. 15(a) of Exhibit A on the application for the Covered Facility, or the application's withdrawal. The final action includes written findings supporting it and, for a denial, written notice to the person citing the applicable portions of the ordinance, rule, statute, or other legal authority on which it rests. The Board takes final action on a request only after the final decision under Sec. 15(a) of Exhibit A on the application for the Covered Facility, or the application's withdrawal, except that where the period under this subsection, as extended, would end first, the Board denies the request within that period, without prejudice to a new request after that decision, on which the findings already prepared may be used.
+
+(c) The County selects and directs the preparer, under its procurement code and, where the work includes professional services under s. 287.055, Florida Statutes, under that section, which may be through a continuing contract. The person making the request has no role in selection, scope, direction, or communication with the preparer, except to respond to requests for information, and may comment on the findings at the public hearings on the agreement.
+
+(d) The person shall replenish the escrow on [thirty (30)] days' notice. Until it is replenished, work on the request pauses. Before the notice period ends, the person shall either replenish the escrow or extend the period under subsection (b), by a written agreement under s. 125.022(2)(b)4., Florida Statutes, for the period of the pause, not exceeding [__] days, which the County Administrator shall enter into on the person's request. Where the person does neither, or the pause reaches that limit, the Board takes final action within the period subsection (b) sets, as extended, on the record then before it. Any unused balance is refunded within [__] days after the Board's final action on the request or its withdrawal.
+
+(e) The findings belong to the County whether or not an agreement is entered into. They may be used only for the agreement, for the impact findings of any lease of County land for the Covered Facility, and for the County's own later studies, and are not considered in deciding any application or making any determination under Exhibit A.
+
+(f) The deposit is a requirement for a complete request and is not a condition of any approval. No request or deposit under this Section is considered in deciding any application or making any determination under Exhibit A, and receiving a request or deposit, or preparing the findings, is not consideration under Sec. 16(b) of Exhibit A.
+
+**Section 5. Exhibit B, Data Center Technical Manual.** The Data Center Technical Manual, [dated ______], attached as Exhibit B, is adopted by reference and is part of the land development regulations adopted by this Ordinance. Copies are on file with the Clerk of the Board and the [planning department] and are available for public inspection during regular business hours [and on the County's website]. Exhibit B may be amended only by ordinance.
+
+**Section 6. Conflicts.** Where another provision of the Land Development Code sets a stricter standard than Exhibit A or Exhibit B for the same subject, the stricter standard governs. All other ordinances and parts of ordinances in conflict with this Ordinance are repealed to the extent of the conflict.
+
+**Section 7. Severability.** If any provision or application of this Ordinance, including its exhibits, is held invalid, the remainder is unaffected and shall be given the maximum lawful effect. If the definition of Development Unit or of Common control, or Sec. 3(c) to (f) of Exhibit A, is held invalid in whole or in part, the tier thresholds of Sec. 3(a) of Exhibit A continue in effect as to each parcel and application individually. If any single criterion of Tier 3 under Sec. 3(a)(1) of Exhibit A is held invalid, the remaining criteria continue to operate independently.
+
+**Section 8. Inclusion in the Code.** Exhibit A shall be included in the [County Name] County Land Development Code with the County's supplemental use standards, the amendment made by Section 3 with the [use table / district regulations], and Section 4A with the County's development agreement procedures or, where the Code has none, beside Exhibit A. As codified, the references to Exhibit A in Section 4A, and the reference to Section 4A in Sec. 15(f) of Exhibit A, may be changed to their Code citations. Exhibit B is kept on file as Section 5 provides and is not codified. To fit the Code, the sections of Exhibit A may be renumbered or relettered, "Chapter" in Exhibit A may be changed to "[Article]", and "use table" in Exhibit A may be changed to "district regulations", provided every cross-reference, including each in Exhibit B, is changed to match.
+
+**Section 9. Effective Date.** This Ordinance takes effect upon filing with the Department of State, as s. 125.66(2)(b), Florida Statutes, provides[, or on [date], if later].
+
+ADOPTED by the Board of County Commissioners of [COUNTY NAME] County, Florida, this ___ day of ________, 20__, after the notice and hearings required by s. 125.66, Florida Statutes.
+
+BOARD OF COUNTY COMMISSIONERS OF [COUNTY NAME] COUNTY, FLORIDA
+
+By: ______________________________, Chair
+
+ATTEST: ______________________________, Clerk
+
+Approved as to form and legal sufficiency: ______________________________, County Attorney
+
+---
+
+# EXHIBIT A
+
+**DATA CENTER STANDARDS**
+
+[Chapter / Article __] of the [County Name] County Land Development Code
+
+[Legend: All text in this Exhibit is new code text. In the County's code amendment format, show it underlined.]
+
+## Sec. 1. Purpose and Applicability.
+
+(a) **Purpose.** This Chapter sets standards for the siting, design, operation, monitoring, and decommissioning of data centers to protect the public health, safety, and welfare.
+
+(b) **Applicability.** This Chapter applies to each Covered Facility for which a complete application for a development order is filed on or after the effective date, and to each expansion of an existing facility that brings it into Tier 3 or increases its capacity while in Tier 3. Secs. 13, 17, and 18 apply to every Covered Facility, whenever approved, beginning [one hundred eighty (180)] days after the effective date. Sec. 3 and Sec. 4(c) apply to every application for a data center, in any tier.
+
+(c) **Tier 2 data centers.** Where the County has adopted Sec. 15A, Secs. 4 through 14, other than Sec. 11A, and Secs. 15(b), 15(c), 17, and 19 apply to a Tier 2 data center as they apply to a Covered Facility, and Sec. 15A governs its review.
+
+(d) **Vested rights.** Nothing in this Chapter impairs rights vested under s. 163.3233(1), Florida Statutes, under a development agreement executed before the effective date, for the duration of that agreement, except where the agreement specifically anticipates and provides for this Chapter or its amendments under s. 163.3233(2)(c), Florida Statutes, in which case this Chapter applies as the agreement provides, upon the hearing and determination that s. 163.3233(2) requires. The Board finds that Secs. 13, 17, and 18 are essential to the public health, safety, and welfare, and Secs. 13, 17, and 18 shall apply to a development that is subject to a development agreement, as subsection (b) provides. The County may apply them to a development otherwise vested upon making the determinations and holding the hearing that s. 163.3233(2), Florida Statutes, requires.
+
+(e) **Relationship to other law.**
+
+  (1) State and federal requirements, including the Florida Building Code, the Florida Fire Prevention Code, Department of Health rules, chapter 373 water law, chapter 403 environmental law, and district environmental resource permitting, are minimums. Where this Chapter is stricter and not preempted, this Chapter governs.
+
+  (2) Nothing in this Chapter amends the Florida Fire Prevention Code except as s. 633.202, Florida Statutes, permits, requires of an energy storage system a firesafety standard more stringent than the uniform firesafety standards under s. 633.206, Florida Statutes, amends the Florida Building Code, grants or denies any consumptive use permit, regulates the consumptive use of water that s. 373.217, Florida Statutes, reserves to Part II of chapter 373, Florida Statutes, regulates any matter within the exclusive jurisdiction of the Public Service Commission or a water management district, or restricts any fuel source in violation of s. 366.032, Florida Statutes. The definitions in Sec. 2, the Development Unit rules, and Sec. 10 apply without regard to fuel or generating technology.
+
+  (3) Nothing in this Chapter requires any state or federal permit or approval as a condition of processing or issuing a development permit or development order (s. 125.022(4), Florida Statutes).
+
+(f) **No exaction; fees.** This Chapter imposes no exaction, dedication, impact fee, or payment to the County other than cost-based application, inspection, and administration fees established by resolution, and shall be so construed. Each resolution setting a fee, an escrow amount, or a coordinated review rate under this Chapter shall comply with s. 125.022(6), Florida Statutes. Those fees, the escrow deposit under Sec. 15(b), and any coordinated review agreement under Sec. 15(d) pay only the County's cost of reviewing and monitoring the applicant's own application and facility, and the deposit under Section 4A of the ordinance adopting this Chapter (Sec. 15(f)) pays only the County's cost of preparing the findings on a development agreement the depositor has asked the County to consider. None of them is a contribution or an instrument described in Sec. 16, and none creates an entitlement to any determination. Financial assurance under Sec. 14 secures the operator's own obligations and is not a payment, fee, or revenue of the County. A rate, fee, or charge of general application that the County imposes as the operator of a utility, including for reclaimed water service, is not a payment this Chapter imposes.
+
+(g) **Same terms.** Every requirement of this Chapter, and every fee, service, and form of relief available under it, applies or is offered to every applicant on the same terms.
+
+(h) **Not a moratorium.** This Chapter is not a moratorium, does not suspend the acceptance or processing of applications, and shall not be administered to produce that effect.
+
+(i) **No alternative compliance.** No standard of this Chapter may be met by alternative compliance, except by an existing facility under Sec. 19(d).
+
+(j) **Referenced standards.** Each named technical standard in this Chapter and the Technical Manual means the edition in effect on the effective date of this Chapter, stated as "([edition])" where the standard is cited, and that edition continues to govern if the standard is later revised or withdrawn. A later edition applies only when the Board adopts it by ordinance. The Florida Building Code, the Florida Fire Prevention Code, the uniform firesafety standards under s. 633.206, Florida Statutes, and the standards adopted in them apply as in effect from time to time.
+
+(k) **Technical Manual.** The Technical Manual, adopted by reference by Ordinance No. [______] and on file with the Clerk of the Board and the [planning department], is part of this Chapter. Each submittal, study, test, plan, report, and measurement this Chapter requires shall be prepared, performed, and filed as the Technical Manual provides.
+
+## Sec. 2. Definitions.
+
+In this Chapter:
+
+"Aggregate Infrastructure Demand" means the total electrical power drawn by a facility, or projected in an application or authorized by a development order to be drawn, measured as the highest average demand over any fifteen (15) minute interval, including information-technology equipment, mechanical cooling, and all ancillary loads, from all sources of supply, including utility service, on-site generation of any kind, and battery energy storage discharge, without regard to the number of service points, meters, or accounts.
+
+"Approved Capacity" means the maximum Aggregate Infrastructure Demand authorized for a Covered Facility by its development order and by any applicable overlay or zoning approval, expressed in megawatts. It is an authorization ceiling and not a measure of demand actually drawn. Where no development order states a figure, the Approved Capacity of a Covered Facility is its Site Electrical Capacity. Where a development agreement defines Approved Capacity differently, a Covered Facility subject to both measures the thresholds of this Chapter by Aggregate Infrastructure Demand alone.
+
+"Archaeological site" means a location that contains material remains of past human activity at least [fifty (50)] years old.
+
+"Area to be disturbed" means each area of ground disturbance that a site plan application proposes.
+
+"BESS" means a battery energy storage system.
+
+"Burial ground" means a place where human remains are buried, whether or not the burial is marked, including an unmarked human burial as s. 872.05, Florida Statutes, defines it.
+
+"Cemetery" has the meaning given in s. 497.005, Florida Statutes, and includes a cemetery no longer in use.
+
+"Certified Recycler" means a recycler holding a current certification named in the Technical Manual.
+
+"Common control" exists where a person, directly or indirectly, holds [twenty-five percent (25%)] or more of the voting interests, capital, or profits of another; where the same person or persons hold such an interest in two or more applicants; where two or more entities share a common parent, manager, managing member, or general partner; or where a written or oral agreement, option, right of first refusal, lease, development agreement, shared-infrastructure arrangement, or established course of dealing gives one person the practical ability to direct the development of land held by another. Common control is determined by substance and not by form.
+
+"Connected Compute Load" means the aggregate nameplate electrical capacity of information-technology equipment installed, or authorized by a development order to be installed, for computation, storage, or data transmission, measured at rated equipment input, without regard to the source of supply, the ownership of the equipment, the identity of any tenant or licensee, or the utilization actually achieved.
+
+"Covered Equipment" means servers and server blades; microprocessors, graphics processing units, tensor processing units, and other compute accelerators; data-storage devices and arrays; networking and interconnection hardware; rack power-distribution and uninterruptible-power units; and internal liquid-cooling assemblies and their chemical compounds, in each case decommissioned, failed, or removed from service at a Covered Facility. It excludes building systems, exterior BESS, and hazardous waste governed by part IV of chapter 403, Florida Statutes.
+
+"Covered Facility" means a Tier 3 data center under Sec. 3(a)(1).
+
+"Data-Bearing Media" means any component capable of storing information.
+
+"Data center" means a use whose primary function is the housing and operation of information-technology equipment for computation, storage, or data transmission, including a computing facility or colocation campus, whatever its computational architecture, processor type, cooling technology, or commercial purpose, and including any successor technology serving a substantially similar function.
+
+"Development Unit" means all land that (1) is under common ownership or common control at the time an application is filed, or was under common ownership or common control at any time within [thirty-six (36)] months before the filing; (2) lies within [one (1) mile] of any other land meeting clause (1); and (3) is used, proposed to be used, or subject to a pending application for a data center. Land conveyed before the filing to a purchaser for value who is not under common control with the applicant, and who did not acquire it as part of an arrangement described in Sec. 3(e), is excluded.
+
+"Emergency" means (1) an interruption of utility electric service to the Covered Facility, or an imminent interruption declared by the serving utility; or (2) a written direction of the serving utility or the applicable reliability coordinator, during a North American Electric Reliability Corporation Energy Emergency Alert Level 3 event or under an order issued under section 202(c) of the Federal Power Act, to reduce the facility's load on the grid. Participation in a demand-response, load-flexibility, or load-management program is not an Emergency.
+
+"End user" means a person that holds, under an executed lease, license, build-to-suit, capacity, or service agreement, rights to [__] percent or more of the Connected Compute Load projected at full build-out.
+
+"Ground disturbance" means clearing, grubbing, grading, excavation, filling, trenching, or boring.
+
+"Mechanical Load Component" has the meaning given in ANSI/ASHRAE Standard 90.4 ([edition]).
+
+"Projected cone of depression" means the area, delineated as Technical Manual Sec. B-8.3 provides, within which a withdrawal is projected to lower aquifer water levels by at least the drawdown that Section states.
+
+"Qualified Refurbisher" means a public school district, state college or university, governmental entity other than the County or a department, agency, or dependent special district of the County, or Florida nonprofit corporation or cooperative association exempt under s. 501(c)(3) of the Internal Revenue Code, that refurbishes or redistributes equipment for public, educational, or community purposes and is registered under Sec. 13(d).
+
+"Sensitive Receptor" means the property line of any parcel, outside the site, in any zoning district, containing a dwelling unit, a licensed child care facility, a public or private school serving grades K through 12, a hospital or licensed health care facility, a nursing home or assisted living facility, a place of worship, a public park, or a licensed campground. A Sensitive Receptor exists from the earlier of the date the use is established and the date a building permit or development order is issued for it.
+
+"Site Electrical Capacity" means the aggregate rated capacity of all sources of electrical supply serving a site, including utility service entrance capacity, on-site generation of any kind, and battery energy storage discharge capacity, measured at the point of common coupling.
+
+"Sound Contour" means the area outside the site that Technical Manual Sec. B-9.4(d) maps in the most recent acoustic study or update under Sec. 9(e).
+
+"Technical Manual" means the Data Center Technical Manual adopted as Exhibit B to Ordinance No. [______], as amended by ordinance.
+
+"Tier 1," "Tier 2," and "Tier 3" have the meanings given in Sec. 3(a).
+
+"Verified Sanitization" means sanitization or destruction of Data-Bearing Media under the standard named in the Technical Manual, evidenced by a serialized per-device certificate, performed before the media leaves the facility.
+
+"Water Usage Effectiveness" means annual site water consumption for cooling, in liters, divided by annual information-technology equipment energy, in kilowatt-hours.
+
+Other terms have the meanings given in the Land Development Code or, where undefined there, their ordinary meaning.
+
+## Sec. 3. Use Classification.
+
+(a) **Tiers.** A data center is classified in the highest of the following tiers whose threshold its Development Unit meets.
+
+  (1) **Tier 3 (Covered Facility).** A data center whose Development Unit has (A) an Aggregate Infrastructure Demand of [fifty (50)] megawatts or more; (B) a Connected Compute Load of [forty (40)] megawatts or more; (C) a Site Electrical Capacity of [fifty (50)] megawatts or more, where a data center is the principal use of the Development Unit; or (D) a large-scale data center as defined in s. 373.203(4), Florida Statutes. The criteria are alternatives. A data center meeting any one is in Tier 3, and the criterion first met governs the date of applicability.
+
+  (2) **Tier 2.** A data center not in Tier 3 whose Development Unit has a Connected Compute Load of [five (5)] megawatts or more.
+
+  (3) **Tier 1.** Any other data center.
+
+(b) **Where allowed.**
+
+  (1) A Covered Facility is allowed only as a [special exception / conditional use] in the [__] districts, as the use table provides, upon approval under Sec. 15.
+
+  (2) A Tier 2 data center is allowed as the use table provides[; where Sec. 15A is adopted, it is a conditional use under Sec. 15A].
+
+  (3) A Tier 1 data center is allowed as the use table provides.
+
+(c) **Measurement.** The tier thresholds apply to the Development Unit and not to a single parcel, building, meter, service point, phase, tenant, or entity.
+
+(d) **Aggregation.** Two or more applications for a data center on land within one Development Unit, filed within [thirty-six (36)] months of one another, shall be aggregated and reviewed as one facility. Where land now in a Development Unit was approved when the Development Unit met no tier threshold to which this Chapter applies, and a later application brings it within one, the later application shall be reviewed as to the whole Development Unit. No completed construction shall be required to be modified except as Secs. 9(d), 13, 17, and 18 require.
+
+(e) **Anti-circumvention.** No division or replatting of land; formation, dissolution, merger, or reorganization of an entity; separation or reconfiguration of electrical service; sequencing, withdrawal, or refiling of applications; or creation of leasehold, condominium, or licensee interests shall be given effect to place a facility outside this Chapter, or in a lower tier, where the substance of the development is a single facility.
+
+(f) **Development Unit determination.** For each application for a data center, the County Administrator or designee shall make a written Development Unit determination, within the period s. 125.022(2)(b)1., Florida Statutes, allows for the completeness review, stating the land included, identified by parcel, the criteria applied, and the measured values relied upon. An instrument by which a person holds or controls included land is described only by its type, such as an option, lease, or management agreement. The determination shall be made solely on the criteria of this Section, is subject to the County's ordinary administrative appeal, and shall be included in the record of any proceeding on the application.
+
+(g) **Limited effect.** The Development Unit rules govern only the tiers under this Chapter. They do not determine classification under s. 212.08(5)(r), s. 366.043, or s. 373.203, Florida Statutes, which apply their own aggregation rules.
+
+## Sec. 4. Application Requirements.
+
+(a) **Required submittals.** An application for a Covered Facility shall include the following, with the content and at the time the Technical Manual, Part B-4, states:
+
+  (1) the ownership and Development Unit disclosure under subsection (c);
+  (2) the utility capacity letters under subsection (d);
+  (3) the cooling design demonstration and the comparison of cooling architectures under Sec. 7(a), and the heat rejection plant design data under Sec. 7(e);
+  (4) where reclaimed water is proposed, the reclaimed water documentation under Sec. 7(b);
+  (5) the water service terms, drought documents, and curtailment demonstration under Sec. 7(f);
+  (6) where groundwater or surface water withdrawal is proposed, the studies under Sec. 8(b) and, for a surface water withdrawal, the showing under Sec. 8(g);
+  (7) the acoustic study under Sec. 9(e);
+  (8) the karst investigation under Sec. 11(d);
+  (9) any BESS fire test data under Sec. 12(a);
+  (10) the decommissioning and adaptive-reuse plan under Sec. 14(a);
+  (11) where Sec. 15(c) applies, the cumulative impact assessment;
+  (12) the escrow deposit under Sec. 15(b);
+  (13) where a setback reduction under Sec. 5(b) or the higher impervious coverage under Sec. 5(e) is sought, the engineer's certification; and
+  (14) where Sec. 11A applies, the certification and summary of the records review under Sec. 11A(a) and (e).
+
+(b) **Complete application.** The minimum information for a complete application under s. 125.022(2)(a), Florida Statutes, is listed in Technical Manual Sec. B-4.1. An application that lacks any item listed there is not complete.
+
+(c) **Ownership and Development Unit disclosure.**
+
+  (1) Each application for a data center, in any tier, shall include a sworn disclosure containing the information Technical Manual Sec. B-4.2 lists and stating (A) the shared use of any substation, transmission interconnection, fiber path, water service, or reclaimed water service with any other site, and each utility service request, load or generator interconnection queue position, or capacity reservation for the site that the applicant or any person under common control with it has purchased, received by transfer or assignment, or reserved, with the capacity in megawatts and the other particulars Technical Manual Sec. B-4.2(a) lists, but not the price or other consideration, or a statement that there is none; and (B) the identity of each end user, or a statement that no such agreement exists. The applicant shall update the disclosure as the Technical Manual provides.
+
+  (2) The County requires in a disclosure only what the determination under Sec. 3(f) requires, and makes no representation that any disclosure is exempt from chapter 119, Florida Statutes. The County records each acquisition disclosed under paragraph (1)(A) for that determination only and makes no finding on whether it was permitted, which the utility's tariff or the transmission provider's rules govern.
+
+  (3) Where an end user's identity is the subject of a written request for confidentiality under s. 288.075(2)(a), Florida Statutes, the applicant files the information Technical Manual Sec. B-4.2(e) requires. Where the identity would be filed after the last day on which notice of the first hearing on the application must be given, or, where the application is decided without a hearing, after the last day for decision, the applicant shall, before that day, either file the identity with the written consent of the person who made the request or extend the time for decision, by a written agreement under s. 125.022(2)(b)4., Florida Statutes, for the period needed, which the County Administrator shall enter into on the applicant's request. The County shall not schedule or hold a hearing on, or decide, the application while the identity remains to be filed, except by a denial under the next sentence, and the hearing-scheduling period of Sec. 15A(f) does not run during that time. Where the applicant does neither by that day, the County Administrator shall deny the application without prejudice to refiling, by written notice citing this paragraph.
+
+  (4) The County uses an end user's identity only to make the determination under Sec. 3(f), to identify voting conflicts under s. 112.3143, Florida Statutes, and to observe s. 288.075(2)(b), Florida Statutes. No application shall be denied or conditioned because of who the end user is.
+
+  (5) An applicant may mark confidential material in a filing under this Section as Technical Manual Sec. B-4.3 provides. The public copy of a marked filing shall state, at a level of detail that is not a trade secret, each fact on which a determination or finding depends, including capacity in megawatts, dates, the answer on cost recovery, the terms and form of security stated under Technical Manual Sec. B-4.4(b) at the level the tariff states them, and the land included, by parcel. County staff and any independent technical reviewer the County retains may use marked material to verify the public statements, but no determination or finding shall rest on information withheld from the public record. Where a fact on which a finding depends is marked, the finding is made only on what is public.
+
+  (6) A material misstatement or omission in a disclosure under this subsection, or in a sworn statement under subsection (d)(4), is a violation of this Chapter, each day continuing being a separate violation, and is grounds for revocation of any development order issued in reliance on it, after notice and hearing. A statement of the agency, date, or term of a confidentiality request another person made, or a sworn statement under subsection (d)(4), is a misstatement or omission only if the applicant knew or had reason to know, when it made the statement, that it was untrue or materially incomplete, or, having learned that it was, did not correct it in writing within the period the Technical Manual allows for updating a disclosure.
+
+(d) **Utility capacity letters.**
+
+  (1) Each application for a Covered Facility shall include written letters from each electric provider and each water and wastewater provider that will serve the site, with the content Technical Manual Sec. B-4.4 requires.
+
+  (2) Each letter shall state whether delivery requires new generation, transmission, substation, wellfield, treatment, or storage capacity, and whether any portion of that cost is proposed to be recovered from the general body of ratepayers.
+
+  (3) The County shall transmit each letter to the Board and publish it in the application record.
+
+  (4) Where a provider declines in writing to state a matter that paragraph (2) or Technical Manual Sec. B-4.4 requires, the applicant may file that writing together with its own sworn statement of the matter, and the application shall not be held incomplete for that reason.
+
+  (5) No standard of this Chapter requires any particular tariff, term, demand level, termination term, or security, and no finding is made on the adequacy of any of them.
+
+## Sec. 5. Siting, Setbacks, and Building Design.
+
+(a) **Setbacks.** Primary compute halls, high-voltage substations, BESS installations, and mechanical yards shall be set back not less than [five hundred (500)] feet from any residentially or agriculturally designated property line or Sensitive Receptor and [two hundred (200)] feet from any public right-of-way. In place of the setback from those property lines and Sensitive Receptors, a Tier 2 data center shall set back its primary compute halls, high-voltage substations, BESS installations, and mechanical yards not less than [three hundred (300)] feet from any such property line or Sensitive Receptor. For an electric substation, as s. 163.3208(2), Florida Statutes, defines it, that is owned by an electric utility as defined in s. 366.02(4), Florida Statutes, the setback is [__] feet, measured [between the substation property boundary and its permanent equipment structures] [from each residentially or agriculturally designated property line and Sensitive Receptor to the nearest permanent equipment structure of the substation], the substation is a permitted use to the extent s. 163.3208(4) provides, and its application is decided as s. 163.3208, Florida Statutes, provides. [Drafting note, remove before the draft is made public: Set the substation setback as a reasonable, compatibility-based setback (s. 163.3208(3), Florida Statutes), on a record of the adjacent and surrounding uses and not of need, load, service quality or electrical safety, and add a finding on it to Section 1 of the ordinance adopting this Chapter.]
+
+(b) **Setback reduction.** The decision-making body may reduce a setback under subsection (a) by not more than [twenty-five percent (25%)] upon a demonstration, certified by the applicant's engineer and accepted by the County after review under Sec. 15(b), that the sound and screening standards of this Chapter are met at the reduced distance.
+
+(c) **On-site electric lines.** Electric lines on the site that are owned by the applicant or operator, or by a person under common control with either, and operate at or below [__] kV shall be placed underground, except at points of connection and within a substation yard. This subsection does not regulate any facility owned by an electric utility as defined in s. 366.02(4), Florida Statutes, or any line to be conveyed to one. This subsection governs the location of lines, not their design or installation.
+
+(d) **Minimum site area.** [Twenty-five (25)] contiguous acres for a Covered Facility. In place of that minimum, a Tier 2 data center shall meet the minimum lot area of its zoning district.
+
+(e) **Impervious surface coverage.** Not more than [sixty percent (60%)], or [seventy percent (70%)] where the applicant demonstrates equivalent recharge performance as Technical Manual Sec. B-5.1 provides.
+
+(f) **Height.** Not more than [seventy-five (75)] feet, measured including rooftop mechanical equipment, cooling towers, and screening.
+
+(g) **Facade.** A wall facing a public right-of-way or a Sensitive Receptor shall include at least two of the following at intervals not exceeding [one hundred fifty (150)] horizontal feet: step-back, fenestration, material change, or texture change.
+
+(h) **When siting is measured.** Subsections (a), (b), and (g) and Sec. 12(a) and (b)(2) apply to each improvement, and Sec. 6(a) to the part of the perimeter facing it, as the property lines, properties, rights-of-way, residential structures, and Sensitive Receptors they name exist when the first site plan showing that improvement is approved, including a site plan approved with the decision under Sec. 15(a). [A conceptual site plan approved with that decision is a site plan under this subsection for each improvement it shows.] [A conceptual site plan is not a site plan under this subsection.] This subsection does not apply to a property line created, after that first site plan is approved, when the owner or operator of the facility, or a person under common control with either, divides land within the Development Unit, other than by a dedication or conveyance of land for a public road. Where a later site plan adds an improvement, enlarges one, or moves one closer to such a property line, property, right-of-way, residential structure, or Sensitive Receptor, they are measured for that improvement as they exist when that later site plan is approved. The limits of Sec. 6(b) and (c) and Sec. 9(a) and (b) apply at every residential property line and Sensitive Receptor, whenever either comes to exist.
+
+## Sec. 6. Screening, Lighting, and Construction.
+
+(a) **Screening.** The perimeter facing residential or agricultural property or a Sensitive Receptor shall be screened by an earthen berm of not less than [eight (8)] feet, planted with native and drought-tolerant species achieving [eighty percent (80%)] opacity within [three (3)] years, and maintained for the life of the use. Chain-link fencing visible from a public right-of-way shall be screened.
+
+(b) **Lighting.** Exterior lighting shall be full-cutoff and fully shielded, shall not exceed [3000K] correlated color temperature, shall emit zero direct uplight, and shall cause no light trespass exceeding [0.1] footcandle at any residential property line or Sensitive Receptor. Security lighting may be motion-activated. Aviation-required lighting is exempt to the minimum extent required.
+
+(c) **Construction hours.** Exterior construction activity audible at a residential property line or Sensitive Receptor is limited to [7:00 a.m. to 7:00 p.m., Monday through Saturday], except interior work, emergencies, and continuous concrete pours noticed to the County in advance.
+
+## Sec. 7. Water and Cooling.
+
+(a) **Cooling standards.** A Covered Facility may use any cooling architecture that meets all of the following. The County shall not prescribe, endorse, or condition approval on any cooling technology among architectures that meet this subsection, and the choice of architecture and the risk of its performance remain with the applicant. Compliance is demonstrated at application and verified annually as Technical Manual Sec. B-7.1 provides. Each application shall include the comparison of cooling architectures Technical Manual Sec. B-7.2 requires.
+
+  (1) **Groundwater.** No groundwater withdrawn by or for the facility, on or off site, shall be used for heat rejection, makeup, or blowdown, whether evaporative or otherwise. This paragraph does not restrict potable water delivered by a public water system through a metered connection, which paragraph (2) governs. If a court holds, or the Board determines on the County Attorney's written advice, that chapter 373, Florida Statutes, prevents application of this paragraph to a facility or a withdrawal, this paragraph shall not apply to that facility or withdrawal, and it continues to apply to every other.
+
+  (2) **Potable water.** [Consistent with the County's local reuse program under s. 403.064, Florida Statutes,] no potable water shall be used for cooling makeup where reclaimed water is available to the site, whether or not a consumptive use permit is sought. [No potable water shall be used for evaporative or adiabatic heat rejection, or as its makeup, even where reclaimed water is not available to the site.] [Where the County's local reuse program so provides, a Covered Facility shall, when the program's reclaimed water lines reach the property boundary, connect to them at its own cost and on its own site and use reclaimed water for cooling makeup; this sentence requires no extension of lines beyond the property boundary.] Emergency potable backup, where separately permitted, is excepted [only while the primary heat rejection equipment or the reclaimed water supply is out of service] and shall be metered and reported as such[, with the cause and duration of each use]. This paragraph does not reach water that fills, or replaces losses from, a closed circuit in which the water is not evaporated.
+
+  (3) **Water use.** [Annualized Water Usage Effectiveness shall not exceed [insert] liters per kilowatt-hour of information-technology load, measured under the water balance required by subsection (d).] Where no limit is adopted, the operator reports annualized Water Usage Effectiveness in each annual compliance report.
+
+(b) **Reclaimed water.** No reclaimed water shall be diverted from a committed recharge use to serve a Covered Facility except as documented in the application under Technical Manual Sec. B-7.3. The operator shall protect reclaimed and potable water systems against cross-connection as Technical Manual Sec. B-7.6 provides.
+
+(c) **Legionella.** A Covered Facility using evaporative or adiabatic heat rejection shall prepare, implement, and maintain a written water management program conforming to ANSI/ASHRAE Standard 188 ([edition]) for the control of Legionella, with the elements and filings Technical Manual Sec. B-7.4 requires.
+
+(d) **Metering and water balance.** All source, makeup, blowdown, and discharge streams shall be separately metered. The operator shall file annually a water balance report reconciling withdrawals, consumption, and discharge, together with the heat rejection energy data Technical Manual Sec. B-7.5 requires. The application and each annual compliance report shall state the design and annualized Mechanical Load Component of the facility, based on the data Technical Manual Secs. B-7.2 and B-7.5 require.
+
+(e) **Heat rejection servicing.** Heat rejection plant serving a Covered Facility shall be designed and constructed with a reserved area adjacent to the plant large enough for the removal, replacement, and servicing of the largest single item of heat rejection equipment installed, at not less than the clearances the equipment manufacturer specifies, kept free of permanent obstruction for the life of the use. Where a Florida-licensed professional engineer certifies that the architecture selected makes this requirement technically infeasible, the requirement is met if the County's reviewing engineer accepts the certification in writing. The County's reviewing engineer shall answer in writing, with reasons for any refusal, within [__] days after receiving the certification. The application and each annual compliance report shall include the heat rejection plant design data listed in Technical Manual Sec. B-7.7. This subsection conveys no right, title, easement, or interest in thermal energy or any other output to the County or any person and imposes no obligation to deliver anything. Any right to take recovered thermal energy arises only under a separately negotiated agreement.
+
+(f) **Water service priority and drought.**
+
+  (1) The operator of a Covered Facility shall curtail its water use on the same or an earlier schedule than its water supplier applies to residential and agricultural customers, and shall not take priority of water service over those customers. Where the County supplies the water, no County agreement, tariff, or contract shall grant a Covered Facility that priority. Where another entity supplies the water, the applicant shall show with the application that its water service terms with that entity grant no such priority and provide for curtailment on that schedule, and shall file each later water service agreement or amendment, with the same showing, within the period Technical Manual Sec. B-4.2(d) allows for updating a disclosure. This paragraph does not apply to water withdrawn under a consumptive use permit issued to the operator or the owner of the Covered Facility, which that permit and the water management district's water shortage plan and orders govern (ss. 373.175 and 373.246, Florida Statutes).
+
+  (2) The applicant shall file the water service and drought documents Technical Manual Sec. B-7.8 lists, and shall demonstrate that its cooling configuration can operate through the deepest curtailment stage in the applicable drought contingency plan without exceeding its permitted or applied-for withdrawal.
+
+## Sec. 8. Water Withdrawal and Well Protection.
+
+(a) **Applicability.** This Section applies to any Covered Facility proposing groundwater or surface water withdrawal from private or on-site sources for any purpose, and to any application to the County for a development order for a Covered Facility that would increase a withdrawal.
+
+(b) **Studies.** The applicant shall submit the hydrogeologic study, the aquifer test report, and the delineation of the projected cone of depression that Technical Manual Part B-8 requires.
+
+(c) **Monitoring.** The operator shall maintain monitoring at observation points within the projected cone of depression for the operating life of the facility, report it with the water balance under Sec. 7(d), and publish it on the project page under Sec. 17(b).
+
+(d) **Baseline testing.** Before construction, the applicant shall offer, at its cost, baseline water level and water quality testing to the owner of every permitted or known well within the projected cone of depression, including a domestic self-supply well that needs no consumptive use permit. Not less than [sixty (60)] days before the withdrawal begins, the applicant shall repeat the offer in writing to each owner who has not accepted it, stating the date on which it expects the withdrawal to begin and, unless the presumption in subsection (e)(2) has ceased to apply under subsection (e)(4), that an acceptance not less than [thirty (30)] days before that date is in time for that presumption. The applicant shall complete each test an owner accepts within [thirty (30)] days after the acceptance or, if later, after the owner makes the well available for testing on reasonable notice, and shall document each refusal. This subsection does not condition when a withdrawal may begin. For an application that would increase a withdrawal, the withdrawal begins, for this subsection and subsection (e), when the increase begins. [Drafting note, remove before the draft is made public: Where the presumption in subsection (e)(2) is kept, the period for an acceptance in this subsection and the two in subsection (e)(2) take one figure, shorter than the period for repeating the offer and not shorter than the period for completing an accepted test.]
+
+(e) **Well owner claims.**
+
+  (1) The applicant shall establish and fund a claims process, in a form approved by the County, under which the owner of a well within the projected cone of depression may obtain repair, deepening, replacement, or connection to a public supply for an adverse impact reasonably attributable to the withdrawal. An adverse impact is a reduction in water level that impairs the ability of the well to produce water, or a change in water quality that makes the water unfit for its use.
+
+  (2) Where baseline testing of the well under subsection (d) was accepted not less than [thirty (30)] days before the withdrawal began or, where an offer repeated to the owner under subsection (d) stated a later date for the withdrawal to begin, not less than [thirty (30)] days before the latest of the dates so stated, and the test was completed before the withdrawal began or was not completed before it began for a reason other than a failure of the well's owner at the time to make the well available for testing on reasonable notice, and later testing shows an adverse impact, the impact is presumed attributable to the withdrawal. An owner to whom the applicant did not repeat the offer as subsection (d) requires is treated as having accepted it on the last day on which that subsection required the offer to be repeated. An acceptance in time under this paragraph is not, by its timing, a failure of the owner to make the well available for testing. The applicant may rebut the presumption by showing that the impact results from another cause, including a regional condition the water management district has documented, such as a declared water shortage. For any other claim, the owner shows that the impact is reasonably attributable to the withdrawal, and the applicant shall produce for the claim its monitoring data under subsection (c) and the model results on which its delineation of the projected cone of depression rests.
+
+  [Alternative paragraph (2), in place of the presumption: (2) An adverse impact is reasonably attributable to the withdrawal where the withdrawal caused it in whole or in part. The owner shows that it did, and may rely on any baseline test under subsection (d), later testing, the monitoring data under subsection (c), and the model results on which the delineation of the projected cone of depression rests, which the applicant shall produce for the claim. Where the withdrawal caused the impact only in part, the claim is for the share of the remedy that corresponds to the withdrawal's part in the impact, as the claims process determines. Where this alternative is adopted, the words "and, unless the presumption in subsection (e)(2) has ceased to apply under subsection (e)(4), that an acceptance not less than [thirty (30)] days before that date is in time for that presumption" in subsection (d), and the first sentence of paragraph (4), are omitted, and the second sentence of paragraph (4) begins "If a court holds, or the Board determines on the County Attorney's written advice, that chapter 373, Florida Statutes, prevents application of paragraph (1), (2), or (3),".]
+
+  (3) The claims process is secured by the financial assurance under Sec. 14(b) and survives the expiration of any agreement. Mitigation the permittee provides for the same impact under a water management district permit condition or rule satisfies the claim to that extent. The claims process does not limit, condition, or authorize any withdrawal.
+
+  (4) If a court holds, or the Board determines on the County Attorney's written advice, that chapter 373, Florida Statutes, prevents application of the presumption in paragraph (2), every claim is decided as paragraph (2) provides for a claim to which the presumption does not apply. If it so holds or determines as to paragraph (1) or (3), paragraphs (1) to (3) shall not apply, and within [thirty (30)] days after the holding or determination the applicant shall give the owner of each well within the projected cone of depression written notice of each condition of its consumptive use permit, and each requirement of the water management district's rules, that requires it to mitigate, or makes the permit subject to revocation unless it mitigates, an adverse impact on, harm to, or interference with an existing legal use, or that there is none, and of how to make a complaint to the water management district, and shall post the notice on the project page under Sec. 17(b). To the extent the holding or determination permits, a claim made before it is decided and paid under this subsection as it stood when the claim was made, and the financial assurance under Sec. 14(b) continues to secure it. Subsections (b) to (d) continue.
+
+(f) **Karst and springshed conditions.** Where the site lies within a mapped springshed, a first-magnitude spring recharge basin, or an area of documented karst:
+
+  (1) The County may require the additional geophysical investigation described in Technical Manual Sec. B-8.4.
+
+  (2) Where the studies under subsection (b) or paragraph (1) show (A) a sinkhole, void, cavity, or raveling zone within the projected cone of depression or beneath a proposed building, stormwater pond, fuel storage, or BESS, unless a Florida-licensed professional geologist or engineer certifies, and the County's independent reviewer under Sec. 15(b) agrees in writing, that the withdrawal and the design will not induce subsidence there; or (B) that post-development recharge to the surficial and Floridan aquifer systems would be less than pre-development recharge on either basis compared under Technical Manual Sec. B-5.1; the County shall impose conditions that remove the condition shown, or shall deny approval if no such condition removes it.
+
+  (3) Conditions under this subsection are limited to relocating improvements, foundation design or ground improvement, stormwater design that avoids concentrated infiltration over the feature, and recharge measures. This subsection does not set or condition the rate of any withdrawal. The findings under paragraph (2) are made on the withdrawal rate stated in the application, which the applicant may amend. The County shall not condition or deny approval for subsidence risk or recharge impairment except under this subsection. This paragraph does not limit Sec. 11(d).
+
+  (4) When it renders its decision on the application, the County shall send its findings under this subsection to the water management district.
+
+(g) **Minimum flows and levels.** An application proposing a surface water withdrawal shall identify each minimum flow or level the water management district has adopted for the source under s. 373.042, Florida Statutes, or state that none has been adopted, and each condition of the consumptive use permit, issued or applied for, that requires the withdrawal to stop or be reduced at low flow.
+
+(h) **Consumptive use permits.** A consumptive use permit does not satisfy this Section. This Section does not grant, deny, modify, or condition any consumptive use permit or any withdrawal a permit authorizes.
+
+## Sec. 9. Sound.
+
+(a) **Limits.** Sound attributable to a Covered Facility shall not exceed, at any residential property line or Sensitive Receptor, [forty-five (45)] dBA and [sixty (60)] dBC between [10:00 p.m. and 7:00 a.m.], and [fifty-five (55)] dBA and [sixty-five (65)] dBC at other times, each measured as a [ten-minute Leq] by the method in Technical Manual Sec. B-9.1. These limits and subsection (b) apply to every source at the facility, including heat rejection equipment and generator testing.
+
+(b) **Tonal penalty.** A [five (5)] dB penalty applies to sound with a prominent discrete tone, determined as Technical Manual Sec. B-9.2 provides.
+
+(c) **Monitoring.** Each Covered Facility shall install and maintain permanent sound monitoring, with instruments meeting Technical Manual Sec. B-9.1, at locations the County approves, reporting measured levels to a publicly accessible dashboard, as Technical Manual Sec. B-9.3 provides. Where a Sensitive Receptor that no approved location faces lies, in whole or in part, within the Sound Contour, the County may, by written notice, require the operator to add a location facing it.
+
+(d) **Exceedance response.** Upon a verified exceedance, the operator shall, within [forty-eight (48)] hours, identify the source and implement interim mitigation, and within [thirty (30)] days implement permanent mitigation, curtailing the offending equipment if necessary until compliance is restored. Each day of continuing exceedance after the cure period is a separate violation.
+
+(e) **Acoustic study.** The first application for a Covered Facility shall include an acoustic study, prepared by [a board-certified member of the Institute of Noise Control Engineering or a Florida-licensed professional engineer qualified in acoustics], with the content Technical Manual Sec. B-9.4 requires. Not less than [thirty (30)] days before heat rejection, mechanical, or generating equipment that a later site plan approves begins operating, the operator shall file an update of the study for the facility with that equipment, with the same content. The update is not part of the site plan application. Before the equipment begins operating, the County's independent reviewer under Sec. 15(b) may state in writing any respect in which the update does not show that subsection (a) is met. The equipment begins operating only with the mitigation measures on which the update shows that subsection (a) is met. An application for an expansion described in Technical Manual Sec. B-9.6 includes the study or update that Section requires. Existing sound levels measured for the study are a record of baseline conditions and do not change any limit of subsection (a). The County keeps the Sound Contour on [its development review map] and gives a copy of it, with the limits of subsection (a), to each person who applies for a development order or building permit for a new dwelling unit, or for another new use listed in the definition of Sensitive Receptor, on land wholly or partly within it. A failure to give a copy does not affect any approval or permit.
+
+(f) **Commissioning tests.** The operator shall file the commissioning test reports that Technical Manual Secs. B-9.5 and B-9.6 require. A commissioning test that shows an exceedance of subsection (a) is a verified exceedance under subsection (d).
+
+## Sec. 10. Generators.
+
+(a) **Testing hours.** Except during an Emergency, no standby or emergency generator, turbine, or engine at a Covered Facility shall be operated, for testing, maintenance, exercise, or any other purpose, except between [__] a.m. and [__] p.m. on [Monday through Friday], excluding holidays on which County offices are closed.
+
+(b) **Units tested together.** Not more than [__] units shall be tested at the same time.
+
+(c) **Schedule and notice.** The operator shall file and post a quarterly testing schedule, and shall give notice of any test outside it, as Technical Manual Sec. B-10.1 provides.
+
+(d) **Required tests.** Testing required by the Florida Fire Prevention Code (including NFPA 110 as adopted in it), by a state or federal permit, by the manufacturer, or by a utility or grid operator shall be scheduled within the hours of subsection (a) wherever the requirement allows. A required test that cannot be scheduled within those hours, or that requires more units than subsection (b) permits, may proceed after notice under subsection (c) stating the requirement. Readiness testing within [__] hours before forecast tropical-storm-force winds at the site may proceed after notice under subsection (c).
+
+(e) **Scope.** This Section applies to every generator, turbine, and engine regardless of fuel. It governs only when non-emergency operation may occur and does not change the number of hours that a state or federal air permit or federal emission rule allows. If a court holds, or the Board determines on the County Attorney's written advice, that s. 366.032(2), Florida Statutes, prevents application of this Section to any unit, subsections (a) and (b) shall not apply to any unit, subsection (c) continues, and subsection (d) continues with each reference in it to the hours of subsection (a) read as the testing schedule posted under subsection (c) and its reference to subsection (b) disregarded.
+
+## Sec. 11. Stormwater, Karst, and Flood.
+
+(a) **Floodplain.** No Covered Facility, substation, generator yard, fuel storage, or BESS shall be located within the 100-year or 500-year floodplain as most recently mapped by the Federal Emergency Management Agency. This subsection is not subject to administrative waiver, variance, or alternative compliance.
+
+(b) **Wetlands.** No improvement listed in subsection (a) shall be located within a wetland or within [fifty (50)] feet of a delineated wetland boundary.
+
+(c) **Stormwater.** On-site systems shall meet the stormwater treatment performance standards that Section 8.3 of the Environmental Resource Permit Applicant's Handbook, Volume I ([edition]), sets for a project located within a HUC 12 sub-watershed containing an Outstanding Florida Water and upstream of it, whether or not the site is so located, or any stricter standard that Section sets for the site, with no net increase in off-site discharge rate or volume for the [__]-year, [__]-hour design storm, and with compensating storage for any floodplain encroachment.
+
+(d) **Karst investigation.** Before site plan approval, the applicant shall complete a geotechnical investigation appropriate to karst terrain, as Technical Manual Sec. B-11.1 provides, and shall conform foundation and stormwater design to its findings.
+
+(e) **Flood elevation.** Finished floors and critical systems, including electrical rooms, switchgear, generators, fuel systems, and BESS, shall be elevated not less than [two (2)] feet above the higher of the design flood elevation under the Florida Building Code and a reference elevation the County sets, [__].
+
+## Sec. 11A. Burials and Archaeological Resources.
+
+(a) **Records review.** With the first site plan application for a Covered Facility, and with each later site plan application that adds an area to be disturbed, the applicant shall have a records review prepared of each area to be disturbed and of land within [__] feet of it, as Technical Manual Sec. B-11A.1 provides.
+
+(b) **Field survey.** Where the records review concludes that a known or probable burial ground, cemetery, or archaeological site lies within an area to be disturbed or within [__] feet of it, the applicant shall have the field survey Technical Manual Sec. B-11A.2 requires completed for that area before site plan approval for it.
+
+(c) **Avoidance.**
+
+  (1) Except as paragraph (2) provides, the site plan shall show as a no-disturbance area, without stating the reason, each burial ground and cemetery within the site that the records review or field survey identifies; the part within the site of a buffer of not less than [__] feet around each burial ground or cemetery within or adjoining the site; and each archaeological site the applicant will avoid. No ground disturbance shall occur in a no-disturbance area. The County Administrator shall reduce the buffer to the distance the certification supports, not less than [__] feet, on the archaeologist's certification under Technical Manual Sec. B-11A.5(a) that the field survey states the limits of the burial ground or cemetery with high confidence under Technical Manual Sec. B-11A.2(c).
+
+  (2) A burial ground or cemetery, or part of one, and its buffer need not be shown as a no-disturbance area where the applicant files the archaeologist's certification, stating no location more precise than the parcel, that removal or disturbance of the burials in it has been authorized under chapter 497 or chapter 872, Florida Statutes, or other state law.
+
+  (3) Before ground disturbance in an archaeological site, other than a burial, that the applicant will not avoid and that Technical Manual Sec. B-11A.3 reaches, the applicant shall deliver the treatment plan that Section requires to the Division of Historical Resources and file with the County the archaeologist's certification that it has been delivered.
+
+(d) **Discovery.** Before ground disturbance, the applicant shall file the discovery plan Technical Manual Sec. B-11A.4 requires. This Section does not change any duty under s. 872.02 or s. 872.05, Florida Statutes. Within [one (1)] business day after giving any notice those sections require, the applicant, and after approval the operator, shall also notify the County that a discovery was made, without stating its location within the site.
+
+(e) **Location information.** The applicant shall deliver each report under this Section that identifies the location of an archaeological site, burial ground, cemetery, or burial to the Division of Historical Resources of the Department of State for the Florida Master Site File, and shall file with the County only the certifications this Section requires and the certification and summary Technical Manual Sec. B-11A.5 requires, none of which states a location more precise than the parcel. No finding under this Section rests on a location withheld from the County's file.
+
+(f) **Land already disturbed.** This Section applies only to ground disturbance after its effective date.
+
+## Sec. 12. Hazardous Systems and Emergency Planning.
+
+(a) **BESS.** BESS installations shall be sited not less than [one hundred (100)] feet from any property line and [three hundred (300)] feet from any residential structure or Sensitive Receptor, and shall meet Technical Manual Sec. B-12.1.
+
+(b) **Fuel storage.**
+
+  (1) Aggregate on-site liquid fuel storage shall not exceed [insert] gallons without a written finding of necessity by the County Administrator. The County Administrator shall make the finding where a Florida-licensed professional engineer certifies, and the County's reviewing engineer accepts in writing, that the storage above that volume is no more than is needed to run the facility's standby generation at its design emergency load for [__] hours, or for the run time the Florida Fire Prevention Code or a state or federal permit requires for the facility, whichever is longer, and the storage meets paragraph (2).
+
+  (2) All fuel storage shall be either within secondary containment sized to [one hundred ten percent (110%)] of the largest single tank, with sufficient freeboard to contain precipitation where the containment is open to rain, or in a double-walled tank whose outer tank holds the full capacity of the inner tank and whose interstice is monitored; shall be set back not less than [two hundred (200)] feet from a Sensitive Receptor; and shall be outside any wellfield protection zone.
+
+  (3) Before a certificate of occupancy, the applicant shall file the spill prevention and emergency response plans Technical Manual Sec. B-12.2 requires.
+
+(c) **Emergency planning.** Before a certificate of occupancy, the operator shall deliver to the fire department the pre-incident plan Technical Manual Sec. B-12.3 requires. The operator shall participate in a joint exercise with the fire department not less than [annually].
+
+(d) **Chemicals and fluids.** The operator shall not use firefighting foams or heat-transfer or dielectric fluids containing intentionally added PFAS where a commercially available alternative exists, and shall file the chemical inventory and annual certification Technical Manual Sec. B-12.4 requires.
+
+## Sec. 13. Equipment Stewardship.
+
+(a) **Disposal.** No Covered Equipment shall be disposed of in any landfill, transfer station, or municipal solid waste stream in the County. As a condition of the development order for a Covered Facility, and as a covenant of the operator as to its own conduct, the operator shall not cause or permit the disposal of Covered Equipment decommissioned at that facility in any landfill, transfer station, or municipal solid waste stream, wherever located. This subsection regulates the conduct of a person operating a Covered Facility in the County and does not regulate any facility, transaction, or person outside the County. Compliance is shown by the routing records under subsection (e).
+
+(b) **Routing.** Within [one hundred eighty (180)] days of decommissioning, Covered Equipment shall be routed, at the operator's sole election, through one or more of: (1) a Certified Recycler; (2) a documented manufacturer takeback, exchange, or warranty program; (3) verified resale or redeployment into functional secondary use; or (4) donation or below-market transfer, as-is and without warranty, to a Qualified Refurbisher, accompanied by Verified Sanitization certificates. Nothing in this Section requires the donation pathway or designates or prefers any recipient.
+
+(c) **Data security.** No Data-Bearing Media shall leave a Covered Facility by any pathway without Verified Sanitization. Media that cannot be verifiably sanitized shall be physically destroyed on site and routed under subsection (b)(1) or (2). An operator may exclude Data-Bearing Media from the donation pathway entirely. A donating operator's responsibility for a donated item ends at transfer, and the recipient assumes all risk, if the sanitization certificates were delivered.
+
+(d) **Registry.** The County shall maintain, without fee, a ministerial registry of Qualified Refurbishers as Technical Manual Sec. B-13.2 provides. The County shall not designate, prefer, or limit refurbishers. The registry does not create, restrict, or adjudicate any right of first refusal, priority, or other contractual right that an operator grants voluntarily to any person in a development agreement, lease, or other instrument, and no such right is a designation or preference by the County.
+
+(e) **Records.** The operator shall report routing in the annual compliance report and retain certificates as Technical Manual Sec. B-13.3 requires.
+
+## Sec. 14. Decommissioning and Financial Assurance.
+
+(a) **Plan.** With the first site plan application, and updated every [five (5)] years, the operator shall file a decommissioning and adaptive-reuse plan addressing removal of BESS, fuels, coolants, and hazardous materials; demolition or reuse of structures; and stabilization and revegetation.
+
+(b) **Financial assurance.**
+
+  (1) Before the first building permit for any compute hall, the operator shall deliver, and shall then maintain, a performance bond, irrevocable letter of credit, or cash escrow with a bank or trust company under an agreement the County Attorney approves, in the amount of a Florida-licensed professional engineer's estimate of decommissioning and restoration cost net of salvage value (salvage credited not below zero), or $[______] per installed megawatt, whichever is greater, plus, where Sec. 8 applies, the claims amount under paragraph (5). No parent guaranty or self-bond qualifies. The engineer shall be independent of the operator. The assurance shall be recertified upon any capacity increase and at each plan update. In this subsection, "installed megawatt" means a megawatt of Aggregate Infrastructure Demand of the phases in operation or under construction.
+
+  (2) The per-installed-megawatt amount shall be adjusted on each anniversary of the effective date by the Consumer Price Index for All Urban Consumers published by the United States Bureau of Labor Statistics, or its successor index. No adjustment shall reduce the amount below the amount in effect for the preceding year, and the amount remains flat during any deflationary period until positive inflation resumes. The adjusted amount applies at each recertification.
+
+  (3) The estimate shall state the cost of compliance with Sec. 13, including routing, transport, and Verified Sanitization, as a gross line item, and that cost shall not be reduced by any salvage credit. Any salvage credit exceeding [__] percent of the gross estimate shall be supported by a written appraisal, prepared within twelve (12) months of the certification by a person qualified to value the equipment class, and salvage shall be credited at the lower of the appraised value or the engineer's estimate.
+
+  (4) The County may draw on the assurance only to perform unfinished decommissioning obligations or to pay a well owner claim under Sec. 8(e) that the applicant has not paid when due. The draw may be made when an amount remains unpaid [thirty (30)] days after it was due, or an obligation remains unperformed [sixty (60)] days after performance was due. [Drafting note, remove before the draft is made public: Where the County also uses a development agreement for a data center, set these two periods equal to that agreement's cure periods for a payment and for any other obligation; under a lease of County land, the lease's own draw terms govern its decommissioning security.] Notice is given where the law permits it, but is not a condition of the draw. Within [ninety (90)] days after a draw for decommissioning, the County shall solicit the work, and shall begin it within [twelve (12)] months unless a court order or pending permit prevents it. Drawn funds are held in a separate account applied only to the work or claim for which they were drawn. Within [thirty (30)] days after any draw, the operator shall restore the assurance to the amount this subsection requires, less any drawn funds the County still holds, unspent, for the work or claim for which they were drawn. No delay by the County releases or reduces the assurance or any obligation of the operator. The County shall release the assurance upon completed restoration and payment of each well owner claim under Sec. 8(e) made before then.
+
+  (5) The claims amount is the total that the hydrogeologic study under Sec. 8(b) states under Technical Manual Sec. B-8.5. The operator shall deliver the assurance for it not later than the date the withdrawal begins, if that is earlier than paragraph (1) requires. It is restated with each study filed under Sec. 8(b), and paragraph (2) adjusts it as it adjusts the per-installed-megawatt amount. Where Sec. 8(e)(4) ends paragraphs (1) to (3) of Sec. 8(e), the claims amount becomes the amount of the claims made before then that remain unpaid, and secures only those claims. Nothing in this subsection limits, conditions, or suspends a withdrawal, or the date on which one may begin, and no failure to deliver, maintain, or restore the claims amount is enforced by curtailing, conditioning, or suspending a withdrawal of water.
+
+(c) **Abandonment.**
+
+  (1) The operator shall notify the County in writing within [__] days after the principal use ceases, unless the use has resumed within that period.
+
+  (2) Cessation of the principal use for [three hundred sixty-five (365)] consecutive days without an inactivity plan approved under subsection (d) is abandonment. Upon abandonment, the decommissioning plan becomes enforceable and the assurance may be drawn as subsection (b)(4) provides.
+
+  (3) The operator shall commence decommissioning within [__] days after abandonment and complete it within [__] months after abandonment. The County Administrator may extend either period for good cause shown, by a written decision that states the cause. The operator shall post each such decision on the project page under Sec. 17(b), and the County shall publish it when it is issued.
+
+(d) **Inactivity plan.**
+
+  (1) An operator may file an inactivity plan with the County Administrator not later than [__] days before the end of the period stated in subsection (c)(2).
+
+  (2) The County Administrator shall approve or deny the plan in writing within [__] days after it is filed, stating the reasons for any denial. The County Administrator shall approve a plan that (A) states the date by which the principal use will resume, not later than [__] months after the use ceased; (B) provides for the security, maintenance, fire protection, and stormwater management of the site, and for the safe storage or removal of BESS, fuels, coolants, and hazardous materials, during inactivity; and (C) keeps the assurance under subsection (b) in force.
+
+  (3) An approved plan ends on the resumption date it states. If the principal use has not resumed by that date, the use is abandoned on that date or at the end of the period stated in subsection (c)(2), whichever is later.
+
+## Sec. 15. Review.
+
+(a) **Procedure.** An application for a Covered Facility is decided under the County's [special exception / conditional use] procedure in [Section __] of the Land Development Code[, or, where the County has adopted Sec. 15A, under Sec. 15A,] and under this Chapter.
+
+(b) **Independent technical review.**
+
+  (1) Before an application is deemed complete, the applicant shall deposit into an escrow account, in an amount the County establishes by resolution, funds sufficient to pay the County's reasonable cost of independent technical review of the application.
+
+  (2) The County selects and directs each consultant. The applicant has no role in selection, scope, direction, or communication with a consultant, except to respond to requests for information.
+
+  (3) The applicant, and after approval the operator, shall replenish the escrow on [thirty (30)] days' notice. Until it is replenished, review of the application pauses and no review or decision period under this Chapter runs. Before the notice period ends, the applicant shall either replenish the escrow or extend the time for decision, by a written agreement under s. 125.022(2)(b)4., Florida Statutes, for the period of the pause, which the County Administrator shall enter into on the applicant's request. Where the applicant does neither, the County decides the application within the period s. 125.022(2)(b), Florida Statutes, allows, on the record then before it. The escrow funds review under Secs. 4(d), 5(b), 5(e), 7(e), 7(f), 8, 9(e), 11(c), 11A, 12(b)(1), and 15(c), and post-approval compliance monitoring, annual verification, complaint response, and independent testing under Secs. 9, 17, and 18.
+
+  (4) Any unused balance is refunded within [__] days after the final decision on the application or its withdrawal. After approval, the County funds the post-approval work listed in paragraph (3) from deposits it requires under that paragraph and refunds any unused balance of them within [__] days after decommissioning under Sec. 14 is complete.
+
+  (5) The deposit is a requirement for a complete application and is not a condition of approval.
+
+(c) **Cumulative impact assessment.**
+
+  (1) The applicant shall submit a cumulative impact assessment, with the scope Technical Manual Sec. B-15.1 requires, where the application would bring the aggregate Approved Capacity of all Covered Facilities in the County to [one hundred fifty (150)] MW or more, or where any other Covered Facility is located within [five (5)] miles of the site, within the same springshed or recharge basin, or served by the same substation or transmission circuit.
+
+  (2) The assessment shall be prepared without regard to common ownership. Facilities under separate ownership are included where they meet paragraph (1).
+
+  (3) The findings on the application shall state whether the standards of this Chapter remain adequate at the cumulative level assessed. The County may impose a condition addressed to cumulative effect that the application considered alone would not warrant only where the assessment shows that, at the cumulative level, (A) sound at a shared Sensitive Receptor would exceed a limit of Sec. 9(a); (B) aggregate electrical demand, or water or wastewater loading, would exceed the capacity stated in the providers' letters under Sec. 4(d); (C) combined cones of depression would reach a well or spring outside the cone projected for the application alone; (D) traffic would exceed the County's adopted level of service standard on a road segment; or (E) aggregate emergency response demand, including simultaneous generator operation and aggregate fuel and BESS storage, would exceed the capability the fire service provider having jurisdiction states in writing. A condition shall go no further than needed to bring the cumulative result within the limit, capacity, or standard exceeded or, under clause (C), to extend Sec. 8(d) and (e) to the wells within the combined cone, and shall not require a payment, dedication, contribution, or conveyance. The findings shall also state whether combined surface water withdrawals would draw a source below a minimum flow or level the water management district has adopted under s. 373.042, Florida Statutes. That finding is not a ground for a condition, and the County shall send it to the district when it renders its decision on the application.
+
+(d) **Coordinated review.**
+
+  (1) At an applicant's written request, and at its cost under a fee or cost-recovery agreement at rates the Board sets by resolution, the County may assign dedicated staff or a coordinator to the application, consolidate the applicant's concurrent applications for different approvals into one review track, hold pre-application and interagency conferences, and give factual letters confirming zoning status, entitlement status, concurrency status, and compliance history to a utility, a water management district, or a state permitting agency. Sec. 3(d) applies in every case.
+
+  (2) Coordinated review does not shorten or extend any review period, give any application priority over another, or delay an application whose applicant has not asked for it. Staff assigned under this subsection are added to, and not drawn from, the staff reviewing other applications.
+
+  (3) A factual letter states facts only. The County makes no commitment to support, advocate for, or refrain from opposing any application before another agency, and no letter is an endorsement.
+
+  (4) No decision under this Chapter may turn on whether an applicant has a coordinated review agreement.
+
+(e) **Sec. 15A.** Sec. 15A applies only where the Board adopts it by a separate section of an ordinance. If Sec. 15A is not adopted, is repealed, or is held invalid in whole or in part, the rest of this Chapter continues in full force; each reference in it to Sec. 15A or to a Tier 2 data center is of no effect and shall be disregarded, the remaining text being given its ordinary meaning without that reference; and the Development Unit rules apply to the Tier 3 thresholds alone.
+
+(f) **Development agreement study.** Section 4A of the ordinance adopting this Chapter governs a request that the County consider a development agreement for a Covered Facility, including the deposit for the County's impact, nexus, and proportionality findings.
+
+(g) **Later site plans.** In this subsection and Secs. 5(h) and 9(e), a later site plan is a site plan for a Covered Facility filed after the decision under Sec. 15(a). [Option A: A later site plan for a Covered Facility is decided by [the planning commission / the Board] and is not designated for administrative review and approval by local government staff under s. 163.3169(1)(q), Florida Statutes.] [Option B: A later site plan for a Covered Facility that conforms to the approval under subsection (a) is designated for administrative review and approval by local government staff under s. 163.3169(1)(q), Florida Statutes, where it also meets the other terms of that paragraph.] [Drafting note, remove before the draft is made public: Under Option B, in a county with a population of 75,000 or more, an applicant may also file a later site plan through the County's program under s. 125.022(1), Florida Statutes, with its deemed completeness and deemed approval. Where the County had, on or before 1 July 2026, a program that makes available the same or substantially similar development preapplication consulting services, s. 125.022(1) may not be construed to affect or require the modification of that program, so those periods might not apply to a site plan filed through it (s. 125.022(1)(a)). Under Option A, later site plans stay under s. 125.022(2).] Approval of a later site plan, including a deemed approval under s. 125.022(1)(d)2., Florida Statutes, does not relieve the operator of any requirement of this Chapter, including Sec. 9(e) and (f).
+
+**Sec. 15A. Conditional Use Review.** [Reserved. Where the Board adopts Module M1, insert Sec. 15A here.]
+
+## Sec. 16. Agreements Not Considered; Rehearing.
+
+(a) **Not waivable.** This Section is not waivable by the applicant, by the County, or by agreement.
+
+(b) **Agreements not considered.** In administering this Chapter, including in making any determination under Sec. 3 or Sec. 19, in deciding any application, and in granting any reduction, finding, alternative compliance, or extension this Chapter permits, the County shall not consider, request, require, solicit, or take into account whether the applicant has entered into, has offered to enter into, has negotiated or discussed, or has declined to enter into any development agreement, host community development agreement, ground lease, community benefits agreement, contribution, or other voluntary undertaking with the County or with any other person. The County shall not condition any approval or determination, or its timing, or the application of any standard of this Chapter, on any such instrument, and shall not delay or expedite any determination because of one. This Chapter neither requires any such instrument nor conditions anything on one. No County officer or employee acting as such shall refer any person to the applicant, or the applicant to any person, for the purpose of any such instrument to which the County is not a party, attend or facilitate the negotiation of one, review its drafts, or describe it in a staff report, agenda item, or application form, except to record its receipt, filing, disclosure, or disposition, without stating its terms, as subsection (d) contemplates.
+
+(c) **Rehearing.** A decision or determination in which such consideration occurred shall be vacated and reheard on request of the applicant or of any other person entitled to participate as a party under the County's quasi-judicial procedures, made within [thirty (30)] days after the decision is rendered, or on the Board's own motion within the same period. A request shall identify the statement, document, or other evidence, in the record or in a public record, showing the consideration. The Board shall deny, without rehearing, a request that identifies none. The Board decides a timely request at its next regular meeting held at least [__] days after it is filed, by a signed, written order filed with the Clerk of the Board. A timely request under this subsection is a motion for rehearing authorized by this Chapter, whether or not it identifies evidence. A rehearing on the Board's own motion does not postpone rendition.
+
+(d) **Record.** Nothing in this Section authorizes the omission, alteration, or withholding of any record. Receipt, filing, retention, or publication of a copy of an agreement described in this Section, as chapter 119 or s. 286.0115, Florida Statutes, requires, is not consideration of it. All communications remain subject to chapter 119, Florida Statutes, and any such consideration appearing in the record is evidence that this Section was violated. A statement in the record that a person or public body is a party to, or holds an interest under, an agreement described in this Section is not consideration of that agreement, provided that no decision-maker relies on the agreement's terms in any decision under this Chapter, other than as subsection (e) allows.
+
+(e) **Default under a County development agreement.** Where a development agreement to which the County is a party provides for a written denial of an application for the development it governs, as a remedy for the other party's uncured default under that agreement in an obligation that mitigates an impact of that development, subsection (b) does not bar consideration of that default, or of the terms of the agreement that state the obligation and the remedy, in deciding whether to make the denial or in the denial; that consideration does not violate this Section, and subsection (c) does not apply to it. The denial is made after the notice and cure that agreement requires and within the periods s. 125.022, Florida Statutes, allows; it states the default, the notice and the cure period, and is without prejudice to a new application once the default is cured. Except as to consideration of that default and those terms, subsections (b) and (c) apply to the denial and to the decision whether to make it, and no denial may rest on any other term of any agreement. [Drafting note, remove before the draft is made public: Subsection (e) is the County's choice: keep it where the County uses a development agreement that provides a written denial as the remedy for an uncured default in an obligation that mitigates an impact, and otherwise omit it and the words ", other than as subsection (e) allows" at the end of subsection (d).]
+
+## Sec. 17. Monitoring, Reporting, Public Information, and Complaints.
+
+(a) **Annual compliance report.** The operator of each Covered Facility shall file an annual report demonstrating compliance with Secs. 5 through 14, with the content and in the human-readable and machine-readable formats Technical Manual Sec. B-17.1 provides. The report may be consolidated with any report required under a development agreement or lease. It is due within [ninety (90)] days after the close of each calendar year, the first report being due for the first calendar year in which the facility operates for any part of the year. The County shall publish each report within [thirty (30)] days of filing, except any portion lawfully exempt from disclosure.
+
+(b) **Project page.** From the first application for a Covered Facility until decommissioning under Sec. 14 is complete, the applicant, and after approval the operator, shall maintain a public project web page. The page shall state the approvals and permits issued, a current contact available at all hours for complaints, and the current status of construction and operation, and shall link to the sound dashboard under Sec. 9(c), the acoustic study under Sec. 9(e) and each update of it, each commissioning test report under Sec. 9(f), the generator testing schedule under Sec. 10(c), and each annual compliance report.
+
+(c) **Complaints.** The operator shall accept complaints by telephone, by electronic form, and by mail, including anonymous complaints. It shall acknowledge each identified complainant within [__] hours, investigate, and give a written response stating its findings and any corrective action within [__] days.
+
+(d) **Complaint log.** The operator shall keep a complaint log, which omits each complainant's personal information unless the complainant consents, and shall file it, with the summary Technical Manual Sec. B-17.2 requires, with the annual compliance report. The County publishes the log with that report.
+
+(e) **Complaints to the County.** The operator shall forward to the County's code enforcement official, within [__] business days, any complaint alleging a violation of this Chapter. It shall include the complainant's name and address only if the complainant consents after being told that a complaint forwarded to the County is a public record. Under ss. 125.69(4)(b), 162.06(1)(b), and 162.21(3)(b), Florida Statutes, a code inspector may not initiate enforcement proceedings, and a code enforcement officer or a code inspector designated under s. 125.69(4) may not initiate an investigation, by way of an anonymous complaint, unless the inspector or officer has reason to believe that the violation presents an imminent threat to public health, safety, or welfare or imminent destruction of habitat or sensitive resources. Nothing in this Section limits any person's right to complain directly to the County, or any enforcement under Sec. 18.
+
+(f) **No retaliation.** The operator shall not retaliate against any person for making a complaint.
+
+## Sec. 18. Enforcement.
+
+(a) **Inspection.** The County may inspect on reasonable notice, consistent with facility security protocols, to verify compliance with this Chapter. Where the County reasonably suspects an unsafe condition, the operator shall provide access within [__] hours after notice. If access is not given, the County may apply for an inspection warrant under ss. 933.20 to 933.30, Florida Statutes. Refusal of an entry that no warrant authorizes is not a violation of this Chapter, and nothing in this Section limits entry in an emergency.
+
+(b) **Penalties and injunction.** Violations are punishable as provided by s. 125.69, Florida Statutes, and enforceable under chapter 162, Florida Statutes. Each day of continuing violation is a separate violation. The County may seek injunctive relief, the standards of this Chapter protecting interests for which legal remedies are inadequate.
+
+(c) **Curtailment.** Upon a violation of Sec. 7, Sec. 8, or Sec. 12(a), (c), or (d) not cured within the period this Chapter allows, the County may require curtailment of the offending equipment or system, other than a withdrawal of water, until compliance is restored, in the manner Sec. 9(d) provides for sound. No curtailment shall be required where the fire official determines in writing that it would create a greater hazard to life or property; the operator shall then implement the measure the fire official approves, which shall achieve compliance as far as safety allows.
+
+(d) **Development orders.** Upon a violation not cured within the applicable period, the County may withhold or suspend further development orders, certificates of occupancy, and building permits as to land within the Development Unit until compliance is restored, except a building permit whose plans comply with the codes that s. 553.79(2)(a)4., Florida Statutes, names, and a development order to the extent it issues such a permit. A development permit or development order applied for, as s. 125.022(3), Florida Statutes, defines those terms, is withheld only by a written denial within the periods that section allows. The denial states its findings and cites this subsection, and it is without prejudice to a new application once compliance is restored. This subsection does not authorize revocation of a certificate of occupancy in effect for occupied space, does not apply to permits sought to cure the violation, and does not extend or suspend any period stated in Sec. 15A(f) as to any application by a person not in violation.
+
+(e) **Irreparable harm.** The Board finds that violations of Secs. 7, 8, 9, 10, 11A, and 12(a), (c), and (d) may result in irreparable or irreversible harm within the meaning of s. 162.09(2)(a) and (d), Florida Statutes, and directs the County's code enforcement board or special magistrate to consider that finding in fixing any fine.
+
+## Sec. 19. Existing Facilities.
+
+(a) **Nonconforming status.** A Covered Facility lawfully established before the effective date of this Chapter, and a Tier 2 data center lawfully established before the effective date of Sec. 15A, is a lawful nonconforming use governed by the County's generally applicable nonconforming use provisions, except as Sec. 1(b), this Section, and Sec. 15A(g) provide.
+
+(b) **Repair and replacement.** An existing facility may continue and may be repaired, maintained, and re-equipped. When a system is replaced, the replacement shall comply with the standards of Secs. 7 through 14, other than Secs. 11(a), 11(b), and 12(b), that apply to that system, and Sec. 5(h) measures a replacement BESS as an improvement first shown on the site plan or permit that authorizes its replacement.
+
+(c) **Voluntary compliance.** The owner or operator of a nonconforming Covered Facility may apply for a determination that the use conforms to this Chapter. The application shall include a compliance schedule identifying each standard of Secs. 5 through 14, the means of compliance, and the date by which compliance will be achieved. For the determination, an improvement that a site plan approved before the effective date of this Chapter first showed is measured under Sec. 5(h) as the property lines, properties, rights-of-way, residential structures, and Sensitive Receptors exist on that effective date.
+
+(d) **Alternative compliance.** Where a standard cannot be met because of the existing configuration of structures lawfully constructed before the effective date, the applicant may propose alternative compliance. The County Administrator or designee may approve it only on a written finding, supported by a certification of a Florida-licensed professional engineer or other qualified professional, that the proposed measures achieve substantially the protective effect of the standard or, where they do not, that no feasible measure would and that the residual impact is mitigated to the extent practicable. The approval shall state the standard, the prescribed method, the alternative approved, and the basis for the finding, and shall be included in the record of the determination. Alternative compliance is not available as to Sec. 5(d) to (g), Sec. 7(a)(1), Sec. 11(a), Sec. 11A, or Sec. 14.
+
+(e) **Effect of determination.** Upon the County's written determination that the compliance schedule has been performed, the use is a conforming use for all purposes of the County's land development regulations. The determination is a ministerial confirmation of performance and is not a variance, a rezoning, a development order, or a special exception.
+
+(f) **Revocation.** A determination under subsection (e) is subject to revocation, after notice and an opportunity to cure, upon a finding that the use has ceased to comply with a standard on which the determination rested.
+
+(g) **No status created for exchange.** Nothing in this Chapter shall be construed to create or continue nonconforming status for the purpose of inducing any applicant to enter into any agreement or make any contribution. Relief under this Section is available on compliance alone.
+
+---
+
+## AUTHOR
+
+*Prepared by Timothy Smith · Citizen-prepared working draft · Not legal advice.*
+
+*Citizen-prepared. Not legal advice. The author is not licensed to practice law and is not affiliated with, and does not write on behalf of, any university, law school, clinic, law firm, or governmental body. No attorney-client relationship is created by this document or by any use of it. Any jurisdiction considering adoption should obtain review by licensed counsel admitted in that jurisdiction.*
+
+*The release notes (CHANGELOG) published with each release identify its contents and the current version of each instrument.*

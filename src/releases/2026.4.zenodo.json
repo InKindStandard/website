@@ -1,0 +1,263 @@
+{
+ "release": "2026.4",
+ "read": "Zenodo records API, read in the browser, 11 November 2026",
+ "records": {
+  "instruments": {
+   "id": 24021154,
+   "doi": "10.5281/zenodo.24021154",
+   "conceptdoi": "10.5281/zenodo.22216018",
+   "license": "CC0 1.0",
+   "title": "Model Instruments for Data Center Development in Florida Counties (Release 2026.4)",
+   "published": "2026-11-06",
+   "total": 2168730,
+   "files": [
+    {
+     "name": "000_START_HERE.md",
+     "size": 7033,
+     "md5": "09e1b61f7e3b768bc10265b44e5cdafb"
+    },
+    {
+     "name": "002_MANIFEST.txt",
+     "size": 6720,
+     "md5": "b99399176a64fea8b34f16ab55fee31f"
+    },
+    {
+     "name": "CBA_Clause_Bank_v1_8_annotated.md",
+     "size": 19418,
+     "md5": "90406f6379844b6cc17f92514af7ece6"
+    },
+    {
+     "name": "CBA_Clause_Bank_v1_8_clean.md",
+     "size": 15882,
+     "md5": "e6d60ec705c0d9755829098d6d45eb3e"
+    },
+    {
+     "name": "CHANGELOG_v2026.4.md",
+     "size": 32645,
+     "md5": "f00178fae638934284d411c47370788a"
+    },
+    {
+     "name": "County_Procedure_and_Records_Kit_v1_12_annotated.txt",
+     "size": 64346,
+     "md5": "7d2af5130cc4ea4233b5a503b2dba6d6"
+    },
+    {
+     "name": "County_Procedure_and_Records_Kit_v1_12_clean.txt",
+     "size": 61687,
+     "md5": "ecabc4c2d750b7fdab8912fc263f2b55"
+    },
+    {
+     "name": "Data_Center_Technical_Manual_v1_11_annotated.txt",
+     "size": 36628,
+     "md5": "b2b731534015241ecba4772b6ba8d230"
+    },
+    {
+     "name": "Data_Center_Technical_Manual_v1_11_clean.txt",
+     "size": 34634,
+     "md5": "05c4338ec92e0ba95054c2bd6c116741"
+    },
+    {
+     "name": "Drafters_Notes_v1_20.md",
+     "size": 154329,
+     "md5": "439a165c4e57c36569e8feb531ac4fc2"
+    },
+    {
+     "name": "Exhibit_B_Outline_and_Methodology_v1_9_annotated.txt",
+     "size": 32273,
+     "md5": "88c8a665bf7716fdc48e50a977ca4542"
+    },
+    {
+     "name": "Exhibit_B_Outline_and_Methodology_v1_9_clean.txt",
+     "size": 29813,
+     "md5": "6b637ac5b7b56491346590b34620cf58"
+    },
+    {
+     "name": "LICENSE_RECORD_1_CC0.txt",
+     "size": 2091,
+     "md5": "8f4dec44dbb8096105448463006958f5"
+    },
+    {
+     "name": "LICENSE_RECORD_2_CCBY.txt",
+     "size": 2041,
+     "md5": "00ec4cd8234b560022bf65dc4eb15773"
+    },
+    {
+     "name": "Model_Community_Benefits_Agreement_v0_15_annotated.md",
+     "size": 124532,
+     "md5": "65c209af1ab40c05812232f41321b63f"
+    },
+    {
+     "name": "Model_Community_Benefits_Agreement_v0_15_clean.md",
+     "size": 118985,
+     "md5": "308bf2be81ac44e970245a6c796e8da7"
+    },
+    {
+     "name": "Model_Data_Center_Public_Safety_Impact_Fee_Ordinance_v0_8_annotated.md",
+     "size": 33252,
+     "md5": "7d7ec926a1ab50e329c4f17446d8bed9"
+    },
+    {
+     "name": "Model_Data_Center_Public_Safety_Impact_Fee_Ordinance_v0_8_clean.md",
+     "size": 30284,
+     "md5": "bcc99d7c975d918e9de90b15d8e9405e"
+    },
+    {
+     "name": "Model_Data_Center_Standards_Ordinance_v3_14_annotated.txt",
+     "size": 107221,
+     "md5": "3637a96f4b186179e69c5f9a26bcb002"
+    },
+    {
+     "name": "Model_Data_Center_Standards_Ordinance_v3_14_clean.txt",
+     "size": 101432,
+     "md5": "383158cbbe421eae9f671edfa2276ab4"
+    },
+    {
+     "name": "Model_Ground_Lease_v1_17_annotated.txt",
+     "size": 95846,
+     "md5": "35f2f859138c65d670c4bc23d132f4d4"
+    },
+    {
+     "name": "Model_Ground_Lease_v1_17_clean.txt",
+     "size": 91665,
+     "md5": "b7395a354a071c80ccf546e980266844"
+    },
+    {
+     "name": "Model_HCDA_Exhibits_and_Forms_v2_12_annotated.txt",
+     "size": 30439,
+     "md5": "e5ee627761b2d52d5dad4762ad3613ec"
+    },
+    {
+     "name": "Model_HCDA_Exhibits_and_Forms_v2_12_clean.txt",
+     "size": 28653,
+     "md5": "aeb54c1fc05db63e32985092f1930945"
+    },
+    {
+     "name": "Model_HCDA_v2_20_annotated.txt",
+     "size": 127380,
+     "md5": "ce5b9f68f134255ceab1fcc52a4a467f"
+    },
+    {
+     "name": "Model_HCDA_v2_20_clean.txt",
+     "size": 121651,
+     "md5": "f64730e9c29013c95cca254f1a524b4c"
+    },
+    {
+     "name": "Module_M1_Review_Procedure_v1_2_annotated.txt",
+     "size": 11122,
+     "md5": "b6a289265a3a4f0be02fd11beb320d8f"
+    },
+    {
+     "name": "Module_M1_Review_Procedure_v1_2_clean.txt",
+     "size": 8578,
+     "md5": "90485d4aac1de14cf2b1e41d55cd9e73"
+    },
+    {
+     "name": "Module_M2_Emergency_Power_for_County_Facilities_v1_5_annotated.txt",
+     "size": 28280,
+     "md5": "bc17a388fc32ac36b50e37c54f08e49a"
+    },
+    {
+     "name": "Module_M2_Emergency_Power_for_County_Facilities_v1_5_clean.txt",
+     "size": 24633,
+     "md5": "db829e68b37e2688985ded15c1a10380"
+    },
+    {
+     "name": "Module_M3_Civic_Compute_Allocation_v1_10_annotated.md",
+     "size": 213810,
+     "md5": "8a8a56d84a0f599a3f3829ee788f8cd0"
+    },
+    {
+     "name": "Module_M3_Civic_Compute_Allocation_v1_10_clean.md",
+     "size": 208393,
+     "md5": "8b83cfc80b839814c1b16274de189e50"
+    },
+    {
+     "name": "Module_M3_Options_v1_5_annotated.md",
+     "size": 27333,
+     "md5": "aec8b46a59c66ffe25b28ee87e69a60e"
+    },
+    {
+     "name": "Module_M3_Options_v1_5_clean.md",
+     "size": 24520,
+     "md5": "4c5b1588639b9e936282594ed1db9033"
+    },
+    {
+     "name": "README_RECORD_1_INSTRUMENTS.md",
+     "size": 7178,
+     "md5": "bbe124c48fdb2f7396a8909a2b5b64de"
+    },
+    {
+     "name": "Supplemental_Operating_Covenants_Schedule_v1_9_annotated.txt",
+     "size": 53607,
+     "md5": "a32aa74dedc41b1792c584d897b25467"
+    },
+    {
+     "name": "Supplemental_Operating_Covenants_Schedule_v1_9_clean.txt",
+     "size": 50396,
+     "md5": "367b06ddae71a21c8aa3f990532e8a32"
+    }
+   ]
+  },
+  "guide": {
+   "id": 24021153,
+   "doi": "10.5281/zenodo.24021153",
+   "conceptdoi": "10.5281/zenodo.22216262",
+   "license": "CC BY 4.0",
+   "title": "Model Instruments for Data Center Development in Florida Counties: Guide, Open Legal Questions and Methodology (Release 2026.4)",
+   "published": "2026-11-06",
+   "total": 507283,
+   "files": [
+    {
+     "name": "000_START_HERE.md",
+     "size": 7033,
+     "md5": "09e1b61f7e3b768bc10265b44e5cdafb"
+    },
+    {
+     "name": "002_MANIFEST.txt",
+     "size": 6720,
+     "md5": "b99399176a64fea8b34f16ab55fee31f"
+    },
+    {
+     "name": "CHANGELOG_v2026.4.md",
+     "size": 32645,
+     "md5": "f00178fae638934284d411c47370788a"
+    },
+    {
+     "name": "Consideration_Adequacy_and_Fit_Test_v1_6.md",
+     "size": 41179,
+     "md5": "3c284eb4c5eafb1339082f47a83a2e44"
+    },
+    {
+     "name": "In_Kind_Eligibility_and_Characterization_Test_v1_10.txt",
+     "size": 57810,
+     "md5": "93de4ef14b7df40bf5c53e6180aca057"
+    },
+    {
+     "name": "LICENSE_RECORD_1_CC0.txt",
+     "size": 2091,
+     "md5": "8f4dec44dbb8096105448463006958f5"
+    },
+    {
+     "name": "LICENSE_RECORD_2_CCBY.txt",
+     "size": 2041,
+     "md5": "00ec4cd8234b560022bf65dc4eb15773"
+    },
+    {
+     "name": "Open_Legal_Questions_Release_2026_4.md",
+     "size": 321559,
+     "md5": "f3dbaafa3944dd7ce027cb0b49a066c5"
+    },
+    {
+     "name": "Plain_Language_Guide_Release_2026_4.md",
+     "size": 33112,
+     "md5": "e484553e3e6e4b8fc29bc151920b80c0"
+    },
+    {
+     "name": "README_RECORD_2_METHODOLOGY.md",
+     "size": 3093,
+     "md5": "ce01eb799654ff59e6ecd0cbd9d94073"
+    }
+   ]
+  }
+ }
+}
