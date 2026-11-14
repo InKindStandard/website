@@ -1,0 +1,57 @@
+CC0 1.0 UNIVERSAL: PUBLIC DOMAIN DEDICATION
+
+Model Instruments for Data Center Development in Florida Counties, Release
+2026.4, by Timothy Smith is marked CC0 1.0 Universal.
+Releases through 2026.2 were published as the Automation Resilience and
+Community Benefit Framework.
+
+To view a copy of this dedication, visit:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Work: 10.5281/zenodo.24021154
+Year: 2026
+
+---
+
+WHAT THIS MEANS
+
+The author has waived all copyright and related or neighboring rights to these
+instruments to the extent possible under law. You may copy, adapt, excerpt,
+codify, and redistribute them for any purpose, including commercial purposes,
+without permission and without attribution.
+
+A county adopting provisions from these instruments need not name the author in
+the adopted instrument, in a staff report, or anywhere else.
+
+---
+
+REQUESTED, NOT REQUIRED
+
+The following is a courtesy request. It is NOT a condition of the dedication
+above and does not limit the waiver in any way.
+
+  If these instruments inform an adopted ordinance or executed agreement, a
+  citation to the deposit DOI helps others trace provenance and locate errata.
+
+---
+
+NOT WAIVED
+
+Consistent with Section 4(a) of the CC0 legal code, no trademark or patent
+rights held by the author are waived, abandoned, surrendered, licensed, or
+otherwise affected by this dedication.
+
+---
+
+NO WARRANTY; NOT LEGAL ADVICE
+
+These instruments are offered as-is, without warranties of any kind. They are
+citizen-prepared work product and do not constitute legal advice. The author is
+not licensed to practice law and is not affiliated with, and does not write on
+behalf of, any university, law school, clinic, law firm, or governmental body.
+No attorney-client relationship arises from this deposit or from any use of it.
+The author makes no representation that use of this material will not infringe
+the rights of others. Any jurisdiction considering adoption should obtain review
+by counsel admitted in that jurisdiction.
+
+*Prepared by Timothy Smith · Citizen-prepared working draft · Not legal advice.*

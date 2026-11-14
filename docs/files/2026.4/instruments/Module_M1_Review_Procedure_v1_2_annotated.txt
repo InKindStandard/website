@@ -1,0 +1,76 @@
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+*LICENSE: CC0 1.0 Universal (Public Domain Dedication). To the extent possible under law, Timothy Smith has waived all copyright and related or neighboring rights to this instrument.*
+
+*ADOPTION NOTICE. **No attribution, notice, citation, credit, or acknowledgment of any kind is required in any adopted ordinance, executed agreement, staff report, or recorded instrument**, and no provision of this document shall be construed to require one. A jurisdiction may adopt, modify, renumber, or reject any portion without notice to or consent of the author. Attribution is requested only in derivative published works, and only as a courtesy.*
+
+---
+
+**FLORIDA MODEL INSTRUMENTS FOR DATA CENTER DEVELOPMENT**
+
+**MODULE M1: CONDITIONAL USE REVIEW**
+
+Optional module to the Model Data Center Standards Ordinance · Sec. 15A of Exhibit A, Data Center Standards
+
+*Model form. Remove this heading block, and every drafting note, before the County first makes the draft public.*
+
+**What this is.** Module M1 is optional: it adds Sec. 15A, a conditional use review for Tier 2 and Tier 3 data centers, for a county that does not rely on its existing special exception or conditional use procedure.
+
+**What it does.** Sec. 15A makes a Tier 2 or Tier 3 data center a conditional use wherever the use table otherwise allows it, approved on nine findings, from electric capacity and water to compliance with the standards and the comprehensive plan (subsections (a) and (b)). No condition may require a payment, dedication, contribution or conveyance, and a denial on the merits rests only on a finding not made (subsections (c) and (d)). Subsection (f) sets maximum review periods, and subsection (g) reaches an existing data center only for a load increase above a set threshold.
+
+**Works with.** Where Sec. 15A is adopted, most standards of Exhibit A apply to Tier 2 data centers (Sec. 1(c)); if it is not adopted or falls, the rest of Exhibit A stays in force and each reference to Sec. 15A or to a Tier 2 data center has no effect (Sec. 15(e)). The County Procedure and Records Kit has a staff report insert for it, and the Drafter's Notes are keyed to its subsections.
+
+**Before use.** Where the County already reviews data centers by special exception or conditional use, decide first whether Sec. 15A replaces, follows or is conformed to that procedure. Where Sec. 15A is adopted with the Standards, keep the bracketed references to Sec. 15A in that ordinance, including the phrase in its title, and insert the enactment clause as its Section 4; where it is adopted later, insert the clause, without its bracketed words on the section adopting the Standards, as a section of the later ordinance. Either way, put Sec. 15A in place of the reserved line in Exhibit A. A later ordinance follows the Kit's hearing calendar (Part E), including two advertised hearings and, while Section 28 of Chapter 2025-190, Laws of Florida, or s. 252.422, Florida Statutes, applies, the County Attorney's written determination before notice that neither bars it. Keep the completeness period in subsection (f) within the one s. 125.022(2), Florida Statutes, allows.
+
+**Known gaps.** No county has adopted this model, and no licensed attorney has reviewed it. Its findings apply the standards of Exhibit A (subsection (b)(6)), some of which rest on law that is not settled, such as the well owner claims of Sec. 8(e). The Open Legal Questions give the current reading of each.
+
+**Terms in brief.** Tier 2 and Tier 3: the two larger of the three size tiers of Exhibit A (Sec. 3(a)), measured over a data center's whole Development Unit; Tier 3 is a Covered Facility. Connected Compute Load: the nameplate capacity of the information-technology equipment installed or authorized (Sec. 2).
+
+## Enactment clause
+
+**Section 4. Conditional Use Review.** Sec. 15A, Conditional Use Review, set out in [Exhibit A / Exhibit __], is adopted as part of [Chapter / Article __] of the Land Development Code. [This Section is separate from the section of this Ordinance that adopts the Data Center Standards, and] Sec. 15(e) of the Data Center Standards governs the effect of Sec. 15A not being adopted, being repealed, or being held invalid. Sec. 15A may be codified with the County's conditional use or special exception procedures.
+
+## Sec. 15A. Conditional Use Review.
+
+(a) **Classification.** A Tier 2 or Tier 3 data center is a conditional use in every zoning district in which the use table otherwise allows it. No data center shall be established in, expanded into, or converted from another use to Tier 2 or Tier 3 except upon conditional use approval granted under this Section. A Tier 1 data center is not subject to this Section.
+
+(b) **Findings.** Conditional use approval shall be granted upon a finding, supported by competent substantial evidence in the record, as to each of the following:
+
+  (1) **Electric capacity.** Electric transmission, distribution, and generation capacity is or will be available to serve the use at the requested load, and the costs of serving the use are recoverable from the applicant without shifting cost to other retail customers or, in the case of a rural electric cooperative or municipal electric utility, to its other members or customers. Where the serving utility is a public utility subject to s. 366.043, Florida Statutes, the finding is made by reference to the applicable tariff. Where the serving utility is a rural electric cooperative organized under chapter 425, Florida Statutes, or a municipal electric utility, the finding may be made by reference to a contract, service agreement, or written commitment by which the applicant bears the connection, incremental transmission, incremental generation, and other infrastructure costs of service together with the risk of their nonpayment. The finding may be supported by a written statement from the serving utility, an interconnection or system impact study, the utility's filings with the Florida Public Service Commission, the testimony or report of a qualified professional engineer, or any combination of these.
+
+  (2) **Water.** Water supply adequate to the proposed cooling architecture is available from a lawful source consistent with Secs. 7 and 8, supported by any competent evidence, which may include a written statement from the serving utility, the consumptive use permitting posture of the water management district, or the report of a qualified professional.
+
+  (3) **Reclaimed water.** Any reclaimed water proposed is documented and reconciled with any irrigation, aquifer recharge, or other prior use to which it is committed, and any diversion from a committed recharge use is documented, as Sec. 7(b) and Technical Manual Sec. B-7.3 require.
+
+  (4) **Transportation.** The use satisfies the County's concurrency requirements for both the construction and operating phases.
+
+  (5) **Emergency response.** Fire suppression, hazardous materials, and battery and thermal event response capability adequate to the proposed installation exists or will exist upon commencement of operations, consistent with Sec. 12, supported by any competent evidence, which may include a written statement from the fire service provider having jurisdiction, a standards-of-cover analysis, or the report of a qualified professional.
+
+  (6) **Standards.** The application demonstrates compliance with Secs. 5 through 14.
+
+  (7) **Compatibility.** Siting, screening, lighting, and sound design are compatible with adjoining designated uses, and the setbacks of Sec. 5 are met or lawfully reduced.
+
+  (8) **Decommissioning.** Financial assurance under Sec. 14(b) is or will be in place.
+
+  (9) **Comprehensive plan.** The use is consistent with the [County Name] County Comprehensive Plan.
+
+The absence of a statement from the serving utility is not itself a basis for denial where a finding is otherwise supported, and no private party shall be the sole arbiter of any finding under this Section.
+
+(c) **Conditions.** The decision-making body may impose conditions reasonably related to the findings in subsection (b), including phasing tied to documented capacity availability, monitoring and reporting beyond Sec. 17(a), and limits on Connected Compute Load consistent with the evidence of available capacity. No condition imposed under this Section shall require a payment, dedication, contribution, or conveyance of any kind.
+
+(d) **Standard of decision.** Approval shall not be denied on the basis of generalized opposition, the character of the applicant, the identity of the applicant's customers, the lawful content of computation performed, or any factor not stated in subsection (b). A denial shall state in writing which finding was not made and the evidence on which the decision rests. This subsection does not apply to a denial without prejudice under Sec. 4(c)(3).
+
+(e) **Agreements not considered.** Sec. 16 applies to every decision under this Section. A decision in which consideration barred by Sec. 16 occurred is not supported by competent substantial evidence.
+
+(f) **Timeframes.** The County shall determine completeness within [thirty (30)] days of submittal, shall issue a staff report within [sixty (60)] days of a complete application, and shall schedule the public hearing at the next regularly scheduled meeting for which notice can lawfully be given. These are maximum periods, available to every applicant as of right. The County may complete a review sooner and may coordinate review under Sec. 15(d). Where a period stated in this subsection is exceeded, the County Administrator shall state the reason in writing in the application record, and the applicant is entitled on written request to have the application placed on the agenda of the next regularly scheduled meeting for which notice can lawfully be given. Exceeding a period stated in this subsection does not approve an application, does not waive any requirement of this Chapter, and does not relieve the decision-making body of the obligation to make the findings subsection (b) requires.
+
+(g) **Existing facilities.** A data center lawfully established before the effective date of this Section requires conditional use approval under this Section only for an increase in Connected Compute Load exceeding the lesser of [twenty-five percent (25%)] of the load lawfully established as of that date or [five (5)] megawatts. Sec. 19 governs its continuation, repair, and replacement of systems.
+
+---
+
+## AUTHOR
+
+*Prepared by Timothy Smith · Citizen-prepared working draft · Not legal advice.*
+
+*Citizen-prepared. Not legal advice. The author is not licensed to practice law and is not affiliated with, and does not write on behalf of, any university, law school, clinic, law firm, or governmental body. No attorney-client relationship is created by this document or by any use of it. Any jurisdiction considering adoption should obtain review by licensed counsel admitted in that jurisdiction.*
+
+*The release notes (CHANGELOG) published with each release identify its contents and the current version of each instrument.*

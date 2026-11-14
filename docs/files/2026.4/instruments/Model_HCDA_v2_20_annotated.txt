@@ -1,0 +1,702 @@
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+*LICENSE: CC0 1.0 Universal (Public Domain Dedication). To the extent possible under law, Timothy Smith has waived all copyright and related or neighboring rights to this instrument.*
+
+*ADOPTION NOTICE. **No attribution, notice, citation, credit, or acknowledgment of any kind is required in any adopted ordinance, executed agreement, staff report, or recorded instrument**, and no provision of this document shall be construed to require one. A jurisdiction may adopt, modify, renumber, or reject any portion without notice to or consent of the author. Attribution is requested only in derivative published works, and only as a courtesy.*
+
+---
+
+**FLORIDA MODEL INSTRUMENTS FOR DATA CENTER DEVELOPMENT**
+
+**Model Host Community Development Agreement**
+
+*Model form. Remove this heading block, and every drafting note, before the County first makes the draft public.*
+
+**What this is.** A development agreement under ss. 163.3220 to 163.3243, Florida Statutes, recorded as a declaration of restrictive covenants. It fixes the Project’s capacity and phases, makes the County’s standards (Exhibit “O”) and the Schedule of Supplemental Operating Covenants (Exhibit “S”) covenants running with the land, and, besides the concurrency terms of Section 2.4 and the County’s purchase of spare conduit at cost under Section 4.5, carries only mitigation that Exhibit B-1 measures. It is optional: a project may be approved under the standards without it (Section 10.2), and the County may not require it or consider an applicant’s willingness to enter into it (Section 10.3).
+
+**What it does.** Article 4 carries a Physical Infrastructure Mitigation Payment and a payment for first responders’ equipment and training, both paid into a restricted Mitigation Account outside the general fund, and, where elected, emergency power for County facilities. It also sets utility, reporting, decommissioning and vesting terms, keeps the covenants for the life of the use (Section 9.4), and provides remedies, including a written denial of further approvals during an uncured mitigation default (Section 8.2(b)).
+
+**Works with.** Exhibit “O” holds the County’s data center standards as in effect at execution; where both apply, the Standards govern the approval decision and this Agreement its obligations (Section 10.3(b)). Exhibit B-1 holds the findings of a study whose preparer the County selects (Section 4.1(d)). The County’s impact fee ordinance, where adopted, governs each category it covers (Section 4.7(b)), and Section 3.3 uses the phase evidence Module M1 describes. Exhibit “S” and Module M2 also serve a County ground lease. The Drafter’s Notes list each blank and choice.
+
+**Before use.** First confirm which retail electric provider serves the parcels (Section 5.6), and commission Exhibit B-1 before entering any amount or capability; where it supports none, none is due (Section 4.1(c)). The main elections are Recital D, the Campus Development Envelope (Section 3.2(b)), payment timing (Section 4.2(c)), Module M2 (Section 4.4), the purchase option (Section 7.4(d)) and the Parts of Exhibit “S.” Each reference to Part S-25 of Exhibit “S,” such as in Sections 5.3, 5.4 and 5.6(c), takes effect only where Part S-25 is attached, which Exhibit B-1 must support. Where a bracket names an overlay district, name the district or approval the Project is approved under. Complete Exhibits “A” and “J” before notice of the hearings; with this block, remove the lines above it and the author block, leaving the caption alone for recording (Section 10.22).
+
+**Known gaps.** No county has adopted this model, and no licensed attorney has reviewed it. No Exhibit B-1 study has been done. Some provisions rest on law that is not settled: the reach of the post-hurricane limits on land development regulations (Section 2.1); administrative review of a later Phase within the Campus Development Envelope (Section 3.2(c)); the status of the training reimbursement and Mitigation Account payments under impact fee and tax law (Sections 4.3(c) and 4.6); withholding approvals and liquidated amounts (Section 8.2(b) and (c)); whether later standards and fees reach the Project (Section 10.8); security draws after a bankruptcy filing (Sections 4.2(f) and 7.2(d)); and consideration for the covenants (Sections 10.4(b) and 10.13). The Open Legal Questions give the current reading of each.
+
+**Terms in brief.** Covered Facility: a data center in the largest tier of the Standards, as the Standards define it; Section 3.6(a) treats the Project as one.
+
+**HOST COMMUNITY DEVELOPMENT AGREEMENT AND DECLARATION OF RESTRICTIVE COVENANTS RUNNING WITH THE LAND**
+
+THIS HOST COMMUNITY DEVELOPMENT AGREEMENT AND DECLARATION OF RESTRICTIVE COVENANTS RUNNING WITH THE LAND (this “Agreement”) is made this _____ day of ________________, 20__, between [COUNTY NAME] COUNTY, a political subdivision of the State of Florida, by and through its Board of County Commissioners (the “County”), and [DEVELOPER ENTITY NAME], a [corporation / limited liability company] organized under the laws of the State of [__] and authorized to transact business in Florida (the “Developer”) (each a “Party”).
+
+**RECITALS**
+
+A. The Developer holds legal title to, or a binding contractual interest in, the land in unincorporated [COUNTY NAME] County described in Exhibit “A” (the “Project Site”).
+
+B. The Developer has applied for [a comprehensive plan amendment and a High-Density Compute Overlay District designation] [other approvals] (the “Approvals”) to construct and operate a data center on the Project Site (the “Project”). With an anticipated monthly peak load of fifty (50) Megawatts or more, calculated as the highest average load over a fifteen-minute interval at a single location, the Project is a large load customer under s. 366.043(2)(d), Florida Statutes, and a large-scale data center under s. 373.203(4), Florida Statutes.
+
+C. This Agreement is entered under the Florida Local Government Development Agreement Act, ss. 163.3220 to 163.3243, Florida Statutes (the “Act”), the County’s home rule authority under the Florida Constitution and Chapter 125, Florida Statutes, and s. 163.326, Florida Statutes.
+
+D. [Optional; include only where the County has adopted an ordinance under s. 163.3223, Florida Statutes: The County has established procedures and requirements for development agreements by Ordinance No. [__] and has considered this Agreement under them.]
+
+E. The impacts of the Project are measured in the impact, nexus, and proportionality findings attached as Exhibit “B-1.”
+
+F. After notice, [the Board of County Commissioners (the “Board”)] [the Board of County Commissioners (the “Board”) and the local planning agency] held public hearings on this Agreement on [DATE] and [DATE], being at least the two public hearings s. 163.3225, Florida Statutes, requires.
+
+NOW, THEREFORE, the Parties agree as follows:
+
+**ARTICLE 1. DEFINITIONS AND INTERPRETATION**
+
+**Section 1.1 Definitions.** In this Agreement:
+
+“Aggregate Infrastructure Demand” means the total electrical power drawn by the Project, or projected or authorized under this Agreement to be drawn, measured as the highest average demand over any fifteen (15) minute interval, including information-technology equipment, mechanical cooling, and all ancillary loads, from all sources of supply, including utility service, on-site generation of any kind, and battery energy storage discharge, without regard to the number of service points, meters, or accounts.
+
+“Abandonment” has the meaning given in Section 7.3(a).
+
+“Approved Capacity” means the maximum Aggregate Infrastructure Demand, and the maximum critical information technology load within the meaning of s. 212.08(5)(r), Florida Statutes, authorized for the Project: initially [__] Megawatts of Aggregate Infrastructure Demand and [__] Megawatts of critical information technology load, being the Phase 1 figures in Section 2.3[, and, where the Board elects the Campus Development Envelope, on completion of all Phases within it, [__] Megawatts of Aggregate Infrastructure Demand and [__] Megawatts of critical information technology load], each derived at a design Power Usage Effectiveness of [__] and subject to certification and restatement under Section 3.5.
+
+“BESS” means an on-site battery energy storage system.
+
+“Campus Development Envelope” (the “Envelope”) means the maximums stated in the bracketed columns of the table in Section 2.3, where the Board elects them under Section 3.2.
+
+“Compute Hall” means a discrete, separately served information-technology equipment space. Ancillary, administrative, electrical, mechanical, security, and loading structures are not Compute Halls but are counted in gross floor area wherever gross floor area is measured.
+
+“County Conduit” has the meaning given in Section 4.5(a).
+
+“CPI-U” means the Consumer Price Index for All Urban Consumers published by the United States Bureau of Labor Statistics, or its successor index under Section 10.24.
+
+“Decommissioning Security” means the security under Section 7.2.
+
+“Distress Event” has the meaning given in Section 7.3(b).
+
+“Effective Date” has the meaning given in Section 2.2(c).
+
+“Exhibit B-1” means the impact, nexus, and proportionality findings attached as Exhibit “B-1,” as adopted and revalidated under Section 4.1.
+
+“Fire Department” has the meaning given in Section 4.3(a).
+
+“Force majeure” has the meaning given in Section 8.3(a).
+
+“Health and Safety Obligations” has the meaning given in Section 8.4(a).
+
+“High-Density Compute Use” means any use of the Project Site whose primary function is the housing and operation of information-technology equipment for computation, storage, or data transmission, whatever its computational architecture, processor type, cooling technology, or commercial purpose, including any successor technology serving a substantially similar function. A change in computational modality, load, ownership, tenancy, or business model does not end the High-Density Compute Use. The use ends only on the permanent cessation of information-technology load at the Project Site and completion of decommissioning under Article 7.
+
+“Installed IT Capacity” means the aggregate nameplate electrical capacity of information-technology equipment installed at the Project Site for computation, storage, or data transmission, measured at rated equipment input, without regard to utilization.
+
+“Interconnecting Utility” means [NAME OF UTILITY], or another retail electric provider lawfully entitled to serve the Project Site under applicable territorial orders and agreements.
+
+“Large Load Customer” and “Large-Scale Data Center” have the meanings given in ss. 366.043(2)(d) and 373.203(4), Florida Statutes, including the statutory aggregation rules.
+
+“Mitigation Account” means a separate restricted account of the County established under Section 4.6.
+
+“Module M2” means the optional module on emergency power for County facilities, where the Board elects it under Section 4.4.
+
+“Operations Commencement Date” means the date of issuance of the first certificate of occupancy for any Compute Hall or, if earlier, the date on which information-technology equipment at the Project Site is first energized for production computation. It is not deferred by phasing, by a temporary or partial certificate of occupancy, or by the pendency of a later certificate. Each obligation keyed to the first or initial certificate of occupancy begins on this date. This definition does not change an obligation keyed to first energization, to the delivery of energized compute hardware, or to the issuance of a building permit.
+
+“Payment” has the meaning given in Section 4.2(a).
+
+“Phase” means Phase 1 stated in Section 2.3[, each later Phase stated in the Campus Development Envelope,] and each Phase added by amendment under Section 3.1, consisting of the Compute Halls, on-site generation and storage, and supporting improvements that Exhibit “A” or the approved site plan shows for it, as measured in Exhibit B-1. A Phase may be built in stages without amendment, and each stage remains part of its Phase for every purpose of this Agreement.
+
+“Phase Operations Date” means, for each Phase, the date of issuance of the first certificate of occupancy for a Compute Hall in that Phase or, if earlier, the date on which information-technology equipment in that Phase is first energized for production computation.
+
+“Qualified Mortgagee” means the holder of a recorded first-priority mortgage on the Project Site, or on a recorded ground lease of all or part of it, that is an institutional lender and has given the County written notice of its interest and notice address.
+
+“Schedule” means the Schedule of Supplemental Operating Covenants attached as Exhibit “S.”
+
+“Sensitive Receptor” has the meaning given in Exhibit “S,” Section S-1.3.
+
+“Sound Contour” has the meaning given in Exhibit “S,” Section S-9.1(c).
+
+“Standards” means the County’s data center standards attached as Exhibit “O.” A reference to a section of the Standards by number is to the section of the County’s adopted standards that corresponds to that section of Exhibit A, Data Center Standards, of the model data center standards ordinance, or, for Sec. 15A, of Module M1, as numbered in Exhibit “O.” [Drafting note, remove before the draft is made public: Before removing this note, replace each Standards section number in this Agreement and its exhibits and forms, such as “Sec. 8(e)” in Exhibit “L,” with the County’s own, as numbered in Exhibit “O,” and strike the words tying the numbers to the model.]
+
+“State of Emergency” means a state of emergency declared for the County by the Board under s. 252.38, Florida Statutes, or by the Governor under Chapter 252, Florida Statutes.
+
+“Term” means the term stated in Section 2.2.
+
+**Section 1.2 Interpretation.**
+
+(a) Terms defined in Chapter 2026-65, Laws of Florida, have their statutory meanings. Other terms defined in the Standards have the meanings given there.
+
+(b) Where this Agreement scales a commitment by capacity without naming the measure, (1) a commitment directed at physical infrastructure impacts, including the payment for first responders under Section 4.3, the Decommissioning Security, and the Physical Infrastructure Mitigation Payment under Section 4.2, scales by Aggregate Infrastructure Demand; and (2) critical information technology load under Section 2.3(d) is measured by critical information technology load within the meaning of s. 212.08(5)(r), Florida Statutes, and by no other measure. Where this subsection conflicts with a specific provision, the specific provision governs, and the conflict is recorded in the next amendment.
+
+(c) Where the Board has not elected Module M2, each reference in this Agreement to Module M2, to its sections or forms, or to emergency power for County facilities is of no effect, and the remaining text has its ordinary meaning without that reference.
+
+(d) Each reference in this Agreement to a Part or Section of Exhibit “S” that the attached Exhibit “S” does not contain is of no effect, and the remaining text has its ordinary meaning without that reference.
+
+**ARTICLE 2. STATUTORY CONTENTS**
+
+**Section 2.1 Legal Description and Owners.** The land subject to this Agreement is the Project Site described in Exhibit “A,” which names each legal and equitable owner of the Project Site at execution. The Developer represents that the list is complete. The holder of legal title shall execute this Agreement as a Party or shall execute a joinder and consent in recordable form by which it consents to this Agreement and to the Standards and the Schedule as they apply to the Project Site, subjects its interest to the covenants of this Agreement, and acknowledges the effect of this Agreement. Where Section 28 of Chapter 2025-190, Laws of Florida, or s. 252.422, Florida Statutes, applies, the holder of legal title has joined as an applicant in the application for this Agreement and in each application for an Approval, and joins as an applicant in each later application for the Project.
+
+**Section 2.2 Duration.**
+
+(a) **Term.** The Term is [__] years from the Effective Date, not more than the thirty (30) years s. 163.3229, Florida Statutes, permits for an initial term. The Parties may extend the Term by mutual consent, subject to the public hearing requirements of the Act. No failure to extend the Term is a default.
+
+(b) **Phases.** Each Phase shall be commenced and completed by the outside dates stated in Section 2.3, subject to Section 3.4.
+
+(c) **Effective Date.** The “Effective Date” is the later of the date of recording after the Approvals are granted and the date on which each plan amendment implementing or related to this Agreement has become effective under s. 163.3184 or s. 163.3187, Florida Statutes, or, if timely challenged, has been determined to be in compliance by final order, which is the date on which the comprehensive plan and those amendments are in compliance for the purposes of s. 163.3229, Florida Statutes.
+
+**Section 2.3 Development Uses, Densities, Intensities, and Height.**
+
+(a) **Uses.** The development uses permitted on the Project Site are the High-Density Compute Use and the accessory uses the Approvals permit, within the maximums of the table below. [No population density applies.]
+
+(b) **Phase 1 [and Campus Development Envelope].** [Strike the bracketed columns and the first two sentences of note (4) where the Board does not elect the Campus Development Envelope.]
+
+| | **Phase 1** | **[Phase 2]** | **[Phase 3]** | **[Campus maximum]** |
+|---|---|---|---|---|
+| Aggregate Infrastructure Demand (MW) | [__] | [__] | [__] | **[__]** |
+| Critical IT load, s. 212.08(5)(r) (MW) | [__] | [__] | [__] | **[__]** |
+| Maximum gross floor area (sq ft) | [__] | [__] | [__] | **[__]** |
+| Maximum building height (ft) | [__] | [__] | [__] | **[__]** |
+| Design rack density (kW/rack): planning assumption, not a limitation | [__] | [__] | [__] | N/A |
+| Outside commencement date (months from Effective Date) | [__] | [__] | [__] | N/A |
+| Outside completion date (months from Effective Date) | [__] | [__] | [__] | N/A |
+
+Notes forming part of the table:
+
+(1) Maximum building height excludes rooftop mechanical equipment and its screening to a further [__] feet, provided no structure exceeds [__] feet above finished grade at any point on the Project Site. This exclusion does not affect Section 3.8.
+
+(2) Design rack density is the planning assumption underlying the gross floor area figures. It is not a covenant, a maximum, or a minimum, and the Developer may deploy any density consistent with this Agreement.
+
+(3) The gross floor area limit and the Aggregate Infrastructure Demand limit operate independently, and meeting one waives neither.
+
+(4) Cumulative critical IT load reaches one hundred (100) Megawatts, the threshold of s. 212.08(5)(r)1.c.(III) and 2., Florida Statutes, during Phase [__]. [Strike this note if the table does not reach that threshold.]
+
+(c) **Maximums.** The Project shall not exceed the Approved Capacity, and in each Phase shall not exceed the Aggregate Infrastructure Demand, critical IT load, gross floor area, and building height stated for that Phase and, where the Board elects the Campus Development Envelope, the Campus maximums. Each figure in the table is a maximum and not an entitlement to construct. Nothing in this Agreement entitles the Developer to any expansion or enlarges the Approved Capacity, and no seasonal, ambient, or operational excursion in Power Usage Effectiveness expands the Approved Capacity, excuses an exceedance of it, or is a basis for an amendment under Section 3.1.
+
+(d) **Critical IT load and tax status.** The critical IT load figures in the table are derived at the design Power Usage Effectiveness stated in the definition of Approved Capacity and are restated under Section 3.5. This Agreement grants no exemption from, abatement of, or credit against any sales and use tax, discretionary sales surtax, or ad valorem tax. The critical IT load figures in this Agreement are stated for its measurement purposes only. They are not a County determination or representation as to eligibility for, or the amount of, any exemption under s. 212.08(5)(r), Florida Statutes, which is a matter for the Department of Revenue and the Developer, and the County assumes no obligation as to it.
+
+**Section 2.4 Public Facilities and Schedule.**
+
+(a) **Description.** Exhibit “J,” Part J-2, describes the public facilities that will service the Project, including potable water, wastewater, reclaimed water, solid waste, stormwater, transportation, fire rescue, and emergency medical services, and for each states who shall provide it, the date any new facility needed for a Phase will be constructed, and the schedule that assures the facility is available concurrent with the impacts of that Phase. Electric service is provided by the Interconnecting Utility under Article 5 and is described for information.
+
+(b) **Availability before service.** The Developer shall not place a Phase in service before each facility that Part J-2 schedules for that Phase is available. Section 3.3 applies.
+
+(c) **Required improvements.** Each improvement that Part J-2 schedules the Developer to construct for dedication or conveyance to the County shall be secured, before the permit for its construction issues, by a performance bond or letter of credit in the form and amount the County’s land development regulations require for required improvements. No certificate of occupancy for a Compute Hall in a Phase shall issue, and the Developer shall not place the Phase in service, until each improvement scheduled for that Phase is complete and accepted by the County under its land development regulations.
+
+(d) **Transportation.** Before site plan approval, the Developer shall submit a transportation analysis acceptable to the County addressing construction-period and operational trip generation, site access, and turn-lane and signalization needs. The Developer shall mitigate its impacts on transportation facilities consistent with s. 163.3180, Florida Statutes, and the County’s concurrency and proportionate-share regulations, including any proportionate-share contribution or improvement the analysis identifies. Any detection equipment the Developer installs under this Section stores or sends no images from which a person or a license plate can be identified.
+
+**Section 2.5 Reservations and Dedications.** Exhibit “J,” Part J-3, describes each reservation or dedication of land for public purposes under this Agreement, or states that there is none. The County Conduit under Section 4.5 and the thermal corridor under Exhibit “S,” Section S-23.1, are not reservations or dedications of land.
+
+**Section 2.6 Local Development Permits.** Exhibit “J,” Part J-1, describes each local development permit approved or needed to be approved for the Project, stating for each the permit, the approving body, and whether it has been approved, and lists for information the principal state and federal permits the Project requires. Each local development permit is approved in its own proceeding and not by this Agreement.
+
+**Section 2.7 Consistency Finding.** The Board finds, under ss. 163.3227(1)(g) and 163.3231, Florida Statutes, that the development permitted by this Agreement is consistent with the County’s comprehensive plan and land development regulations, as the staff report incorporated by reference sets out. The development uses, densities where applicable, intensities, and heights permitted on the Project Site are those Section 2.3 and the Approvals establish.
+
+**Section 2.8 Conditions Necessary for Public Health, Safety, and Welfare.** Under s. 163.3227(1)(h), Florida Statutes, the Board determines that the following conditions, terms, restrictions, and requirements are necessary for the public health, safety, and welfare of the County’s citizens: Sections 2.4, 3.6, and 3.7 and Exhibits “O” and “S”; Article 5; Section 4.3; Sections 6.3 and 7.1 to 7.5; Sections 10.8 and 10.9; and, where the Board elects Module M2, Sections M2.1 and M2.2.
+
+**Section 2.9 Requirements Not Addressed.** Under s. 163.3227(1)(i), Florida Statutes, the failure of this Agreement to address a particular permit, condition, term, or restriction does not relieve the Developer of the necessity of complying with the law governing that permitting requirement, condition, term, or restriction. The Developer shall obtain every federal, state, regional, and local permit and approval required for the development and operation of the Project.
+
+**ARTICLE 3. CAPACITY, PHASING, AND DEVELOPMENT STANDARDS**
+
+**Section 3.1 Approved Capacity; Increases.**
+
+(a) **Amendment required.** Any increase in the Approved Capacity beyond Phase 1, or, where the Board has elected it, beyond the Campus Development Envelope, is a material amendment of this Agreement and may be approved only through the public hearings and procedures of the Act and the County’s land development regulations, supported by supplemented Exhibit B-1 findings.
+
+(b) **Commitments on an increase.** On any amendment increasing the Approved Capacity, unless the amendment provides otherwise on the basis of updated findings: (1) the amounts under Section 4.3 and, where elected, the emergency power capability under Module M2 are restated from the supplemented Exhibit B-1 findings, the capability being validated by an independent professional engineer; (2) commitments stated per Megawatt, including the Physical Infrastructure Mitigation Payment and the Decommissioning Security, scale by their own terms without amendment; and (3) any other mitigation of the increase that the supplemented findings support is paid under Section 4.2 into the Mitigation Account, in an amount roughly proportional to the increase and in place of any non-proportional or escalating penalty.
+
+(c) **Statutory protections at any capacity.** The requirements of Chapter 2026-65, Laws of Florida, that attach at a monthly peak load of fifty (50) Megawatts or more are also covenants of this Agreement, applying at any capacity.
+
+**Section 3.2 Campus Development Envelope; Phase Review.**
+
+(a) **Phase 1.** This Agreement governs Phase 1 as Section 2.3 states and Exhibit “A” depicts it. Except within a Campus Development Envelope the Board elects, each later Phase is an increase in the Approved Capacity under Section 3.1.
+
+(b) **[Optional. Include only where the Board elects the Campus Development Envelope and Exhibit B-1 measures the impacts of the Project at its full build-out:** Exhibit B-1 measures the impacts of the Project at full build-out of the Campus Development Envelope, and the obligations of this Agreement are sized to answer them. The development uses permitted on the Project Site, including intensities and height, are those the Envelope states, under s. 163.3227(1)(c), Florida Statutes, in phases under s. 163.3227(2), Florida Statutes. A later Phase within the Envelope is reviewed under subsection (c) and is not an increase under Section 3.1.**]**
+
+(c) **Phase review.** The Board decides any Envelope at the public hearings on this Agreement under s. 163.3225, Florida Statutes, held together with the hearings on the local development permits described in Exhibit “J,” Part J-1. An application for a later Phase within the Envelope, including generation or storage that matches what Exhibit B-1 states for that Phase, is reviewed administratively for conformity with the Envelope, with every standard of this Agreement, Exhibit “O,” and Exhibit “S,” and with the conditions of the permits already approved, and is not a new discretionary approval. Conformity review is ministerial: it confers no discretion to approve a nonconforming application and none to withhold approval of a conforming one, except as Section 8.2(b) provides during an uncured default. Exhibit “J,” Part J-1, states, for each later Phase, each discretionary permit decided at the hearings under s. 163.3225, Florida Statutes, and each permit the County’s land development regulations in effect at execution allow to be issued administratively; a later Phase relies on conformity review only for permits so stated.
+
+**Section 3.3 Phase Release.** Phase 1 and each Phase added under Section 3.1 proceed on the permits approved for them; each later Phase within the Envelope is reviewed under Section 3.2(c). Before placing a Phase in service, the Developer shall deliver the electric, water, and emergency-response evidence described in Sec. 15A(b)(1), (2), and (5) of Module M1, whether or not the County has adopted Sec. 15A, for that Phase, and shall pay any installment under Section 4.2 then due. A phase release is an administrative confirmation that the stated conditions are met and not an amendment under s. 163.3237, Florida Statutes. Each release is documented in writing, recorded as a supplement to this Agreement, and reported in the annual compliance report under Section 6.1.
+
+**Section 3.4 Outside Dates; Lapse; Tolling.**
+
+(a) **Commencement.** A Phase is commenced when the Developer has obtained a building permit for a Compute Hall within that Phase and has commenced vertical construction.
+
+(b) **Lapse.** If a Phase is not commenced by its outside commencement date, the authorization of that Phase and of every later Phase, including under any Envelope, lapses; the Approved Capacity is reduced to the aggregate Aggregate Infrastructure Demand of the Phases then commenced; and any further increase requires an amendment under Section 3.1. If a Phase is commenced but not completed by its outside completion date, its authorization does not lapse, but no later outside commencement date is extended. A lapse is not a default, gives rise to no liquidated amount, and does not affect any commitment as to a Phase already commenced.
+
+(c) **Tolling.** Outside dates are tolled day-for-day by force majeure under Section 8.3; by delay in the Interconnecting Utility’s provision of service or execution of an interconnection agreement not attributable to the Developer; by the pendency of an appeal or challenge to an Approval not brought by the Developer or an affiliate; and by any period during which a state or federal permit application is pending without action attributable to the Developer. Tolling attributable to any single cause shall not exceed [__] months, tolling in the aggregate shall not exceed [__] months as to any Phase, and no tolling extends an outside completion date beyond the Term. This Section does not limit any tolling or extension that s. 252.363, Florida Statutes, provides; the Developer delivers to the County a copy of each notice under s. 252.363(1)(b), and the County reports the extension under Section 9.1.
+
+(d) **Utility delay.** Tolling for utility delay is available only where the Developer has submitted a complete interconnection request, has paid every study deposit when due, has not withdrawn or materially modified the request, and delivers with each annual compliance report the utility’s then-current queue position and study schedule. It ends on any withdrawal or material modification of the request.
+
+**Section 3.5 Power Usage Effectiveness.**
+
+(a) **Certification.** Before the first building permit for any Compute Hall in a Phase, the Developer shall deliver to the County a certification by a Florida-licensed professional engineer of record stating for that Phase (1) the Design Peak Power Usage Effectiveness, being the ratio of total facility electrical power to information-technology equipment power at the governing extreme condition under subsection (b), at full information-technology load and with the cooling plant in its design operating mode, including any redundant equipment then operating; (2) the Design Annualized Power Usage Effectiveness over a typical meteorological year for the nearest ASHRAE climatic station; and (3) the Installed IT Capacity and the critical information technology load the Phase is designed to support at the peak ratio, with the arithmetic.
+
+(b) **Governing condition.** The engineer shall model the cooling plant at the 0.4% annual cooling design dry-bulb temperature with mean coincident wet-bulb and at the 0.4% annual design wet-bulb temperature with mean coincident dry-bulb, each as published in the ASHRAE Handbook (Fundamentals) for the nearest station to the Project Site, and shall use whichever condition produces the higher peak ratio, stating both results, the station, and the edition. Where the cooling architecture is wholly dry, the engineer shall so state and the dry-bulb condition governs.
+
+(c) **Capacity at the extreme condition.** The Developer shall size and operate the Project so that Aggregate Infrastructure Demand does not exceed the Approved Capacity at the governing extreme condition. The certification is the Developer’s demonstration that it has done so.
+
+(d) **Lower ratio.** Where the certification establishes a peak ratio lower than the ratio used to derive the critical IT load in Section 2.3, the Developer may install and operate information-technology equipment up to the capacity the Approved Capacity supports at the certified ratio, without amendment. The figure in Section 2.3 is restated to the certified figure by administrative notation. No restatement raises critical IT load above any cap the Board has set in the definition of Approved Capacity.
+
+(e) **Higher ratio.** Where the certification establishes a higher peak ratio, the information-technology capacity the Phase may install and operate is reduced so that Aggregate Infrastructure Demand remains within the Approved Capacity. No such reduction is a basis for reducing any commitment of this Agreement.
+
+(f) **Annual measurement.** Beginning with the first full calendar year after a Phase Operations Date, the annual compliance report shall state for that Phase the measured annual Power Usage Effectiveness, the measured Aggregate Infrastructure Demand, and the ambient conditions at that peak. Where measured Aggregate Infrastructure Demand exceeds ninety-five percent (95%) of the Approved Capacity, the Developer shall deliver an updated certification under subsection (a) within ninety (90) days, and the cooling standards of the Standards and the exceedance response of Exhibit “S,” Section S-9.4, apply according to their terms.
+
+**Section 3.6 Data Center Standards (Exhibit “O”).**
+
+(a) **Covenant.** The Developer shall perform each requirement of Exhibit “O” that applies to a Covered Facility or to its applicant or operator, as a covenant running with the land. For that purpose the Project is a Covered Facility, whatever its capacity and whether or not the Standards apply to it by their own terms, and the Developer is its applicant and operator.
+
+(b) **Text fixed at execution.** Exhibit “O” is the text attached at execution. No later amendment or repeal of the County’s standards changes it. Section 10.8 governs standards the County adopts after execution, and Exhibit “O” is amended only under Section 9.2.
+
+(c) **Enforcement.** A violation of Exhibit “O” is a default under Article 8. Where the Standards also apply to the Project by their own terms, the County may also enforce them.
+
+(d) **County decisions.** Each determination, approval, reduction, or extension that Exhibit “O” assigns to the County or a County official is made by that official on the terms Exhibit “O” states.
+
+**Section 3.7 Supplemental Operating Covenants (Exhibit “S”).**
+
+(a) **Covenant.** The Developer shall perform each covenant of Exhibit “S” as a covenant running with the land. In Exhibit “S,” the Developer is the “Operator,” the Project Site is the “Property,” the Project is the “Facility,” and this Agreement is the “Instrument.”
+
+(b) **Text fixed at execution.** Exhibit “S” is the text attached at execution, with every bracket completed, and is amended only under Section 9.2.
+
+(c) **Enforcement.** A violation of Exhibit “S” is a default under Article 8.
+
+(d) **Relationship to Exhibit “O.”** Where Exhibit “S” and Exhibit “O” address the same subject, Section 10.9 applies.
+
+**Section 3.8 Screening Certification; Elevated Structures.**
+
+(a) **Phase 1 certification.** Exhibit “C,” Part C-1, is certified to achieve the visual screening and boundary sound performance required by this Agreement, Exhibit “O,” and Exhibit “S” for structures and equipment not exceeding sixty-five (65) feet above finished grade and for mechanical equipment at or near grade. It is not certified for, and does not address, structures or equipment above that height, and no approval of Part C-1 is a determination that the perimeter berm screens or attenuates any elevated structure or equipment.
+
+(b) **Supplemental plan.** The Developer shall not, in any Phase, commence vertical construction of any structure exceeding sixty-five (65) feet above finished grade, or install any mechanical equipment, stack, plenum, screen, parapet, or appurtenance whose highest point exceeds sixty-five (65) feet above finished grade, whether or not that element is counted in measuring building height and whatever maximum building height Section 2.3 states, until the County has approved a Supplemental Acoustic and Visual Mitigation Plan under this Section, which on approval is Part C-2 of Exhibit “C.”
+
+(c) **Contents.** The Plan shall be prepared by a Florida-licensed professional engineer and, as to sound, by a qualified acoustical consultant, and shall include (1) three-dimensional line-of-sight and viewshed modeling from not fewer than [six (6)] designated viewpoints established in Part C-1, at an observer eye height of five feet six inches, depicting each structure at maximum permitted height and each item of rooftop or elevated mechanical equipment, at installed condition and at ten-year vegetative maturity; (2) acoustic modeling of every elevated source at the design operating condition and at the ASHRAE 0.4% extreme condition determined under Section 3.5, demonstrating compliance with the sound limits of Exhibit “O” and Exhibit “S” at each receptor identified in Exhibit “D” and at each other Sensitive Receptor that lies, in whole or in part, within the Sound Contour, and stating for each elevated source and receptor pair the insertion loss attributable to the perimeter berm; (3) mitigation measures, which may include stepped upper-story setbacks, architectural screening of upper stories, parapet extensions functioning as close-proximity barriers, acoustic enclosures or louvered screen walls at the equipment, low-noise equipment selection, fan-speed control, setback of rooftop equipment from the roof edge, supplemental vegetation, and additional berm or barrier where the source geometry makes a barrier effective, provided that additional perimeter berm height or perimeter vegetation is credited for an elevated source only to the extent the Plan demonstrates the insertion loss claimed; and (4) a statement of residual visual and acoustic effect after mitigation and the maintenance and replacement standards for every vegetative measure.
+
+(d) **Approval.** The Plan is approved administratively if it demonstrates (1) compliance with every sound limit of Exhibit “O” and Exhibit “S” at every receptor that subsection (c)(2) names at the ASHRAE 0.4% extreme condition, and (2) opaque or substantially opaque screening of not less than [seventy-five percent (75%)] of the vertical plane of each structure above sixty-five (65) feet, as seen from each designated viewpoint at ten-year vegetative maturity, or, where the modeling under subsection (c)(1) shows that percentage is not achievable from a viewpoint because of existing topography, the highest percentage the modeling shows achievable from that viewpoint, provided paragraph (1) is met in full. Review is conformity review against the standards of this subsection. It confers no discretion to withhold approval from a conforming Plan and no authority to impose a standard not stated here. A conforming Plan shall be decided within the period the Standards set for that review or, where they set none, within [__] days of a complete submittal [not longer than s. 125.022, Florida Statutes, allows]. Section 3.2(c) continues to govern phase review.
+
+(e) **Non-approval.** If a Plan is not approved, the Developer may resubmit, may reduce the affected structure to sixty-five (65) feet or less, or may proceed with any portion of the Phase not exceeding that height. Non-approval is not a default. The outside commencement date for the affected Phase is tolled day-for-day only while a complete submittal is under review, within the limits of Section 3.4(c).
+
+(f) **Changes.** A material change in the type, location, or sound power of elevated mechanical equipment, or an increase in the height of any structure above the height modeled, requires an amended Plan before installation. A change that reduces sound power or height requires no amendment.
+
+(g) **No waiver.** Approval of a Plan waives no sound limit and no other standard of this Agreement, Exhibit “O,” or Exhibit “S.” An exceedance remains subject to Exhibit “S,” Section S-9.4, and to the liquidated amounts under Section 8.2(c).
+
+**ARTICLE 4. MITIGATION**
+
+**Section 4.1 Impact Findings (Exhibit B-1).**
+
+(a) **Contents.** Exhibit B-1 states, for each obligation that rests on it, the impact the obligation answers, the measure used, and the range the study supports, including for the amounts under Section 4.3, the emergency power capability under Module M2, the liquidated amounts under Section 8.2(c), and the Physical Infrastructure Mitigation Payment. For each derived per-unit rate, Exhibit B-1 states which measure served as the denominator, and a rate stated against one measure shall not be applied to another.
+
+(b) **Figures set by the Board.** The Board sets each figure that rests on Exhibit B-1 on the record, within the range Exhibit B-1 supports.
+
+(c) **Bounds.** Where Exhibit B-1 supports no amount for an obligation, none is due. No amount may exceed the impact values quantified in the most recently adopted Exhibit B-1; an amount that would exceed them is reduced to them automatically, without election, notice, or amendment. Where a dollar limit stated in this Agreement and the value quantified in Exhibit B-1 differ, the lower governs, and the reduction is self-executing. A failure to revalidate does not increase any obligation of the Developer; the most recently adopted Exhibit B-1 continues to bound every commitment it supports until replaced. Neither Party may rely on an Exhibit B-1 that the Board has not adopted.
+
+(d) **Revalidation.** The County shall cause Exhibit B-1 to be revalidated by a qualified professional at each update of the decommissioning plan under Sec. 14(a) of the Standards, on any amendment increasing the Approved Capacity, and at any other time the County elects. The Developer shall reimburse the reasonable cost of preparing the first Exhibit B-1, except any part paid from a deposit under Sec. 15(f) of the Standards, and of each revalidation at a plan update or on an amendment increasing the Approved Capacity[, and of any other revalidation the County elects], invoiced at cost after it is incurred, under Section 4.6(c). The County selects and directs the preparer of Exhibit B-1 and of each revalidation, and the Developer has no role in selection, scope, direction, or communication with the preparer, except to respond to requests for information and to take part in any public hearing at which the Board considers Exhibit B-1 or a revalidation. The Board adopts a revalidated Exhibit B-1 after a public hearing, and it governs prospectively from adoption. Section 4.2(e) states its effect on the rate of the Physical Infrastructure Mitigation Payment.
+
+**Section 4.2 Physical Infrastructure Mitigation Payment.**
+
+(a) **Obligation.** The Developer shall pay the Physical Infrastructure Mitigation Payment (the “Payment”) into the Mitigation Account, as mitigation of the Project’s impacts on public infrastructure the County owns or operates, including water, wastewater, stormwater, and emergency-response facilities, quantified in Exhibit B-1 and not otherwise mitigated by the Standards, by Section 2.4, or by another obligation of this Agreement. Costs that Chapter 2026-65, Laws of Florida, and Section 5.1 place on the Developer through utility tariffs are not counted.
+
+(b) **Amount.** For each Phase, the Payment equals the rate stated in Exhibit B-1 [$______; study-dependent] for each unit of the measure Exhibit B-1 states for the impact (per Megawatt of Aggregate Infrastructure Demand unless Exhibit B-1 states a better measure), applied to the lower of the amount authorized for that Phase and the amount certified for it under Section 3.5, with a true-up when the Phase is complete.
+
+(c) **Timing.** [Select one: The Payment for each Phase is due before issuance of the first building permit for a Compute Hall in that Phase.] [Or: The Payment for each Phase is due in [__] equal annual installments beginning on the Phase Operations Date of that Phase.]
+
+(d) **Index.** The rate is adjusted on each anniversary of the Effective Date by CPI-U. No adjustment reduces it below the prior year’s rate, and it remains flat through any deflationary period until positive inflation resumes.
+
+(e) **Revalidation.** The rate set under subsection (b), as adjusted, governs each installment until a revalidation changes it. On adopting a revalidated Exhibit B-1 after a public hearing, the Board sets on the record the rate for every installment of a Phase not commenced on the date of adoption, upward or downward, within the range Exhibit B-1 supports and never above the impact values it quantifies. Installments of a Phase already commenced keep their rate, except that a revalidation may lower it.
+
+(f) **Acceleration; security.** On a Distress Event, every unpaid installment for a Phase already commenced becomes immediately due. Unpaid installments are secured by an irrevocable standby letter of credit in the form of Exhibit “K,” issued by a bank meeting the issuer standard of Exhibit “L,” stating an expiration date not earlier than one (1) year after its issue and not stating that it is perpetual, naming the County as beneficiary, delivered with the first installment, and maintained until every installment is paid; its amount may be reduced by each installment paid. After a notice of non-extension, or an event affecting the issuer that Annex K-1(b) names, the Developer shall deliver replacement security within the period that Annex states. The County may draw on its certificate that an installment remains unpaid thirty (30) days after it was due, or that replacement security has not been delivered in time. Notice of nonpayment is given where the law permits it, but is not a condition of the draw. The County deposits every draw in the Mitigation Account and holds the proceeds of a full draw as prepayment of the unpaid installments, subject to the true-up under subsection (b).
+
+**Section 4.3 Payment for First Responders.**
+
+(a) **Equipment and training payment.** Before delivery of any energized compute hardware to the Project Site, the Developer shall pay a one-time, non-refundable amount of [$______ (study-dependent; derived from Exhibit “B-1”)] into the Mitigation Account, restricted to [COUNTY] Fire Rescue’s (the “Fire Department”) specialized large-scale thermal imaging equipment, chemical-gas monitoring apparatus, encapsulated hazardous-materials protective gear, and certified advanced training in lithium-ion battery isolation, gaseous suppression system safety, and high-voltage grid de-energization. The amount is wholly expendable on a current basis and is not an endowment fund under s. 617.2104(2)(b), Florida Statutes. The County acquires the items for the Fire Department’s use, on the Fire Department’s written specification stating the restricted purpose and the useful life of each item.
+
+(b) **Holding period.** The County holds each item so acquired whose acquisition cost was [$______] or more for its useful life as the specification states it, for the Fire Department’s use under this Section. If the County disposes of such an item before the end of its useful life, other than by replacement with an item of equal or greater capability, it deposits the net proceeds in the Mitigation Account, to be applied only to the restricted purposes of subsection (a). Except by replacement with an item of equal or greater capability, the County disposes of such an item before the end of its useful life only by sale under s. 274.06, Florida Statutes, by transfer to another governmental unit that assumes this subsection, or, for an item without commercial value, as s. 274.06 permits.
+
+(c) **Training reimbursement.** For the life of the High-Density Compute Use, the Developer shall reimburse the Fire Department’s actual, documented costs of annual refresher training and equipment recalibration attributable to the Project, up to [$______ (study-dependent)] per year, adjusted annually by CPI-U.
+
+**Section 4.4 Emergency Power for County Facilities.** [Reserved for Module M2. Where the Board elects it, insert its Sections M2.0 to M2.2 here and attach its forms as Exhibits “H” and “I.”]
+
+**Section 4.5 Shared Conduit.**
+
+(a) **Placement.** The Developer shall give the County written notice of each segment of trenching for the Project’s own fiber or utility service within or along County rights-of-way, stating its route and schedule, not later than [__] days before trenching of the segment begins and, where the segment needs a County right-of-way permit, not later than the Developer’s application for that permit. In that trenching, the Developer shall place in the same trench the additional spare conduit the County specifies in a written request delivered within [__] days after the notice (the “County Conduit”). Where practicable, the Developer shall route the County Conduit along the Project’s diverse fiber paths.
+
+(b) **Cost.** The County shall pay the Developer the documented incremental cost of the County Conduit, meaning materials and the labor added by placing it, and not any cost of trenching or restoration the Developer would incur without it, subject to the County’s purchasing requirements and to annual appropriation. [If the Developer or an affiliate is a communications services provider, the County also pays a proportionate share of trenching and restoration, so that no compensation in kind arises under s. 337.401(3)(f), Florida Statutes.] Title passes to the County on acceptance.
+
+(c) **No service.** The Developer provides no service over the County Conduit. Whether the County may license capacity in it to a person other than a public agency, and on what terms, is subject to s. 350.81, Florida Statutes, Article VII, Section 10 of the Florida Constitution, and the County’s requirements for disposing of County assets.
+
+(d) **Character.** This Section is a cost-sharing arrangement. It is not mitigation or compensation in kind for use of any right-of-way, and the County may decline to request any conduit.
+
+**Section 4.6 Mitigation Account.**
+
+(a) **Account.** The County shall establish the Mitigation Account and deposit in it each payment this Agreement directs to it, each draw on the security for those payments, and the net proceeds of each disposal under Section 4.3(b) or Module M2. The Mitigation Account is separate from the County’s general fund, and nothing in it is transferred to the general fund. Its earnings stay in it and are applied as the funds are.
+
+(b) **Application.** The County shall apply each payment in the Mitigation Account only to the line of Exhibit B-1 it answers, including the equipment and training of Section 4.3(a), on the written specification of the responsible County department identifying that line. No payment from the Mitigation Account pays for any means of surveillance of members of the public, such as cameras or video feeds that watch people, license plate readers, face recognition, location tracking, drones used to watch people or a link to a real-time crime center, or for a law enforcement agency other than for emergency services. “Emergency services” means response to a fire, medical emergency, hazardous materials release, disaster or other emergency that threatens life or property, and not surveillance or the investigation of crime.
+
+(c) **Reimbursements.** Apart from payments into the Mitigation Account, impact fees and other fees, rates, and charges the County imposes on applicants or customers generally, cost recovery under Sec. 15(d) of the Standards on the terms available to any applicant, proportionate-share contributions under Section 2.4(d), payments under Section 7.7 or Section 10.18(c) of a judgment, settlement, award, or assessment against the County, amounts recovered under Section 8.2 or Section 10.26, and draws on security, the only payments the Developer makes to the County under this Agreement are reimbursements of documented costs the County has already incurred, including under Sections 4.1(d), 4.3(c), 4.6(e), and 6.2 and Exhibit “S,” Sections S-8.2, S-11.4(c), and S-12.3. Each is paid against the County’s invoice after the cost is incurred, never in advance and never as a lump sum, into a restricted account of the County applied only to the cost reimbursed and never to the County’s general fund, and is reported in the annual compliance report. A cost paid from an escrow under Sec. 15(b) or a deposit under Sec. 15(f) of the Standards, or recovered by a cost-based fee of the County, is not reimbursed under this subsection.
+
+(d) **Unapplied funds; no reversion.** Funds not applied within [__] years after receipt are applied to another line of Exhibit B-1 answering the same impact, on the written specification under subsection (b), except a payment for maintenance and replacement over the life of the use under Module M2, which is applied over that life. No funds revert to the Developer.
+
+(e) **Ledger; audit; enforcement.** Each year the County shall publish a ledger of the Mitigation Account, stating its receipts, earnings, payments, and balance and naming each payee, the amount, and the line of Exhibit B-1 it answers, and shall have the account audited by an independent auditor it engages. The Developer reimburses under subsection (c) the reasonable cost of the audit and of the County’s administration of the Mitigation Account, and may enforce subsections (a), (b), and (d) and this subsection.
+
+**Section 4.7 Impact Fees.**
+
+(a) **Fees not waived.** Nothing in this Agreement waives, reduces, credits, or substitutes for any impact fee, mobility fee, or other exaction the County lawfully imposes under s. 163.31801, Florida Statutes, or other law. The Developer shall pay each such fee when due, subject to any credit available under law for the dedications and public-facility improvements provided under this Agreement.
+
+(b) **Fee governs its category.** Where the County has adopted an impact fee under s. 163.31801, Florida Statutes, for a category of capital facilities, including under its data center public safety and emergency power impact fee ordinance, the fee governs that category, and no obligation of this Agreement charges the same category again. Section 4.2, Section 4.3(a), and Module M2 apply only to impacts the fee does not cover and Exhibit B-1 measures, and Section 4.3(a) then applies only to items that are not capital facilities under that fee.
+
+(c) **In-kind credit.** Capital facilities delivered in kind in a fee category, including emergency power equipment conveyed to the County under Module M2, are credited against the fee under the credit procedure of the impact fee ordinance, and this Agreement records each credit agreement.
+
+(d) **Non-capital obligations.** Obligations that are not capital facilities, including the training under Section 4.3, any item under Section 4.3(a) that is not a capital facility under an impact fee the County has adopted for that category, and the maintenance and fuel terms of Module M2, remain under this Agreement where Exhibit B-1 supports them.
+
+(e) **No double counting.** No impact that supports the Payment under Section 4.2 may also support an amount under Section 4.3 or Module M2. Where an obligation under Section 4.2, Section 4.3, or Module M2 mitigates an impact for which the County would otherwise require mitigation, including through an impact fee, the County shall credit that obligation against the other requirement to the extent of the overlap documented in Exhibit B-1. This subsection waives no concurrency requirement, impact fee, or exaction required by statute or by the comprehensive plan, and does not permit the same commitment to be counted twice in the Developer’s favor.
+
+**ARTICLE 5. UTILITIES AND RATEPAYER PROTECTION**
+
+**Section 5.1 Cost of Service.** Consistent with s. 366.043(3)(a), Florida Statutes, the Developer shall bear all capital expenditures, engineering fees, equipment procurement costs, and construction outlays required to integrate the Project into the regional electrical transmission and distribution grid, and shall not shift those costs, or the risk of their nonpayment, to the general body of ratepayers. The Developer shall accept and perform the tariff mechanisms authorized by s. 366.043(5), Florida Statutes, as the Interconnecting Utility’s Commission-approved large load tariff applies them, which may include contributions in aid of construction, minimum demand charges, incremental generation charges, financial guarantees, minimum load factors, take-or-pay provisions, and minimum-term contracts with early termination fees.
+
+**Section 5.2 Service Agreement and Affidavit.** Before issuance of the first building permit for any Compute Hall or energized substation work, the Developer shall deliver to the County (a) an executed electric service and interconnection agreement with the Interconnecting Utility consistent with its Commission-approved large load tariff or, if that tariff is not yet approved, an executed facilities and contribution-in-aid-of-construction agreement with the Interconnecting Utility’s written confirmation that service will be rendered under the large load tariff on approval; and (b) an affidavit of an executive officer of the Developer, in the form of Exhibit “G,” certifying the terms of the agreement delivered under clause (a) or Section 5.6(b). The Developer represents that each agreement it delivers under clause (a) or Section 5.6(b) permits publication of the summary terms that Section 10.18(d) makes public. Each agreement delivered under clause (a) or Section 5.6(b) is delivered with each customer-specific dollar amount, contract demand, and rate redacted. The Developer shall restate the affidavit under clause (b), current to the date of the report, in each annual compliance report under Section 6.1, confirming that the agreement is unamended or attaching each amendment, redacted as this Section provides.
+
+**Section 5.3 Curtailment.** Exhibit “S,” Section S-25.1, governs curtailment. [Drafting note, remove before the draft is made public: This Section takes effect only where Part S-25 of Exhibit “S” is attached, which the Impact Findings (Exhibit B-1) must support (Sections 1.2(d) and 10.5).]
+
+**Section 5.4 No Load Splitting.** Exhibit “S,” Section S-25.2, governs load splitting. [Drafting note, remove before the draft is made public: This Section takes effect only where Part S-25 of Exhibit “S” is attached, which the Impact Findings (Exhibit B-1) must support (Sections 1.2(d) and 10.5).]
+
+**Section 5.5 Foreign Entity; Change of Control.** The Developer represents and warrants that it is not a “foreign entity” as defined in s. 366.043(2)(c), Florida Statutes, is not owned or controlled by the government of a “foreign country of concern” as defined in s. 692.201, Florida Statutes, and is not a foreign country of concern, a subdivision of one, or an entity controlled by a foreign country of concern, as s. 288.860(1)(a) and (2)(a), Florida Statutes, use those terms, and it acknowledges that a public utility may not knowingly provide electric service to a large load customer that is a foreign entity. This representation is a continuing covenant. The Developer shall give the County thirty (30) days’ advance written notice of any transaction by which any person would acquire twenty-five percent (25%) or more of its voting interests or profits within the meaning of s. 366.043(2)(a), Florida Statutes. Any transfer or assignment of the Project, of this Agreement, or of control of the Developer to a foreign entity, or to a foreign country of concern, a subdivision of one, or an entity controlled by a foreign country of concern, as s. 288.860(1)(a) and (2)(a), Florida Statutes, use those terms, is prohibited and is a default.
+
+**Section 5.6 Cooperative or Municipal Utility.** If the Interconnecting Utility is a rural electric cooperative organized under Chapter 425, Florida Statutes, or a municipal electric utility:
+
+(a) **Cost causation.** The Developer shall, by direct contract with the Interconnecting Utility and as a covenant to the County, bear one hundred percent (100%) of the connection, incremental transmission, incremental generation, and other infrastructure costs of serving the Project, with the risk of their nonpayment, so that those costs are not shifted to the Interconnecting Utility’s other members or customers.
+
+(b) **Evidence.** In place of the large load tariff evidence under Section 5.2(a), the Developer shall deliver its executed service and contribution-in-aid-of-construction agreement with the Interconnecting Utility, with the affidavit under Section 5.2(b). Where the utility’s governing-body approval is required, the Developer shall obtain it before the milestone in Section 5.2.
+
+(c) **Continuing covenants.** Section 5.5 and Exhibit “S,” Part S-25, apply whatever the Interconnecting Utility’s ownership form. [Drafting note, remove before the draft is made public: The reference to Part S-25 takes effect only where Part S-25 of Exhibit “S” is attached, which the Impact Findings (Exhibit B-1) must support (Sections 1.2(d) and 10.5).]
+
+**ARTICLE 6. MONITORING, REPORTING, AND PUBLIC INFORMATION**
+
+**Section 6.1 Annual Compliance Report.**
+
+(a) **Report.** The Developer shall file a consolidated annual compliance report addressing each reporting obligation of Exhibit “O,” Exhibit “S,” Article 5, Sections 3.3, 3.4(d), and 3.5(f), and, where elected, Module M2, in human-readable and machine-readable open formats. The report may be consolidated with the report under Sec. 17(a) of the Standards. Where Exhibit “S” includes them, the report states, without including either plan or any part of it, that the Joint Emergency Operations Plan under Exhibit “S,” Section S-12.2(a), was updated and resubmitted, and that the physical security plan under Section S-24.1(d) was updated, during the year.
+
+(b) **Date and certification.** The report is due by [__] of each year and is certified by an officer of the Developer as true, correct, and complete to the officer’s knowledge after reasonable inquiry.
+
+(c) **Permit notices.** Within [__] days after receipt or filing, the Developer shall deliver to the County a copy of each notice of violation, warning letter, consent order, or enforcement action under any federal, state, or local permit for the Project, and of each application to modify a consumptive use, air, or environmental resource permit for the Project.
+
+(d) **Records.** The Developer shall permit County inspection and audit of its compliance records on reasonable notice.
+
+(e) **Entry.** The Developer consents to entry by the County to inspect for compliance with this Agreement, Exhibit “O,” and Exhibit “S” on [twenty-four (24)] hours’ notice, consistent with facility security protocols, and the County may enforce this consent by injunction.
+
+**Section 6.2 Compliance Monitoring.**
+
+(a) **Reimbursement.** The Developer shall reimburse the County’s reasonable documented cost of monitoring compliance with this Agreement and with the Standards, including sound monitoring verification, water balance review, telemetry validation, annual report review, and periodic inspection, in an amount not exceeding $[______] per year, adjusted annually by CPI-U, and not exceeding the compliance monitoring cost quantified in Exhibit B-1 as then updated. Costs paid from an escrow under Sec. 15(b) of the Standards, or recovered by any other cost-based fee of the County, are not reimbursed under this Section.
+
+(b) **Restricted account.** Amounts paid under this Section are held in a separate restricted account of the County, applied solely to monitoring under this Section, not commingled with the Mitigation Account, and not applied to the general purposes of the County. Any amount received in excess of the documented cost is credited against the next reimbursement.
+
+(c) **Accounting.** The County shall account annually for amounts received and spent under this Section, include the accounting in the annual compliance report, and publish it in machine-readable form.
+
+(d) **County obligations.** No failure of the County to spend the amounts received excuses any obligation of the County.
+
+(e) **Third-party monitor.** The County may retain a qualified third party to monitor compliance. The Developer has no role in the selection, direction, or compensation of that monitor beyond the reimbursement under subsection (a).
+
+**Section 6.3 Public Contact and Complaints.**
+
+(a) **Contact.** The Developer shall maintain a telephone number staffed at all hours, an electronic form or address, and a mailing address for reports about noise, lighting, dust, odor, vibration, construction traffic, or any other effect of the Project beyond the Project Site, and shall post them at each entrance to the Project Site and on the sound dashboard under Exhibit “S,” Section S-9.3.
+
+(b) **Handling.** The Developer shall accept, acknowledge, investigate, answer, log, and forward reports as Sec. 17(c) to (f) of the Standards provide for complaints, and shall include the log in the annual compliance report. The duty to forward under Sec. 17(e) of the Standards reaches each report that alleges a violation of this Agreement, Exhibit “S,” or the County’s land development regulations. The County shall publish the log within [__] days after receiving it.
+
+(c) **Anonymous reports.** An anonymous report may prompt the County’s monitoring of this Agreement under Section 6.2. Sections 125.69(4)(b), 162.06(1)(b), and 162.21(3)(b), Florida Statutes, and not this Agreement, govern whether an anonymous report may initiate a code enforcement investigation or proceedings, including monitoring under Section 6.2 that is such an investigation.
+
+(d) **Other rights.** Nothing in this Section limits any person’s right to report directly to the County, any enforcement under Article 8, or any other remedy of any person.
+
+**Section 6.4 Commitment Status and Completion.**
+
+(a) **Status table.** With each application for a site plan or plat for any part of the Project Site, and with each annual compliance report under Section 6.1, the Developer shall file a commitment status table in the form of Exhibit “P.” The table lists each obligation of this Agreement, Exhibit “S,” and, where elected, Module M2 that the site plan or plat carries out or, in an annual table, that was due or performed in the reporting year or remained unconfirmed at its end, and states for each: the section under which it arises and any line of Exhibit B-1 it answers; its trigger; how the site plan or plat provides for it, or how it was performed, by sheet and label, instrument number, permit number, or application number; any security that secures it; and its status as not yet due, in progress, completion claimed, completion confirmed, or not applicable. The table refers to each obligation by its section and does not restate it. The table is filed under this Agreement; it does not make any application complete or incomplete, and no application is delayed, or decided, on whether it was filed (Section 10.3; Sec. 16(b) of the Standards). Section 8.2(b) does not apply to a failure to file it.
+
+(b) **Completion.** An obligation to construct, install, dedicate, convey, remove, or restore any improvement, equipment, land, or interest in land under this Agreement, Exhibit “S,” or Module M2 is complete only when (1) the Developer has filed a completion statement in the form of Exhibit “P,” sworn by an officer as true, correct, and complete to the officer’s knowledge after reasonable inquiry, identifying the obligation and attaching the evidence of its completion, such as record drawings, recorded instrument numbers, inspection and acceptance records, and test results; and (2) the County, after any field inspection it considers necessary, has confirmed completion in writing. Confirmation is ministerial: the County confirms completion where the evidence and any inspection show the obligation performed as this Agreement requires, and otherwise states in writing what remains to be done. Where this Agreement or the County’s land development regulations provide their own acceptance or test for an obligation, including acceptance under Section 2.4(c), acceptance of the County Conduit under Section 4.5(b), and the readiness test under Section M2.1(b) of Module M2, that acceptance or test result is the County’s confirmation, and the statement cites it.
+
+(c) **Time to answer.** The County Administrator shall designate in writing the County office that receives and answers statements. A statement is complete unless, within [__] days after it is filed, that office states in writing the evidence it lacks, and a statement refiled with that evidence is complete when it is refiled. The County shall confirm completion, or state what remains, within [__] days after a complete statement is filed. No confirmation is given by silence or the lapse of time. If the County has not answered within that period, the Developer may give written notice to the County Administrator, and the County shall answer within [__] days after the notice. The Developer may bring an action for injunctive relief under s. 163.3243, Florida Statutes, or for specific performance, to compel an answer under this subsection, and Section 10.14(d) does not limit this subsection. No damages are recoverable for a late answer.
+
+(d) **Security.** The County shall not reduce or release any security under this Agreement for an obligation, in whole or in part, until it has confirmed under subsection (b) the completion of that obligation, or of the part for which the reduction or release is sought. This subsection applies only to security for an obligation described in subsection (b). It does not limit the reduction of a letter of credit by the amount of an installment paid under Section 4.2, a resizing on recertification or at an interval this Agreement states, such as under Section 7.2(a) or Exhibit “S,” Section S-6.1(d), a reduction the County’s land development regulations allow for security under Section 2.4(c), or any draw.
+
+(e) **Later findings.** A confirmation waives nothing. If the County later finds, by inspection or otherwise, that an obligation it confirmed is incomplete or does not conform to this Agreement, it shall give the Developer written notice stating what remains, and the Developer shall complete it as this Agreement requires. Article 8 applies to any failure to do so. For an improvement the County has accepted under its land development regulations, a later finding under this subsection may be made only within the maintenance or warranty period those regulations set or, where they set none, within [__] years after acceptance.
+
+(f) **Record; cost.** The County shall publish each status table, completion statement, confirmation, and statement of what remains, omitting only information that is exempt or confidential by law. The County’s reasonable cost of reviewing filings and of field inspection under this Section is a cost of compliance monitoring under Section 6.2.
+
+**ARTICLE 7. SECURITY AND DECOMMISSIONING**
+
+**Section 7.1 Decommissioning Plan.** The Developer shall file, and update, the decommissioning and adaptive-reuse plan that Sec. 14(a) of the Standards requires, covering at least the items in the outline attached as Exhibit “F.”
+
+**Section 7.2 Decommissioning Security.**
+
+(a) **Amount and form.** The Developer shall maintain a performance bond, irrevocable letter of credit, or escrow, in the form of Exhibit “L,” drawable by the County on presentation without the need for litigation, in the amount Sec. 14(b) of the Standards requires. The security is recertified and resized at each plan update under Section 7.1 and on any amendment increasing the Approved Capacity. The Decommissioning Security is the financial assurance Sec. 14(b) of the Standards requires; one instrument meeting this Section satisfies both, and the County may draw on it on any ground either allows.
+
+(b) **Delivery.** The Developer shall deliver the security by the time Sec. 14(b) of the Standards requires and in any case before the Operations Commencement Date, in the amount required for the Phases then in operation or under construction, shall increase it before each later Phase Operations Date to the amount then required, and shall maintain it while improvements remain on the Project Site.
+
+(c) **Letters of credit.** A letter of credit under this Section shall be issued by a bank meeting the issuer standard of Exhibit “L,” shall state an expiration date not earlier than one (1) year after its issue, and shall be extended automatically for successive periods of not less than one (1) year unless the issuer gives the County and the Developer notice of non-extension at least [__] days before the expiration date then in effect. [Drafting note, remove before the draft is made public: Set this notice period longer than the thirty (30) days before expiration by which subsection (d) requires renewal or replacement.] No instrument under this Section may state that it is perpetual.
+
+(d) **Renewal; draw.** Each instrument shall be renewed or replaced not less than thirty (30) days before any stated expiration. The County may draw on it when an amount due under this Article, or a well owner claim under Sec. 8(e) of the Standards, remains unpaid thirty (30) days after it was due, or another obligation under this Article or under Exhibit “S,” Section S-12.6(d), remains unperformed sixty (60) days after performance was due; on any failure to renew or replace it on time; and as Sec. 14(b)(4) of the Standards permits. Notice of the default is given where the law permits it, but is not a condition of the draw. Proceeds of a draw for decommissioning are applied as Sec. 14(b)(4) of the Standards provides. Within [thirty (30)] days after any draw, the Developer shall restore the security to the amount this Section requires, less any proceeds the County still holds, unspent, for the obligation for which they were drawn or as the Decommissioning Security. No remedy for a failure to restore limits or conditions any withdrawal of water. If the issuer of a letter of credit ceases to meet the issuer standard of Exhibit “L,” is placed on watch for downgrade below the rating that standard requires, becomes subject to a public formal enforcement action or capital directive of its regulator, or the issuer or surety becomes subject to a receivership, conservatorship, or insolvency proceeding or has its authority to issue letters of credit or to act as surety suspended or revoked, the Developer shall deliver replacement security within [__] days after the event or, for a watch for downgrade, enforcement action, or capital directive, within [__] days after it, and if it does not, the County may draw the full undrawn amount and hold it as the Decommissioning Security. [Drafting note, remove before the draft is made public: The first period follows an event after which the issuer or surety no longer qualifies, such as a downgrade below the required rating, a receivership, or the suspension of its authority; the second follows a watch for downgrade, enforcement action, or capital directive affecting the issuer of a letter of credit, which may come while it still qualifies. A shorter second period moves the security sooner to an issuer or surety under no such warning; a longer one gives the Developer more time to arrange replacement and leaves the security longer with the issuer under warning.] This subsection governs where it permits a draw that Sec. 14(b)(4) of the Standards does not.
+
+(e) **Obligations secured.** The security secures decommissioning, site restoration, the closure remediation under Exhibit “S,” Section S-12.6(d), and each well owner claim under Sec. 8(e) of the Standards, each of which survives termination of this Agreement.
+
+(f) **Release.** The County releases the Decommissioning Security only after it has confirmed under Section 6.4(b), on the Developer’s completion statement and after inspection, that the work it secures is complete and that no well owner claim under Sec. 8(e) of the Standards made before then remains unpaid[, and may release part of it for a part of that work that the decommissioning plan states separately and that the County has so confirmed].
+
+**Section 7.3 Abandonment; Distress Events.**
+
+(a) **Abandonment.** “Abandonment” means the cessation of substantially all compute operations at the Project Site for twelve (12) consecutive months, not counting periods of force majeure and documented modernization downtime not exceeding eighteen (18) months undertaken with prior written notice to the County. Sec. 14(c) and (d) of the Standards also apply.
+
+(b) **Distress Events.** A “Distress Event” is any of (1) cessation of substantially all compute operations for [ninety (90)] consecutive days; (2) the appointment of a receiver, an assignee for the benefit of creditors, or a similar custodian for the Project or the Developer; or (3) disconnection of primary electric service to the Project for non-payment for more than [sixty (60)] days. A Distress Event accelerates the option under Section 7.4, where that Section applies, and the unpaid installments under Section 4.2(f).
+
+(c) **Bankruptcy.** Clause (b)(2) does not operate after a bankruptcy filing to the extent 11 U.S.C. 365(e)(1) bars it. The covenants, options, and security interests of this Agreement are to be recorded and perfected and remain enforceable, subject to applicable law, notwithstanding any bankruptcy proceeding.
+
+**Section 7.4 County Purchase Option.**
+
+(a) **Option.** On Abandonment, or on the Developer’s recorded notice of intent to permanently discontinue the use, the County, or a public agency the County designates by resolution, which may include a consortium of local governments under s. 163.01, Florida Statutes, the [COUNTY] School District, or a regional state college, has the option to purchase the Project Site and shell improvements at fair market value determined, at the Developer’s cost, by two independent MAI appraisers (one selected by each Party, with a third tie-breaking appraiser if the two values diverge by more than ten percent). The County or the designated agency may call for the appraisal by written notice within one hundred eighty (180) days after the Abandonment or the recorded notice, and may exercise the option by written notice within [ninety (90)] days after the price is determined, closing within one hundred twenty (120) days after exercise. Each Party engages its appraiser within [__] days after the call, and each appraisal is delivered within [__] days after the call; if a Party has not engaged its appraiser, or its appraiser has not delivered an appraisal, in time, the price is the other appraisal. Before closing, the Developer removes the BESS, fuels, coolants, and hazardous materials and completes the remediation under Exhibit “S,” Section S-12.6(d), at its cost; the appraisers value the site as so delivered, and the Decommissioning Security remains until that work is done. After a Distress Event, the County or the designated agency may also call for the appraisal, by written notice given within one hundred eighty (180) days after the Distress Event, subject to subsection (b) and Section 10.21.
+
+(b) **Mortgagees.** The option is subordinate to the lien of any Qualified Mortgagee. A Qualified Mortgagee shall receive copies of all notices under this Article and has the cure rights of Section 10.21. A transferee by foreclosure or deed in lieu takes title subject to the covenants of this Agreement, and the option re-arises on any later Abandonment.
+
+(c) **Scope; character.** The option concerns the Project Site and shell improvements only, is exercisable only at the appraised fair market value determined under subsection (a), and is mitigation of the blight and decommissioning impacts of Abandonment that Exhibit B-1 shows, as subsection (d) requires. The Parties stipulate that the option, priced at fair market value by independent appraisal and limited to the exercise periods of this Section, is a commercial, nondonative interest, is a reasonable restraint under Florida law, and is outside s. 689.225, Florida Statutes, as an interest arising from a nondonative transfer.
+
+(d) **Where supported.** This Section is part of this Agreement only where the Exhibit B-1 adopted with this Agreement shows a blight or decommissioning impact of Abandonment that Sec. 14 of the Standards leaves unanswered at the Project Site, and once part of it, this Section is not removed by a later revalidation of Exhibit B-1. [Where Exhibit B-1 shows no such impact, leave this Section out before execution and mark its heading Reserved.]
+
+**Section 7.5 Restoration.** If the option under Section 7.4 does not apply or ends without a closing, and no successor use authorized under the County’s land development regulations commences within [__] days after the later of Abandonment and the date the option ends or, if no period is stated, within the period Sec. 14(c)(3) of the Standards allows for commencing decommissioning, counted from that later date, the Developer shall carry out the decommissioning plan, including demolition of above-grade improvements, lawful removal of the BESS, fuels, and hazardous materials, and stabilization and revegetation of the Project Site, and the County may draw on the Decommissioning Security to complete any work not performed. Sec. 14(c)(3) of the Standards governs where it requires earlier action.
+
+**Section 7.6 Insurance.**
+
+(a) **Coverage.** Throughout construction and for so long as the High-Density Compute Use continues, the Developer shall maintain insurance covering the risks of the Project with insurers authorized to transact business in Florida and rated not less than A- VII by A.M. Best, in at least the following limits, which the County Risk Manager may raise to reflect Project scale and the Approved Capacity:
+
+(1) commercial general liability, occurrence form, of not less than $[______] per occurrence and $[______] aggregate, including premises and operations, products and completed operations, and contractual liability;
+
+(2) pollution legal liability for on-site and migrating conditions, including releases of cooling fluids and other regulated substances, of not less than $[______] per claim, without exclusion of losses arising from the BESS or thermal-runaway events to the extent such coverage is commercially available, in addition to the security under Section 7.2 and Exhibit “S,” Section S-6.1(d);
+
+(3) “all-risk” property coverage on the improvements at full replacement cost, the proceeds applied consistent with the rights of any Qualified Mortgagee and with the restoration and decommissioning obligations of this Agreement (the County need not be a loss payee);
+
+(4) workers’ compensation and employer’s liability as required by Chapter 440, Florida Statutes; and
+
+(5) during construction, builder’s risk, with each contractor and subcontractor required to carry liability coverage in the amounts the County Risk Manager states in writing before site work begins, naming the County as an additional insured, and workers’ compensation as Chapter 440, Florida Statutes, requires.
+
+(b) **Terms.** The County and its officers, employees, and agents are named as additional insureds on the commercial general liability and pollution legal liability policies as respects liability arising out of the Project, and that coverage is primary and non-contributory to any insurance or self-insurance of the County. Each liability policy includes a waiver of subrogation in favor of the County to the extent of its additional-insured interest. The Developer shall file certificates with the County Risk Manager before site work begins and annually, and shall give thirty (30) days’ written notice of cancellation or material reduction.
+
+(c) **Cumulative.** The insurance is in addition to, and does not limit, the Developer’s indemnity under Section 7.7 and its other financial assurances, and the required limits do not cap the Developer’s liability.
+
+**Section 7.7 Indemnification.** To the fullest extent permitted by law, the Developer shall indemnify, defend, and hold harmless the County and its officers, employees, and agents from claims arising out of the construction or operation of the Project, except to the extent caused by the County’s sole negligence or willful misconduct.
+
+**ARTICLE 8. DEFAULT AND REMEDIES**
+
+**Section 8.1 Notice and Cure.** Before exercising remedies, the County shall give the Developer written notice of default, but notice is not a condition of a draw on any security under this Agreement. A monetary default shall be cured within thirty (30) days. Any other default shall be cured within sixty (60) days, extended while the Developer commences cure within that period and diligently pursues it to completion, but not later than [__] days after the notice of default [study-dependent: the County Engineer’s written estimate of the longest reasonable cure for the class of obligation], except as Section 8.3 provides. Section 8.4 applies.
+
+**Section 8.2 Remedies.** The County’s remedies are cumulative and include:
+
+(a) specific performance and injunctive relief, the Parties stipulating that a breach of Exhibit “O,” Exhibit “S” (other than Part S-25), Section 2.4(d), Sections 4.2 to 4.5, or Module M2 causes harm not adequately remediable at law;
+
+(b) withholding of further development permits and approvals for the Project, other than a building permit whose plans comply with the codes s. 553.79(2)(a)4., Florida Statutes, names, during any uncured default. A development permit or development order applied for, as s. 125.022(3), Florida Statutes, defines those terms, is withheld only by a written denial within the periods that section allows. The denial states its findings and cites this paragraph, and it is without prejudice to a new application once the default is cured. This paragraph applies only to a default in an obligation that mitigates an impact of the Project, as Sec. 16(e) of the Standards also requires for an approval the Standards govern;
+
+(c) liquidated amounts of $[______ (a reasonable pre-estimate of damage)] per day, adjusted annually by CPI-U from the Effective Date with no adjustment reducing the amount below the prior year’s level, for each verified violation of the sound limits, or of the sound monitoring and telemetry obligations, of Exhibit “O” and Exhibit “S,” Part S-9. [Drafting note, remove before the draft is made public: Set the amount on the record within the range Exhibit B-1 supports, as a pre-estimate of the County’s own damage only, not of residents’ loss.] The County deposits every liquidated amount under this paragraph in a restricted account, separate from the Mitigation Account and the account under Section 6.2(b), applied only to monitoring and enforcing Exhibit “O” and Exhibit “S” at the Project Site, never credited against any obligation of the Developer, and reported in the accounting under Section 6.2(c). Each liquidated amount is the County’s sole monetary recovery for the damages it liquidates, without limiting equitable relief, code enforcement, or recovery under Section 10.26;
+
+(d) code enforcement under Chapter 162, Florida Statutes, and the County’s land development regulations;
+
+(e) for chronic uncured default, proceedings under the County’s land development code with respect to [the High-Density Compute Overlay District]; and
+
+(f) after the hearings s. 163.3225, Florida Statutes, requires, revocation or modification of this Agreement under s. 163.3235, Florida Statutes, on a finding, based on substantial competent evidence, that the Developer has failed to comply with its terms.
+
+**Section 8.3 Force Majeure.**
+
+(a) **Defined.** “Force majeure” means an event beyond the reasonable control of the Party claiming it, not caused by its fault, negligence, or breach of this Agreement, that prevents its performance despite its reasonable efforts, and is limited to: a hurricane, tropical storm, tornado, flood, wildfire, earthquake, or sinkhole; a fire or explosion; war, terrorism, sabotage, riot, or civil disorder; an epidemic or an order of a public health authority; a failure of the regional electric transmission system or of a public water or wastewater system; a strike or other labor disturbance that is general in the region or in an industry and is not directed only at that Party or its contractors; and an order of a court or of a governmental authority, other than the County acting under this Agreement. Force majeure does not include (1) economic or market conditions, an increase in cost, or the unavailability of financing; (2) a delay or shortage in the supply of equipment, materials, or labor, or a delay of a contractor or supplier, unless itself caused by an event this subsection names; (3) a delay in utility service, interconnection, or a permit or approval, for which Section 3.4(c) alone provides; (4) the financial condition of the Party claiming it; or (5) an event that the obligation claimed to be excused exists to meet, except as Section 8.4(b) provides.
+
+(b) **Notice; mitigation.** The Party claiming force majeure shall give the other Party written notice within [__] days after it learns of the event, stating the event, the obligations affected, and the expected period of prevention; shall use reasonable efforts to mitigate the event’s effect and to resume performance; and shall give written notice when performance resumes. An event noticed late excuses performance only from the date of notice.
+
+(c) **Effect.** Force majeure extends the time for performing a non-monetary obligation, other than a Health and Safety Obligation, by the period performance is prevented and a restoration period after the event of not more than [__] days, and does not otherwise excuse performance. It never excuses a monetary obligation or the maintenance of any security. A Health and Safety Obligation is excused only while, and to the extent that, performing it is physically impossible, with no restoration period, and Section 8.4(b) governs the emergency power obligations of Module M2.
+
+**Section 8.4 Health and Safety Obligations.**
+
+(a) **Defined.** The “Health and Safety Obligations” are the standards of Exhibit “O” and Exhibit “S” on sound, on-site generation, and hazardous systems, emergency planning, and site security (Secs. 9, 10, and 12 of the Standards and Exhibit “S,” Parts S-9 and S-10, Sections S-12.1 to S-12.3, Part S-24, and Section S-6.2 as it applies to security lighting), and, where elected, the emergency power obligations of Module M2.
+
+(b) **Not suspended.** No extension of a cure period under Section 8.1 applies to an ongoing exceedance or failure of a Health and Safety Obligation. Force majeure excuses the emergency power obligations of Module M2 only on physical destruction of the equipment that provides them, and then only until the temporary capability Section M2.1(h) of Module M2 requires is due; the Developer shall repair or replace the equipment with diligence. No mortgagee cure period under Section 10.21 applies to, suspends, or excuses a Health and Safety Obligation, each of which remains enforceable at all times.
+
+(c) **Mediation.** Mediation under Section 10.26 applies only to a dispute over the amount of a payment under Article 4 or Section 6.2. No mediation suspends any notice or cure period, draw on security, code enforcement proceeding, action for injunctive relief, or review under s. 163.3235, Florida Statutes.
+
+**ARTICLE 9. TERM, PERIODIC REVIEW, AMENDMENT, AND TERMINATION**
+
+**Section 9.1 Periodic Review.** The County shall review development under this Agreement at least once every twelve (12) months, as s. 163.3235, Florida Statutes, requires, to determine whether the Developer has demonstrated good-faith compliance with its terms, and the Developer shall demonstrate good-faith compliance at each review. Each review shall report the status of each Phase against its outside dates, any tolling claimed under Section 3.4, the most recent certification under Section 3.5, the most recent ledger and audit of the Mitigation Account, and the status of each obligation shown in the status tables filed under Section 6.4 since the last review. With each review the County shall publish every finding and recommendation made since the last review in compliance monitoring under Section 6.2 or in a revalidation under Section 4.1(d), each with the County’s written answer, yes or no, and the reason, omitting only information that is exempt or confidential by law.
+
+**Section 9.2 Amendment.** This Agreement, including its exhibits, may be amended only in writing approved after the public hearings the Act requires. An amendment that s. 163.3237, Florida Statutes, permits the owner of a portion of the Project Site and the County to make without the consent of other owners shall not increase the Approved Capacity, extend an outside date, or reduce any obligation that serves the Project Site as a whole, except as Section 3.1 provides.
+
+**Section 9.3 Later State or Federal Law.** Under s. 163.3241, Florida Statutes, if state or federal law enacted after the execution of this Agreement is applicable to and precludes the Parties’ compliance with any term of this Agreement, including Sections 3.2 and 4.6, this Agreement shall be modified or revoked as necessary to comply with that law. Nothing in this Section limits Section 10.6 or Section 10.12.
+
+**Section 9.4 Survival for the Life of the Use.**
+
+(a) **Term and covenants.** The Term governs the statutory development agreement. It does not limit the duration of the covenants of this Agreement, which run for the life of the High-Density Compute Use.
+
+(b) **Surviving obligations.** Without limiting subsection (a), Exhibits “O” and “S,” Sections 4.3 and 7.1 to 7.5, Module M2, and the obligation to pay any unpaid installment under Section 4.2 are life-of-use obligations and recorded covenants that survive the expiration of the Term while the High-Density Compute Use continues, and no expiration of the Term terminates them. No non-extension of the Term affects them.
+
+(c) **Overlay conditions.** The County may, by its own later legislative act, adopt any standard of this Agreement, Exhibit “O,” or Exhibit “S” as a condition of [the High-Density Compute Overlay District]. Nothing in this Agreement requires it to.
+
+**Section 9.5 Marketable Record Title Act.**
+
+(a) **County notice.** To prevent extinguishment of this Agreement and its covenants under Chapter 712, Florida Statutes, the County shall prepare, execute, and record, in the form and manner ss. 712.05 and 712.06, Florida Statutes, prescribe, a notice preserving this Agreement and its covenants, not later than the [twenty-fifth (25th)] anniversary of the recording of this Agreement under Section 10.22 and again not later than [twenty-five (25)] years after the most recently recorded notice, for so long as the High-Density Compute Use continues.
+
+(b) **Joinder.** The Developer shall join in, execute, and acknowledge each notice within thirty (30) days of the County’s request and shall reimburse the reasonable costs of its preparation and recording. A failure to join is a default.
+
+(c) **Developer notice.** If no preservation notice has been recorded by the twenty-seventh (27th) anniversary of the recording of this Agreement under Section 10.22 or of the most recently recorded notice, the Developer shall prepare, execute, and record the notice within sixty (60) days, at its own cost, and deliver a recorded copy to the County. A failure to do so is a default.
+
+(d) **Calendar.** The County Administrator shall designate in writing the County office responsible for the preservation calendar, keep that designation in the compliance file, and confirm it and the next due date each year. Each annual compliance report and each estoppel certificate shall state the date of the most recently recorded preservation notice. A failure of designation does not excuse performance.
+
+(e) **Survival.** The obligations of this Section run with the land and survive the expiration of the Term.
+
+**ARTICLE 10. GENERAL PROVISIONS**
+
+**Section 10.1 Voluntary Agreement; Waiver of Claims.** The Developer enters into this Agreement voluntarily, under the Act and with the advice of counsel, after having been advised of the alternative pathway in Section 10.2. To the fullest extent permitted by law, the Developer waives, as to the commitments and conditions stated in this Agreement at execution, any claim under s. 70.001, Florida Statutes, and any claim that those commitments are an uncompensated exaction, taking, or unconstitutional condition. The waiver does not reach any regulation, condition, or requirement imposed after execution, including one Section 10.8 anticipates. The right of action under s. 70.45, Florida Statutes, may not be waived; as to it, the County relies on the findings under Section 10.5.
+
+**Section 10.2 Alternative Pathway.**
+
+(a) A development that satisfies the County’s land development regulations, including the Standards and ordinary concurrency requirements, may be approved without entering into this Agreement, and the Developer may apply for and obtain approval under the Standards without it.
+
+(b) The County shall maintain, and shall furnish on request, a written statement of the approval pathway available to an applicant that does not enter into this Agreement.
+
+(c) Participation in negotiating this Agreement waives no right to seek approval without it and is not an admission that any commitment is required.
+
+(d) Nothing in this Agreement prejudices, delays, or disadvantages any applicant that does not enter into it.
+
+**Section 10.3 No Conditioning.**
+
+(a) The County shall not require execution of this Agreement, or of any separate agreement it contemplates, including an agreement to take recovered thermal energy and any contract described in Section 10.14(c), as a condition of any development order, permit, rezoning, conditional use, or comprehensive plan amendment. The County shall not consider an applicant’s willingness to enter into any of them in acting on any application, and shall not deny, delay, or condition any approval because an applicant declines to enter into one.
+
+(b) The County’s obligations under this Section are independent of Secs. 16 and 15A(e) of the Standards. Where this Agreement and the Standards both apply, the Standards govern the approval decision and this Agreement governs the obligations it contains.
+
+**Section 10.4 Character of Obligations.**
+
+(a) **No exaction or tax.** The Payment under Section 4.2 and the amount under Section 4.3(a) are mitigation of impacts measured in Exhibit B-1 and are received and used as Section 4.6 provides. The reimbursements under Sections 4.1(d), 4.3(c), and 6.2 are reimbursements of costs the Project causes, paid to the County as Section 4.6(c) provides, and are not mitigation payments. None of these is a tax, a revenue measure, or an impact fee. The standards of this Agreement, Exhibit “O,” and Exhibit “S,” and the cost sharing under Section 4.5, are not mitigation payments and are not measured as mitigation payments.
+
+(b) **Not given in exchange.** No obligation of the Developer, including under Section 10.23, is given in exchange for any approval, vesting, phase release, Campus Development Envelope, or Term, and each mitigation obligation rests on the impact Exhibit B-1 quantifies for it. The Parties’ mutual promises, including the County’s promises in Sections 4.5(b), 9.5(a), 10.17, 10.20, 10.21, and 10.22, are consideration for each other.
+
+**Section 10.5 Nexus and Proportionality.** The Board determines, on the basis of Exhibit B-1, that each mitigation obligation of the Developer in this Agreement, monetary or in kind, and each covenant of Exhibit “S,” bears an essential nexus to, and is roughly proportional in nature and extent to, a specific impact of the Project quantified in Exhibit B-1, including its demand on the electrical grid, water resources, emergency-response and public-safety services, roads, and stormwater systems and its effects on the surrounding environment, as s. 70.45, Florida Statutes, requires. For a covenant of Exhibit “S,” the impact is the part Exhibit B-1 shows the Standards leave unanswered at the Project Site.
+
+**Section 10.6 No Promise of Approval; Police Power.** This Agreement is not contract zoning. Nothing in it obligates the County to adopt the Approvals, which remain independent legislative and quasi-judicial acts committed to the Board’s discretion after noticed public hearings; guarantees approval of any application; waives any concurrency requirement, comprehensive plan consistency requirement, or public hearing required by law; commits the County to adopt, support, or approve any future legislative or quasi-judicial act or to exercise any discretion in the Developer’s favor; or limits or bargains away the County’s police power to adopt and enforce regulations necessary for the public health, safety, or welfare, beyond what ss. 163.3229 and 163.3233, Florida Statutes, permit.
+
+**Section 10.7 Vesting.** Under ss. 163.3229 and 163.3233(1), Florida Statutes, the land development regulations and policies governing the development of the Project Site are those in effect when this Agreement is executed, for the Term, subject only to s. 163.3233(2), Florida Statutes, and Section 10.8. The County shall not apply a later-adopted land development regulation to the Project Site except as s. 163.3233(2) permits, and shall state in writing the basis for any such application. Vesting under this Agreement operates only as s. 163.3233 provides. The Developer does not waive, and this Agreement does not diminish, any right under s. 163.3233(1), except as Sections 4.2(e) and 10.8 provide.
+
+**Section 10.8 Later Standards, Rates, and Fees.**
+
+(a) **Anticipated.** Each of the following is specifically anticipated and provided for by this Agreement within the meaning of s. 163.3233(2)(c), Florida Statutes: (1) each revalidation of Exhibit B-1 and each rate set under Section 4.2(e); (2) each design, performance, operational, monitoring, or reporting standard of the County’s data center standards, on the subjects of Secs. 4 to 18 of the Standards, and each amendment of one, adopted after this Agreement is executed; and (3) each impact fee ordinance for [fire rescue, emergency medical services, emergency power, and each other category the County charges or expects to adopt] adopted after this Agreement is executed. [Drafting note, remove before the draft is made public: Name in the bracket each impact fee category the County charges, or expects to adopt, for all development or for data centers, and strike the general words; a later fee in a category not named may not reach the Project during the Term (Section 10.8(d)).] The Board makes the determination s. 163.3233(2)(c), Florida Statutes, requires at the public hearing at which it adopts the item or at any later public hearing, naming each development agreement to which the determination applies.
+
+(b) **Later standards.** On that hearing and determination, a standard under subsection (a)(2) applies to every Phase not commenced on the date it takes effect, and to every other Phase only where the County’s standards apply it by their own terms to facilities whenever approved. Section 10.9 then applies, and review under Section 3.2(c) includes it. As to a standard that so applies, the Developer waives any right that may vest by equitable estoppel or otherwise at common law, which s. 163.3233(3), Florida Statutes, preserves. The same waiver applies to each rate under subsection (a)(1) and each impact fee under subsection (a)(3).
+
+(c) **Later impact fees.** An impact fee ordinance under subsection (a)(3) applies to each building permit applied for after its effective date. Obligations already performed under Sections 4.2 and 4.3 and Module M2 in a fee category are credited under s. 163.31801(5)(a), Florida Statutes.
+
+(d) **Limit.** This Section anticipates no other land development regulation, as to which Section 10.7 governs, and enlarges no Approved Capacity.
+
+**Section 10.9 Stricter Standard Governs.**
+
+(a) Where a standard of this Agreement, of Exhibit “O,” of Exhibit “S,” or of the County’s data center standards as they apply to the Project addresses the same subject as another of them, the stricter governs on each point, including a lower limit, a shorter averaging period, a larger interface, or an earlier deadline.
+
+(b) No standard of this Agreement, Exhibit “O,” or Exhibit “S” is a maximum, a safe harbor, or a limit on the County’s police power as to its subject. No figure in Section 2.3, no Campus Development Envelope, no plan approval, and no phase release waives any standard, and every Phase remains subject in full to Exhibits “O” and “S.”
+
+**Section 10.10 No Enlargement of Obligations.** Nothing in Sections 3.2 to 3.5, Section 4.7, or Section 10.2 enlarges any obligation of the Developer. A disposition by the County of an item acquired under Section 4.3 does not revive, enlarge, or extend any obligation of the Developer as to that item. No failure of the County to spend amounts received under Section 6.2, to revalidate Exhibit B-1, or to maintain the statement under Section 10.2(b) enlarges any obligation of the Developer.
+
+**Section 10.11 Approvals; Invalidation; Survival.**
+
+(a) **Approvals.** The obligations of this Agreement operate only if the Approvals are granted and the Developer then proceeds with the Project. If the Approvals are denied or never granted, this Agreement is void from the start, neither Party has any liability under it, and no vested rights arise from it.
+
+(b) **Later invalidation.** If, after the Developer commences development, the Approvals or any part of them are quashed, invalidated, or set aside by a court, the invalidation operates prospectively only and does not erase accrued obligations, and the covenants of this Agreement, voluntarily granted and recorded, survive to the fullest extent severable and remain enforceable as covenants running with the Project Site, independently of the land-use entitlement. This subsection and Section 10.12 are applied together to preserve the greatest lawful measure of the protections of this Agreement, Exhibit “O,” and Exhibit “S.”
+
+(c) **Independent declaration.** The declaration of restrictive covenants in this Agreement is an independent recorded instrument, enforceable on its own terms as covenants running with the land whether or not the statutory development agreement is valid, enforceable, or in effect, and whether or not the Term has expired. Each Party would have entered into the declaration independently of the Act.
+
+(d) **Independent grounds.** The Approved Capacity limits rest independently on the grid, water, transportation, emergency-response, and public-safety findings of Exhibit B-1 and not on any fiscal or tax characterization. If any statute, rule, or judicial decision restricts the County’s authority to impose or enforce any provision of this Agreement, the remaining provisions continue in force, and the Approved Capacity limits survive on those grounds.
+
+(e) **Revocation.** No revocation or modification of this Agreement releases a covenant that survives under this Section or Section 9.4, any security under Section 2.4(c), 4.2(f), or 7.2 or Exhibit “S,” Section S-6.1(d) or S-20.2, or any obligation already accrued, and Section 10.21 applies.
+
+**Section 10.12 Severability and Reformation.**
+
+(a) If any provision of this Agreement, Exhibit “O,” or Exhibit “S” is held invalid or preempted, the remainder continues in effect. Pending a substitute, the Developer shall comply with the closest lawful equivalent of the invalidated provision and with every related requirement that is not itself invalid, including applicable permit limits, and the invalidation of a provision does not authorize the activity it restricted except to the extent the controlling law affirmatively permits it.
+
+(b) The Parties shall negotiate in good faith a lawful substitute that most nearly achieves the invalidated provision’s mitigation purpose and shall use diligent efforts to agree within ninety (90) days. Failing agreement, the County may adopt a conforming substitute condition for [the High-Density Compute Overlay District] through its land development regulations and public hearing process, consistent with this Agreement and applicable law. The Parties shall also meet and confer on any planning consequence of the invalidation.
+
+(c) If a monetary covenant is held invalid under the characterization the Parties intend, it is sustained under any other lawful characterization, including as mitigation of a measured impact paid into the Mitigation Account, and is reformed only to the minimum extent necessary, preserving in all events the caps, segregation, and expenditure rules of Sections 4.1(c), 4.2, and 4.6.
+
+**Section 10.13 Covenants Running with the Land.** On recording, this Agreement is a declaration of restrictive covenants. Its covenants, including those of Exhibits “O” and “S,” touch and concern the Project Site, run with it, and bind the Developer and all successors, assigns, tenants, and transferees for the life of the High-Density Compute Use. Each covenant touches and concerns the Project Site because it answers an impact of the development and operation of the Project on the Project Site and the surrounding area, burdens the Project Site, and benefits the County in its governmental capacity serving the affected area. Under s. 163.3239, Florida Statutes, the burdens of this Agreement bind, and its benefits inure to, all successors in interest to the Parties.
+
+**Section 10.14 No County Obligation or Liability.**
+
+(a) **Water.** The County’s provision of potable or reclaimed water is subject to applicable tariffs, water management district allocations, and availability. Nothing in this Agreement obligates the County to guarantee any quantity of water or other service or to construct any facility. The unavailability of reclaimed or potable water because of permitting, allocation, drought, or capacity is not a breach by the County, and the Project’s cooling design shall not depend on a County guarantee of supply.
+
+(b) **Utility approvals.** The risk of obtaining any approval of a cooperative or municipal utility rests with the Developer. Its failure or delay is not a breach by the County and creates no obligation or liability of the County.
+
+(c) **No procurement.** Nothing in this Agreement obligates the County or any other public agency to purchase, contract for, or appropriate funds for any service or asset of the Developer or of any other person, except payment for County Conduit the County requests under Section 4.5. Any other such contract is separate from this Agreement and is subject to the County’s procurement requirements and to annual appropriation.
+
+(d) **Receipt.** The County’s receipt of a forwarded report or a log under Section 6.3, or of any other report or submittal under this Agreement, creates no duty of the County beyond its ordinary functions and no liability. No failure to give notice under Section 10.18(c), and no disclosure the County makes in good faith in responding to a public records request or in publishing a submittal as this Agreement or the Standards require, is a default of the County or gives rise to any liability of the County.
+
+**Section 10.15 No Joint Venture.** Nothing in this Agreement creates a partnership, joint venture, or agency between the County and the Developer, or pledges or lends the County’s credit or taxing power in violation of Article VII, Section 10 of the Florida Constitution.
+
+**Section 10.16 Sovereign Immunity; Third Parties.** Nothing in this Agreement, including any designation of the County as an additional insured, waives or extends the County’s sovereign immunity or the limits of s. 768.28, Florida Statutes. Except as Sections 10.20 and 10.21 provide, this Agreement creates no rights in any person other than the Parties and their permitted successors. Nothing in this Agreement limits any action that s. 163.3243, Florida Statutes, authorizes.
+
+**Section 10.17 Assignment and Transfer.**
+
+(a) **Assignment.** The Developer may assign this Agreement only with a transfer of the Project Site, on thirty (30) days’ prior written notice, and on delivery of the assignee’s written assumption of all obligations of this Agreement, replacement bonds, security, and insurance in the assignee’s name, and evidence reasonably satisfactory to the County of the assignee’s financial capacity to perform. The assignor is released from obligations accruing after the transfer only on the County’s written confirmation that these conditions are met. The County shall confirm, or state in writing which condition remains unmet, within [__] days after receiving the assumption, security, and evidence; absent confirmation, the assignor remains liable. Section 5.5 governs any transfer to a foreign entity or to any other person to which Section 5.5 prohibits a transfer.
+
+(b) **Partial transfer.** The Developer may transfer a portion of the Project Site only by a recorded instrument, joined by the transferee and delivered to the County, that (1) allocates to the transferred portion a stated share of the Approved Capacity and of each Phase’s capacity, the shares of all owners never exceeding the Approved Capacity; (2) states which owner performs each obligation of Articles 4 and 7, Module M2, and Exhibit “S,” Sections S-12.1 to S-12.3, Part S-22, Section S-23.2, and Part S-24; and (3) binds the transferee to Exhibit “S,” Sections S-1.4 and S-25.2. Until the County confirms in writing that the allocation of obligations is adequate, the obligations of Sections 4.2, 4.3, and 7.2 and Module M2 remain joint and several among all owners. The County shall confirm, or state in writing why the allocation is not adequate, within [__] days after receiving the recorded instrument. Each owner of any part of the Project Site covenants, for the benefit of each other owner, not to seek, without the written consent of each other owner, an amendment that Section 9.2 bars or any amendment of Section 9.2 or of this sentence.
+
+(c) **Leaseholds.** Where any part of the Project Site is or becomes subject to a leasehold, the Developer shall cause the lessee to execute, before it occupies or develops its premises, an acknowledgment of the recorded covenants of this Agreement. An acknowledgment is not a waiver of any right the lessee holds independently, and this Agreement does not purport to waive any right of a person who is not a party to it.
+
+**Section 10.18 Public Records.**
+
+(a) This Agreement, and every report, certification, and submittal delivered to the County under it, is a public record under Chapter 119, Florida Statutes, except information that is exempt or confidential by law.
+
+(b) The Developer may mark any portion of a submittal it believes is exempt or confidential, citing the statute that applies, including s. 119.071(3), Florida Statutes, for security and firesafety system plans, s. 119.0715, Florida Statutes, for trade secrets, and s. 119.0725(2), Florida Statutes, for critical infrastructure and technology security information, and shall deliver a redacted copy with the marked submittal. For each portion marked as a trade secret, the Developer states why it qualifies, including the value the information derives from not being generally known and the steps taken to keep it secret.
+
+(c) On a request for marked information, the County shall give the Developer notice promptly, and in any case within [__] business days, without delaying its response, and shall respond as Chapter 119, Florida Statutes, requires; the County’s determination governs its response. The Developer may seek relief from a court at its own cost and shall reimburse the County for any fees and costs assessed against it for withholding information at the Developer’s request. The Developer shall also reimburse the County for any judgment, settlement, or award against the County on a claim of a person other than the Developer arising from the County’s good-faith response to a public records request for information the Developer delivered, whether or not marked.
+
+(d) No marking applies to the measured data and summary figures reported under Section 3.5(f) and Exhibit “S,” Sections S-7.4, S-9.3, S-23.1(c), and S-23.2(b), to the log under Section 6.3, or to the summary terms of each agreement delivered under Section 5.2(a) or 5.6(b), namely the tariff or rate schedule under which service is rendered, the term, whether a minimum demand or minimum bill applies, the early termination terms, and the form of security, each of which is public. Such an agreement is delivered with each customer-specific dollar amount, contract demand, and rate redacted, as Section 5.2 provides.
+
+**Section 10.19 Notices.** Notices shall be in writing and delivered by hand, nationally recognized overnight courier, or certified mail to the addresses beneath the signatures, with a copy of each notice to the County also delivered to the County Attorney.
+
+**Section 10.20 Estoppel Certificates.** Each Party shall, within thirty (30) days of written request, execute an estoppel certificate confirming the status of this Agreement and any default known to it. A Qualified Mortgagee, and a purchaser or assignee named in the certificate, may rely on it.
+
+**Section 10.21 Mortgagee Protections.** The County shall deliver to each Qualified Mortgagee that has provided a notice address a copy of each default notice when it is given to the Developer. Each Qualified Mortgagee has the Developer’s cure period plus an additional thirty (30) days to cure; for a non-monetary default the additional period shall not exceed ninety (90) days beyond the Developer’s cure period, plus, where possession is required to cure and the Qualified Mortgagee is diligently pursuing foreclosure, the further time foreclosure reasonably requires, not exceeding one hundred eighty (180) days. The County shall not terminate this Agreement without first giving that notice and opportunity to cure. Section 8.4 applies.
+
+**Section 10.22 Recording.** Within fourteen (14) days after execution, the County shall record this Agreement in the public records of the County, as s. 163.3239, Florida Statutes, requires.
+
+**Section 10.23 No Tax Increment Payment.**
+
+(a) The Developer shall not seek, apply for, or accept, and shall cause each affiliate under common control with it not to seek, apply for, or accept, any rebate, reimbursement, grant, or other payment measured by, calculated from, or sized by reference to tax increment attributable to the Project Site, whether a community redevelopment agency, the County, or another public body makes it. This subsection applies whether the payment is made to the Developer, to such an affiliate, or to another person for work either of them is obliged to perform or pay for, and includes a payment of increment revenue within the meaning of s. 163.340(22), Florida Statutes, and a payment under an area reinvestment agreement within the meaning of s. 163.387(1)(b)1.b., Florida Statutes.
+
+(b) This Section does not limit the Developer’s right to contest an assessment or to recover taxes paid in excess of those lawfully due, or a public body’s spending of increment revenue on facilities or services it owns or provides for public use, other than a payment described in subsection (a).
+
+(c) A breach of this Section is a default. Where the Developer or an affiliate receives a payment this Section bars, the Developer shall repay it to the public body that made it within [__] days after its receipt.
+
+**Section 10.24 Named Standards and Indices.**
+
+(a) **Named standards.** A reference in this Agreement or Exhibit “S” to a named technical standard, certification, or protocol (including R2v3, e-Stewards, NIST Special Publication 800-88, UL 9540, UL 9540A, NFPA 855, and NFPA 1620) means the edition in effect on the Effective Date or, for a standard Exhibit “O” cites, the edition Exhibit “O” states. That edition continues to govern if the standard is later revised or withdrawn. A later edition applies only by amendment of this Agreement under Section 9.2 or, under Section 10.8, as the County’s data center standards incorporate it by ordinance. The Florida Building Code, the Florida Fire Prevention Code, the uniform firesafety standards under s. 633.206, Florida Statutes, and the standards adopted in them apply as state law provides, and no edition of a named standard imposes on an energy storage system a firesafety requirement more stringent than those uniform firesafety standards.
+
+(b) **Index.** If CPI-U is discontinued without a successor, the County shall, after consultation with the Developer, designate a comparable published index of general consumer inflation, and every no-decrease rule of this Agreement applies to the substituted index from the date of substitution.
+
+(c) **Successor bodies.** The dissolution, merger, or succession of a named agency, standards body, publisher, or benchmark provider is resolved by reference to the successor performing the corresponding function or, absent one, under subsection (a) for a named standard and subsection (b) for the index.
+
+**Section 10.25 Entire Agreement; Counterparts.** This Agreement, with its exhibits, is the entire agreement of the Parties on its subject. It may be executed in counterparts, including by electronic signature where the law permits.
+
+**Section 10.26 Governing Law; Venue; Fees; Mediation.** This Agreement is governed by Florida law, and venue lies exclusively in [COUNTY NAME] County. In any action to enforce or interpret this Agreement, the prevailing party shall recover its reasonable attorneys’ fees and costs at trial and on appeal; this provision is reciprocal under s. 57.105(7), Florida Statutes. Before filing an action to recover, or for a declaration of, the amount of a payment under Article 4 or Section 6.2, either Party may require non-binding mediation before a mediator certified by the Supreme Court of Florida, to be completed within [__] days of the demand, each Party bearing its own costs and the Developer paying the mediator’s fee. Section 8.4(c) limits mediation.
+
+**Section 10.27 Exhibits.** The following exhibits are attached and form part of this Agreement. Exhibits “A,” “B-1,” “C,” “D,” “E,” “F,” and “J” are completed for the Project; the forms are completed in every bracket.
+
+| Exhibit | Title |
+|---|---|
+| “A” | Legal Description of the Project Site and its Owners |
+| “B-1” | Impact, Nexus, and Proportionality Findings |
+| “C” | Site Design, Acoustic, and Visual Mitigation Standards (Part C-1, Perimeter Berm and Landscape Plan; Part C-2, Supplemental Acoustic and Visual Mitigation Plan) |
+| “D” | Acoustic Monitoring and Ambient-Exclusion Protocol |
+| “E” | Joint Emergency Operations Plan Outline |
+| “F” | Decommissioning and Adaptive Reuse Plan Outline |
+| “G” | Form of Utility Cost Affidavit |
+| “H” | Form of Letter of Credit for Utility-Owned Emergency Power (Module M2 only) |
+| “I” | Form of Emergency Equipment Lease (Module M2 only) |
+| “J” | Local Development Permits, Public Facilities, and Dedications |
+| “K” | Form of Letter of Credit for Payments into the Mitigation Account |
+| “L” | Form of Decommissioning Security |
+| “O” | Data Center Standards |
+| “P” | Form of Commitment Status Table and Completion Statement |
+| “S” | Schedule of Supplemental Operating Covenants |
+
+IN WITNESS WHEREOF, the Parties have executed this Agreement as of the date first written above.
+
+**[COUNTY NAME] COUNTY, FLORIDA**
+
+By: ______________________________, Chair, Board of County Commissioners
+
+ATTEST: ______________________________, Clerk of the Circuit Court and Comptroller
+
+APPROVED AS TO FORM AND LEGAL SUFFICIENCY: ______________________________, County Attorney
+
+**[DEVELOPER ENTITY NAME]**
+
+By: ______________________________ Name and title: ______________________________
+
+[Witness and notary acknowledgment blocks in recordable form. Joinder and consent of the fee owner under Section 2.1, where needed.]
+
+---
+
+## AUTHOR
+
+*Prepared by Timothy Smith · Citizen-prepared working draft · Not legal advice.*
+
+*Citizen-prepared. Not legal advice. The author is not licensed to practice law and is not affiliated with, and does not write on behalf of, any university, law school, clinic, law firm, or governmental body. No attorney-client relationship is created by this document or by any use of it. Any jurisdiction considering adoption should obtain review by licensed counsel admitted in that jurisdiction.*
+
+*The release notes (CHANGELOG) published with each release identify its contents and the current version of each instrument.*

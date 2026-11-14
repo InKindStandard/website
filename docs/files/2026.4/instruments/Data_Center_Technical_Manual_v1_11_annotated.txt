@@ -1,0 +1,286 @@
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+*LICENSE: CC0 1.0 Universal (Public Domain Dedication). To the extent possible under law, Timothy Smith has waived all copyright and related or neighboring rights to this instrument.*
+
+*ADOPTION NOTICE. **No attribution, notice, citation, credit, or acknowledgment of any kind is required in any adopted ordinance, executed agreement, staff report, or recorded instrument**, and no provision of this document shall be construed to require one. A jurisdiction may adopt, modify, renumber, or reject any portion without notice to or consent of the author. Attribution is requested only in derivative published works, and only as a courtesy.*
+
+---
+
+**FLORIDA MODEL INSTRUMENTS FOR DATA CENTER DEVELOPMENT**
+
+**DATA CENTER TECHNICAL MANUAL**
+
+Exhibit B to the Model Data Center Standards Ordinance · Methods, submittal contents, test procedures, and report formats · Model form for Florida counties
+
+*Model form. Remove this heading block, and every drafting note, before the County first makes the draft public.*
+
+**What this is.** Exhibit B to the ordinance that adopts the Data Center Standards, which adopts it by reference (Section 5). Exhibit B holds the submittal contents, test methods and report formats. It binds as Exhibit A does (Sec. B-1.1), is kept on file rather than codified (Section 8) and is amended only by ordinance (Section 5).
+
+**What it does.** Its Parts are numbered to match the sections of Exhibit A, and a Part is omitted where its section needs no method. It lists the minimum information for a complete application (Sec. B-4.1) and sets what the disclosures, studies and reports contain and how the tests and measurements are made.
+
+**Works with.** Exhibit A sets each requirement and has each submittal, study, test, plan, report and measurement prepared, performed and filed as this Manual provides (Sec. 1(k)). The definitions in Sec. 2 of Exhibit A govern here, and a section number without the prefix "B-" refers to Exhibit A (Sec. B-1.1). Where Sec. 15A (Module M1) is adopted, Sec. B-4.1(e) applies most of the minimum information to Tier 2 applications. The Drafter's Notes list each blank and what sets it.
+
+**Before use.** A bracketed figure is a placeholder set from the County's own record, and most of those in Parts B-8 and B-9 come from its hydrogeologic and acoustic studies. Each "([edition])" takes the edition in effect on the effective date of Exhibit A (Sec. 1(j)). The ownership percentage and period in Sec. B-4.2(b) are those Exhibit A sets (Sec. 2, "Common control"; Sec. 3(d)).
+
+**Known gaps.** No county has adopted this model, and no licensed attorney has reviewed it. The hydrogeologic and acoustic studies its figures need have not been done. Parts B-7 and B-8 carry out water and well terms of Exhibit A that rest on law that is not settled (Secs. 7(a) and (f)(1), 8(e) and (f)(2)), and whether a deemed approval of a later site plan relieves a requirement that Sec. B-4.1 lists is also unsettled. The Open Legal Questions give the current reading of each.
+
+# EXHIBIT B
+
+**DATA CENTER TECHNICAL MANUAL**
+
+Adopted by reference by Ordinance No. [______]
+
+## Part B-1. General
+
+**Sec. B-1.1 Use of this Manual.** This Manual is part of the Data Center Standards, [Chapter / Article __] of the [County Name] County Land Development Code (the "Standards"), and binds as they do. Terms have the meanings given in Sec. 2 of the Standards. A reference to a section without the prefix "B-" is to a section of the Standards.
+
+**Sec. B-1.2 Formats.** A person making a filing that the Standards or this Manual require in machine-readable form shall use the machine-readable format the County Administrator prescribes.
+
+## Part B-3. Use Classification
+
+**Sec. B-3.1 Revised determination.** When an end user's identity is filed under Sec. B-4.2(e), the County Administrator shall revise the Development Unit determination under Sec. 3(f) if the identity changes it.
+
+## Part B-4. Application Requirements
+
+**Sec. B-4.1 Minimum information for a complete application.**
+
+(a) This Section is the County's written specification, under s. 125.022(2)(a), Florida Statutes, of the minimum information that must be submitted in an application for a Covered Facility. The County shall make it available as that section requires. In a county with a population of 75,000 or more whose Sec. 15(g) designates later site plans for administrative review, the items of subsection (b) required with a site plan application are also the minimum information under s. 125.022(1)(b)1., Florida Statutes, for a site plan application filed through the County's program under s. 125.022(1).
+
+(b) The minimum information is:
+
+| No. | Item | Required where | Content |
+|---|---|---|---|
+| 1 | Sworn ownership and Development Unit disclosure | Every application for a data center, in any tier | Sec. 4(c); Sec. B-4.2 |
+| 2 | Utility capacity letters from each electric, water, and wastewater provider, or a provider's written refusal with the applicant's sworn statement | Every application | Sec. 4(d); Sec. B-4.4 |
+| 3 | Escrow deposit for independent technical review | Every application | Sec. 15(b) |
+| 4 | Cooling design demonstration, comparison of cooling architectures, and heat rejection plant design data | Every application | Sec. 7(a), (e); Secs. B-7.1, B-7.2, B-7.7 |
+| 5 | Reclaimed water documentation | Where reclaimed water is proposed, or Sec. 7(a)(2) requires connection to the County's local reuse program | Sec. 7(a)(2), (b); Sec. B-7.3 |
+| 6 | Water service terms and showing (where another entity supplies the water), drought documents, and curtailment demonstration | Every application | Sec. 7(f); Sec. B-7.8 |
+| 7 | Hydrogeologic study, aquifer test report, cone of depression delineation, and, for a surface water withdrawal, the minimum flow and level showing | Where groundwater or surface water withdrawal is proposed or increased | Sec. 8(b), (g); Part B-8 |
+| 8 | Acoustic study | The first application, and each application for an expansion described in Sec. B-9.6 | Sec. 9(e); Secs. B-9.4, B-9.6 |
+| 9 | Any BESS fire test data under Sec. B-12.1 | Every site plan application that includes BESS | Sec. 12(a); Sec. B-12.1 |
+| 10 | Decommissioning and adaptive-reuse plan | The first site plan application | Sec. 14(a) |
+| 11 | Cumulative impact assessment | Where Sec. 15(c)(1) applies | Sec. 15(c); Sec. B-15.1 |
+| 12 | Engineer's certification for a setback reduction or for the higher impervious coverage | Where either is sought | Sec. 5(b), (e); Sec. B-5.1 |
+| 13 | Certification and summary of the records review | The first site plan application, and each later site plan application that adds an area to be disturbed | Sec. 11A(a), (e); Secs. B-11A.1, B-11A.5 |
+
+(c) The Development Unit determination under Sec. 3(f) is made by the County Administrator within the completeness review period. It is not an item the applicant submits, and its timing does not make a submitted application incomplete.
+
+(d) The following are required later and are not minimum information for completeness: the karst investigation, before site plan approval (Sec. 11(d)); the stormwater calculations, before site plan approval (Sec. 11(c)); any field survey, and its certification and summary, before site plan approval for the area it covers (Sec. 11A(b)); the discovery plan, before ground disturbance (Sec. 11A(d)); the spill prevention and emergency response plans and the pre-incident plan, before a certificate of occupancy (Secs. B-12.2, B-12.3); the financial assurance, before the first building permit for any compute hall or, for its claims amount, not later than the date the withdrawal begins if that is earlier (Sec. 14(b)); the update of the acoustic study, before equipment a later site plan approves begins operating (Sec. 9(e)); commissioning test reports (Secs. B-9.5, B-9.6); and any additional geophysical investigation the County requires under Sec. 8(f).
+
+(e) Item 1 is minimum information for every application for a data center. Where the County has adopted Sec. 15A, every item in subsection (b) other than item 13 is minimum information for an application for a Tier 2 data center as for a Covered Facility (Sec. 1(c)), in addition to the information the County's conditional use application requires.
+
+**Sec. B-4.2 Ownership and Development Unit disclosure.**
+
+(a) **Capacity acquisitions.** For each request, queue position, or reservation disclosed under Sec. 4(c)(1)(A), the applicant shall state in the disclosure the counterparty, the site or project from which it came, the capacity in megawatts, its date, and any queue or reservation identifier the utility or transmission provider has made public.
+
+(b) **Other contents.** The applicant shall also state in the disclosure (1) every person holding, directly or indirectly, the percentage stated in the definition of Common control, or more, of the voting interests, capital, or profits of the applicant; (2) all land lying within the radius stated in clause (2) of the definition of Development Unit, measured from the application site, in which the applicant, any such person, or any person under common control with the applicant holds a recorded ownership or leasehold interest; (3) every application for a data center filed within the County by the applicant, or by any person under common control with it, within the preceding period stated in Sec. 3(d); and (4) the projected Aggregate Infrastructure Demand, Connected Compute Load, and Site Electrical Capacity at full build-out.
+
+(c) **Option rights.** Unrecorded option, contract, or similar acquisition rights within the same radius are not disclosable unless the County Administrator makes a written finding, stating the basis, that disclosure is necessary to make the determination under Sec. 3(f). Upon such a finding, the applicant shall state only the aggregate acreage subject to such rights, without identifying any parcel, owner, or price. Parcel-level identification may be required only upon a further written finding that the aggregate figure is insufficient to make the determination.
+
+(d) **Updates.** The applicant shall update the disclosure within [thirty (30)] days of any material change, including the signing of an agreement with an end user, through issuance of the final certificate of occupancy.
+
+(e) **End-user confidentiality.** Where the applicant states in a disclosure or update that the identity of an end user is the subject of a written request for confidentiality made to an economic development agency under s. 288.075(2)(a), Florida Statutes, the applicant shall file instead the name of that agency, the date the agency received the request, and the date on which confidentiality under that section ends. The applicant shall file the identity within [five (5)] days after that date or after the person who made the request discloses it, whichever is first. For a data center as defined in s. 373.203, Florida Statutes, confidentiality under s. 288.075(2)(a), Florida Statutes, ends no later than 12 months after the agency receives the request, and is not extended.
+
+**Sec. B-4.3 Confidential material.**
+
+(a) The applicant may mark any portion of a filing under Sec. 4(c) or 4(d) that it claims is a trade secret under s. 119.0715 and s. 688.002(4), Florida Statutes, or is exempt under another statute it cites. It shall file with the marked filing a redacted public copy and, for each marked portion, a short statement of why it qualifies, including the value the information derives from not being generally known and the steps taken to keep it secret.
+
+(b) A marking is a claim, not an exemption. On a request for marked material, the County shall give the applicant notice promptly, and in any case within [__] business days, without delaying its response, and shall decide the request as chapter 119, Florida Statutes, requires. The County's determination governs its response, and the applicant may seek relief from a court at its own cost.
+
+(c) Where the Standards require the County to publish a filing, the County shall publish the public copy and any marked portion it has determined is not exempt.
+
+(d) The applicant shall state the electric service terms under Sec. B-4.4(b) in the public copy at the level the tariff states them. A customer-specific figure, such as the dollar amount of security, a negotiated contract demand, or a rate that departs from the tariff, may be marked under this Section.
+
+**Sec. B-4.4 Utility capacity letters.**
+
+(a) Each letter shall state the capacity the provider will make available, the date it will be available, and the infrastructure required to deliver it. A letter may state that service is subject to the provider's tariff, including any large-load tariff, and to any approval identified under subsection (c).
+
+(b) Each letter from an electric provider shall also state the tariff or rate schedule under which service is proposed, by name and sheet, and, as that tariff or the proposed service or interconnection agreement states them, the minimum term, the minimum demand or minimum bill, the early termination terms, and the form of security for cost recovery (letter of credit, surety bond, parent guaranty, cash deposit, or other) and the tariff basis on which its amount is set; or, for any of these, that it is not yet set.
+
+(c) Each letter shall identify any approval of the Florida Public Service Commission, the governing utility board, or another agency on which the stated capacity depends.
+
+(d) An applicant filing its own sworn statement under Sec. 4(d)(4) shall identify the source of each statement and whether it is made on information and belief.
+
+(e) Within [thirty (30)] days after an electric service or interconnection agreement for the site is executed, the applicant shall file the electric service terms that subsection (b) requires, as that agreement states them, on the terms Sec. B-4.2(d) provides for updating a disclosure. The County shall record the terms stated under subsection (b) and this subsection in the record of the application.
+
+## Part B-5. Siting, Setbacks, and Building Design
+
+**Sec. B-5.1 Recharge demonstration.** The applicant shall have each recharge demonstration under Sec. 5(e) or Sec. 8(f)(2)(B) certified by a Florida-licensed professional engineer. The demonstration shall compare post-development recharge to the surficial and Floridan aquifer systems with pre-development recharge, for the design storm Sec. 11(c) sets and on an annualized basis, using a method accepted by the applicable water management district. Recharge performance is equivalent under Sec. 5(e) only where post-development recharge is not less than pre-development recharge on both bases.
+
+## Part B-7. Water and Cooling
+
+**Sec. B-7.1 Cooling demonstration.** The applicant shall file with the application a Florida-licensed professional engineer's demonstration of compliance with Sec. 7(a). The operator shall verify compliance in each annual compliance report, using the water balance under Sec. 7(d) and the energy data under Sec. B-7.5. Where Sec. 7(a)(2) bars potable water for evaporative or adiabatic heat rejection even where reclaimed water is not available, the demonstration shows that no potable water is used for evaporative or adiabatic heat rejection or as its makeup.
+
+**Sec. B-7.2 Comparison of cooling architectures.** The applicant shall include in each application a comparative analysis, prepared by a Florida-licensed professional engineer, of not fewer than two cooling architectures, stating for each the projected annualized Water Usage Effectiveness, the projected design and annualized Mechanical Load Component under ANSI/ASHRAE Standard 90.4 ([edition]), the projected sound power of heat rejection equipment, and the projected peak electrical demand attributable to heat rejection. Where a closed-circuit fluid cooler (a device in which the process fluid stays within a closed circuit and heat is rejected from the exterior of the coil) or a closed-loop chilled-water plant runs dry below a design wet-bulb threshold and uses adiabatic assist (evaporative pre-cooling of air entering a dry heat exchanger) or evaporative assist above it, the applicant shall state that threshold in the application, as the outdoor wet-bulb temperature above which assist is enabled, and the operator shall reflect it in the water balance.
+
+**Sec. B-7.3 Reclaimed water documentation.** An applicant proposing reclaimed water shall document items (a) to (c), and an applicant whose facility Sec. 7(a)(2) requires to connect to the County's local reuse program shall document item (d), at application:
+
+(a) the utility's written confirmation of available reclaimed capacity, the point of connection, and any seasonal limitation;
+
+(b) where reclaimed water is committed to irrigation, aquifer recharge, or another prior use, how the proposed use is reconciled with that commitment;
+
+(c) where the proposed use would divert reclaimed water from a committed recharge use, the utility's written agreement to the diversion, which may be conditioned on any permit or approval identified under this clause, and each permit or approval of the Department of Environmental Protection or the water management district that governs the recharge use; and
+
+(d) where Sec. 7(a)(2) requires connection to the County's local reuse program, the program's requirement, the point of connection at the property boundary and the date the lines reach it, if known, and the applicant's plan to connect on its own site at its own cost.
+
+**Sec. B-7.4 Legionella program.** The operator shall include in the water management program under Sec. 7(c) a designated program team, control locations, control limits, monitoring, corrective action, and verification, and shall file the program summary and verification records with the annual compliance report.
+
+**Sec. B-7.5 Energy data.** The operator shall meter the following, and shall report each for the year, in kilowatt-hours, with the annual water balance under Sec. 7(d), in machine-readable form:
+
+(a) the electrical energy consumed by the heat rejection plant, including compressors, pumps, and fans, separately submetered;
+
+(b) the information-technology equipment energy, measured at the output of the uninterruptible power supply serving that equipment or at a point nearer to it, as ISO/IEC 30134-2 ([edition]) provides, stating the measurement category and the meter locations; and
+
+(c) the total facility energy, as that standard defines and measures it.
+
+The energy reported under paragraph (b) is the annual information-technology equipment energy from which annualized Water Usage Effectiveness and the annualized Mechanical Load Component are computed.
+
+**Sec. B-7.6 Cross-connection.** The operator shall protect reclaimed and potable systems against cross-connection as the Florida Building Code and Department of Environmental Protection rules require.
+
+**Sec. B-7.7 Heat rejection plant design data.** The application and each annual compliance report shall state the current design data for the heat rejection plant: the design flow of the plant; the largest single item of heat rejection equipment installed or proposed and the clearances its manufacturer specifies; the process-side arrangements provided for maintenance isolation, pressure testing, and connection of temporary or replacement equipment, or that none is provided; and, in an annual compliance report, any change to these during the year.
+
+**Sec. B-7.8 Water service and drought documents.** The applicant shall identify the entity controlling each public water system serving the site and shall file the applicable drought contingency plan, curtailment schedule, and any tariff provision governing priority of service. Where another entity supplies the water, the applicant shall also file the water service terms and the showing Sec. 7(f)(1) requires.
+
+## Part B-8. Water Withdrawal and Well Protection
+
+**Sec. B-8.1 Hydrogeologic study.** The applicant shall have the study prepared by a Florida-licensed professional geologist or engineer. The study shall define the area of diversion and the contributing recharge area by depth, composition, and flow direction, and shall map all permitted and known wells, springs, sinkholes, and surface waters within [one (1) mile] of the withdrawal point and anywhere else within the projected cone of depression under Sec. B-8.3.
+
+**Sec. B-8.2 Aquifer tests.** The applicant shall perform and report:
+
+(a) a stepped-rate test of not fewer than three stages, each of not less than [one hundred (100)] minutes, establishing the sustainable constant-rate pumping level;
+
+(b) a background test assessing baseline interference from neighboring active wells;
+
+(c) a constant-rate test of not less than [seventy-two (72)] continuous hours at the target withdrawal rate, logging water levels at all observation points; and
+
+(d) a recovery test of not less than [twenty-four (24)] hours or until levels return to [ninety-five percent (95%)] of pre-pumping projections, whichever is later.
+
+**Sec. B-8.3 Cone of depression.** The study shall delineate the projected cone of depression: the area within the [one (1) foot] drawdown contour in each affected aquifer at the proposed withdrawal rate, under the drought condition the water management district uses for permitting, stating the model and method used.
+
+**Sec. B-8.4 Additional geophysical investigation.** Where the County requires an investigation under Sec. 8(f)(1), the applicant shall perform a subsurface survey, by ground-penetrating radar or an equivalent method, of the withdrawal point, the projected cone of depression, and the footprints of proposed buildings, stormwater ponds, fuel storage, and BESS. The survey shall be sealed by a Florida-licensed professional geologist or engineer and shall identify sinkholes, voids, cavities, and raveling zones.
+
+**Sec. B-8.5 Claims amount.** The study shall state, for each well it maps within the projected cone of depression, the projected drawdown at the well and whether, at the rate and under the drought condition of Sec. B-8.3, the study projects that the withdrawal will cause an adverse impact under Sec. 8(e)(1) there, and, for each well at which it does, the cost of the remedy under Sec. 8(e)(1) most likely to be needed, and the total of those costs, which is the claims amount under Sec. 14(b)(5).
+
+## Part B-9. Sound
+
+**Sec. B-9.1 Measurement.** Each person measuring sound under Sec. 9 shall measure it as a [ten-minute Leq] using instruments meeting Class 1 of ANSI/ASA S1.4 ([edition]) and, for one-third octave band levels, filters meeting Class 1 of ANSI/ASA S1.11 ([edition]), in accordance with ANSI/ASA S12.18 ([edition]), Method [II]. No instrument used under Sec. 9 records, stores or transmits audio, or other data, from which speech can be understood.
+
+**Sec. B-9.2 Prominent discrete tone.** A prominent discrete tone exists where the sound level in a one-third octave band exceeds the arithmetic average of the levels in the two adjacent bands by [fifteen (15)] dB or more in the bands from 25 to 125 Hz, [eight (8)] dB or more in the bands from 160 to 400 Hz, or [five (5)] dB or more in the bands from 500 to 10,000 Hz.
+
+**Sec. B-9.3 Monitoring and dashboard.**
+
+(a) The operator shall file calibration records for the monitors under Sec. 9(c) annually.
+
+(b) The operator shall deliver the measured levels and spectra to the County by a live feed at all times and shall publish them on the dashboard in real time, except that where the County finds in writing that real-time publication would disclose security-sensitive operating information, the operator may delay publication by up to [__] hours and may aggregate it to intervals not exceeding [one (1) hour]. No finding delays or aggregates the live feed to the County. The operator shall retain the underlying interval measurements and make them available as this Section requires.
+
+(c) The operator shall keep not less than [thirty-six (36)] months of measured data on the dashboard, available for download in machine-readable form.
+
+(d) The operator shall report any interruption exceeding [seventy-two (72)] hours to the County with the cause and the date of restoration, and shall preserve the underlying measurements and publish them upon restoration.
+
+**Sec. B-9.4 Acoustic study.** The acoustic study under Sec. 9(e), and each update of it, shall do the following, except that an update uses the existing sound levels the study recorded under subsection (a) and measures them only at a location the study did not measure:
+
+(a) measure existing sound levels continuously, with the instruments and procedure of Sec. B-9.1, for not less than [__] hours [Drafting note, remove before the draft is made public: Set the hours to cover at least one whole night period, as Sec. 9(a) sets it, at each location.] at each location proposed for monitoring under Sec. 9(c), at each Sensitive Receptor within [__] feet of the boundary of the site, and in any case at not fewer than the [__] nearest Sensitive Receptors, stated in A-weighted, C-weighted, and one-third octave band levels for each period Sec. 9(a) sets;
+
+(b) predict sound attributable to the facility at full build-out at each location measured under subsection (a), with all heat rejection and mechanical equipment at maximum rated operation and with generator testing as Sec. 10 permits it in each period Sec. 9(a) sets, including any test Sec. 10(d) permits, stated in A-weighted, C-weighted, and one-third octave band levels for each of those periods;
+
+(c) state each mitigation measure on which compliance with Sec. 9(a) depends; and
+
+(d) map, from the model and under the operating conditions used for the prediction under subsection (b), the area outside the site within which sound attributable to the facility at full build-out, with any penalty under Sec. 9(b), is predicted to come within [five (5)] dB of, or to exceed, a limit of Sec. 9(a) for the night period, at a scale the County sets and in machine-readable form.
+
+**Sec. B-9.5 Commissioning test.** Within [__] days after each certificate of occupancy or final inspection that puts heat rejection, mechanical, or generating equipment into service, the operator shall file the report of a commissioning test, conducted by a person qualified under Sec. 9(e) who is neither an employee of the operator nor a person under common control with it, that measures sound as Sec. 9(a) provides, at the locations and under the operating conditions the study modeled, for the equipment then installed, and compares the results with Sec. 9(a) and with the study. The operator shall give the County not less than [__] days' notice of each test, and the County or its independent reviewer under Sec. 15(b) may witness it.
+
+**Sec. B-9.6 Expansions.** For an expansion that increases Approved Capacity, or that adds, other than by a later site plan, heat rejection or generating equipment that no acoustic study has modeled, the applicant shall file a study meeting Sec. B-9.4, or an update of the study already filed, with the application for the expansion. Equipment that a later site plan approves is covered by the update Sec. 9(e) requires before it begins operating. Sec. B-9.5 applies to the equipment the expansion puts into service.
+
+## Part B-10. Generators
+
+**Sec. B-10.1 Testing schedule and notice.** The operator shall file with the County, and post on the project page, a testing schedule for each calendar quarter, stating dates and hour windows only. The operator shall give not less than [__] hours' notice on the project page of any test outside the posted schedule that Sec. 10(d) permits.
+
+## Part B-11. Stormwater, Karst, and Flood
+
+**Sec. B-11.1 Karst investigation.** The applicant shall include in the geotechnical investigation under Sec. 11(d) ground-penetrating radar or an equivalent subsurface survey of building and pond footprints, and shall have it sealed by a Florida-licensed professional.
+
+## Part B-11A. Burials and Archaeological Resources
+
+**Sec. B-11A.1 Records review.**
+
+(a) The records review under Sec. 11A(a) shall be prepared by an archaeologist who meets the professional qualification standards for archaeology of the Secretary of the Interior ([edition]).
+
+(b) It shall review at least the Florida Master Site File; any historic cemetery inventory or cemetery records that the Division of Historical Resources, the County, or a local historical society holds; [the earliest available plat, survey, and aerial imagery of the site] and later historic maps and aerial photographs; deed and probate records for the site that mention a burial or cemetery; and any written information about burials or archaeological sites on the land that a person, including a federally recognized tribe or a descendant of a person buried there, has given the County or the applicant.
+
+(c) It shall state, for each area to be disturbed, whether a known or probable burial ground, cemetery, or archaeological site lies within it or within the greater of the distances Sec. 11A(a) and (b) set, the sources reviewed, and the basis for each conclusion.
+
+**Sec. B-11A.2 Field survey.**
+
+(a) The field survey under Sec. 11A(b) shall be designed and directed by an archaeologist qualified under Sec. B-11A.1(a), and its report shall meet Rule 1A-46.001, Florida Administrative Code ([edition]).
+
+(b) Where the records review shows a known or probable burial ground or cemetery, the survey shall include ground-penetrating radar or another remote sensing method suited to detecting graves in the soils of the site, covering, on land within the site, the area indicated and the buffer under Sec. 11A(c). No suspected grave shall be excavated for the survey.
+
+(c) The survey shall state the limits of each burial ground, cemetery, and archaeological site found, and the confidence of each limit.
+
+**Sec. B-11A.3 Treatment.** A treatment plan for an archaeological site, other than a burial, that the applicant will not avoid and that the archaeologist finds potentially eligible for listing in the National Register of Historic Places shall provide for documentation and recovery by an archaeologist qualified under Sec. B-11A.1(a) before ground disturbance in the site, with the results delivered to the Division of Historical Resources.
+
+**Sec. B-11A.4 Discovery plan.** The discovery plan under Sec. 11A(d) shall name the archaeologist on call; provide for training of construction supervisors to recognize human remains and artifacts; state how work stops and the area is secured on a discovery, and who gives each notice that s. 872.05, Florida Statutes, requires; and provide for the notice to the County under Sec. 11A(d).
+
+**Sec. B-11A.5 Certification and summary.** For each records review and field survey, the applicant shall file with the County:
+
+(a) a certification by the archaeologist that the review or survey meets this Part, that each report Sec. 11A(e) requires has been delivered to the Division of Historical Resources, and the date of delivery, and, where a reduced buffer is sought under Sec. 11A(c)(1), that the field survey states the limits of the burial ground or cemetery with high confidence; and
+
+(b) a summary stating, by parcel and without any more precise location, whether a burial ground, cemetery, or archaeological site was found, whether the site plan shows any no-disturbance area under Sec. 11A(c), without identifying which, and whether a treatment plan under Sec. B-11A.3 has been delivered to the Division of Historical Resources.
+
+The County's independent reviewer under Sec. 15(b) reviews the certification and summary and takes no copy of material that identifies a location.
+
+## Part B-12. Hazardous Systems and Emergency Planning
+
+**Sec. B-12.1 BESS.** The applicant and the operator shall install and maintain BESS in compliance with the uniform firesafety standards under s. 633.206, Florida Statutes, including NFPA 855 and the Florida Fire Prevention Code as Rule 69A-73.002, Florida Administrative Code, applies them. The applicant shall submit with the site plan any UL 9540A test data that exist for the installed technology, under whatever edition they were produced.
+
+**Sec. B-12.2 Spill and emergency response plans.** The applicant shall file a Spill Prevention, Control, and Countermeasure plan and an emergency response plan with the County fire official before a certificate of occupancy.
+
+**Sec. B-12.3 Pre-incident plan.** The pre-incident plan shall address BESS thermal events, suppression water or agent supply, contaminated-runoff containment, and access.
+
+**Sec. B-12.4 Chemical inventory and PFAS certification.** The operator shall provide the fire department and the Local Emergency Planning Committee the hazardous-chemical inventory required by the Emergency Planning and Community Right-to-Know Act, and shall certify compliance with Sec. 12(d) annually in the annual compliance report.
+
+## Part B-13. Equipment Stewardship
+
+**Sec. B-13.1 Certification and sanitization standards.** A Certified Recycler holds current certification to R2v3 ([edition]) or e-Stewards ([edition]). Verified Sanitization shall be performed under NIST SP 800-88 ([edition]).
+
+**Sec. B-13.2 Registry.** For registration under Sec. 13(d), the County shall require only proof of qualifying status, a designated custodian, an attestation of capacity to receive, test, and deploy or lawfully re-route equipment, and agreement to the as-is terms of Sec. 13(b)(4). The County shall act on each registration within thirty (30) days.
+
+**Sec. B-13.3 Routing records.** The operator shall state in the annual compliance report, by pathway, the count and class of Covered Equipment routed during the year. The operator shall retain recycling, takeback, resale, donation, and sanitization certificates for five (5) years for inspection.
+
+## Part B-15. Review
+
+**Sec. B-15.1 Cumulative impact assessment.** The assessment shall evaluate full build-out of the proposed facility together with all existing, approved, and pending Covered Facilities meeting Sec. 15(c)(1), addressing aggregate electrical demand and circuit loading; aggregate groundwater withdrawal and cumulative cone-of-depression interaction; aggregate surface water and wastewater loading; combined surface water withdrawals from each source, compared with each minimum flow or level the water management district has adopted for it; combined noise at shared Sensitive Receptors; road capacity; aggregate emergency response demand, including simultaneous generator operation; and aggregate fuel and battery storage.
+
+## Part B-17. Monitoring, Reporting, Public Information, and Complaints
+
+**Sec. B-17.1 Annual compliance report.** The operator shall file the report in a human-readable format and in machine-readable form, and shall include in it at least:
+
+(a) the water balance, the energy data under Sec. B-7.5, the annualized Water Usage Effectiveness, the design and annualized Mechanical Load Component, and the verification of Sec. 7(a) (Secs. 7(a)(3), 7(d), B-7.1, B-7.5);
+
+(b) the Legionella program summary and verification records (Sec. B-7.4);
+
+(c) cone of depression monitoring (Sec. 8(c));
+
+(d) sound monitor calibration records (Sec. B-9.3(a));
+
+(e) the PFAS certification (Sec. B-12.4);
+
+(f) equipment routing (Sec. B-13.3);
+
+(g) the heat rejection plant design data (Sec. B-7.7);
+
+(h) whether any discovery under Sec. 11A(d) occurred during the year, without its location; and
+
+(i) the complaint log and its summary (Sec. B-17.2).
+
+**Sec. B-17.2 Complaint log.** The operator shall state in the log, for each complaint, the date, the category, the general area of origin, the findings, the action taken, and the date resolved, and shall summarize the log for the year in the annual compliance report: the number of complaints in each category and general area, the share resolved, and the median number of days from receipt to resolution.
+
+---
+
+## AUTHOR
+
+*Prepared by Timothy Smith · Citizen-prepared working draft · Not legal advice.*
+
+*Citizen-prepared. Not legal advice. The author is not licensed to practice law and is not affiliated with, and does not write on behalf of, any university, law school, clinic, law firm, or governmental body. No attorney-client relationship is created by this document or by any use of it. Any jurisdiction considering adoption should obtain review by licensed counsel admitted in that jurisdiction.*
+
+*The release notes (CHANGELOG) published with each release identify its contents and the current version of each instrument.*

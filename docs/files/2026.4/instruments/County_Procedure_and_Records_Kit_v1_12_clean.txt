@@ -1,0 +1,554 @@
+*Clean copy, with the heading block and drafting notes removed, except a title or a list of abbreviations the text needs; the annotated copy keeps both, including steps to take before use. No county has adopted the instruments of this release, no developer has signed them, no licensed attorney has reviewed them, and none of the studies they depend on has been done. Remove this note, the license and notice lines below, and the status, author and release-notes lines at the end before the text is adopted, signed or recorded.*
+
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+*LICENSE: CC0 1.0 Universal (Public Domain Dedication). To the extent possible under law, Timothy Smith has waived all copyright and related or neighboring rights to this instrument.*
+
+*ADOPTION NOTICE. **No attribution, notice, citation, credit, or acknowledgment of any kind is required in any adopted ordinance, executed agreement, staff report, or recorded instrument**, and no provision of this document shall be construed to require one. A jurisdiction may adopt, modify, renumber, or reject any portion without notice to or consent of the author. Attribution is requested only in derivative published works, and only as a courtesy.*
+
+---
+
+**COUNTY PROCEDURE AND RECORDS KIT**
+
+| Part | Use it for |
+| --- | --- |
+| A. Staff report | Every application for a Covered Facility (Tier 3 data center) under the County's special exception or conditional use procedure (Sec. 15(a)) |
+| B. Sec. 15A insert | With Part A, only where the County has adopted Module M1 (Sec. 15A), for each Tier 2 or Tier 3 application |
+| C. Resolution | Every decision on an application; it adopts the Part A findings by reference |
+| D. Business impact estimate | Each ordinance adopting or amending Exhibit A (Data Center Standards), Exhibit B (Technical Manual), Sec. 15A, or the impact fee ordinance, and each ordinance adopting the plan policy of Part G |
+| E. Hearing calendar | The same ordinances, except the plan policy, which Table G-2 covers, and the hearings on a development agreement (Table E-5) |
+| F. Gap check | A county with existing data center rules or a moratorium study, before it drafts the adopting ordinance |
+| G. Plan policy | A county that will also state the water source rules of Sec. 7(a)(1) and (2) in its comprehensive plan (s. 373.262(2), Florida Statutes) |
+
+In this kit, "Sec." means a section of the Data Center Standards, including Sec. 15A where adopted, and "Sec. B-" means a section of the Technical Manual.
+
+# PART A. STAFF REPORT
+
+**[COUNTY NAME] COUNTY STAFF REPORT**
+
+Data center, [Tier 3 (Covered Facility)] [Tier 2] · [special exception / conditional use] under [cite the County's code section]
+
+Complete every section. Where a section does not apply, answer "studied; no material impact identified," and state the basis. Strike each bracketed alternative that does not apply. Write each finding in Section 10 as one sentence that the resolution in Part C may adopt by reference.
+
+## 1. Application
+
+**Application number**  ______________
+
+**Applicant, and each person holding, directly or indirectly, the percentage stated in the definition of Common control (Sec. 2), or more, of the voting interests, capital, or profits of the applicant (Sec. B-4.2(b)(1))**  ______________
+
+**Agent**  ______________
+
+**Parcel identification numbers**  ______________
+
+**Requested approvals**  ______________
+
+**Hearing body and date**  ______________
+
+**Preparer, title, and qualifications**  ______________
+
+## 2. Development Unit and tier
+
+Attach the written Development Unit determination Sec. 3(f) requires, and state here the land included, by parcel, the criteria applied, and the measured values, describing any instrument by which a person holds or controls included land only by its type (Sec. 3(f)). Where the determination aggregated separately owned or separately filed parcels, state the basis under Sec. 2 ("Common control") or Sec. 3(d).
+
+| Measure | Value | Source | Flag |
+| --- | --- | --- | --- |
+| Aggregate Infrastructure Demand (MW) and its basis (projected, authorized, or measured; highest 15-minute average) |
+| Connected Compute Load (MW) |
+| Site Electrical Capacity (MW) |
+| Critical IT load, s. 212.08(5)(r), Florida Statutes (MW) |
+| Land area in the Development Unit (ac) |
+| Large-scale data center, s. 373.203(4), Florida Statutes (Y/N) |
+| Tier under Sec. 3(a) and, for Tier 3, the criterion first met (Sec. 3(a)(1)(A) to (D)) |
+
+Disclosure under Sec. 4(c) received and complete:  ☐ Yes  ☐ No.  Date: ________
+
+**End users (Sec. 4(c)(1)(B)): each person holding, under an executed agreement, rights to [__] percent or more of the Connected Compute Load projected at full build-out, or "none" as sworn**  ______________
+
+End user identity filed after confidentiality under s. 288.075, Florida Statutes, ended (Sec. B-4.2(e)):  ☐ N/A  ☐ Yes: economic development agency ________; request received ________; confidentiality ended ________; identity filed ________.
+
+**Shared use of any substation, transmission interconnection, fiber path, water service, or reclaimed water service with any other site (Sec. 4(c)(1)(A)), or "none"**  ______________
+
+**Capacity acquisitions (Sec. 4(c)(1)(A); Sec. B-4.2(a)): for each, the counterparty, the site or project it came from, MW, date, and any public identifier, or "none"**  ______________
+
+**Unrecorded option, contract, or similar acquisition rights within the radius stated in clause (2) of the definition of Development Unit, measured from the application site (Sec. B-4.2(b)(2), (c)).** Not disclosable without the County Administrator's written finding, stating the basis, that disclosure is necessary to make the determination under Sec. 3(f). Finding:  ☐ None  ☐ Dated ________ (attach). Aggregate acreage then disclosed, without parcel, owner, or price: ________ ac. Further written finding that the aggregate figure is insufficient, allowing parcel-level identification:  ☐ N/A  ☐ Dated ________.
+
+## 3. Review timeframes
+
+The periods of s. 125.022(2), Florida Statutes, apply to this application. The development preapplication consulting services program under s. 125.022(1) is limited to permits as defined in s. 163.3169, Florida Statutes, and does not reach an application for a special exception or conditional use.
+
+A later site plan application for the project filed through the County's program under s. 125.022(1), Florida Statutes (counties of 75,000 or more, and only where the County's Sec. 15(g) designates later site plans for administrative review): written notice of completeness or deficiency within 5 business days, or the application is deemed complete; final action within 45 days after a complete application is submitted; and, if the County misses that period and the applicant gives written notice, the application is deemed approved if the County does not respond within 10 days. If the County relies instead on a program it had on or before 1 July 2026 that makes available the same or substantially similar development preapplication consulting services, s. 125.022(1)(a), Florida Statutes, provides that s. 125.022(1) may not be construed to affect or require the modification of that program, so these periods might not apply to an application filed through it. Staff meet them unless the County Attorney determines in writing that they do not apply:  ☐ N/A  ☐ Determination dated ________.
+
+| Step (s. 125.022(2), Florida Statutes) | Period | Date |
+| --- | --- | --- |
+| Receipt of the application confirmed, using contact information the applicant provided | Within 5 business days after receiving the application |
+| Completeness reviewed (Sec. 4(b); Sec. B-4.1); written notice that all required information is submitted, or specifying in writing with particularity any areas that are deficient | Within 30 days after receiving the application; the applicant then has 30 days to address any deficiency |
+| Approval, approval with conditions, or denial, where final action does not require a quasi-judicial hearing or a public hearing | Within 120 days after the County has deemed the application complete |
+| Approval, approval with conditions, or denial, where final action requires a quasi-judicial hearing or a public hearing | Within 180 days after the County has deemed the application complete |
+| Extension agreed in writing or in a public meeting or hearing, including one under Sec. 4(c)(3) | As agreed |
+| Denial without prejudice to refiling, by written notice citing Sec. 4(c)(3), where by the day that paragraph sets the applicant has neither filed the identity nor extended the time for decision | After that day |
+| Restart after a substantive change: an applicant-initiated change of 15 percent or more in the proposed density, intensity, or square footage of a parcel | Date of the change |
+
+These timeframes do not apply in an area of critical state concern, as designated in s. 380.0552, Florida Statutes. Enter beside each step any shorter period the County's code sets, and the date of each further request for additional information and of each answer (s. 125.022(2)(c)). Refunds for missed periods: s. 125.022(2)(d).
+
+## 4. Comprehensive plan
+
+Identify by number each goal, objective, and policy the application implicates, and state for each whether the application is consistent with it and why (s. 163.3194, Florida Statutes).
+
+**Policies applied, and the consistency determination for each**  ______________
+
+## 5. Data Center Standards
+
+One row for each standard. Result: "Complies"; "Conditioned" where compliance is achieved only through a condition in Section 11; or "Does not comply".
+
+| Standard | Sec. | Required | Proposed | Result |
+| --- | --- | --- | --- | --- |
+| Utility capacity letters | 4(d) |
+| Setbacks, including from Sensitive Receptors; reduction | 5(a), (b) |
+| On-site electric lines | 5(c) |
+| Site area; impervious coverage; height; facade | 5(d) to (g) |
+| Screening | 6(a) |
+| Lighting | 6(b) |
+| Construction hours | 6(c) |
+| Cooling: groundwater, potable water, water use | 7(a) |
+| Comparison of cooling architectures | 7(a); B-7.2 |
+| Reclaimed water | 7(b) |
+| Legionella program | 7(c) |
+| Metering and water balance; Mechanical Load Component | 7(d) |
+| Cross-connection; potable backup | 7(a)(2); B-7.6 |
+| Heat rejection servicing; plant design data | 7(e); B-7.7 |
+| Water service priority; drought | 7(f) |
+| Water withdrawal and well protection | 8 |
+| Sound limits; tonal penalty | 9(a), (b) |
+| Sound monitoring | 9(c) |
+| Exceedance response | 9(d) |
+| Acoustic study; commissioning tests | 9(e), (f) |
+| Generator testing | 10 |
+| Floodplain; wetlands | 11(a), (b) |
+| Stormwater | 11(c) |
+| Karst investigation | 11(d) |
+| Flood elevation | 11(e) |
+| Burials and archaeological resources: records review, any field survey, no-disturbance areas, discovery plan (state no location more precise than the parcel) | 11A |
+| BESS | 12(a) |
+| Fuel storage | 12(b) |
+| Pre-incident plan; joint exercise | 12(c) |
+| Chemicals and fluids (PFAS) | 12(d) |
+| Equipment stewardship | 13 |
+| Decommissioning; financial assurance; abandonment | 14 |
+| Independent review escrow | 15(b) |
+| Cumulative impact assessment | 15(c) |
+| Annual compliance report | 17(a) |
+| Project page; complaints | 17(b) to (f) |
+
+## 6. Agency and utility review
+
+| Reviewer | Comment received | Date | Resolution |
+| --- | --- | --- | --- |
+| County Engineer |
+| Fire department or fire marshal |
+| Emergency Management |
+| County Utilities |
+| Water management district |
+| Electric provider (Sec. 4(d) letter) |
+| Other water or wastewater provider (Sec. 4(d) letter) |
+| Florida Department of Transportation, where applicable |
+| Fish and Wildlife Conservation Commission; U.S. Fish and Wildlife Service (listed species) |
+| Division of Historical Resources (notice of the application; Sec. 11A) |
+| Each federally recognized tribe that has asked the County in writing for notice of applications for a Covered Facility |
+| School District |
+| Property Appraiser (informational only) |
+| Independent technical reviewer (Sec. 15(b)) |
+
+The County gives the Division of Historical Resources, and each tribe that has asked in writing, notice of each application for a Covered Facility and of each later site plan that adds an area to be disturbed, with a copy of the summary under Sec. B-11A.5, and invites comment. The notice does not extend any review period. A comment is part of the record and is weighed like other evidence. No condition of approval rests on a comment alone, and the County neither waits for a comment nor draws any conclusion from its absence. The notice asks that a comment state no location more precise than the parcel and that any location information go to the Division of Historical Resources instead (Sec. 11A(e)).
+
+**Each provider letter's statement under Sec. 4(d)(2): whether delivery requires new generation, transmission, substation, wellfield, treatment, or storage capacity, and whether any portion of that cost is proposed to be recovered from the general body of ratepayers**  ______________
+
+**Electric service terms, as the electric provider's letter (Sec. B-4.4(b)) or the applicant's sworn statement (Sec. 4(d)(4)) states them: tariff or rate schedule, by name and sheet; minimum term; minimum demand or minimum bill; early termination terms; form of security for cost recovery and the tariff basis of its amount ("not yet set" where the filing says so; "not stated" for any it does not address)**  ______________
+
+**Executed electric service or interconnection agreement: date its terms were filed under Sec. B-4.4(e), or "not yet executed"**  ______________
+
+Record these terms as the public copy states them, and make no finding on their adequacy (Sec. 4(d)(5)).
+
+**Water management district permit (Sec. 8), where groundwater or surface water withdrawal is proposed: the consumptive use permit application or permit number and its status; whether the facility is a large-scale data center (s. 373.203(4), Florida Statutes); the date of the district's hearing under s. 373.262(4)(b), or on a modification treated as an initial application under s. 373.239(2), if set; the date staff sent its karst and cumulative analysis to the district, if it has (the County's findings follow with its decision, Secs. 8(f)(4) and 15(c)(3)); and whether the County appeared or will appear**  ______________
+
+For a large-scale data center the district may not approve a permit application "without a hearing" (s. 373.262(4)(b), Florida Statutes), and a modification the data center proposes is treated as an initial application (s. 373.239(2)). The County may appear at that hearing for its residents, with its karst findings, the well inventory and the baseline test results, and ask the district for conditions protecting the wells within the projected cone of depression. It may also send staff's karst and cumulative analysis to the district before the district's hearing, once the analysis is ready; the County's findings go to the district when it renders its decision (Secs. 8(f)(4) and 15(c)(3)). Whether the County may take part as a party, and what kind of hearing the statute requires, are not settled (confirm). Appearing gives the applicant no assurance, and the County may not make the district permit a condition of processing or issuing its decision (s. 125.022(4), Florida Statutes).
+
+**Reclaimed water (Sec. 7(a)(2)): whether reclaimed water lines of the County's local reuse program, or of another utility, are at or near the property boundary, with their capacity and the date they reach it; and, where the facility applies to the district for its own withdrawal, whether the County has sent these facts to the district and asked it to require reclaimed water in place of all or part of the proposed use, under s. 373.262(3), Florida Statutes, for a large-scale data center, or s. 373.250(3)(c), Florida Statutes, for another Covered Facility**  ______________
+
+The request is the County's own and imposes nothing on the applicant; the district decides it.
+
+**Water supply consultation (s. 163.3180(2), Florida Statutes): the date the County consulted the water supplier on whether adequate water supplies will be available for the facility's demand, including its peak cooling demand, by the anticipated date of the certificate of occupancy, and the supplier's answer, where the consultation has been made**  ______________
+
+The statute requires the consultation before a building permit is approved. Record it here where it has been made. It asks nothing new of the applicant and does not let the County choose the water's source.
+
+Where the County retained an independent technical reviewer under Sec. 15(b), list each recommendation and the County's answer, with the reason for each one not adopted.
+
+| Recommendation | Adopted (Y/N) | Condition or finding adopting it, or reason not adopted |
+| --- | --- | --- |
+|  |
+
+## 7. Impacts
+
+Where the technical study for an adopted impact fee exists, attach it and summarize it by category. Do not attach or summarize Exhibit "B-1" findings prepared on a request for a development agreement; they go only with the separate item in Section 13 (Section 4A(e) of the ordinance adopting the Standards). Where no study exists, say so, state what the recommendation rests on instead, and do not paraphrase a study that has not been done.
+
+| Category | Marginal impact attributable | Method and source | Borne elsewhere? | Where it falls | Flag |
+| --- | --- | --- | --- | --- | --- |
+| Transmission and distribution |
+| Generation and reserve margin |
+| Water supply and recharge |
+| Wastewater and reclaimed |
+| Transportation, construction |
+| Transportation, operations |
+| Fire, hazmat, battery response |
+| Emergency power at County facilities |
+| Law enforcement emergency response |
+| Stormwater and floodplain |
+| Noise and vibration |
+| Solid waste and electronics |
+| Construction-period housing |
+| Compliance monitoring |
+
+Borne elsewhere: name any tariff (s. 366.043, Florida Statutes), impact fee, or other charge that already recovers the cost, and do not count that cost again. Where it falls: the places and distances affected, such as the nearest Sensitive Receptors, known wells, and roads, or "system-wide" where an effect spreads across a utility system or the whole County.
+
+For the row "Emergency power at County facilities," state the measured impact on emergency response. Do not rest it on grid reliability or the cost of electric service, which the large load tariff under s. 366.043, Florida Statutes, or, for a cooperative or municipal utility, its own rates and service terms, address.
+
+For the row "Law enforcement emergency response," measure emergency calls only, such as evacuation and traffic and perimeter control during an incident at the facility. The row supports no camera, video feed, license plate reader, link to a real-time crime center, drone or other means of surveillance.
+
+## 8. Notice and public comment
+
+**Notice given, method and date**  ______________
+
+Notice steps taken (check each):  ☐ Mailed to owners of record in the notice area  ☐ Mailed to "Occupant" at each address in the notice area  ☐ Sign posted at the site  ☐ One-page plain-language summary attached (capacity, water source, nearest Sensitive Receptors, hearing date)  ☐ Notices, the summary, and the application record available in accessible formats on request  ☐ Publisher's affidavit of publication and certificate of mailing, with the list and date, filed in the record before the hearing opened
+
+**Neighborhood meeting held**  ______________
+
+**Written comments received, number and themes**  ______________
+
+## 9. Communications and confidentiality record
+
+Record facts only, without characterizing them, and apply this Section the same way to every person, for or against the application.
+
+**Communications with members of the decision-making body.** List each communication about this application, and each investigation or site visit, disclosed under the County's procedure under s. 286.0115, Florida Statutes, including any made before the application was filed about the project, and attach each written communication. Where the County has no such procedure, list each communication an official discloses on the record. Add disclosures made at the hearing before the vote.
+
+| Official | Date | Person or entity | Subject | Written copy attached? |
+| --- | --- | --- | --- | --- |
+|  |
+
+**Meetings with the applicant.** List each pre-application meeting, conference, and staff meeting with the applicant, its agents, or its consultants about this project, including any held under Sec. 15(d).
+
+| Date | Attendees | Subject | Materials exchanged |
+| --- | --- | --- | --- |
+|  |
+
+**Confidentiality.** (1) For each request for confidentiality under s. 288.075, Florida Statutes, made to a County agency or official, record only that it was made and its dates, never the information it covered, and only once that information is no longer confidential. Confirm with the County Attorney when confidentiality ended; it ends early if the information is otherwise disclosed. (2) List each agreement restricting disclosure about this project to which the County, or an official or employee acting as such, is a party, once no exemption keeps it confidential, stating no confidential information. Such an agreement does not itself make any County record confidential; only a statutory exemption does. (3) Add by supplement, when confidentiality ends, each request or agreement still confidential when this report is issued.
+
+☐ None to record when this report is issued  ☐ Listed below
+
+| Request or agreement | Recipient, or parties | Date received or signed | Subject (agreements only) | Date ended, or "in effect" |
+| --- | --- | --- | --- | --- |
+|  |
+
+## 10. Findings
+
+Each finding must be supported by competent substantial evidence in the record. Every approval, approval with conditions, or denial must include written findings supporting the County's decision (s. 125.022(2)(b), Florida Statutes). Add a Finding 10.3 for each criterion of the County's special exception or conditional use provision, except where Sec. 15A governs the application (Part B).
+
+| Finding | Made (Y/N) | Evidence and record cite |
+| --- | --- | --- |
+| 10.1 The Development Unit is as stated in Section 2, was determined on the criteria of Sec. 3 alone, and [is / is not] a Covered Facility. |
+| 10.2 The application is consistent with the comprehensive plan, for the reasons stated in Section 4. |
+| 10.3 The application meets [quote the criterion, with its code citation], because [state the reason]. |
+| 10.4 The application complies with each standard of the Data Center Standards that applies to it, as Section 5 shows, or will comply through the conditions in Section 11. |
+| 10.5 The utility capacity letters Sec. 4(d) requires are filed, transmitted to the Board, and published in the application record. |
+| 10.6 [Where Sec. 15(c)(1) applies.] The cumulative impact assessment Sec. 15(c) requires is filed, and [the standards of the Data Center Standards remain adequate at the cumulative level assessed] [the standards of the Data Center Standards do not remain adequate at the cumulative level assessed, because the assessment shows [state the result under Sec. 15(c)(3)(A) to (E)], and the conditions numbered [__] in Section 11 go no further than needed to bring that result within the limit, capacity, or standard exceeded [or, under Sec. 15(c)(3)(C), extend Sec. 8(d) and (e) to the wells within the combined cone]]. Combined surface water withdrawals [would / would not] draw a source below a minimum flow or level the water management district has adopted under s. 373.042, Florida Statutes; this statement is not a ground for a condition and is sent to the district with the decision (Sec. 15(c)(3)). |
+| 10.[__] [Only where a denial under Sec. 16(e) is recommended; number it after the last finding.] The application is for the development governed by the development agreement approved by [____] on [date], and the applicant is in default under that agreement in [cite the obligation], an obligation that mitigates an impact of the development; the County gave notice of the default on [date], and the cure period under that agreement[, including any added period it gives a mortgagee to cure,] ended on [date] without cure (Sec. 16(e)). |
+| 10.[__] [Only where a denial under Sec. 18(d) is recommended; number it after the last finding.] The land in this application lies within the Development Unit of the Covered Facility at which the violation of [Sec. __] stated in the notice of violation dated [____] occurred, the violation was not cured within the period the Data Center Standards allow, and the application does not seek a permit or order to cure the violation (Sec. 18(d)). |
+
+**Findings not made.** For each finding not made, state the finding and the evidence on which that conclusion rests.  ______________
+
+## 11. Recommendation and conditions
+
+State the recommendation: approve, approve with conditions, or deny. Number each recommended condition and tie it to a finding in Section 10 or a standard listed in Section 5. If denial is recommended, cite the findings not made in Section 10, or, for a denial under Sec. 16(e) or Sec. 18(d), the finding of the uncured default or violation. No condition may require a payment, dedication, contribution, or conveyance of any kind.
+
+**Recommendation**  ______________
+
+**Condition [1], and the finding or standard it implements (one entry for each condition)**  ______________
+
+## 12. Certifications
+
+The preparer certifies that:
+
+(a) no matter described in Sec. 16(b), other than an uncured default on which Sec. 16(e) allows a denial to rest and the terms of the development agreement that state the obligation and the remedy, was considered, requested, required, solicited, or taken into account in the Development Unit determination, the findings, the recommendation, or any reduction, alternative compliance, or extension recommended in this report; no determination or review of the application was delayed, deprioritized, or expedited because of such a matter; no one represented to the applicant that any approval, its timing, or the application of any standard depends on such a matter; and, to the preparer's knowledge, no County officer or employee acting as such referred any person to the applicant, or the applicant to any person, for an instrument described in Sec. 16(b) to which the County is not a party, attended or facilitated its negotiation, reviewed its drafts, or described it in a staff report, agenda item, or application form, except as Sec. 16(b) permits;
+
+(b) each end user's identity has been used only as Sec. 4(c)(4) allows; no hearing on the application has been scheduled or held, and no decision made, while an identity remained to be filed (Sec. 4(c)(3)); and no price of a capacity acquisition is recorded, and no finding made on whether it was permitted (Sec. 4(c)(2));
+
+(c) no figure the applicant has marked under Sec. B-4.3 is stated in this report, and no finding rests on one, unless the County has determined under Sec. B-4.3(b) that the figure is not exempt and has published it; and
+
+(d) the preparer prepared or supervised this report, the sources cited are in the file, and each item flagged as a placeholder has no evidentiary basis and is identified as such.
+
+☐ Certified.
+
+**Any matter described in Sec. 16(b) that appears in the record, and its disposition**  ______________
+
+**Signature and date**  ______________
+
+**Reviewed by, County Attorney's Office**  ______________
+
+## 13. Separate item: development agreement
+
+Complete only where a development agreement under ss. 163.3220 to 163.3243, Florida Statutes, is before the Board. The agreement is a separate agenda item, separately noticed under s. 163.3225 and separately voted. It is taken up after the decision on the application, is not a criterion for approval, and is not weighed in Sections 5, 7, 10, or 11 (Sec. 16(b)). Once it is executed, an uncured default in an obligation that mitigates an impact may support a written denial of a later application, and only as Sec. 16(e) provides.
+
+The agreement carries no item given in exchange for an approval. Besides mitigation of impacts that its impact study (Exhibit "B-1") measures, it carries only statutory concurrency terms (Agreement Section 2.4) and County purchases at cost (Agreement Section 4.5) (In-Kind Eligibility and Characterization Test, Part 5 and Sec. 5.1). Attach Exhibit "B-1" and complete one row for each impact it measures (In-Kind Eligibility and Characterization Test, Sec. 5.3).
+
+Exhibit "B-1" was prepared by a preparer the County selected and directed, paid from the deposit under Sec. 15(f) [or: at the County's cost, which the Developer reimburses under Agreement Section 4.1(d) if the agreement takes effect].
+
+**Date of the deposit under Sec. 15(f) (or N/A)**  ______________
+
+| Impact measured in Exhibit "B-1" | Answered by: Data Center Standards section, Agreement section, impact fee category, or "no lawful item available" with the reason | Nexus and proportionality record | Burden value and recipient value of each Agreement item that answers an impact (In-Kind Eligibility and Characterization Test, Sec. 5.4); for land or an interest in land, its fair market value | Impact fee credit |
+| --- | --- | --- | --- | --- |
+|  |
+
+The package is complete only when (1) every measured impact has an answer in the table; (2) every Agreement item, other than the concurrency terms of Agreement Section 2.4 and a County purchase at cost under Agreement Section 4.5, traces to a measured impact, and no impact is answered twice, whether by two items or by an item and an impact fee; (3) each Agreement item that answers an impact, other than land or an interest in land, states both values and is treated as roughly proportional only if it is proportional at the higher of the two (In-Kind Eligibility and Characterization Test, Sec. 5.4), and the package as a whole is roughly proportional to the project's total measured impacts (In-Kind Eligibility and Characterization Test, Sec. 5.2), each figure is within the range the study supports, and the Board's reason for the point chosen is stated; and (4) no count of items and no dollar total is used as a pass line.
+
+**Package complete:**  ☐ Yes  ☐ No. If no, state the gap and how it will be closed or explained  ______________
+
+Staff have not requested, reviewed, summarized, or attached any agreement, contribution, or other voluntary undertaking between the applicant and a person other than the County of a kind Sec. 16(b) bars from consideration, and none is cited in this Section.  ☐ Confirmed.
+
+**Date the County published any form of agreement it will consider (or N/A)**  ______________
+
+**Dates of the public hearings under s. 163.3225 (Part E, Table E-5)**  ______________
+
+# PART B. SEC. 15A INSERT
+
+Use this Part with Part A where the County has adopted Sec. 15A (Module M1). Add each item to the Part A Section it names. Omit Finding 10.3; the findings Sec. 15A(b) requires take its place (Sec. 15(a); Sec. 15A(d)).
+
+**Insert 3. Add to Part A, Section 3.**
+
+| Sec. 15A(f) milestone | Maximum | Date achieved | Reason stated in writing by the County Administrator, if exceeded |
+| --- | --- | --- | --- |
+| Completeness determined | Within [thirty (30)] days of submittal |
+| Staff report issued | Within [sixty (60)] days of a complete application |
+| Public hearing scheduled | At the next regularly scheduled meeting for which notice can lawfully be given |
+
+Days not counted under Sec. 4(c)(3) or Sec. 15(b)(3), with dates: ________. Date of any written request by the applicant for placement on the agenda under Sec. 15A(f): ________.
+
+**Insert 10. Add to Part A, Section 10.** In Finding 10.1, also state that the data center is in [Tier 2 / Tier 3] under Sec. 3(a). Finding 10.2 is the finding Sec. 15A(b)(9) requires. Add these findings, one for each other finding Sec. 15A(b) requires.
+
+| Finding | Made (Y/N) | Evidence and record cite |
+| --- | --- | --- |
+| 10.7 Electric transmission, distribution, and generation capacity is or will be available to serve the use at the requested load, and the costs of serving the use are recoverable from the applicant without shifting cost to other retail customers or, in the case of a rural electric cooperative or municipal electric utility, to its other members or customers (Sec. 15A(b)(1)). |
+| 10.8 Water supply adequate to the proposed cooling architecture is available from a lawful source consistent with Secs. 7 and 8 (Sec. 15A(b)(2)). |
+| 10.9 Any reclaimed water proposed is documented and reconciled with any irrigation, aquifer recharge, or other prior use to which it is committed, and any diversion from a committed recharge use is documented, as Sec. 7(b) and Sec. B-7.3 require (Sec. 15A(b)(3)). |
+| 10.10 The use satisfies the County's concurrency requirements for both the construction and operating phases (Sec. 15A(b)(4)). |
+| 10.11 Fire suppression, hazardous materials, and battery and thermal event response capability adequate to the proposed installation exists or will exist upon commencement of operations, consistent with Sec. 12 (Sec. 15A(b)(5)). |
+| 10.12 The application demonstrates compliance with Secs. 5 through 14 (Sec. 15A(b)(6)). |
+| 10.13 Siting, screening, lighting, and sound design are compatible with adjoining designated uses, and the setbacks of Sec. 5 are met or lawfully reduced (Sec. 15A(b)(7)). |
+| 10.14 Financial assurance under Sec. 14(b) is or will be in place (Sec. 15A(b)(8)). |
+
+**Insert 12. Add to Part A, Section 12.** The preparer also certifies that:
+
+(e) no finding not made rests on generalized opposition, the character of the applicant, the identity of the applicant's customers, the lawful content of computation performed, or any factor not stated in Sec. 15A(b), whose findings include consistency with the comprehensive plan (Sec. 15A(b)(9); Finding 10.2) (Sec. 15A(d)).
+
+☐ Certified.
+
+# PART C. RESOLUTION
+
+**RESOLUTION NO. ______**
+
+A RESOLUTION OF THE [BOARD OF COUNTY COMMISSIONERS / NAME OF DECISION-MAKING BODY] OF [COUNTY NAME] COUNTY, FLORIDA, [APPROVING [WITH CONDITIONS] / DENYING] APPLICATION NO. [____] FOR A [SPECIAL EXCEPTION / CONDITIONAL USE] FOR A [TIER 3 DATA CENTER (COVERED FACILITY) / TIER 2 DATA CENTER] ON THE PROPERTY DESCRIBED IN EXHIBIT "1"; INCORPORATING BY REFERENCE THE FINDINGS IN THE STAFF REPORT; PROVIDING CONDITIONS; AND PROVIDING AN EFFECTIVE DATE.
+
+WHEREAS, [applicant] filed Application No. [____] on [date] for a [special exception / conditional use] under [cite the County's code section] for a data center, as defined in the Data Center Standards adopted by Ordinance No. [____], on the property described in Exhibit "1"; and
+
+WHEREAS, County staff issued a staff report dated [date] (the "Staff Report"), attached as Exhibit "2"; and
+
+WHEREAS, after notice as [cite the County's notice provisions] require[s], the [Board] held a public hearing on [date] at which the applicant and all interested persons had an opportunity to be heard; and
+
+WHEREAS, no end user's identity remained to be filed under Sec. 4(c)(3) of the Data Center Standards when the hearing was scheduled and held, or on the date of this decision; and
+
+WHEREAS, the [Board] has considered the application, the Staff Report, and the testimony and evidence in the record;
+
+NOW, THEREFORE, BE IT RESOLVED BY THE [BOARD] OF [COUNTY NAME] COUNTY, FLORIDA:
+
+**Section 1. Findings.** The [Board] incorporates by reference the findings in Section 10 of the Staff Report, being Findings [10.1 to 10.6] [10.1, 10.2, and 10.4 to 10.14, where the County has adopted Sec. 15A], and finds that each finding made, and each conclusion that a finding is not made, is supported by competent substantial evidence in the record. [State any finding the [Board] makes differently from the Staff Report, and the evidence for it.]
+
+**Section 2. Approval.** Application No. [____] is approved, subject to the conditions in Section 3.
+
+**Section 3. Conditions.** [The approval is subject to Conditions [__] to [__] in Section 11 of the Staff Report[, modified as follows: ____].] Each condition implements the finding or standard stated for it in the Staff Report, and no condition requires a payment, dedication, contribution, or conveyance of any kind. All other applicable state or federal permits shall be obtained before commencement of the development (s. 125.022(5), Florida Statutes).
+
+**Section 4. State and federal permits.** Issuance of this development order by the County does not in any way create any rights on the part of the applicant to obtain a permit from a state or federal agency and does not create any liability on the part of the County for issuance of the permit if the applicant fails to obtain requisite approvals or fulfill the obligations imposed by a state or federal agency or undertakes actions that result in a violation of state or federal law (s. 125.022(5), Florida Statutes).
+
+**Section 5. Agreements not considered.** In making this decision the [Board] did not consider, request, require, solicit, or take into account any matter described in Sec. 16(b) of the Data Center Standards, and neither this decision nor its timing depends on any such matter. [For a denial under Sec. 16(e), add: "This Section does not reach the uncured default stated in Section 2, or the terms of the development agreement that state the obligation and the remedy, on which Sec. 16(e) of the Data Center Standards allows this denial to rest."]
+
+**Section 6. Effective date.** This Resolution takes effect upon adoption.
+
+[Denial. Where the [Board] denies the application, use "DENYING" in the title and delete "PROVIDING CONDITIONS;", and replace Sections 2 to 4 with: "**Section 2. Denial.** Application No. [____] is denied. The findings not made, and the evidence on which the decision rests, are stated in Section 10 of the Staff Report[, as modified as follows: ____]. The County shall give the applicant written notice of the denial, which must include a citation to the applicable portions of an ordinance, rule, statute, or other legal authority for the denial (s. 125.022(2)(e), Florida Statutes)."; then renumber Sections 5 and 6 as Sections 3 and 4.]
+
+[Denial under Sec. 16(e). Where the [Board] denies the application because of an uncured default under a development agreement, use the denial form, include Finding 10.[__] in Section 1, and replace the second sentence of Section 2 with: "The application is denied under Sec. 16(e) of the Data Center Standards and Section [8.2(b)] of the development agreement approved by [____] on [date], because the applicant's default in [cite the obligation], an obligation that mitigates an impact of the development, was not cured within the cure period that agreement allows[, including any added period it gives a mortgagee to cure], which ended on [date], after the notice of default dated [date], as Finding 10.[__] of the Staff Report finds. The denial is without prejudice to a new application once the default is cured."]
+
+[Denial under Sec. 18(d). Where the application is withheld under Sec. 18(d) of the Data Center Standards, use the denial form, include Finding 10.[__] in Section 1, and replace the second sentence of Section 2 with: "The application is denied under Sec. 18(d) of the Data Center Standards because the violation of [Sec. __] stated in the notice of violation dated [____] was not cured within the period the Data Center Standards allow, as Finding 10.[__] of the Staff Report finds. The denial is without prejudice to a new application once compliance is restored."]
+
+PASSED AND ADOPTED by the [Board] of [COUNTY NAME] County, Florida, this ___ day of ________, 20__.
+
+ATTEST: [Clerk]  ______________________          [BOARD]  By: ______________________, Chair
+
+Approved as to form and legal sufficiency: ______________________, County Attorney
+
+Exhibit "1": Legal description of the property.
+Exhibit "2": Staff Report.
+
+# PART D. BUSINESS IMPACT ESTIMATE
+
+Prepare an estimate before the enactment of each ordinance this kit covers (s. 125.66(3)(a), Florida Statutes). A resolution under Part C needs none.
+
+**[COUNTY NAME] COUNTY BUSINESS IMPACT ESTIMATE**
+
+**Proposed ordinance (title)**  ______________
+
+**Date posted on the County's website**  ________   **Web address**  ________
+
+**Date the notice of proposed enactment is published under s. 125.66(2)(a), or, for an ordinance enacted under s. 125.66(5)(b) or a plan amendment under Part G, the date of the first advertisement or notice of any kind**  ________
+
+The estimate must be posted on the County's website no later than the date the notice of proposed enactment is published under s. 125.66(2)(a), Florida Statutes (s. 125.66(3)(a)). County practice, the safe reading for an ordinance enacted under s. 125.66(5)(b) or a plan amendment under Part G: post the estimate no later than the first advertisement or notice of any kind, whichever is published first.
+
+No exception in s. 125.66(3)(c) applies to this ordinance.  ☐ Confirmed.
+
+Complete one column for each part the ordinance adopts by its own section, for example [Data Center Standards (Exhibit A)] [use-table amendment] [Module M1] [Technical Manual (Exhibit B)] [impact fee ordinance].
+
+| Item required by s. 125.66(3)(a) | [Part 1] | [Part 2] |
+| --- | --- | --- |
+| 1. A summary of the proposed ordinance, including a statement of the public purpose to be served by the proposed ordinance, such as serving the public health, safety, morals, and welfare of the county | [__] | [__] |
+| 2. An estimate of the direct economic impact of the proposed ordinance on private, for-profit businesses in the county, including the following, if any: |
+| 2.a. An estimate of direct compliance costs that businesses may reasonably incur if the ordinance is enacted | [$__] [basis] | [$__] [basis] |
+| 2.b. Identification of any new charge or fee on businesses subject to the proposed ordinance or for which businesses will be financially responsible | [__] | [__] |
+| 2.c. An estimate of the county's regulatory costs, including an estimate of revenues from any new charges or fees that will be imposed on businesses to cover such costs | [$__] [basis] | [$__] [basis] |
+| 3. A good faith estimate of the number of businesses likely to be impacted by the ordinance | [__] | [__] |
+| 4. Any additional information the board determines may be useful | [__] | [__] |
+
+For the Data Center Standards and the Technical Manual, item 2.a includes [the studies, tests, and plans they require (for example Secs. 4(c), 4(d), 7(a), 8(b), 9(e), 11(d), 11A and 14(a))], [permanent sound monitoring (Sec. 9(c))], and [the financial assurance (Sec. 14(b))]; item 2.b includes [the cost-based application, inspection, and administration fees set by resolution (Sec. 1(f))], [the escrow for independent technical review (Sec. 15(b))], and [the cost of any coordinated review an applicant requests (Sec. 15(d))]. For the impact fee ordinance, item 2.b is [each Fee Category adopted and its rate per Fee Unit (fee ordinance Sec. 3.1)].
+
+Section 125.66(3)(b) may not be construed to require the County to procure an accountant or other financial consultant to prepare this estimate.
+
+# PART E. HEARING CALENDAR
+
+**E-1. Which procedure applies**
+
+| Ordinance | Procedure |
+| --- | --- |
+| The adopting ordinance (Exhibits A and B and the use-table amendment in its Section 3); an ordinance adopting Sec. 15A; a later amendment that changes a use list, including one that changes the tier thresholds of Sec. 3(a) or a definition they use | It changes "the actual list of permitted, conditional, or prohibited uses within a zoning category": s. 125.66(5)(b), Table E-2 |
+| An amendment to Exhibit A or Exhibit B that changes no use list | Regular enactment under s. 125.66(2): Table E-3 |
+| Impact fee ordinance, adopted on its own or as a division of an existing impact fee chapter | Regular enactment under s. 125.66(2): Table E-3, with the 90-day notice in that table |
+
+No emergency ordinance or resolution shall be enacted which establishes or amends the actual zoning map designation of a parcel or parcels of land or changes the actual list of permitted, conditional, or prohibited uses within a zoning category (s. 125.66(4)). The notice procedures required by s. 125.66 are established as minimum notice procedures (s. 125.66(7)).
+
+Section 28 of Chapter 2025-190, Laws of Florida, reaches every Florida county, each being listed in DR-4806, DR-4828, or DR-4834 (confirm the County's listing in FEMA's data). Give no notice of the adopting ordinance or the impact fee ordinance before 1 October 2027 unless the County Attorney determines in writing that it is not more restrictive or burdensome. Then check s. 252.422, Florida Statutes, for each hurricane landfall in the past year, measuring 100 miles from the track while the storm was a hurricane, and treat an emergency declaration as counting until a court holds otherwise.
+
+**Before any notice.** County Attorney's written determination that Section 28 of Chapter 2025-190, Laws of Florida, and s. 252.422, Florida Statutes, do not bar proposing or adopting the ordinance on the planned dates (Recital 7 of the adopting ordinance; the bracketed timing recital of the impact fee ordinance). Date ______________. For each ordinance that adopts or amends a land development regulation, referral to the [local planning agency] [land development regulation commission] for review and recommendation on its relationship to the comprehensive plan (s. 163.3194(2), Florida Statutes; Recital 5 of the adopting ordinance). Date referred ______________. Date of recommendation ______________ (if none is made within 2 months after referral, the Board may act).
+
+**E-2. Two advertised public hearings (s. 125.66(5)(b))**
+
+| Step | Requirement | Date |
+| --- | --- | --- |
+| Business impact estimate posted | Part D |
+| First advertisement published | If published in the print edition of a newspaper, no less than 2 columns wide by 10 inches long in a standard size or a tabloid size newspaper, with the headline in a type no smaller than 18 point. Not placed in that portion of the newspaper where legal notices and classified advertisements appear. Placed in a newspaper in the county and of general interest and readership in the community pursuant to chapter 50; whenever possible, in a newspaper that is published at least weekly unless the only newspaper in the community is published less than weekly. In substantially the form below. The geographic location map is not required for amendments which change the actual list of permitted, conditional, or prohibited uses within a zoning category. |
+| First public hearing | At least 7 days after the day that the first advertisement is published |
+| Second hearing advertised | At least 5 days prior to the second hearing |
+| Second public hearing | At least 10 days after the first hearing |
+| Time of day | At least one hearing after 5 p.m. on a weekday, unless the Board, by a majority plus one vote, elects to conduct that hearing at another time of day |
+| Mailed notice in lieu of the advertisements (optional) | A notice mailed to each person owning real property within the area covered by the ordinance, which clearly explains the proposed ordinance and notifies the person of the time, place, and location of both public hearings (s. 125.66(5)(b)3.) |
+| Proof of notice | Before each hearing opens, file in the record the publisher's affidavit of publication with each published notice, and a certificate of mailing with the list and date for each mailed notice. If either is missing or defective, continue and re-notice |
+
+Advertisement form (s. 125.66(5)(b)2.):
+
+NOTICE OF (TYPE OF) CHANGE
+
+The (name of local governmental unit) proposes to adopt the following by ordinance or resolution: (title of ordinance or resolution).
+
+A public hearing on the ordinance or resolution will be held on (date and time) at (meeting place).
+
+**E-3. Regular enactment (s. 125.66(2))**
+
+| Step | Requirement | Date |
+| --- | --- | --- |
+| Business impact estimate posted | Part D |
+| Notice of intent published | At least 10 days before the meeting, by publication as provided in chapter 50. The notice states the date, time, and place of the meeting; the title or titles of proposed ordinances; and the place or places within the county where such proposed ordinances may be inspected by the public. It also advises that interested parties may appear at the meeting and be heard with respect to the proposed ordinance. A copy of the notice is kept available for public inspection during the regular business hours of the office of the clerk of the board of county commissioners. |
+| Meeting | Any regular or special meeting of the Board |
+| Proof of notice | Before each hearing opens, file in the record the publisher's affidavit of publication with each published notice, and a certificate of mailing with the list and date for each mailed notice. If either is missing or defective, continue and re-notice |
+| Impact fee ordinance only: effective date | Notice at least 90 days before the effective date of an ordinance imposing a new or increased impact fee (s. 163.31801(4)(d)) |
+
+**E-4. Both procedures**
+
+| Step | Requirement | Date |
+| --- | --- | --- |
+| Continuance, if any | Consideration at a properly noticed meeting may be continued to a subsequent meeting if, at the scheduled meeting, the date, time, and place of the subsequent meeting is publicly stated. No further publication, mailing, or posted notice is required, except that the continued consideration must be listed in an agenda or similar communication produced for the subsequent meeting (s. 125.66(8)) |
+| Filing | Certified copies filed with the Department of State by the clerk within 10 days after enactment, transmitted by e-mail; the ordinance takes effect upon filing unless it prescribes a later effective date (s. 125.66(2)(b); Section 9 of the adopting ordinance) |
+| Filing with the Department of Environmental Protection | After enactment and before enforcing Sec. 7 or Sec. 8, file a certified copy of the adopting ordinance, and of each later ordinance amending either section, with the Department of Environmental Protection. No local "rule, regulation, or order affecting the waters in the state," other than one on water quality, may be enforced "until such special act, rule, regulation, or order has been filed with the department" (s. 373.023(2), Florida Statutes) |
+
+**E-5. Development agreement hearings (s. 163.3225)**
+
+Use this table for a development agreement under ss. 163.3220 to 163.3243, Florida Statutes (Part A, Section 13).
+
+| Step | Requirement | Date |
+| --- | --- | --- |
+| Request received | Confirm receipt within five (5) business days (Section 4A(b) of the ordinance adopting the Standards) |
+| Completeness | Within thirty (30) days after receipt, state in writing that the request is complete or what it lacks; the person then has thirty (30) days to supply it (Section 4A(b)) |
+| Final action | Within one hundred eighty (180) days after the request is complete, unless the County and the person agree, in writing or in a public meeting or hearing, to a longer period (Section 4A(b); s. 125.022(2)(b)3., 4.), and only after the final decision on the application or its withdrawal. Where the period, as extended, would end first, denial without prejudice to a new request; for any denial, written notice citing its legal authority (Section 4A(b); s. 125.022(2)(e)) |
+| Exhibits "A" and "J" complete | Before notice of the first hearing (s. 163.3227(1)) |
+| Mailed notice | To all affected property owners [the owners of the land subject to the agreement and of land within [__] feet of it], before the first hearing (s. 163.3225(2)) |
+| Newspaper notice | About 7 days before each hearing, stating the location of the land, the proposed uses, population densities, building intensities and height, any Campus Development Envelope maximums, and where a copy of the proposed agreement can be obtained (s. 163.3225(2)) |
+| First public hearing | Announce at it the day, time, and place of the second hearing (s. 163.3225(2)) |
+| Second public hearing | At least two public hearings in all; at the Board's option, the local planning agency may hold one of them (s. 163.3225(1)) |
+| Proof of notice | Before each hearing opens, file in the record the publisher's affidavit of publication with the notice, and a certificate of mailing with the list and date. If either is missing or defective, continue and re-notice |
+| Permits heard with the agreement | The same proof of notice for each local development permit in Exhibit "J," Part J-1, heard with the agreement |
+
+# PART F. GAP CHECK
+
+Before drafting the adopting ordinance, cite for each row below the County's existing rule or the study's finding, compare the two point by point, and record the comparison and the action the County chooses. Where a stricter rule of the County's Land Development Code covers a point, it governs under Section 6 of the adopting ordinance unless the County changes it, and a conflicting rule in another ordinance is repealed to the extent of the conflict; where the County's rule is weaker or silent, the text of Exhibit A or Exhibit B governs, as the County adopts it; where the two are the same, conform rather than duplicate. Part E sets what must come before notice.
+
+| Sec. | Subject | County rule or study finding (cite) | Compared with Exhibits A and B: none / weaker / same / stricter | Action |
+| --- | --- | --- | --- | --- |
+| Ordinance | Findings (Section 1); use table entry with tiers and districts (Section 3); conflicts (Section 6) |
+| 15(a); 15A | The County's special exception or conditional use procedure, or Sec. 15A |
+| 1 | Purpose; applicability; vested rights; relationship to other law; no exaction; same terms; not a moratorium; no alternative compliance; referenced standards; Technical Manual |
+| 2 | Definitions |
+| 3 | Tiers; measurement; aggregation; anti-circumvention; Development Unit determination |
+| 4 | Application requirements; complete application (B-4.1); ownership and Development Unit disclosure |
+| 5 to 17; Exhibit B | One row for each standard listed in Part A, Section 5, with the Exhibit B Part of the same number |
+| 15(d) | Coordinated review |
+| 16 | Agreements not considered; rehearing |
+| 18 | Enforcement |
+| 19 | Existing facilities |
+
+# PART G. PLAN POLICY ON DATA CENTER WATER SOURCES
+
+Use this Part where the County will state the water source rules of Sec. 7(a)(1) and (2) in its comprehensive plan as well as in its land development regulations. Since 1 July 2026 a water management district "may not issue a permit to a large-scale data center applicant for an allocation of water if the proposed use of the water is harmful to the water resources of the area or is prohibited by the applicable local government zoning regulations and comprehensive plan" (s. 373.262(2), Florida Statutes, created by Chapter 2026-65, Laws of Florida). The policy brings within that subsection only a large-scale data center's own application to withdraw water (s. 373.203(4), Florida Statutes). It does not reach potable water a public water system supplies, or groundwater a third party withdraws under its own permit. Whether the prohibition must appear in both the code and the plan, and how far the subsection reaches, are open (Open Legal Questions, Q52; Counsel 52.2).
+
+**G-1. Model policy**
+
+Insert in the [future land use] [general sanitary sewer, solid waste, drainage, potable water, and natural groundwater aquifer recharge] [conservation] element (s. 163.3177(6)(a), (c), or (d), Florida Statutes). Where the County has no local reuse program, delete the bracketed phrase and begin the second sentence "No potable water."
+
+Policy [__]. Data center water sources. No groundwater withdrawn by or for a large-scale data center as defined in s. 373.203(4), Florida Statutes, on or off its site, shall be used for heat rejection, makeup, or blowdown, whether evaporative or otherwise. [Consistent with the County's local reuse program under s. 403.064, Florida Statutes,] no potable water shall be used for cooling makeup at such a facility where reclaimed water is available to the site, except emergency potable backup that is separately permitted, metered and reported [and used only while the primary heat rejection equipment or the reclaimed water supply is out of service], and water that fills, or replaces losses from, a closed circuit in which the water is not evaporated. Except as the second sentence provides, this policy does not restrict potable water delivered by a public water system through a metered connection. The first sentence does not apply to a facility or withdrawal as to which a court holds, or the Board of County Commissioners determines on the County Attorney's written advice, that chapter 373, Florida Statutes, prevents its application. Sec. 7(a) of [cite the chapter of the land development code that adopts the Data Center Standards] implements this policy.
+
+[Where the County adopts the optional sentence of Sec. 7(a)(2) on evaporative cooling, add after the second sentence: "No potable water shall be used for evaporative or adiabatic heat rejection, or as its makeup, at such a facility even where reclaimed water is not available to the site, except emergency potable backup that is separately permitted, metered and reported [and used only while the primary heat rejection equipment or the reclaimed water supply is out of service]; this sentence does not reach water that fills, or replaces losses from, a closed circuit in which the water is not evaporated." Then begin the next sentence "Except as the second and third sentences provide".]
+
+**G-2. Adoption**
+
+| Step | Requirement | Date |
+| --- | --- | --- |
+| Before any notice | Section 28 of Chapter 2025-190, Laws of Florida, bars every county (confirm the County's listing in FEMA's data) from proposing or adopting "more restrictive or burdensome amendments to its comprehensive plan or land development regulations" before 1 October 2027. Give no notice of the amendment before then unless the County Attorney determines in writing that it is not more restrictive or burdensome; then check s. 252.422, Florida Statutes, as Part E provides (Open Legal Questions, Q3) |
+| Local planning agency | Referral for its recommendation. Before recommending, the agency holds at least one public hearing, with public notice, on the amendment (s. 163.3174(4)(a), Florida Statutes) |
+| Process | Expedited state review, which applies to every plan amendment that s. 163.3184(2)(b) or (c) does not send to another process (s. 163.3184(2)(a), (3)) |
+| Business impact estimate posted | Part D, no later than the first advertisement or notice of any kind. The exception for plan amendments reaches only one "initiated by an application by a private party other than the county" (s. 125.66(3)(c)7.b.) |
+| First public hearing (transmittal) | On a weekday at least 7 days after the first advertisement, published as chapter 125 requires (s. 163.3184(11)(b)1.; confirm the form with the County Attorney); then transmit the amendment, with its data and analysis, to the reviewing agencies within 10 working days (s. 163.3184(3)(b)1.) |
+| Second public hearing (adoption) | On a weekday at least 5 days after the second advertisement, published as chapter 125 requires (s. 163.3184(11)(b)2.), and within 180 days after receipt of agency comments, or the amendment is deemed withdrawn unless extended by agreement with notice to the state land planning agency and any affected person that provided comments on the amendment (s. 163.3184(3)(c)1.). Adoption is by ordinance, by the affirmative vote of not less than a majority of the members present (s. 163.3184(11)(a)) |
+| Transmittal after adoption | The adopted amendment, with its data and analysis, to the state land planning agency and each agency or local government that provided timely comments, within 30 working days after the final adoption hearing; an amendment not transmitted in that time is deemed withdrawn (s. 163.3184(3)(c)2.) |
+| Effective date | Not until 31 days after the state land planning agency notifies the County that the plan amendment package is complete or, if the amendment is timely challenged, until the state land planning agency or the Administration Commission enters a final order determining it to be in compliance (s. 163.3184(3)(c)4.) |
+| Filing with the Department of Environmental Protection | A certified copy of the adopting ordinance, filed as Table E-4 provides for the Standards (s. 373.023(2), Florida Statutes) |
+
+Data and analysis: the record that supports Sec. 7(a), with the County's reuse program where it has one and the plan's data on water sources and aquifer recharge (s. 163.3177(6)(c), (d)).
+
+---
+
+## AUTHOR
+
+*Prepared by Timothy Smith · Citizen-prepared working draft · Not legal advice.*
+
+*Citizen-prepared. Not legal advice. The author is not licensed to practice law and is not affiliated with, and does not write on behalf of, any university, law school, clinic, law firm, or governmental body. No attorney-client relationship is created by this document or by any use of it. Any jurisdiction considering adoption should obtain review by licensed counsel admitted in that jurisdiction.*
+
+*The release notes (CHANGELOG) published with each release identify its contents and the current version of each instrument.*

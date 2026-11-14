@@ -1,0 +1,461 @@
+{
+ "release": "2026.4",
+ "made_from": "the change log, README_RECORD_1_INSTRUMENTS.md, README_RECORD_2_METHODOLOGY.md, 000_START_HERE.md and 002_MANIFEST.txt of the release",
+ "title": "Model Instruments for Data Center Development in Florida Counties",
+ "gaps": "Known gaps: no county has adopted these instruments, no licensed attorney has reviewed them, and none of the studies they depend on has been done.",
+ "records": [
+  {
+   "key": "instruments",
+   "label": "Record 1: Instruments",
+   "contents": "The model ordinances, agreements, modules and forms, the impact study outline, and the Drafter's Notes",
+   "license": "CC0 1.0",
+   "notes": [
+    {
+     "text": "You may adopt, adapt, excerpt and codify this material without attribution and without permission.",
+     "source": "README_RECORD_1_INSTRUMENTS.md"
+    },
+    {
+     "text": "If these instruments inform an adopted ordinance or executed agreement, a citation to the deposit DOI helps others trace provenance and locate errata.",
+     "source": "LICENSE_RECORD_1_CC0.txt"
+    }
+   ],
+   "credit": null,
+   "doi": "10.5281/zenodo.24021154"
+  },
+  {
+   "key": "guide",
+   "label": "Record 2: Guide, Open Legal Questions and Methodology",
+   "contents": "A plain-language guide, the open legal questions, and two tests for deciding what belongs in a county instrument",
+   "license": "CC BY 4.0",
+   "notes": [],
+   "credit": {
+    "text": "To credit this record, use the attribution in its license file",
+    "link": "its license file",
+    "file": "LICENSE_RECORD_2_CCBY.txt"
+   },
+   "doi": "10.5281/zenodo.24021153"
+  }
+ ],
+ "begin": [
+  {
+   "name": "Plain Language Guide",
+   "record": "guide",
+   "file": "Plain_Language_Guide_Release_2026_4.md",
+   "quote": "if you are not a lawyer."
+  },
+  {
+   "name": "Model Data Center Standards Ordinance, with Exhibit A, Data Center Standards",
+   "record": "instruments",
+   "file": "Model_Data_Center_Standards_Ordinance_v3_14_annotated.txt",
+   "quote": "the standards a large data center must meet, adopted as part of the land development code."
+  },
+  {
+   "name": "Drafter's Notes",
+   "record": "instruments",
+   "file": "Drafters_Notes_v1_20.md",
+   "quote": "for each instrument, the blanks to complete, what sets each one, and the statute that requires the provision."
+  },
+  {
+   "name": "Open Legal Questions",
+   "record": "guide",
+   "file": "Open_Legal_Questions_Release_2026_4.md",
+   "quote": "the legal questions the instruments raise, the answer the primary sources support for each and how firm it is, and the narrower questions left for county counsel."
+  }
+ ],
+ "instruments": [
+  {
+   "name": "Model Data Center Standards Ordinance, with Exhibit A, Data Center Standards",
+   "version": "3.14",
+   "about": "Adopting ordinance and Exhibit A, Data Center Standards: tiers and applications, siting, screening and lighting, water and cooling, water withdrawal and wells, sound, generators, stormwater, karst and flood, burials and archaeological resources, hazardous systems, equipment stewardship, decommissioning, review, monitoring and enforcement",
+   "source": "README_RECORD_1_INSTRUMENTS.md",
+   "files": [
+    {
+     "file": "Model_Data_Center_Standards_Ordinance_v3_14_annotated.txt",
+     "label": "Annotated copy"
+    },
+    {
+     "file": "Model_Data_Center_Standards_Ordinance_v3_14_clean.txt",
+     "label": "Clean copy"
+    }
+   ]
+  },
+  {
+   "name": "Data Center Technical Manual (Exhibit B to the Standards Ordinance)",
+   "version": "1.11",
+   "about": "Exhibit B to the Standards Ordinance: methods, submittals, tests and report formats",
+   "source": "README_RECORD_1_INSTRUMENTS.md",
+   "files": [
+    {
+     "file": "Data_Center_Technical_Manual_v1_11_annotated.txt",
+     "label": "Annotated copy"
+    },
+    {
+     "file": "Data_Center_Technical_Manual_v1_11_clean.txt",
+     "label": "Clean copy"
+    }
+   ]
+  },
+  {
+   "name": "Module M1, Conditional Use Review",
+   "version": "1.2",
+   "about": "Optional conditional use review procedure (Sec. 15A of the Standards)",
+   "source": "README_RECORD_1_INSTRUMENTS.md",
+   "files": [
+    {
+     "file": "Module_M1_Review_Procedure_v1_2_annotated.txt",
+     "label": "Annotated copy"
+    },
+    {
+     "file": "Module_M1_Review_Procedure_v1_2_clean.txt",
+     "label": "Clean copy"
+    }
+   ]
+  },
+  {
+   "name": "County Procedure and Records Kit",
+   "version": "1.12",
+   "about": "Staff report, Sec. 15A insert, resolution, business impact estimate, hearing calendar, gap check, and a plan policy on data center water sources",
+   "source": "README_RECORD_1_INSTRUMENTS.md",
+   "files": [
+    {
+     "file": "County_Procedure_and_Records_Kit_v1_12_annotated.txt",
+     "label": "Annotated copy"
+    },
+    {
+     "file": "County_Procedure_and_Records_Kit_v1_12_clean.txt",
+     "label": "Clean copy"
+    }
+   ]
+  },
+  {
+   "name": "Model Data Center Public Safety and Emergency Power Impact Fee Ordinance",
+   "version": "0.8",
+   "about": "Impact fee for fire rescue and hazardous materials facilities and, where the technical study finds need and benefit, emergency medical services and emergency power at County facilities",
+   "source": "README_RECORD_1_INSTRUMENTS.md",
+   "files": [
+    {
+     "file": "Model_Data_Center_Public_Safety_Impact_Fee_Ordinance_v0_8_annotated.md",
+     "label": "Annotated copy"
+    },
+    {
+     "file": "Model_Data_Center_Public_Safety_Impact_Fee_Ordinance_v0_8_clean.md",
+     "label": "Clean copy"
+    }
+   ]
+  },
+  {
+   "name": "Model Host Community Development Agreement",
+   "version": "2.20",
+   "about": "Host Community Development Agreement under ss. 163.3220 to 163.3243, Florida Statutes, for mitigation of impacts the County's study measures",
+   "source": "README_RECORD_1_INSTRUMENTS.md",
+   "files": [
+    {
+     "file": "Model_HCDA_v2_20_annotated.txt",
+     "label": "Annotated copy"
+    },
+    {
+     "file": "Model_HCDA_v2_20_clean.txt",
+     "label": "Clean copy"
+    }
+   ]
+  },
+  {
+   "name": "Model Host Community Development Agreement: Exhibits and Forms",
+   "version": "2.12",
+   "about": "The agreement's exhibits, and forms of utility cost affidavit, letters of credit, emergency equipment lease, decommissioning security, and commitment status table and completion statement",
+   "source": "README_RECORD_1_INSTRUMENTS.md",
+   "files": [
+    {
+     "file": "Model_HCDA_Exhibits_and_Forms_v2_12_annotated.txt",
+     "label": "Annotated copy"
+    },
+    {
+     "file": "Model_HCDA_Exhibits_and_Forms_v2_12_clean.txt",
+     "label": "Clean copy"
+    }
+   ]
+  },
+  {
+   "name": "Schedule of Supplemental Operating Covenants (Exhibit \"S\")",
+   "version": "1.9",
+   "about": "Exhibit \"S\": operating covenants beyond the Standards, for the agreement or a County ground lease",
+   "source": "README_RECORD_1_INSTRUMENTS.md",
+   "files": [
+    {
+     "file": "Supplemental_Operating_Covenants_Schedule_v1_9_annotated.txt",
+     "label": "Annotated copy"
+    },
+    {
+     "file": "Supplemental_Operating_Covenants_Schedule_v1_9_clean.txt",
+     "label": "Clean copy"
+    }
+   ]
+  },
+  {
+   "name": "Module M2, Emergency Power for County Facilities",
+   "version": "1.5",
+   "about": "Optional: emergency power capability at County facilities",
+   "source": "README_RECORD_1_INSTRUMENTS.md",
+   "files": [
+    {
+     "file": "Module_M2_Emergency_Power_for_County_Facilities_v1_5_annotated.txt",
+     "label": "Annotated copy"
+    },
+    {
+     "file": "Module_M2_Emergency_Power_for_County_Facilities_v1_5_clean.txt",
+     "label": "Clean copy"
+    }
+   ]
+  },
+  {
+   "name": "Exhibit \"B-1\" Outline and Methodology",
+   "version": "1.9",
+   "about": "Outline and method for the County's own Exhibit \"B-1\" impact, nexus and proportionality findings",
+   "source": "README_RECORD_1_INSTRUMENTS.md",
+   "files": [
+    {
+     "file": "Exhibit_B_Outline_and_Methodology_v1_9_annotated.txt",
+     "label": "Annotated copy"
+    },
+    {
+     "file": "Exhibit_B_Outline_and_Methodology_v1_9_clean.txt",
+     "label": "Clean copy"
+    }
+   ]
+  },
+  {
+   "name": "Model Ground Lease",
+   "version": "1.17",
+   "about": "Ground lease of County land for a data center, with the County as landlord",
+   "source": "README_RECORD_1_INSTRUMENTS.md",
+   "files": [
+    {
+     "file": "Model_Ground_Lease_v1_17_annotated.txt",
+     "label": "Annotated copy"
+    },
+    {
+     "file": "Model_Ground_Lease_v1_17_clean.txt",
+     "label": "Clean copy"
+    }
+   ]
+  },
+  {
+   "name": "Module M3, Civic Compute Allocation",
+   "version": "1.10",
+   "about": "Optional: computing capacity as part of lease rent (Part 2) or under the private agreement (Part 3)",
+   "source": "README_RECORD_1_INSTRUMENTS.md",
+   "files": [
+    {
+     "file": "Module_M3_Civic_Compute_Allocation_v1_10_annotated.md",
+     "label": "Annotated copy"
+    },
+    {
+     "file": "Module_M3_Civic_Compute_Allocation_v1_10_clean.md",
+     "label": "Clean copy"
+    }
+   ]
+  },
+  {
+   "name": "Module M3 Options",
+   "version": "1.5",
+   "about": "Optional provisions of Module M3 (a County computing share, an Instruction Share, open hardware obtained through the developer, and first refusal on retired equipment), each inserted at its number when chosen",
+   "source": "README_RECORD_1_INSTRUMENTS.md",
+   "files": [
+    {
+     "file": "Module_M3_Options_v1_5_annotated.md",
+     "label": "Annotated copy"
+    },
+    {
+     "file": "Module_M3_Options_v1_5_clean.md",
+     "label": "Clean copy"
+    }
+   ]
+  },
+  {
+   "name": "Model Community Benefits Agreement",
+   "version": "0.15",
+   "about": "Private agreement between the developer and a community organization. The County is not a party",
+   "source": "README_RECORD_1_INSTRUMENTS.md",
+   "files": [
+    {
+     "file": "Model_Community_Benefits_Agreement_v0_15_annotated.md",
+     "label": "Annotated copy"
+    },
+    {
+     "file": "Model_Community_Benefits_Agreement_v0_15_clean.md",
+     "label": "Clean copy"
+    }
+   ]
+  },
+  {
+   "name": "Community Benefits Agreement Clause Bank",
+   "version": "1.8",
+   "about": "Optional terms for the private agreement, and the terms not yet drafted",
+   "source": "README_RECORD_1_INSTRUMENTS.md",
+   "files": [
+    {
+     "file": "CBA_Clause_Bank_v1_8_annotated.md",
+     "label": "Annotated copy"
+    },
+    {
+     "file": "CBA_Clause_Bank_v1_8_clean.md",
+     "label": "Clean copy"
+    }
+   ]
+  },
+  {
+   "name": "Drafter's Notes",
+   "version": "1.20",
+   "about": "By instrument and section: each blank, what sets it, and the statute that requires the provision",
+   "quote": "by instrument and section: each blank, what sets it, and the statute that requires the provision",
+   "source": "README_RECORD_1_INSTRUMENTS.md",
+   "files": [
+    {
+     "file": "Drafters_Notes_v1_20.md",
+     "label": "Open the file"
+    }
+   ]
+  },
+  {
+   "name": "About Record 1",
+   "version": "",
+   "about": "",
+   "source": "",
+   "files": [
+    {
+     "file": "README_RECORD_1_INSTRUMENTS.md",
+     "label": "Open the file"
+    }
+   ]
+  }
+ ],
+ "guide": [
+  {
+   "name": "Plain Language Guide",
+   "version": "Release 2026.4",
+   "about": "The instruments in plain English, for residents, commissioners and county staff",
+   "source": "README_RECORD_2_METHODOLOGY.md",
+   "files": [
+    {
+     "file": "Plain_Language_Guide_Release_2026_4.md",
+     "label": "Open the file"
+    }
+   ]
+  },
+  {
+   "name": "Open Legal Questions",
+   "version": "Release 2026.4",
+   "about": "For each legal question the instruments raise, the answer the primary sources support and how firm it is, the change it calls for, and the narrower question left for counsel or an agency. Nothing in this record is a legal review",
+   "source": "README_RECORD_2_METHODOLOGY.md",
+   "files": [
+    {
+     "file": "Open_Legal_Questions_Release_2026_4.md",
+     "label": "Open the file"
+    }
+   ]
+  },
+  {
+   "name": "In-Kind Eligibility and Characterization Test",
+   "version": "1.10",
+   "about": "Where a proposed item belongs: in a standard, a fee, a development agreement, a lease or a private agreement, or nowhere",
+   "source": "README_RECORD_2_METHODOLOGY.md",
+   "files": [
+    {
+     "file": "In_Kind_Eligibility_and_Characterization_Test_v1_10.txt",
+     "label": "Open the file"
+    }
+   ]
+  },
+  {
+   "name": "Consideration Adequacy and Fit Test",
+   "version": "1.6",
+   "about": "For a County ground lease or a private agreement only: whether what is received is adequate and fits the need",
+   "source": "README_RECORD_2_METHODOLOGY.md",
+   "files": [
+    {
+     "file": "Consideration_Adequacy_and_Fit_Test_v1_6.md",
+     "label": "Open the file"
+    }
+   ]
+  },
+  {
+   "name": "About Record 2",
+   "version": "",
+   "about": "",
+   "source": "",
+   "files": [
+    {
+     "file": "README_RECORD_2_METHODOLOGY.md",
+     "label": "Open the file"
+    }
+   ]
+  }
+ ],
+ "shared": [
+  {
+   "name": "Start here",
+   "version": "",
+   "about": "Orientation",
+   "source": "002_MANIFEST.txt",
+   "record": "instruments",
+   "files": [
+    {
+     "file": "000_START_HERE.md",
+     "label": "Open the file"
+    }
+   ]
+  },
+  {
+   "name": "Change log",
+   "version": "",
+   "about": "Release notes, corrections and current versions",
+   "source": "002_MANIFEST.txt",
+   "record": "instruments",
+   "files": [
+    {
+     "file": "CHANGELOG_v2026.4.md",
+     "label": "Open the file"
+    }
+   ]
+  },
+  {
+   "name": "List of the release's files (manifest)",
+   "version": "",
+   "about": "",
+   "source": "",
+   "record": "instruments",
+   "files": [
+    {
+     "file": "002_MANIFEST.txt",
+     "label": "Open the file"
+    }
+   ]
+  },
+  {
+   "name": "License for Record 1",
+   "version": "",
+   "about": "CC0 1.0 dedication for Record 1",
+   "source": "002_MANIFEST.txt",
+   "record": "instruments",
+   "files": [
+    {
+     "file": "LICENSE_RECORD_1_CC0.txt",
+     "label": "Open the file"
+    }
+   ]
+  },
+  {
+   "name": "License for Record 2",
+   "version": "",
+   "about": "CC BY 4.0 license for Record 2",
+   "source": "002_MANIFEST.txt",
+   "record": "instruments",
+   "files": [
+    {
+     "file": "LICENSE_RECORD_2_CCBY.txt",
+     "label": "Open the file"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+/* inkindstandard.org. The colors are those of the Screen (screen.inkindstandard.org). Checked by checks/check_site.py: a color is named only in a :root block, and is used only through its name. */
+@font-face{font-family:"Atkinson Hyperlegible";font-style:normal;font-weight:400;font-display:swap;src:url("fonts/AtkinsonHyperlegible-Regular.woff") format("woff")}
+@font-face{font-family:"Atkinson Hyperlegible";font-style:italic;font-weight:400;font-display:swap;src:url("fonts/AtkinsonHyperlegible-Italic.woff") format("woff")}
+@font-face{font-family:"Atkinson Hyperlegible";font-style:normal;font-weight:700;font-display:swap;src:url("fonts/AtkinsonHyperlegible-Bold.woff") format("woff")}
+@font-face{font-family:"Atkinson Hyperlegible";font-style:italic;font-weight:700;font-display:swap;src:url("fonts/AtkinsonHyperlegible-BoldItalic.woff") format("woff")}
+:root{
+--bg:#F2F5FA;--surface:#FFFFFF;--ink:#16294A;--ink2:#3F4C6B;--rule:#D5DDEB;--link:#003763;
+--band:#003763;--band-ink:#FFFFFF;--band-sub:#C9D6EE;--gold:#FFD700;
+--btn:#003763;--btn-ink:#FFFFFF;--btn-line:#003763;--focus:#003763;--mark:#003763;
+--sans:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root{
+--bg:#0E1A30;--surface:#192A49;--ink:#EAF0FA;--ink2:#B9C6DE;--rule:#283B5C;--link:#C9D6EE;
+--btn:#24467A;--btn-ink:#FFFFFF;--btn-line:#C9D6EE;--focus:#FFD700;--mark:#FFD700;
+}}
+*{box-sizing:border-box}
+html{font-size:100%;-webkit-text-size-adjust:100%;scroll-padding-block:1rem}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:1.125rem;line-height:1.6;overflow-wrap:anywhere}
+.wrap{max-width:40rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--link);text-decoration:underline;text-decoration-thickness:.08em;text-underline-offset:.18em;overflow-wrap:anywhere}
+a:hover{text-decoration-thickness:.16em}
+a:focus-visible{outline:3px solid var(--focus);outline-offset:3px;border-radius:2px}
+.skip{position:absolute;left:-999rem;top:0;background:var(--surface);color:var(--ink);padding:.6rem 1rem;z-index:2}
+.skip:focus{left:.5rem;top:.5rem}
+.skip:focus-visible{outline-color:var(--gold)}
+.band{background:var(--band);color:var(--band-ink);border-bottom:4px solid var(--gold)}
+.band-in{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 2rem;padding-top:1rem;padding-bottom:1rem}
+.brand{display:inline-flex;align-items:center;gap:.75rem;color:var(--band-ink);text-decoration:none}
+.logo{height:3.25rem;width:auto;flex:none}
+.name{font-weight:700;font-size:1.5rem;line-height:1.1;letter-spacing:-.005em}
+.band a:focus-visible{outline-color:var(--gold)}
+nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.25rem 1.5rem}
+nav a{color:var(--band-ink);font-weight:700;text-decoration:none;display:inline-block;padding:.5rem 0;border-bottom:3px solid transparent}
+nav a:hover{border-bottom-color:var(--band-sub)}
+nav a[aria-current]{border-bottom-color:var(--gold)}
+@media (forced-colors:active){nav a:not([aria-current]){border-bottom-color:Canvas}}
+main.wrap{padding-top:3rem;padding-bottom:3rem}
+h1{font-size:2.25rem;line-height:1.15;margin:0 0 1.25rem;letter-spacing:-.01em}
+h2{font-size:1.5rem;line-height:1.25;margin:2.75rem 0 .75rem}
+h3{font-size:1.2rem;line-height:1.3;margin:0 0 .4rem}
+p,ul,ol{margin:0 0 1.1rem}
+ul,ol{padding-left:1.4rem}
+li{margin-bottom:.4rem}
+.lead{font-size:1.3rem;line-height:1.5}
+.notice{background:var(--surface);border:1px solid var(--rule);border-left:6px solid var(--mark);border-radius:4px;padding:1.1rem 1.25rem;margin:2rem 0}
+.notice h2{font-size:1.2rem;margin:0 0 .5rem}
+.notice :last-child{margin-bottom:0}
+.ways{list-style:none;padding:0;margin:0;display:grid;gap:1rem}
+.way{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:1.25rem 1.4rem}
+.way p:last-child,.way ul:last-child{margin-bottom:0}
+.btn{display:inline-block;background:var(--btn);color:var(--btn-ink);border:2px solid var(--btn-line);border-radius:4px;padding:.55rem 1.1rem;font-weight:700;text-decoration:none}
+.btn:hover{text-decoration:underline}
+.meta{color:var(--ink2)}
+.crumbs{margin:0 0 .75rem;color:var(--ink2);font-size:1rem}
+.docs{list-style:none;padding:0;margin:0 0 1.5rem;display:grid;gap:.75rem}
+.doc{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:1rem 1.25rem;margin:0}
+.doc h3{margin:0 0 .3rem}
+.doc p{margin:0 0 .6rem}
+.doc .cite{margin:0}
+.ver{font-weight:400;color:var(--ink2);font-size:1rem;margin-left:.4rem;display:inline-block}
+.copies{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.3rem 1.75rem}
+.copies li{margin:0}
+.copies .meta{font-size:1rem;display:inline-block}
+.doi{overflow-wrap:anywhere}
+.updated{color:var(--ink2);margin-top:3rem;font-size:1rem}
+.foot{border-top:1px solid var(--rule);background:var(--surface);padding:2rem 0 2.5rem;font-size:1rem}
+.foot p{margin:0 0 .6rem;max-width:36rem}
+.byline{font-weight:700;text-wrap:balance}
+.license{color:var(--ink2)}
+.nb{display:inline-block}
+.print-only{display:none}
+/* Another project's released pages: on a narrow screen an address or a mail address shown as a link may break between any two
+   letters, so that a bracket or a full stop after it never starts a line; wider, it moves to the next line whole. */
+@media (max-width:45rem){.released a[href^="http"],.released a[href^="mailto"]{word-break:break-all}}
+.vh{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+@media (max-width:30rem){body{font-size:1.0625rem}h1{font-size:1.8rem}.logo{height:2.75rem}.name{font-size:1.25rem}}
+@media print{
+:root{--bg:#FFFFFF;--surface:#FFFFFF;--ink:#000000;--ink2:#000000;--rule:#000000;--link:#000000}
+html{font-size:11pt}
+body{font-size:1rem}
+.band{background:none;color:var(--ink);border-bottom:1px solid var(--rule)}
+.brand{color:var(--ink)}
+nav,.skip{display:none}
+.btn{background:none;color:var(--ink);border:0;padding:0;text-decoration:underline}
+main a[href^="http"]:not(.doi)::after{content:" (" attr(href) ")";overflow-wrap:anywhere}
+main .released a[href^="http"]::after{content:none}
+main .released a[href^="http"],main .released a[href^="mailto"]{word-break:normal}
+.notice,.way,.doc{border:1px solid var(--rule);break-inside:avoid}
+.print-only{display:block}
+h2{break-after:avoid}
+}

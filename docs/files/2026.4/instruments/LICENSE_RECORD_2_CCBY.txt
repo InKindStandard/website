@@ -1,0 +1,58 @@
+CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL (CC BY 4.0)
+
+Model Instruments for Data Center Development in Florida Counties:
+Guide, Open Legal Questions and Methodology, Release 2026.4, by Timothy Smith is licensed under CC BY 4.0. Releases through 2026.2
+were published as the Automation Resilience and Community Benefit Framework.
+
+To view a copy of this license, visit:
+https://creativecommons.org/licenses/by/4.0/
+
+Work: 10.5281/zenodo.24021153
+Year: 2026
+
+---
+
+SUGGESTED ATTRIBUTION
+
+Section 3(a)(1)(A)(i) of the license permits the licensor to specify the manner
+of attribution. Please use the following:
+
+  Smith, Timothy. "Model Instruments for Data Center Development in Florida
+  Counties: Guide, Open Legal Questions and Methodology," Release 2026.4
+  (2026).
+  Independent citizen-prepared work; not affiliated with or endorsed by any
+  university, law firm, or government body. CC BY 4.0.
+  10.5281/zenodo.24021153
+
+Cite the version DOI above, not the concept DOI. The concept DOI always resolves
+to the most recent release, which may differ from the text you relied on.
+
+If you modify this material, you must indicate that you did so, per Section
+3(a)(1)(B).
+
+---
+
+NO ENDORSEMENT
+
+Per Section 2(a)(6), nothing in the license permits any user to assert or imply
+that the user, or the user's use of this material, is connected with, sponsored
+by, endorsed by, or granted official status by the author.
+
+---
+
+COMPANION RECORD
+
+The model instruments themselves are deposited separately and dedicated to the
+public domain under CC0 1.0: 10.5281/zenodo.24021154
+
+---
+
+NO WARRANTY; NOT LEGAL ADVICE
+
+Offered as-is, without warranties of any kind. Citizen-prepared work product, not
+legal advice. The author is not licensed to practice law and is not affiliated
+with, and does not write on behalf of, any university, law school, clinic, law
+firm, or governmental body. No attorney-client relationship arises from this
+deposit or from any use of it.
+
+*Prepared by Timothy Smith · Citizen-prepared working draft · Not legal advice.*

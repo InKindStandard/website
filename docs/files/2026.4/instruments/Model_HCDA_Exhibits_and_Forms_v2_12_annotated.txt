@@ -1,0 +1,322 @@
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+*LICENSE: CC0 1.0 Universal (Public Domain Dedication). To the extent possible under law, Timothy Smith has waived all copyright and related or neighboring rights to this instrument.*
+
+*ADOPTION NOTICE. **No attribution, notice, citation, credit, or acknowledgment of any kind is required in any adopted ordinance, executed agreement, staff report, or recorded instrument**, and no provision of this document shall be construed to require one. A jurisdiction may adopt, modify, renumber, or reject any portion without notice to or consent of the author. Attribution is requested only in derivative published works, and only as a courtesy.*
+
+---
+
+**FLORIDA MODEL INSTRUMENTS FOR DATA CENTER DEVELOPMENT**
+
+**Model Host Community Development Agreement: Exhibits and Forms**
+
+*Model form. Remove this heading block, and every drafting note, before the County first makes the draft public.*
+
+**What this is.** The exhibits and forms of the Model Host Community Development Agreement and Declaration of Restrictive Covenants Running with the Land (the “Agreement”), each attached to it under its Section 10.27.
+
+**What it does.** For each project-specific exhibit (“A,” “B-1,” “C,” “D,” “E,” “F” and “J”), a bracket states what it holds. The forms are a utility cost affidavit (“G”), letters of credit for utility-owned emergency power (“H”) and for payments into the Mitigation Account (“K”), an emergency equipment lease (“I”), the decommissioning security (“L”), and a commitment status table and completion statement (“P”). Exhibit “O” attaches the County’s data center standards, and Exhibit “S” the Schedule of Supplemental Operating Covenants.
+
+**Works with.** Exhibit “B-1” is prepared on the model of the Exhibit “B-1” Outline and Methodology by a preparer the County selects (Agreement Section 4.1(d)). Exhibits “H” and “I” are Module M2’s forms and also serve a County ground lease. The Drafter’s Notes list each blank and what sets it.
+
+**Before use.** Keep the notes printed under each exhibit’s or Part’s title; they are part of the exhibit. Complete every bracket. Attach Exhibits “H” and “I” only where the Board elects Module M2, and Exhibit “S” with Part S-1 and only the other covenants Exhibit “B-1” supports.
+
+**Known gaps.** No county has adopted this model, and no licensed attorney has reviewed it. No project-specific exhibit has been prepared, and no Exhibit “B-1” study has been done. Some terms rest on law that is not settled: draws on a letter of credit, and the replacement of its issuer, in an insolvency (Exhibits “H,” “K” and “L”), and whether the lease of Exhibit “I” makes the Developer a public utility. The Open Legal Questions give the current reading of each.
+
+**EXHIBIT “A”: LEGAL DESCRIPTION AND OWNERS**
+
+[Project-specific. The legal description of the Project Site and the name of each of its legal and equitable owners at execution (Section 2.1).]
+
+**EXHIBIT “B-1”: IMPACT, NEXUS, AND PROPORTIONALITY FINDINGS**
+
+[Project-specific. The findings the Board adopts for the Project, prepared on the model of the Exhibit “B-1” Outline and Methodology, with the contents Sections 4.1(a) and 10.5 require.]
+
+**EXHIBIT “C”: SITE DESIGN, ACOUSTIC, AND VISUAL MITIGATION STANDARDS**
+
+[Project-specific. Part C-1, the Perimeter Berm and Landscape Plan certified under Section 3.8(a), with the designated viewpoints; Part C-2, the Supplemental Acoustic and Visual Mitigation Plan, once approved under Section 3.8.]
+
+**EXHIBIT “D”: ACOUSTIC MONITORING AND AMBIENT-EXCLUSION PROTOCOL**
+
+[Project-specific. The station locations fixed under Exhibit “S,” Section S-9.3; the ambient-exclusion and weather-screening protocol under Section S-9.1(b); the receptors used for modeling under Section 3.8(c); and the open, machine-readable data formats and application programming interface for the telemetry and reporting under Section S-9.3(c).]
+
+**EXHIBIT “E”: JOINT EMERGENCY OPERATIONS PLAN OUTLINE**
+
+[Project-specific. The outline of the Joint Emergency Operations Plan, covering at least the items Exhibit “S,” Section S-12.2, requires.]
+
+**EXHIBIT “F”: DECOMMISSIONING AND ADAPTIVE REUSE PLAN OUTLINE**
+
+[Project-specific. The outline of the decommissioning and adaptive reuse plan, covering at least the items Sec. 14(a) of the Standards requires.]
+
+**EXHIBIT “G”: FORM OF UTILITY COST AFFIDAVIT**
+
+*(Sections 5.2(b) and 5.6(b).)*
+
+STATE OF FLORIDA
+
+COUNTY OF [__________]
+
+Before me, the undersigned authority, personally appeared [NAME], who, being first duly sworn, says:
+
+1. I am the [TITLE], an executive officer, of [DEVELOPER ENTITY NAME] (the “Developer”). I make this affidavit for the Developer, from personal knowledge, under Section 5.2(b) of the Host Community Development Agreement and Declaration of Restrictive Covenants Running with the Land between [COUNTY NAME] County, Florida, and the Developer, dated [DATE] and recorded at [OFFICIAL RECORDS BOOK AND PAGE] (the “Agreement”). Capitalized terms have the meanings the Agreement gives them.
+
+2. The Project is to be served by [NAME OF INTERCONNECTING UTILITY] under [Select one: its Commission-approved large load tariff [NAME AND SHEET] and an electric service and interconnection agreement dated [DATE]] [Or: a facilities and contribution-in-aid-of-construction agreement dated [DATE], with the utility’s written confirmation that service will be rendered under its large load tariff on approval] [Or: a service and contribution-in-aid-of-construction agreement with a cooperative or municipal utility dated [DATE], delivered under Section 5.6(b) of the Agreement].
+
+3. The agreement identified in paragraph 2 is executed and in effect. Under it the Developer pays, as contribution in aid of construction or a direct charge, the cost of the substation, transformation, and transmission facilities it lists, and its contract demand is not less than [__ (the Aggregate Infrastructure Demand that Section 2.3 of the Agreement states for the Phases that agreement serves, not the contract demand itself)] Megawatts of Aggregate Infrastructure Demand.
+
+4. The attached schedule states its tariff or rate schedule, term, whether a minimum demand or minimum bill applies, early termination terms, and form of security. Neither the Developer nor an affiliate has any other agreement, credit, waiver, or rebate with the utility that reduces, defers, or shifts a charge under it.
+
+[Where Section 5.6 of the Agreement applies:] 5. The agreement identified in paragraph 2 requires the Developer to bear one hundred percent (100%) of the costs Section 5.6(a) of the Agreement describes, with the risk of their nonpayment.
+
+______________________________ [NAME], [TITLE]
+
+Sworn to (or affirmed) and subscribed before me by means of [ ] physical presence or [ ] online notarization, this ____ day of ______________, 20__, by [NAME], as [TITLE] of [DEVELOPER ENTITY NAME], who is personally known to me or has produced [__________] as identification.
+
+______________________________ Notary Public, State of Florida [print name, commission number, and expiration]
+
+**EXHIBIT “H”: FORM OF LETTER OF CREDIT FOR UTILITY-OWNED EMERGENCY POWER**
+
+*(Module M2, Section M2.1(c)(1). Attached only where the Board elects Module M2. The issuer is a bank whose letter of credit operations are regulated and examined by a federal or state agency and that holds a long-term rating of [__] or better from [__]. The Developer replaces this letter of credit within the periods Annex H-1(b) states, including after the issuer is placed on watch for downgrade below that rating or becomes subject to a public formal enforcement action or capital directive of its regulator. The amount is the amount Section M2.1(c)(1) requires.)*
+
+[ISSUER NAME AND ADDRESS]
+
+Irrevocable Standby Letter of Credit No. [__]
+
+Date of issue: [DATE]
+
+Expiration date: [DATE], not earlier than one (1) year after the date of issue, as extended under paragraph 4
+
+Amount: up to US$[__]
+
+Beneficiary: [NAME AND ADDRESS OF INTERCONNECTING UTILITY] (the “Beneficiary”)
+
+Applicant: [DEVELOPER NAME AND ADDRESS] (the “Developer”)
+
+1. **Credit.** We issue this irrevocable standby letter of credit in favor of the Beneficiary, for the account of the Developer, to secure the Developer’s payment of the charges under the emergency power contract dated [DATE] between the Beneficiary and the Developer, which [COUNTY NAME] County, Florida (the “County”) joins only to grant site access, under Section M2.1(c)(1) of [the Host Community Development Agreement] [the ground lease] between the County and the Developer dated [DATE] (the “Instrument”). It is available by payment against presentation of a drawing certificate in the form of Annex H-1 at [PLACE OF PRESENTATION] [or by [ELECTRONIC MEANS]] on or before the expiration date.
+
+2. **Honor.** We will honor a presentation that complies on its face with this letter of credit within [__] business days after we receive it, without inquiry into the truth of any statement in it and despite any dispute between the Developer and the Beneficiary. Partial and multiple drawings are permitted. Each drawing reduces the amount available by the amount paid.
+
+3. **The County.** The County is not a beneficiary of this letter of credit, receives no proceeds of any drawing, and has no obligation under it.
+
+4. **Automatic extension.** This letter of credit is extended automatically, without amendment, for successive periods of [__], each not less than one (1) year, from the expiration date then in effect, unless at least [__] days before that date we notify the Beneficiary, the Developer, and the County in writing that we elect not to extend it.
+
+5. **Rules.** This letter of credit is subject to [the International Standby Practices 1998 (ISP98)] and, where they do not provide otherwise, to Chapter 675, Florida Statutes.
+
+[ISSUER NAME] By: ______________________________ [NAME AND TITLE], Authorized Signatory
+
+**Annex H-1. Drawing certificate**
+
+To [ISSUER NAME]. Re: Irrevocable Standby Letter of Credit No. [__]. The undersigned, an authorized officer of the Beneficiary, certifies that [state the one that applies]:
+
+(a) a charge of US$[__] under the emergency power contract remains unpaid [__] days after its due date of [DATE], and the amount demanded is that charge; or
+
+(b) the Developer has not delivered a replacement letter of credit meeting Section M2.1(c)(1) of the Instrument within [__] days after the Beneficiary received a notice of non-extension, or within [__] days after the issuer ceased to meet the issuer standard of this form, became subject to a receivership, conservatorship, or insolvency proceeding, or had its authority to issue letters of credit suspended or revoked, or within [__] days after the issuer was placed on watch for downgrade below the rating that the issuer standard of this form requires or became subject to a public formal enforcement action or capital directive of its regulator, and the amount demanded is the full undrawn amount, which the Beneficiary holds as prepayment of the charges this letter of credit secures.
+
+Amount demanded: US$[__]. Pay to: [ACCOUNT]. Dated: [DATE].
+
+[NAME OF BENEFICIARY] By: ______________________________ [NAME AND TITLE]
+
+**EXHIBIT “I”: FORM OF EMERGENCY EQUIPMENT LEASE**
+
+*(Module M2, Section M2.1(c)(2). Attached only where the Board elects Module M2. Use one lease for each Designated Emergency Facility.)*
+
+THIS EMERGENCY EQUIPMENT LEASE is made as of [DATE] between [DEVELOPER ENTITY NAME] (the “Developer”), as lessor, and [COUNTY NAME] County, Florida, a political subdivision of the State of Florida, by and through its Board of County Commissioners (the “County”), as lessee, under Section M2.1(c)(2) of [the Host Community Development Agreement and Declaration of Restrictive Covenants Running with the Land] [the ground lease] between them dated [DATE] (the “Instrument”) and s. 125.031, Florida Statutes. Terms defined in the Instrument or in Module M2 have the same meanings here.
+
+1. **Equipment and premises.** The Developer leases to the County the emergency power equipment described in Schedule 1 (the “Equipment”), installed at [NAME AND ADDRESS OF DESIGNATED EMERGENCY FACILITY] (the “Emergency Facility”), premises the County [owns] [leases, other than as a public shelter] [operates or designates as a public shelter under the written agreement with its owner dated [DATE], which states who holds title to the Equipment and, from 1 January 2027, comports with s. 163.3177(6)(h), Florida Statutes]. The Equipment is connected behind the meter serving the Emergency Facility and is operated only to serve the Emergency Facility’s own load.
+
+2. **Term.** This lease runs for [__] years from [DATE], a term within the period s. 125.031, Florida Statutes, allows. Not less than [__] days before it ends, the Developer shall deliver to the County a successive lease in this form, for approval by the Board, so that the leases continue for the life of the use. If the Board has not approved a successor lease when this lease ends, this lease continues from month to month on its terms, but not beyond the date on which it would exceed the period s. 125.031, Florida Statutes, allows, as Section M2.1(d) of the Instrument provides.
+
+3. **Rent.** The County pays a fixed nominal rent of US$[__] a year, payable only from non-ad valorem revenues. The County makes no other payment under this lease. The rent does not vary with the electricity the Equipment produces, the hours it runs, or the Developer’s costs.
+
+4. **Maintenance, testing, and fuel.** The Developer maintains, repairs, and replaces the Equipment at its own cost. The Developer arranges and pays directly for testing, by load bank or by an independent contractor it engages, including the readiness test under Section M2.1(b) of the Instrument. For fuel-dependent Equipment, the Developer delivers fuel to the Emergency Facility’s tank at its own cost, title passing on delivery, and the on-site tank capacity is sufficient for the full period stated in the Impact Findings, so that no delivery is needed during an event. The Developer performs the air permit and emission rule duties that Section M2.1(j) of the Instrument assigns to it.
+
+5. **Use.** The County Emergency Management Director decides when and how the Equipment is used, within the limits of Section M2.1(f) and (j) of the Instrument.
+
+6. **No sale or delivery of electricity.** This lease involves no sale of electricity. The Developer delivers no electricity from the Property to any other premises, and the Equipment serves only the load of the Emergency Facility, behind the meter serving it.
+
+7. **No County cost.** The County bears no capital, operating, maintenance, fuel, or replacement cost, gives no indemnity, and pledges no credit. The Developer indemnifies the County under the Instrument for the installation, operation, and maintenance of the Equipment. Nothing in this lease waives the County’s sovereign immunity or the limits of s. 768.28, Florida Statutes.
+
+8. **Ownership.** The Developer owns the Equipment. The County holds only its leasehold, and does not by this lease become a joint owner with, or stockholder of, the Developer, or pledge its credit, in violation of Article VII, Section 10 of the Florida Constitution.
+
+9. **Access.** The County gives the Developer and its contractors access to the Emergency Facility, on reasonable notice and subject to the County’s security procedures, for installation, maintenance, testing, and fueling.
+
+10. **Next form.** If the Equipment is conveyed to the County under Section M2.1(c)(3) of the Instrument, this lease ends on the conveyance, and Section M2.1 of the Instrument then governs.
+
+11. **Instrument controls; approval.** If this lease conflicts with the Instrument, the Instrument controls. This lease is governed by Florida law and takes effect on its approval by the Board, as s. 125.031, Florida Statutes, requires.
+
+**Schedule 1. Equipment.** [Type, nameplate capacity, storage capacity, fuel and tank capacity, location at the Emergency Facility, and the critical load and period it carries under the Impact Findings.]
+
+[DEVELOPER ENTITY NAME] By: ______________________________ [NAME AND TITLE]
+
+[COUNTY NAME] COUNTY, FLORIDA By: ______________________________ Chair, Board of County Commissioners
+
+ATTEST: ______________________________ Clerk of the Circuit Court and Comptroller
+
+APPROVED AS TO FORM AND LEGAL SUFFICIENCY: ______________________________ County Attorney
+
+**EXHIBIT “J”: LOCAL DEVELOPMENT PERMITS, PUBLIC FACILITIES, AND DEDICATIONS**
+
+[Project-specific. Part J-1, local development permits (Section 2.6) and, for each later Phase, the permits Section 3.2(c) requires it to state; Part J-2, public facilities and schedule (Section 2.4); Part J-3, reservations and dedications, or a statement that there are none (Section 2.5).]
+
+**EXHIBIT “K”: FORM OF LETTER OF CREDIT FOR PAYMENTS INTO THE MITIGATION ACCOUNT**
+
+*(Sections 4.2(f) and 4.6. The issuer meets the issuer standard of Exhibit “L.”)*
+
+[ISSUER NAME AND ADDRESS]
+
+Irrevocable Standby Letter of Credit No. [__]
+
+Date of issue: [DATE]
+
+Expiration date: [DATE], not earlier than one (1) year after the date of issue, as extended under paragraph 4
+
+Amount: up to US$[__]
+
+Beneficiary: [COUNTY NAME] County, Florida, by and through its Board of County Commissioners, [ADDRESS] (the “County”)
+
+Applicant: [DEVELOPER ENTITY NAME AND ADDRESS] (the “Developer”)
+
+1. **Credit.** We issue this irrevocable standby letter of credit in favor of the County, for the account of the Developer, under the Host Community Development Agreement and Declaration of Restrictive Covenants Running with the Land between the County and the Developer, dated [DATE] (the “Agreement”), to secure [Select one: the unpaid installments of the Physical Infrastructure Mitigation Payment under Section 4.2 of the Agreement] [Or: the following payment into the Mitigation Account under the Agreement: [__]]. It is available by payment against presentation of a drawing certificate in the form of Annex K-1 at [PLACE OF PRESENTATION] [or by [ELECTRONIC MEANS]] on or before the expiration date.
+
+2. **Honor.** We will honor a presentation that complies on its face with this letter of credit within [__] business days after we receive it, without inquiry into the truth of any statement in it and despite any dispute between the Developer and the County. Partial and multiple drawings are permitted. Each drawing reduces the amount available by the amount paid.
+
+3. **Reduction.** The amount available may be reduced by our amendment, made with the County’s written consent, by the amount of each installment paid.
+
+4. **Automatic extension.** This letter of credit is extended automatically, without amendment, for successive periods of [__], each not less than one (1) year, from the expiration date then in effect, unless at least [__] days before that date we notify the County and the Developer in writing at their addresses above that we elect not to extend it.
+
+5. **Rules.** This letter of credit is subject to [the International Standby Practices 1998 (ISP98)] and, where they do not provide otherwise, to Chapter 675, Florida Statutes.
+
+[ISSUER NAME] By: ______________________________ [NAME AND TITLE], Authorized Signatory
+
+**Annex K-1. Drawing certificate**
+
+To [ISSUER NAME]. Re: Irrevocable Standby Letter of Credit No. [__]. The undersigned, an authorized officer of the County, certifies that [state each that applies]:
+
+(a) an installment of US$[__] [under Section 4.2 of the Agreement] [Or: of the payment the letter of credit secures] remains unpaid thirty (30) days after its due date of [DATE], and the amount demanded is that installment; or
+
+(b) the Developer has not delivered replacement security meeting Section 4.2(f) of the Agreement within [__] days after the County received a notice of non-extension of this letter of credit, or within [__] days after the issuer ceased to meet the issuer standard of Exhibit “L” of the Agreement, became subject to a receivership, conservatorship, or insolvency proceeding, or had its authority to issue letters of credit suspended or revoked, or within [__] days after the issuer was placed on watch for downgrade below the rating that standard requires or became subject to a public formal enforcement action or capital directive of its regulator, and the amount demanded is the full undrawn amount, which the County deposits in the Mitigation Account as prepayment of the payments this letter of credit secures.
+
+Amount demanded: US$[__]. Pay to: [ACCOUNT]. Dated: [DATE].
+
+[COUNTY NAME] COUNTY, FLORIDA By: ______________________________ [NAME AND TITLE]
+
+**EXHIBIT “L”: FORM OF DECOMMISSIONING SECURITY**
+
+*(Section 7.2. The notice period in paragraph 4 of Part L-1 is the period Section 7.2(c) states.)*
+
+**Part L-1. Form of irrevocable standby letter of credit**
+
+*(Issuer standard: the issuer is a bank whose letter of credit operations are regulated and examined by a federal or state agency and that holds a long-term rating of [__] or better from [__].)*
+
+[ISSUER NAME AND ADDRESS]
+
+Irrevocable Standby Letter of Credit No. [__]
+
+Date of issue: [DATE]
+
+Expiration date: [DATE], not earlier than one (1) year after the date of issue, as extended under paragraph 4
+
+Amount: up to US$[__], being the amount Section 7.2 of the Agreement requires for the Phases in operation or under construction on [DATE]
+
+Beneficiary: [COUNTY NAME] County, Florida, by and through its Board of County Commissioners, [ADDRESS] (the “County”)
+
+Applicant: [DEVELOPER ENTITY NAME AND ADDRESS] (the “Developer”)
+
+1. **Credit.** We issue this irrevocable standby letter of credit in favor of the County, for the account of the Developer, as the Decommissioning Security under Section 7.2 of the Host Community Development Agreement and Declaration of Restrictive Covenants Running with the Land between the County and the Developer, dated [DATE] (the “Agreement”). It is available by payment against presentation of a drawing certificate in the form of Annex L-1 at [PLACE OF PRESENTATION] [or by [ELECTRONIC MEANS]] on or before the expiration date, without the need for litigation.
+
+2. **Honor.** We will honor a presentation that complies on its face with this letter of credit within [__] business days after we receive it, without inquiry into the truth of any statement in it and despite any dispute between the Developer and the County. Partial and multiple drawings are permitted. Each drawing reduces the amount available by the amount paid.
+
+3. **Increase.** The amount may be increased by our amendment, including before each later Phase Operations Date and on each recertification under Section 7.2 of the Agreement.
+
+4. **Automatic extension.** This letter of credit is extended automatically, without amendment, for successive periods of [__], each not less than one (1) year, from the expiration date then in effect, unless at least [__] days before that date we notify the County and the Developer in writing at their addresses above that we elect not to extend it.
+
+5. **Rules.** This letter of credit is subject to [the International Standby Practices 1998 (ISP98)] and, where they do not provide otherwise, to Chapter 675, Florida Statutes.
+
+[ISSUER NAME] By: ______________________________ [NAME AND TITLE], Authorized Signatory
+
+**Annex L-1. Drawing certificate**
+
+To [ISSUER NAME]. Re: Irrevocable Standby Letter of Credit No. [__]. The undersigned, an authorized officer of the County, certifies that [state the one that applies]:
+
+(a) the Developer is in default of Article 7 of the Agreement or of Exhibit “S,” Section S-12.6(d) [or of the following other obligation the Decommissioning Security secures: [__]], the obligation was due on [DATE] and remains unperformed after the period Section 7.2 of the Agreement allows, and the County will apply the amount demanded to the obligations the Decommissioning Security secures; or
+
+(b) this letter of credit has not been renewed or replaced at least thirty (30) days before its stated expiration date, or replacement security that Section 7.2(d) of the Agreement requires after an event affecting the issuer has not been delivered within the period stated there, and the amount demanded is the full undrawn amount, which the County holds as the Decommissioning Security under Section 7.2 of the Agreement; or
+
+(c) a well owner claim under Sec. 8(e) of the Standards was due on [DATE] and remains unpaid after the period Section 7.2 of the Agreement allows, and the County will apply the amount demanded to that claim. [Drafting note, remove before the draft is made public: Before removing this note, replace “Sec. 8(e)” with the number of the County’s own section on well owner claims, as numbered in Exhibit “O.”]
+
+Amount demanded: US$[__]. Pay to: [ACCOUNT]. Dated: [DATE].
+
+[COUNTY NAME] COUNTY, FLORIDA By: ______________________________ [NAME AND TITLE]
+
+**Part L-2. Performance bond or escrow**
+
+A performance bond or escrow delivered under Section 7.2 in place of a letter of credit is in a form the County approves, and it:
+
+(a) names the County as obligee or as the party entitled to disbursement;
+
+(b) is in the amount Section 7.2 requires, and is increased as that Section requires;
+
+(c) is paid or disbursed to the County on presentation of the County’s written demand stating a ground in Annex L-1, without the need for litigation;
+
+(d) does not state that it is perpetual and, if it states an expiration, is renewed or replaced not less than thirty (30) days before it, failing which the County may demand the full amount; and
+
+(e) is issued, for a bond, by [NAME OF SURETY], or held, for an escrow, by [NAME OF BANK OR TRUST COMPANY] under an escrow agreement to which the County is a party.
+
+**EXHIBIT “O”: DATA CENTER STANDARDS**
+
+[Attach Exhibit A, Data Center Standards, and Exhibit B, Data Center Technical Manual, of the County’s data center standards ordinance [and Sec. 15A, where adopted, or, where it is not, Sec. 15A(b) of Module M1 for the purposes of Section 3.3], as adopted and in effect on the date this Agreement is executed, or, where the County has not adopted them, the model Exhibits A and B with the values the Board sets for the Project in every bracket. Complete every bracket before execution (Section 3.6).]
+
+**EXHIBIT “P”: FORM OF COMMITMENT STATUS TABLE AND COMPLETION STATEMENT**
+
+*(Section 6.4. File Part P-1 with each application for a site plan or plat and with each annual compliance report, and Part P-2 for each obligation claimed complete. Refer to each obligation by its section; do not restate it.)*
+
+**Part P-1. Commitment status table**
+
+Project: [__]. Agreement recorded at: [OFFICIAL RECORDS BOOK AND PAGE]. Site plan or plat application number, or reporting year: [__]. Date filed: [__].
+
+| Obligation (section; Exhibit B-1 line) | Trigger | How this site plan or plat provides for it, or how it was performed (sheet and label; instrument, permit, or application number) | Security (instrument and amount) | Status: not yet due; in progress; completion claimed (date); completion confirmed (date and County reference); not applicable | For County use: confirmed; confirmed in part, with what remains; not confirmed, with what remains |
+| --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |
+
+**Part P-2. Completion statement**
+
+STATE OF FLORIDA
+
+COUNTY OF [__________]
+
+Before me, the undersigned authority, personally appeared [NAME], who, being first duly sworn, says:
+
+1. I am the [TITLE], an officer, of [DEVELOPER ENTITY NAME] (the “Developer”), and I make this statement for the Developer under Section 6.4(b) of the Host Community Development Agreement and Declaration of Restrictive Covenants Running with the Land between [COUNTY NAME] County, Florida, and the Developer, dated [DATE] and recorded at [OFFICIAL RECORDS BOOK AND PAGE] (the “Agreement”).
+
+2. To my knowledge after reasonable inquiry, each obligation listed below is complete as the Agreement requires, and the evidence of its completion is attached.
+
+| Obligation (section) | Evidence attached (record drawings; recorded instrument numbers; inspection or acceptance records; test results) |
+| --- | --- |
+|  |  |
+
+3. The Developer acknowledges that if the County later finds that an obligation listed is incomplete or does not conform to the Agreement, the Developer will complete it as Section 6.4(e) of the Agreement provides.
+
+______________________________ [NAME], [TITLE]
+
+Sworn to (or affirmed) and subscribed before me by means of [ ] physical presence or [ ] online notarization, this ____ day of ______________, 20__, by [NAME], as [TITLE] of [DEVELOPER ENTITY NAME], who is personally known to me or has produced [__________] as identification.
+
+______________________________ Notary Public, State of Florida [print name, commission number, and expiration]
+
+**County confirmation** (Section 6.4(b), (c))
+
+[ ] Completion confirmed. [ ] Confirmed in part; what remains: ______________. [ ] Not confirmed; what remains: ______________.
+
+Field inspection: [ ] made on [DATE] [ ] not needed, because ______________.
+
+______________________________ [NAME], [TITLE], for [COUNTY NAME] County. Date: [__]
+
+**EXHIBIT “S”: SCHEDULE OF SUPPLEMENTAL OPERATING COVENANTS**
+
+[Attach the Schedule of Supplemental Operating Covenants, with Part S-1 and only the covenants Exhibit “B-1” supports (Section 10.5), completed in every bracket (Section 3.7).]
+
+---
+
+## AUTHOR
+
+*Prepared by Timothy Smith · Citizen-prepared working draft · Not legal advice.*
+
+*Citizen-prepared. Not legal advice. The author is not licensed to practice law and is not affiliated with, and does not write on behalf of, any university, law school, clinic, law firm, or governmental body. No attorney-client relationship is created by this document or by any use of it. Any jurisdiction considering adoption should obtain review by licensed counsel admitted in that jurisdiction.*
+
+*The release notes (CHANGELOG) published with each release identify its contents and the current version of each instrument.*

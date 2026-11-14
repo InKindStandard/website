@@ -1,0 +1,30 @@
+{
+ "read": "Zenodo's versions lists (11 November 2026) and record pages (12 November 2026)",
+ "releases": [
+  {
+   "release": "2026.3",
+   "published": "2026-10-19",
+   "instruments": "10.5281/zenodo.23482760",
+   "guide": "10.5281/zenodo.23482770",
+   "instruments_label": "The instruments",
+   "guide_label": "The guide, the open legal questions and the methodology"
+  },
+  {
+   "release": "2026.2",
+   "published": "2026-09-26",
+   "instruments": "10.5281/zenodo.22969907",
+   "guide": "10.5281/zenodo.22969877",
+   "instruments_label": "The instruments",
+   "guide_label": "The methodology record"
+  },
+  {
+   "release": "2026.1",
+   "published": "2026-08-31",
+   "instruments": "10.5281/zenodo.22216019",
+   "guide": "10.5281/zenodo.22216263",
+   "instruments_label": "The instruments",
+   "guide_label": "The methodology record"
+  }
+ ],
+ "labels": "The second record's label follows its own title at Zenodo: from Release 2026.3 it is the guide, the open legal questions and the methodology; before that, a methodology record."
+}
