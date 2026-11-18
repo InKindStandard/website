@@ -125,7 +125,7 @@
     "Generators, utilities and complaints",
     "Public reporting"
    ],
-   "numbers": "Every number in that ordinance is set by each county from its own studies.",
+   "numbers": "Every number in that ordinance is set by each county from its own studies. The ordinance bars the county from considering any agreement or gift when it decides an application, and from relaxing a standard or speeding up a review because of one (Sec. 16). Where the county keeps an optional rule, a denial may also rest on an uncured default in a mitigation duty under a development agreement the county signed that provides for that remedy, after the notice and cure it requires; such a denial is not reheard on that ground (Sec. 16(e)). Any other decision that considered an agreement or gift is reheard if the applicant or another party asks within the set time and points to the evidence. Choosing not to sign an agreement is a legitimate outcome. Timing: counties covered by a 2025 state law (SB 180 §28) generally cannot propose or adopt new, stricter land rules before 1 Oct 2027.",
    "evidence": "Evidence: Drafted. The model ordinance has not been reviewed by a lawyer or adopted anywhere."
   },
   "groups": [
@@ -715,7 +715,8 @@
   "law": {
    "title": "What Florida law does not let counties require from a data center",
    "count_line": "12 of these apply to data centers.",
-   "intro": "Some items on this page cannot be required by a Florida county because a state law has taken the subject away from counties. A private agreement between the developer and a community group can carry some of them, such as protections for the developer's own workers, because these laws limit counties, not private parties. The county is not part of any such agreement.",
+   "intro": "Some items on this page cannot be required by a Florida county because a state law has taken the subject away from counties. A private agreement between the developer and a community group can carry some of them, such as protections for the developer's own workers, because these laws limit counties, not private parties. The county is not part of any such agreement. A single act such as a staff mention likely does not draw it in by itself, but an approval, its terms or its timing that turns on the agreement does (Open Legal Questions, Question 1).",
+   "describes": "It describes; it does not recommend a change.",
    "groups": [
     {
      "title": "State law does not allow these",
@@ -784,6 +785,10 @@
   "not_this": {
    "title": "What this is not",
    "text": "Passing the test only means an item is not ruled out. It does not mean the item is lawful in a given county, wanted by whoever would receive it, agreed to by a developer, or worth a set amount. Each county item still needs its own written link to the impacts in the county's study, a value, and review by the county attorney. A private agreement item needs the community group's own counsel; the county does not review it."
+  },
+  "descriptions": {
+   "title": "About the descriptions",
+   "text": "The one-line descriptions and \"For your community\" notes explain what each item is for. They are not estimates of value. What a resident actually gets depends on who receives the item, the site and the terms agreed."
   }
  }
 }

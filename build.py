@@ -251,8 +251,9 @@ def item_card(it, page=False):
     if page and it.get('tried'):
         meta.append(f'<p class="evnote theirs">{e(it["tried"])}</p>')
     summary = '<summary class="theirs">What it would do</summary>' if page else '<summary>What it would do</summary>'
+    h = 'h4' if page else 'h3'   # on the page, a card's name sits under its group's heading (run 27, Note 10)
     return ('<article class="item" data-reveal>'
-            f'<p class="kick theirs">{e(it["sec"])}</p><h3 class="theirs">{e(it["name"])}</h3>'
+            f'<p class="kick theirs">{e(it["sec"])}</p><{h} class="theirs">{e(it["name"])}</{h}>'
             f'<div class="tags"><span class="vd {VERDICT[it["verdict"]]} theirs">{e(it["verdict"])}</span>{chips}</div>'
             f'{conds}'
             f'<details class="more" open data-fold>{summary}<p class="theirs">{e(it["lead"])}</p></details>'
@@ -486,18 +487,20 @@ def cr_groups(root, index):
 
 def cr_law(root, index):
     L = cr_page()['law']; e = html.escape
-    out = [f'<h2 class="theirs">{e(L["title"])}</h2><p class="theirs"><strong>{e(L["count_line"])}</strong></p><p class="read theirs">{e(L["intro"])}</p>']
+    out = [f'<h2 class="theirs">{e(L["title"])}</h2><p class="read theirs">{e(L["intro"])}</p><p class="read theirs">{e(L["describes"])}</p>']   # the record's count line counts across its project types, so it is left out (run 26, Should fix 8)
     out.append('<div class="card">')   # one card for both groups, so that the short one does not stand as a tall empty box beside the long one
     for g, cls in zip(L['groups'], ('no', 'na')):
         out.append(f'<h3><span class="vd {cls} theirs">{e(g["title"])}</span> ({g["count"]})</h3><p class="muted theirs">{e(g["note"])}</p><ul>'
                    + ''.join(f'<li><p class="theirs"><strong>{e(i["name"])}</strong></p>' + (f'<p class="theirs">{e(i["would"])}</p>' if i['would'] else '') + '</li>' for i in g['items'])
                    + '</ul>')
-    return '\n'.join(out + ['</div>'])
+    return '\n'.join(out + ['</div>', f'<p><a href="{e(saved_screen()["source"]["page"])}">The details of each, on the public record</a></p>'])
 
 
 def cr_not(root, index):
     s = saved_screen(); n = cr_page()['not_this']; e = html.escape
-    return f'<div class="gaps"><h2 class="theirs">{e(n["title"])}</h2><p class="theirs">{e(n["text"])}</p><p class="theirs">{e(s["labels"]["none_delivered"])}</p></div>'
+    d = cr_page()['descriptions']
+    return (f'<div class="gaps"><h2 class="theirs">{e(n["title"])}</h2><p class="theirs">{e(n["text"])}</p>'
+            f'<p class="theirs"><strong>{e(d["title"])}.</strong> {e(d["text"])}</p><p class="theirs">{e(s["labels"]["none_delivered"])}</p></div>')
 
 
 MAKERS = {'ledger-release': ledger_release, 'ledger-screen': ledger_screen, 'home-release': home_release, 'materials-release': materials_release, 'home-homes': home_homes, 'home-diagram': home_diagram,

@@ -21,7 +21,9 @@ SAVED = pathlib.Path(__file__).resolve().parent.parent / 'src' / 'screen_saved.j
 CARD_GROUPS = ['Drafted in the model instruments', 'Set aside: in the model instruments, not relied on',
                'Other items allowed in Florida (not county items)', 'Not allowed in Florida (for comparison)']
 SET_ASIDE_NOTE = 'These are in the model instruments but are not relied on as benefits.'
-LAW_INTRO_END = 'The county is not part of any such agreement.'
+LAW_INTRO_END = '(Open Legal Questions, Question 1).'   # the paragraph's first four sentences, with the limit on how a county is drawn into a private agreement (run 26, Must fix 1)
+DESCRIBES = 'It describes; it does not recommend a change.'
+ABOUT_END = 'the site and the terms agreed.'   # "About the descriptions", to its sentences on what a description is not (run 26, Should fix 5)
 
 
 def text(s):
@@ -75,13 +77,13 @@ def main(dom_path, commit, read):
     std = re.search(r'<summary>(Standards: what every project must meet)</summary>\s*<div class="tbody">\s*<p>' + P_ + r'</p>\s*<ul>((?:(?!</ul>).)*)</ul>\s*<p class="note">' + P_ + r'</p>\s*<p class="note">' + P_ + '</p>', dom, flags=re.S)
     if not std: stop('the standards are not where they were')
     names = [text(b).rstrip('.') for b in re.findall(r'<li>\s*<b>(.*?)</b>', std.group(3), flags=re.S)]
-    numbers = text(std.group(4)).split('. ')[0] + '.'
+    numbers = text(std.group(4))   # the whole paragraph: the bar on weighing any agreement or gift, and the timing limit (run 26, Must fix 2)
     if len(names) != 9 or not numbers.startswith('Every number in that ordinance'): stop(f'the standards read {len(names)} names and "{numbers[:40]}"')
     standards = {'summary': text(std.group(1)), 'lead': text(std.group(2)), 'names': names, 'numbers': numbers, 'evidence': text(std.group(5))}
     law = re.search(r'<span id="ds-h">(.*?)</span>\s*</summary>\s*<div class="key kb">\s*<p class="note" id="dscount">(.*?)</p>\s*<p class="note">(.*?)</p>\s*<div id="decide">(.*?)</div>\s*</div>\s*</details>', dom, flags=re.S)
     if not law: stop('the section on Florida law is not where it was')
     intro = text(law.group(3))
-    if LAW_INTRO_END not in intro: stop('the law section\'s opening paragraph changed')
+    if LAW_INTRO_END not in intro or DESCRIBES not in intro: stop('the law section\'s opening paragraph changed')
     lgroups = []
     for gm in re.finditer(r'<h3 class="dgh">(.*?)<span class="dgc">(\d+)</span>\s*</h3>\s*<p class="note">(.*?)</p>(.*?)(?=<h3 class="dgh">|$)', law.group(4), flags=re.S):
         its = [{'name': text(s), 'would': text(w) if w else None}
@@ -91,14 +93,18 @@ def main(dom_path, commit, read):
     count_line = text(law.group(2))
     if count_line != f'{sum(g["count"] for g in lgroups)} of these apply to data centers.': stop(f'the law section\'s count line reads "{count_line}"')
     if [i['name'] for i in lgroups[0]['items']] != [i['name'] for i in groups[3]['items']]: stop('the law section\'s first group is not the 11 cards State law does not allow')
+    if lgroups[0]['count'] != saved['counts']['state_law_does_not_allow']: stop(f'the law section has {lgroups[0]["count"]} items State law does not allow; Home\'s saved count is {saved["counts"]["state_law_does_not_allow"]}')   # run 27, Should fix 4
+    about = re.search(r'<p>\s*<b>(About the descriptions)\.</b>(.*?)</p>', dom, flags=re.S)
+    if not about or ABOUT_END not in text(about.group(2)): stop('"About the descriptions" is not where it was')
     nt = re.search(r'<p>\s*<b>(What this is not)\.</b>(.*?)</p>', dom, flags=re.S)
     caution = re.findall(r'<p[^>]*>(This page is not a county document\.[^<]*)</p>', dom)
     if not nt or len(set(caution)) != 1: stop('"What this is not" or the line on county staff is not where it was')
     saved['page'] = {'read': read, 'commit': commit,
                      'note': 'Words saved from the Screen for the page What communities could receive, as the Screen drew them on the day read (tools/save_screen_words.py).',
                      'caution': text(caution[0]), 'standards': standards, 'groups': groups,
-                     'law': {'title': text(law.group(1)), 'count_line': count_line, 'intro': intro[:intro.index(LAW_INTRO_END) + len(LAW_INTRO_END)], 'groups': lgroups},
-                     'not_this': {'title': nt.group(1), 'text': text(nt.group(2))}}
+                     'law': {'title': text(law.group(1)), 'count_line': count_line, 'intro': intro[:intro.index(LAW_INTRO_END) + len(LAW_INTRO_END)], 'describes': DESCRIBES, 'groups': lgroups},
+                     'not_this': {'title': nt.group(1), 'text': text(nt.group(2))},
+                     'descriptions': {'title': about.group(1), 'text': text(about.group(2))[:text(about.group(2)).index(ABOUT_END) + len(ABOUT_END)]}}
     SAVED.write_text(json.dumps(saved, ensure_ascii=False, indent=1), encoding='utf-8')   # the file's own format, so that only the new key shows as changed
     print(f'saved: {len(items)} cards in {len(groups)} groups ({", ".join(str(g["count"]) for g in groups)}), '
           f'{len(standards["names"])} standards, {sum(g["count"] for g in lgroups)} items under the law, read {read} at {commit[:7]}')
