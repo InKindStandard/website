@@ -1,6 +1,6 @@
 # Runbook: inkindstandard.org
 
-Prepared by Timothy Smith · Citizen-prepared working draft · Not legal advice
+Prepared by In-Kind Standard · Citizen-prepared working draft · Not legal advice
 
 How to build, check and publish this site, and how to keep it running, so that anyone given access to its accounts can carry on from this repository alone. Nothing here is a password or a recovery detail.
 

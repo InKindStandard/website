@@ -21,7 +21,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 PUB = pathlib.Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else ROOT / 'docs'
 NAME = 'Timothy Smith'
 SURNAME = NAME.split()[-1]
-BYLINE = 'Prepared by Timothy Smith · Citizen-prepared working draft · Not legal advice'   # once: the home page's "Who prepares this work"
+BYLINE = 'Prepared by In-Kind Standard · Citizen-prepared working draft · Not legal advice'   # the project's name in place of the founder's since 18 November 2026, 16:26 (the Core's sheet CO-6, decision 2, brought forward)   # once: the home page's "Who prepares this work"
 STATUS = 'Citizen-prepared working draft · Not legal advice'                               # on every page
 GAPS = 'no county has adopted the model documents, no lawyer has reviewed them, and there is no organization yet.'
 # The date line, the one sentence not counted in a page's words; it is taken out once, in this form only (run 7, S2).
@@ -604,8 +604,8 @@ for rel, block in shared.get('footer', {}).items():
 if not re.search(r'<h2 id="who">Who prepares this work</h2>\s*<p class="byline">' + re.escape(unbroken(BYLINE)) + r'</p>', (PUB / 'index.html').read_text(encoding='utf-8') if (PUB / 'index.html').is_file() else ''):
     bad('index.html: the byline is not the first line of the section "Who prepares this work"')
 for i_, what_ in enumerate(('the name in the HTML', 'the name as shown', 'the surname in the HTML', 'the surname as shown')):
-    if sum(v[i_] for v in names.values()) != 1 or names.get('index.html', (0, 0, 0, 0))[i_] != 1:
-        bad(f'{what_} should appear once, on the home page: {({k: v[i_] for k, v in names.items() if v[i_]})}')
+    if sum(v[i_] for v in names.values()):   # the founder's word of 18 November 2026, 16:26: his name is not in the byline; it is in the nonprofit project's pages the site hosts
+        bad(f'{what_} is in the site\'s own words: {({k: v[i_] for k, v in names.items() if v[i_]})}')
 if PRIVACY_SAYS_TWO_STEP and TWO_STEP not in texts.get('privacy/index.html', ''): bad('privacy: PRIVACY_SAYS_TWO_STEP is True, so the page must carry the TWO_STEP sentence word for word')
 for rel in ('index.html', 'materials/index.html'):
     if TITLE not in texts.get(rel, ''): bad(f'{rel}: the public title of the model documents is missing')
@@ -1256,7 +1256,7 @@ for q in pages:   # a first visit: the page, the style sheet, the script, every 
 # AI tools wherever a document names AI tools (Political Neutrality Policy, section 3.19); no address but the contact address,
 # no telephone number, nothing hidden from readers and no key in a form services give; the site's word list; tables whose
 # rows agree; and the frame's word budgets. LICENSE is Creative Commons' CC0 1.0 legal code, held by its checksum.
-DOC_BUDGET = {'README.md': (450, 600), 'RUNBOOK.md': (2350, 2350), 'NOTICE.md': (300, 300)}   # (own words, all words); the runbook's was 2250 until run 20; the founder approved 2350 and the notice's 300 (decision sheet 16, S2 A, 18 November 2026)
+DOC_BUDGET = {'README.md': (451, 600), 'RUNBOOK.md': (2350, 2350), 'NOTICE.md': (300, 300)}   # (own words, all words); the runbook's was 2250 until run 20; the founder approved 2350 and the notice's 300 (decision sheet 16, S2 A, 18 November 2026); the README's 451 since the byline's "In-Kind Standard" counts one word more than the founder's name (18 November 2026, 16:26)
 LICENSE_SHA = 'a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499'
 # The runbook says how far over its word budget a page may go; it must say what ROOM is (run 21, Must fix 2: it said "a fifth" when ROOM was 5 percent).
 if (ROOT / 'RUNBOOK.md').is_file():   # a missing runbook is reported with the other documents below (this read once stopped the check with its general stop message, naming the exception, and not with "RUNBOOK.md: missing"; found when the whole planted set was re-run on the fourth freeze)

@@ -50,7 +50,7 @@ KEYS = {'title', 'tab', 'path', 'description', 'updated', 'budget', 'ceiling', '
 KEPT = {'files', 'CNAME'}
 # The byline appears once on the site: the first line of the home page's section "Who prepares this work", placed there
 # with {{byline}} (decision sheet 2, E2 B, 12 November 2026). Every page's footer carries the status line.
-BYLINE = 'Prepared by Timothy Smith · Citizen-prepared working draft · Not legal advice'
+BYLINE = 'Prepared by In-Kind Standard · Citizen-prepared working draft · Not legal advice'   # the project's name in place of the founder's (the Core's sheet CO-6, decision 2, 17 November 2026), brought forward at his word of 18 November 2026, 16:26
 STATUS = 'Citizen-prepared working draft · Not legal advice'
 FORMATS = {'.txt': 'plain text', '.md': 'Markdown text'}
 # The known gaps, in the same words wherever they appear. A page places this notice with {{gaps}}.

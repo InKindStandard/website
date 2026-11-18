@@ -1,6 +1,6 @@
 # Notice of licenses
 
-Prepared by Timothy Smith · Citizen-prepared working draft · Not legal advice
+Prepared by In-Kind Standard · Citizen-prepared working draft · Not legal advice
 
 Known gaps: no county has adopted the model documents, no lawyer has reviewed them, and there is no organization yet.
 
