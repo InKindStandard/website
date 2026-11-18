@@ -139,7 +139,7 @@ for f_ in sorted((ROOT / 'src' / 'pages').glob('*.html')):
     if 'release' in head_: RELEASE_OF[path_ + 'index.html'] = head_['release'].strip()
     if 'theirs' in head_: THEIRS_OF[path_ + 'index.html'] = head_['theirs'].split()
 ROOM = 1.05   # decision sheet 16, S2, option A (approved by the founder on 18 November 2026, 08:46): a page may be 5 percent over its budget, where decision sheet 2 allowed 20
-# The numbers in force are also held here, so that a page cannot raise its own: its heading block must give exactly these. The founder approved them on 18 November 2026, 08:46 (decision sheet 16, S2 A; Home's ceiling of 1,520 with S3 C).
+# The numbers in force are also held here, so that a page cannot raise its own: its heading block must give exactly these. The founder approved them on 18 November 2026, 08:46 (decision sheet 16, S2 A), and Home's 415 and 1,540 at 10:16 (decision sheet 17).
 # Every release page has the release page's budget. A new page has none until the founder approves its frame; add it then.
 APPROVED = {'index.html': (415, 1540), 'materials/index.html': (320, 3090), 'contact/index.html': (170, 230),
             'privacy/index.html': (600, 610), 'accessibility/index.html': (390, 400), '404.html': (40, 60),
@@ -612,8 +612,10 @@ for d_ in sorted({f_.parent for f_ in (ROOT / 'src' / 'released').rglob('*') if 
     if d_.relative_to(ROOT / 'src' / 'released').as_posix() not in shown_: bad(f'src/released/{d_.relative_to(ROOT / "src" / "released").as_posix()}: no page shows it, so it would be published unchecked; move the older folder out of src/released/ (RUNBOOK.md, section 5)')
 # The home page states what the project is and its known gaps in the nonprofit project's released words.
 home_text = texts.get('index.html', '')
-for need in [WORKS_WHAT, WORKS_WHO + ' ' + NOT_A, AI_FULL, PAYS, LOGISTICS_TITLE] + HOME_GAPS:
+for need in [WORKS_WHAT, WORKS_WHO + ' ' + NOT_A, AI_FULL, PAYS] + HOME_GAPS:
     if need not in home_text: bad(f'index.html: not word for word as released: "{need[:50]}"')
+# The logistics series is named by its title as its package gives it; the package is approved, not yet published (decision sheet 17, T2 A; run 25, Note 2).
+if LOGISTICS_TITLE not in home_text: bad(f'index.html: the logistics series is not named by its title, word for word: "{LOGISTICS_TITLE}"')
 if AI_SITE not in texts.get('accessibility/index.html', ''): bad('accessibility: the sentence on AI tools is not there word for word')
 contact_text = texts.get('contact/index.html', '')
 if f'"{COMPLAINTS_GAP}"' not in contact_text: bad('contact: the released known gap on complaints about the project\'s own work is not there word for word, in quotation marks')
