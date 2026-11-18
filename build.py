@@ -370,12 +370,13 @@ PASSING = ('Works', 'Works with a condition', 'Fits provisionally')   # the Scre
 
 
 def home_items_note(root, index):
-    """The project says that it chose the cards, that all of them pass the test, and that they are examples, not a ranking (run 19, M1; run 22; decision sheet 16, S3 C)."""
+    """The project says that it chose the cards, that all of them pass the In-Kind test, and that they are examples, not a ranking (run 19, M1; run 22; run 24;
+    decision sheet 16, S3 C and S6 A). "The In-Kind test" is the Screen's own name for the test its labels report."""
     items = saved_screen()['items']
     other = [i['name'] for i in items if i['verdict'] not in PASSING]
     if other:
-        sys.exit(f'src/screen_saved.json: Home says that all its items pass the test, and "{other[0]}" does not; the line in build.py (home_items_note) changes only with the founder\'s answer (decision sheet 16, S3)')
-    return f'<p>This project chose these {NUMWORD[len(items)].lower()}, all of which pass the test, as examples, not a ranking.</p>'
+        sys.exit(f'src/screen_saved.json: Home says that all its items pass the In-Kind test, and "{other[0]}" does not; the line in build.py (home_items_note) changes only with the founder\'s answer (decision sheet 16, S3)')
+    return f'<p>This project chose these {NUMWORD[len(items)].lower()}, all of which pass the In-Kind test, as examples, not a ranking.</p>'
 
 
 def home_labels(root, index):

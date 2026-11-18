@@ -135,7 +135,7 @@ ROOM = 1.05   # decision sheet 16, S2, option A (approved by the founder on 18 N
 # Every release page has the release page's budget. A new page has none until the founder approves its frame; add it then.
 APPROVED = {'index.html': (405, 1520), 'materials/index.html': (320, 3090), 'contact/index.html': (170, 230),
             'privacy/index.html': (600, 610), 'accessibility/index.html': (390, 400), '404.html': (40, 60),
-            'funding/index.html': (15, None)}   # frame v0.6, section 4 gave 320, 280, 140, 525, 330 and 40; the pages' own words are over those (run 19, S4), so these are the pages' measured words of 18 November 2026, rounded up to five, approved by the founder (decision sheet 16, S2 A); Home has had 424 since the 23 words of decision sheet 16, S3 C, inside its room, and its ceiling is 1,520, not 1,500; the funding page's words are the nonprofit project's as released (decision sheet 6, A)
+            'funding/index.html': (15, None)}   # frame v0.6, section 4 gave 320, 280, 140, 525, 330 and 40; the pages' own words are over those (run 19, S4), so these are the pages' measured words of 18 November 2026, rounded up to five, approved by the founder (decision sheet 16, S2 A); Home has had 425 since the 24 words of decision sheet 16, S3 C and S6 A, at the limit of its room, and its ceiling is 1,520, not 1,500; the funding page's words are the nonprofit project's as released (decision sheet 6, A)
 # The ceilings of Stage 1 are each page's measured words of 18 November 2026, rounded up to ten (decision sheet 5, A); the founder approved them with the pages (decision sheet 16, S2 A, 18 November 2026).
 # Another project's released pages: each page's fragments, in order, and each fragment's SHA-256 as that project released it
 # (the nonprofit project's folder Website_2026-11-14b, its README, and its log entries of 14 November 2026, 01:32 to 01:48 and 01:55 to
@@ -683,11 +683,12 @@ law_want_ = [f'{c_["state_law_does_not_allow"]} of the {c_["items"]} items are l
 if [pieces_(x_) for x_ in law_] != [law_want_]: bad(f'index.html: the line on State law is {[pieces_(x_) for x_ in law_]!r}; it reads {law_want_!r}, the count and then the Screen\'s label and line (run 19, S2)')
 # Run 19, M1 (Neutrality Test, gate 3, for items built on the 3.18 template): the headline says what the page shows; the page says that it does not weigh the benefits against costs, and that the
 # project chose the three cards as examples, not as a ranking. Run 22 (gate 3 passed) asked that it also say that all three pass the test, and where the model documents' standards
-# are; the founder chose those words on 18 November 2026, 08:46 (decision sheet 16, S3 C). A change of these words needs his answer.
+# are; the founder chose those words on 18 November 2026, 08:46 (decision sheet 16, S3 C), and at 09:41 that the line name the test, as run 24 asked,
+# with the Screen's own name for it, "the In-Kind test" (S6 A). A change of these words needs his answer.
 HOME_H1 = 'What could a community receive under the model documents?'
 HOME_SAYS = ['<p>Quoted from the public record: the homes, their lines, the cards and the labels. This page does not weigh the benefits against costs. '
              'What the model documents\' standards cover, among them water, sound and generator testing, is on <a href="materials/" data-url="https://inkindstandard.org/materials/">Model documents</a>.</p>',
-             '<p>This project chose these three, all of which pass the test, as examples, not a ranking.</p>']
+             '<p>This project chose these three, all of which pass the In-Kind test, as examples, not a ranking.</p>']
 h1s_ = re.findall(r'<h1\b[^>]*>(.*?)</h1>', home_page, flags=re.S)
 if [squash_(re.sub(r'<[^>]+>', '', x_)) for x_ in h1s_] != [HOME_H1]: bad(f'index.html: the headline is {[squash_(re.sub(chr(60) + "[^>]+>", "", x_)) for x_ in h1s_]!r}; it reads "{HOME_H1}" (run 19, M1; decision sheet 16, S3)')
 for s_ in HOME_SAYS:
