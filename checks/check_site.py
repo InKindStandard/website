@@ -135,7 +135,7 @@ ROOM = 1.05   # decision sheet 16, S2, option A (approved by the founder on 18 N
 # Every release page has the release page's budget. A new page has none until the founder approves its frame; add it then.
 APPROVED = {'index.html': (405, 1520), 'materials/index.html': (320, 3090), 'contact/index.html': (170, 230),
             'privacy/index.html': (600, 610), 'accessibility/index.html': (390, 400), '404.html': (40, 60),
-            'funding/index.html': (15, None)}   # frame v0.6, section 4 gave 320, 280, 140, 525, 330 and 40; the pages' own words are over those (run 19, S4), so these are the measured words rounded up to five, approved by the founder (decision sheet 16, S2 A); Home's ceiling is 1,520, not 1,500, since the 23 words of decision sheet 16, S3 C; the funding page's words are the nonprofit project's as released (decision sheet 6, A)
+            'funding/index.html': (15, None)}   # frame v0.6, section 4 gave 320, 280, 140, 525, 330 and 40; the pages' own words are over those (run 19, S4), so these are the pages' measured words of 18 November 2026, rounded up to five, approved by the founder (decision sheet 16, S2 A); Home has had 424 since the 23 words of decision sheet 16, S3 C, inside its room, and its ceiling is 1,520, not 1,500; the funding page's words are the nonprofit project's as released (decision sheet 6, A)
 # The ceilings of Stage 1 are each page's measured words of 18 November 2026, rounded up to ten (decision sheet 5, A); the founder approved them with the pages (decision sheet 16, S2 A, 18 November 2026).
 # Another project's released pages: each page's fragments, in order, and each fragment's SHA-256 as that project released it
 # (the nonprofit project's folder Website_2026-11-14b, its README, and its log entries of 14 November 2026, 01:32 to 01:48 and 01:55 to
@@ -695,7 +695,8 @@ for s_ in HOME_SAYS:
 # Home's notice says that Model documents lists what the standards cover, water, sound and generator testing among them: that page's list, in the release guide's words, must still name them.
 mat_ = (PUB / 'materials' / 'index.html').read_text(encoding='utf-8') if (PUB / 'materials' / 'index.html').is_file() else ''
 cover_ = re.search(r'What the standards cover:</strong>(.*?)</li>', mat_, flags=re.S)
-if not cover_ or not all(w_ in cover_.group(1) for w_ in ('water', 'sound', 'generator testing')): bad('materials/index.html: the list item "What the standards cover:" does not name water, sound and generator testing, as Home\'s notice says it does (decision sheet 16, S3 C)')
+# The list's own phrases are matched: a bare 'water' is also in 'stormwater' (run 24, Note 2).
+if not cover_ or not all(w_ in cover_.group(1) for w_ in ('water and cooling', 'sound limits', 'generator testing')): bad('materials/index.html: the list item "What the standards cover:" does not name water, sound and generator testing, as Home\'s notice says it does (decision sheet 16, S3 C)')
 # Run 19, S3 (frame v0.6, section 5, row 4: each figure "with its date and a link to its source"): the five figures each carry a link and a dated line.
 figs_ = re.findall(r'<div class="num">(.*?)</div>', home_page, flags=re.S)
 if len(figs_) != 5: bad(f'index.html: {len(figs_)} figures; there are five')
