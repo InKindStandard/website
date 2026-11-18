@@ -48,6 +48,14 @@ ABOUT = ('In-Kind Standard is a citizen-prepared, nonpartisan project, planned t
          'cities have done and what communities could receive.')                                    # "About this project", in each policy
 NOT_A = ('It is not a government body, a law firm, an advocacy group or a developer, and it enforces nothing. It does not say whether any '
          'project should be approved or built, and never urges a county to decide a particular way.')   # How In-Kind Standard Works v0.5, section 1 (as in v0.4 and v0.3)
+# Home's opening quotes How In-Kind Standard Works v0.5, section 1, which speaks of large projects, such as data centers, in place of ABOUT, which speaks of data
+# centers only and stays the README's (decision sheet 17, T1 A, 18 November 2026): its first paragraph, and the first sentence of its second before NOT_A.
+WORKS_WHAT = ('In-Kind Standard is a nonpartisan, educational project that gives communities and their local governments free model doc'
+              'uments, plain explanations and public records about large projects, such as data centers, so that they can decide knowing the facts: what they could gain, and what it would cost them.')
+WORKS_WHO = 'It is citizen-prepared and planned to become a charitable nonprofit.'
+# The logistics series' title, as its package gives it (approved by the founder on 18 November 2026, not yet published): Home lists it as in preparation, with
+# no date and no DOI (decision sheet 17, T2 A). It is quoted, so it is held here; on publication day it becomes a release like 2026.4 (RUNBOOK.md, section 4).
+LOGISTICS_TITLE = 'Model Instruments for Logistics Facility Development in Florida Counties and Cities'
 AI_FULL = ('AI tools help draft and check the work, and the founder reviews every item and decides what is published, except work the founder '
            'steps aside from because of a tie, meaning a connection that might be, or look like, a conflict of interest.')   # the funding statement v0.5 (as in v0.4)
 PAYS = 'No one but the founder has paid for it: the founder pays its small costs himself, and the project has received no money or other gifts.'   # the funding statement v0.5 (as in v0.4 and v0.3)
@@ -131,11 +139,11 @@ for f_ in sorted((ROOT / 'src' / 'pages').glob('*.html')):
     if 'release' in head_: RELEASE_OF[path_ + 'index.html'] = head_['release'].strip()
     if 'theirs' in head_: THEIRS_OF[path_ + 'index.html'] = head_['theirs'].split()
 ROOM = 1.05   # decision sheet 16, S2, option A (approved by the founder on 18 November 2026, 08:46): a page may be 5 percent over its budget, where decision sheet 2 allowed 20
-# The numbers in force are also held here, so that a page cannot raise its own: its heading block must give exactly these. The founder approved them on 18 November 2026, 08:46 (decision sheet 16, S2 A; Home's ceiling of 1,520 with S3 C).
+# The numbers in force are also held here, so that a page cannot raise its own: its heading block must give exactly these. The founder approved them on 18 November 2026, 08:46 (decision sheet 16, S2 A), and Home's 415 and 1,540 by 10:17 (decision sheet 17).
 # Every release page has the release page's budget. A new page has none until the founder approves its frame; add it then.
-APPROVED = {'index.html': (405, 1520), 'materials/index.html': (320, 3090), 'contact/index.html': (170, 230),
+APPROVED = {'index.html': (415, 1540), 'materials/index.html': (320, 3090), 'contact/index.html': (170, 230),
             'privacy/index.html': (600, 610), 'accessibility/index.html': (390, 400), '404.html': (40, 60),
-            'funding/index.html': (15, None)}   # frame v0.6, section 4 gave 320, 280, 140, 525, 330 and 40; the pages' own words are over those (run 19, S4), so these are the pages' measured words of 18 November 2026, rounded up to five, approved by the founder (decision sheet 16, S2 A); Home has had 425 since the 24 words of decision sheet 16, S3 C and S6 A, at the limit of its room, and its ceiling is 1,520, not 1,500; the funding page's words are the nonprofit project's as released (decision sheet 6, A)
+            'funding/index.html': (15, None)}   # frame v0.6, section 4 gave 320, 280, 140, 525, 330 and 40; the pages' own words are over those (run 19, S4), so these are the pages' measured words of 18 November 2026, rounded up to five, approved by the founder (decision sheet 16, S2 A); Home's are 415 and 1,540 since decision sheet 17 (18 November 2026), which added the logistics series' row and the broader opening: 430 own words, inside its room; the funding page's words are the nonprofit project's as released (decision sheet 6, A)
 # The ceilings of Stage 1 are each page's measured words of 18 November 2026, rounded up to ten (decision sheet 5, A); the founder approved them with the pages (decision sheet 16, S2 A, 18 November 2026).
 # Another project's released pages: each page's fragments, in order, and each fragment's SHA-256 as that project released it
 # (the nonprofit project's folder Website_2026-11-14b, its README, and its log entries of 14 November 2026, 01:32 to 01:48 and 01:55 to
@@ -604,8 +612,10 @@ for d_ in sorted({f_.parent for f_ in (ROOT / 'src' / 'released').rglob('*') if 
     if d_.relative_to(ROOT / 'src' / 'released').as_posix() not in shown_: bad(f'src/released/{d_.relative_to(ROOT / "src" / "released").as_posix()}: no page shows it, so it would be published unchecked; move the older folder out of src/released/ (RUNBOOK.md, section 5)')
 # The home page states what the project is and its known gaps in the nonprofit project's released words.
 home_text = texts.get('index.html', '')
-for need in [ABOUT, NOT_A, AI_FULL, PAYS] + HOME_GAPS:
+for need in [WORKS_WHAT, WORKS_WHO + ' ' + NOT_A, AI_FULL, PAYS] + HOME_GAPS:
     if need not in home_text: bad(f'index.html: not word for word as released: "{need[:50]}"')
+# The logistics series is named by its title as its package gives it; the package is approved, not yet published (decision sheet 17, T2 A; run 25, Note 2).
+if LOGISTICS_TITLE not in home_text: bad(f'index.html: the logistics series is not named by its title, word for word: "{LOGISTICS_TITLE}"')
 if AI_SITE not in texts.get('accessibility/index.html', ''): bad('accessibility: the sentence on AI tools is not there word for word')
 contact_text = texts.get('contact/index.html', '')
 if f'"{COMPLAINTS_GAP}"' not in contact_text: bad('contact: the released known gap on complaints about the project\'s own work is not there word for word, in quotation marks')
@@ -650,7 +660,7 @@ for f_ in sorted((ROOT / 'src' / 'releases').glob('*.json')):
     if not f_.name.endswith('.zenodo.json'): corpus_ += [squash_(x_) for x_ in strings_of_(json_of(f_))]
 for f_ in sorted((PUB / 'files').rglob('*')):
     if f_.is_file() and f_.suffix in ('.md', '.txt'): corpus_.append(md_plain_(f_.read_text(encoding='utf-8')))
-corpus_ += [squash_(x_) for x_ in [ABOUT, NOT_A, PAYS, AI_FULL, COMPLAINTS_GAP, GAPS, 'Known gaps: ' + GAPS] + HOME_GAPS]
+corpus_ += [squash_(x_) for x_ in [ABOUT, NOT_A, PAYS, AI_FULL, COMPLAINTS_GAP, GAPS, 'Known gaps: ' + GAPS, LOGISTICS_TITLE] + HOME_GAPS]
 fv_ = re.search(r'Version (\d+\.\d+) · (\d{1,2} [A-Z][a-z]+ 20\d\d) ·', block_text((ROOT / 'src' / 'released' / 'nonprofit' / 'Website_2026-11-14b' / 'funding-statement.html').read_text(encoding='utf-8')))
 if fv_: corpus_.append(f'Version {fv_.group(1)}, {fv_.group(2)}')   # the version line the home page's ledger gives, made from the released statement's own line
 corpus_text_ = ' | '.join(corpus_)
