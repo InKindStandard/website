@@ -48,9 +48,9 @@ FOOT = {'The work': [('materials/', 'Model documents'), ('could-receive/', 'What
         'This site': [('sponsors/', 'For sponsors and funders'), ('press/', 'Press and citation'), ('contact/', 'Contact'), ('privacy/', 'Privacy statement'), ('accessibility/', 'Accessibility statement')]}
 KEYS = {'title', 'tab', 'path', 'description', 'updated', 'budget', 'ceiling', 'release', 'nav', 'theirs'}
 KEPT = {'files', 'CNAME'}
-# The byline appears once on the site: the first line of the home page's section "Who prepares this work", placed there
-# with {{byline}} (decision sheet 2, E2 B, 12 November 2026). Every page's footer carries the status line.
-BYLINE = 'Prepared by Timothy Smith · Citizen-prepared working draft · Not legal advice'
+# The byline: since the founder's word of 18 November 2026, 16:26 it carries no name, and so reads as the status line every page's footer
+# carries; the home page no longer repeats it in "Who prepares this work". {{byline}} still places it, on the home page only.
+BYLINE = 'Citizen-prepared working draft · Not legal advice'   # without the founder's name since his word of 18 November 2026, 16:26: "It's available in other places that are still accessible"
 STATUS = 'Citizen-prepared working draft · Not legal advice'
 FORMATS = {'.txt': 'plain text', '.md': 'Markdown text'}
 # The known gaps, in the same words wherever they appear. A page places this notice with {{gaps}}.
