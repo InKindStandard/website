@@ -105,5 +105,690 @@
     "Every year"
    ]
   }
- ]
+ ],
+ "page": {
+  "read": "18 November 2026",
+  "commit": "f51bbfa1d2f411b2d96a1451f1fa000df34c5881",
+  "note": "Words saved from the Screen for the page What communities could receive, as the Screen drew them on the day read (tools/save_screen_words.py).",
+  "caution": "This page is not a county document. County staff should not use it to point community groups to a developer.",
+  "standards": {
+   "summary": "Standards: what every project must meet",
+   "lead": "A county does not need any agreement to protect residents. The framework's standards ordinance applies to every large data center, whether or not the developer signs anything, and it asks for no benefits and charges only fees that cover the county's own costs of review and inspection:",
+   "names": [
+    "Distance and screening",
+    "Water",
+    "Noise",
+    "Flood and sinkholes",
+    "Burials and archaeology",
+    "Fire and hazards",
+    "End of life",
+    "Generators, utilities and complaints",
+    "Public reporting"
+   ],
+   "numbers": "Every number in that ordinance is set by each county from its own studies. The ordinance bars the county from considering any agreement or gift when it decides an application, and from relaxing a standard or speeding up a review because of one (Sec. 16). Where the county keeps an optional rule, a denial may also rest on an uncured default in a mitigation duty under a development agreement the county signed that provides for that remedy, after the notice and cure it requires; such a denial is not reheard on that ground (Sec. 16(e)). Any other decision that considered an agreement or gift is reheard if the applicant or another party asks within the set time and points to the evidence. Choosing not to sign an agreement is a legitimate outcome. Timing: counties covered by a 2025 state law (SB 180 §28) generally cannot propose or adopt new, stricter land rules before 1 Oct 2027.",
+   "evidence": "Evidence: Drafted. The model ordinance has not been reviewed by a lawyer or adopted anywhere."
+  },
+  "groups": [
+   {
+    "title": "Drafted in the model instruments",
+    "count": 4,
+    "items": [
+     {
+      "id": "tap",
+      "sec": "County agreement, Module M2",
+      "name": "Emergency power for county facilities",
+      "verdict": "Fits provisionally",
+      "vsub": "Only as mitigation the county's impact study supports",
+      "hnote": "Mitigation, sized by the county's impact study. Nothing is delivered from the project site.",
+      "evLabel": "Our model text:",
+      "evStatus": "Drafted",
+      "evText": "Model text written; not yet reviewed by a lawyer",
+      "lead": "If the grid goes down for days, the emergency operations center and the other county emergency facilities the county's study names could keep their lights, cooling and radios running. At a shelter, the equipment is sized only for people evacuated because of an incident at the data center, not for hurricane sheltering. The equipment sits at the emergency facility, behind that facility's meter. The utility owns it, or the developer leases it to the county, or it is given to the county with money set aside to maintain it.",
+      "chips": [
+       "County item",
+       "Built or given once"
+      ],
+      "tried": "Tried elsewhere? We looked and found none"
+     },
+     {
+      "id": "fiber",
+      "sec": "Private agreement (CBA Clause Bank §8.4)",
+      "name": "Dark fiber to schools, colleges and clinics",
+      "verdict": "Works",
+      "vsub": null,
+      "hnote": "Private agreement between the developer and a community group; the county is not a party.",
+      "evLabel": "Our model text:",
+      "evStatus": "Drafted",
+      "evText": "Model text written; not yet reviewed by a lawyer",
+      "lead": "If your school, college or clinic is near the route, the developer may offer it fiber strands directly, under a private agreement. County-run buildings, including county libraries, cannot receive them this way. This does not bring internet service to your home.",
+      "chips": [
+       "Private agreement",
+       "Built or given once"
+      ],
+      "tried": "Tried elsewhere? Something similar, not with this kind of project"
+     },
+     {
+      "id": "compute",
+      "sec": "Private agreement (Model CBA Art. V); on county land, Module M3, Part 2",
+      "name": "Civic Compute Allocation",
+      "verdict": "Works with a condition",
+      "vsub": "Condition: the signer must own the computers or commit cloud capacity",
+      "hnote": "Private agreement between the developer and a community group; the county is not a party. On county-owned land, the county as landowner may take it as rent in kind.",
+      "evLabel": "Our model text:",
+      "evStatus": "Drafted",
+      "evText": "Model text written; not yet reviewed by a lawyer",
+      "lead": "Where the agreement chooses computing time, a state college, university or other institution that already runs computing hosts it, for residents, students, researchers, nonprofits and small businesses, for coursework, research or public data services.",
+      "chips": [
+       "Private agreement",
+       "County land lease",
+       "Every year"
+      ],
+      "tried": "Tried elsewhere? Only as a company gift, not a deal term"
+     },
+     {
+      "id": "heat",
+      "sec": "Private agreement (CBA Clause Bank §8.2)",
+      "name": "Right to take recovered heat",
+      "verdict": "Works with a condition",
+      "vsub": null,
+      "hnote": "Private agreement between the developer and a community group; the county is not a party. A connection point is not a county standard; the model agreement can require one where the county's impact study supports it.",
+      "evLabel": "Our model text:",
+      "evStatus": "Drafted",
+      "evText": "Model text written; not yet reviewed by a lawyer",
+      "lead": "Little on day one. The value appears if a greenhouse, fish farm or other heat user moves in next to the site or close by, which could support local food production.",
+      "chips": [
+       "Private agreement",
+       "Only when triggered"
+      ],
+      "tried": "Tried elsewhere? Only outside the US"
+     }
+    ]
+   },
+   {
+    "title": "Set aside: in the model instruments, not relied on",
+    "count": 4,
+    "items": [
+     {
+      "id": "conduit",
+      "sec": "County purchase §4.5",
+      "name": "Dig-once conduit the county buys at cost",
+      "verdict": "Not this kind of benefit",
+      "vsub": "A county purchase, not a benefit",
+      "hnote": "The county pays the added cost. Not a benefit or mitigation.",
+      "evLabel": "Our model text:",
+      "evStatus": "Drafted",
+      "evText": "Model text written; not yet reviewed by a lawyer",
+      "lead": "The county can pull its own fiber through conduit it bought at cost while the road was already open, instead of digging again later.",
+      "chips": [
+       "County purchase (not mitigation)",
+       "Built or given once"
+      ],
+      "tried": "Tried elsewhere? Something similar, not with this kind of project"
+     },
+     {
+      "id": "flex",
+      "sec": "County agreement, Exhibit S, Part S-22",
+      "name": "Demand flexibility and grid stabilization",
+      "verdict": "Not this kind of benefit",
+      "vsub": null,
+      "hnote": "Mitigation of grid impact. Not an in-kind item.",
+      "evLabel": "Our model text:",
+      "evStatus": "Drafted",
+      "evText": "Model text written; not yet reviewed by a lawyer",
+      "lead": "Indirectly, a steadier grid on the hottest days, which lowers the risk of rolling outages.",
+      "chips": [
+       "County item"
+      ],
+      "tried": ""
+     },
+     {
+      "id": "coloc",
+      "sec": "Private agreement or county land lease (Module M3, para. T-17)",
+      "name": "Preferred colocation and cabinet reservation",
+      "verdict": "Not this kind of benefit",
+      "vsub": "A priced service the recipient pays for",
+      "hnote": "Private agreement between the developer and a community group; the county is not a party. On county-owned land, it can also be a lease term.",
+      "evLabel": "Our model text:",
+      "evStatus": "Drafted",
+      "evText": "Model text written; not yet reviewed by a lawyer",
+      "lead": "The host institution can house, at a discounted price, servers it receives or buys for public use under the agreement, with better power, cooling and security than a server closet. A sales tax rule limits this: until the institution's own load at the site would reach 1 megawatt, its hardware stays elsewhere unless the state Department of Revenue advises otherwise (Module M3, para. T-17(e)).",
+      "chips": [
+       "Private agreement",
+       "County land lease"
+      ],
+      "tried": "Tried elsewhere? Only as a company gift, not a deal term"
+     },
+     {
+      "id": "refresh",
+      "sec": "Private agreement (CBA Clause Bank §8.3); county land lease (Module M3 Options, para. T-15)",
+      "name": "Right of first refusal on retired equipment",
+      "verdict": "Not this kind of benefit",
+      "vsub": "A right to buy at fair value",
+      "hnote": "Private agreement between the developer and a community group; the county is not a party. On county-owned land, it can also be a lease term.",
+      "evLabel": "Our model text:",
+      "evStatus": "Drafted",
+      "evText": "Model text written; not yet reviewed by a lawyer",
+      "lead": "Possibly real equipment for school labs and training programs, if the recipient decides to take it.",
+      "chips": [
+       "Private agreement",
+       "County land lease",
+       "Built or given once"
+      ],
+      "tried": "Tried elsewhere? Only as a company gift, not a deal term"
+     }
+    ],
+    "note": "These are in the model instruments but are not relied on as benefits. Each is a different kind of promise the test does not cover: demand flexibility is mitigation of grid impact, dig-once conduit is a county purchase, colocation is a service the recipient pays for, and the retired-equipment right is a right to buy at fair value. They stay listed so the public can see why."
+   },
+   {
+    "title": "Other items allowed in Florida (not county items)",
+    "count": 17,
+    "items": [
+     {
+      "id": "greenhouse",
+      "sec": "Private agreement (CBA Clause Bank §8.2)",
+      "name": "Waste heat for a community greenhouse",
+      "verdict": "Works with a condition",
+      "vsub": null,
+      "hnote": "Private agreement between the developer and a community group; the county is not a party. A connection point is not a county standard; the model agreement can require one where the county's impact study supports it.",
+      "evLabel": "Our model text:",
+      "evStatus": "Idea",
+      "evText": "Researched, not yet written as agreement text",
+      "lead": "Locally grown produce or seedlings, and possibly jobs or training at an operation that runs on the data center's heat.",
+      "chips": [
+       "Private agreement"
+      ],
+      "tried": "Tried elsewhere? Yes, elsewhere in the US"
+     },
+     {
+      "id": "germ",
+      "sec": "Private agreement only; not drafted",
+      "name": "Germination or propagation room",
+      "verdict": "Not settled yet",
+      "vsub": null,
+      "hnote": "Private agreement between the developer and a community group; the county is not a party.",
+      "evLabel": "Our model text:",
+      "evStatus": "Idea",
+      "evText": "Researched, not yet written as agreement text",
+      "lead": "Schools and community gardeners get a controlled room to start seedlings.",
+      "chips": [
+       "Private agreement"
+      ],
+      "tried": "Tried elsewhere? We looked and found none"
+     },
+     {
+      "id": "watermain",
+      "sec": "Utility purchase under its own rules",
+      "name": "Larger water or reclaimed water main in the developer's trench",
+      "verdict": "Not this kind of benefit",
+      "vsub": "A utility purchase, not a benefit",
+      "hnote": "The utility pays for the added size. Not a benefit, a condition of approval or mitigation.",
+      "evLabel": "",
+      "evStatus": "",
+      "evText": "",
+      "lead": "The utility that serves the site can pay the added cost of a larger pipe while the developer's trench is open, so the same pipe can later serve neighbors.",
+      "chips": [],
+      "tried": ""
+     },
+     {
+      "id": "backups",
+      "sec": "County purchase under its own rules",
+      "name": "County backups at the developer's site in another region",
+      "verdict": "Not this kind of benefit",
+      "vsub": "A county purchase, not a benefit",
+      "hnote": "The county pays for the space like any other customer. Not a benefit, a condition of approval or mitigation.",
+      "evLabel": "",
+      "evStatus": "",
+      "evText": "",
+      "lead": "If the developer also runs a data center far from the county, the county can buy space there for a copy of its records and systems, so one storm or attack is less likely to take out both.",
+      "chips": [],
+      "tried": ""
+     },
+     {
+      "id": "radiosite",
+      "sec": "County lease under its own rules",
+      "name": "County public-safety radio site on the developer's roof or land",
+      "verdict": "Not this kind of benefit",
+      "vsub": "A county lease, not a benefit",
+      "hnote": "The county pays rent like any other tenant. Not a benefit, a condition of approval or mitigation.",
+      "evLabel": "",
+      "evStatus": "",
+      "evText": "",
+      "lead": "If radio coverage is weak near the site, the county can rent space on the developer's roof or land for its radio equipment, as it would from any other owner.",
+      "chips": [],
+      "tried": ""
+     },
+     {
+      "id": "burial",
+      "sec": "Private agreement (CBA Clause Bank, form for §8.7, Heritage of the site)",
+      "name": "Descendant access to a burial ground on the site",
+      "verdict": "Works",
+      "vsub": null,
+      "hnote": "Private agreement between the developer and a community group; the county is not a party.",
+      "evLabel": "Our model text:",
+      "evStatus": "Drafted",
+      "evText": "Model text written; not yet reviewed by a lawyer",
+      "lead": "If your relatives are buried on the project site, you can reach the graves at set hours, or at other times with notice, with parking, though you may need an escort through secured areas; the cemetery is kept up and marked.",
+      "chips": [
+       "Private agreement"
+      ],
+      "tried": "Tried elsewhere? Something similar, not with this kind of project"
+     },
+     {
+      "id": "histsite",
+      "sec": "Private agreement only; not drafted",
+      "name": "Public access to a historic resource on the site",
+      "verdict": "Works",
+      "vsub": null,
+      "hnote": "Private agreement between the developer and a community group; the county is not a party.",
+      "evLabel": "Our model text:",
+      "evStatus": "Idea",
+      "evText": "Researched, not yet written as agreement text",
+      "lead": "On set days you can visit a historic building, site or landscape on the project's land.",
+      "chips": [
+       "Private agreement"
+      ],
+      "tried": "Tried elsewhere? Something similar, not with this kind of project"
+     },
+     {
+      "id": "shadetrees",
+      "sec": "Private agreement only; not drafted",
+      "name": "Shade trees beyond the tree code",
+      "verdict": "Works with a condition",
+      "vsub": null,
+      "hnote": "Private agreement between the developer and the owner of each planting site, such as a school board or a nonprofit; the county is not a party.",
+      "evLabel": "Our model text:",
+      "evStatus": "Idea",
+      "evText": "Researched, not yet written as agreement text",
+      "lead": "Shadier, cooler schoolyards and community grounds near the project.",
+      "chips": [
+       "Private agreement"
+      ],
+      "tried": "Tried elsewhere? Only as a company gift, not a deal term"
+     },
+     {
+      "id": "invasives",
+      "sec": "Private agreement only; not drafted",
+      "name": "Invasive plant control on neighboring public conservation land",
+      "verdict": "Works with a condition",
+      "vsub": null,
+      "hnote": "Private agreement between the developer and the land's manager, a state agency or a nonprofit; the county is not a party.",
+      "evLabel": "Our model text:",
+      "evStatus": "Idea",
+      "evText": "Researched, not yet written as agreement text",
+      "lead": "The public preserve next to the project gets more of its invasive plants treated each year, under its manager's plan.",
+      "chips": [
+       "Private agreement"
+      ],
+      "tried": "Tried elsewhere? Something similar, not with this kind of project"
+     },
+     {
+      "id": "habrestore",
+      "sec": "Private agreement only; not drafted",
+      "name": "Habitat restoration beyond required mitigation",
+      "verdict": "Works with a condition",
+      "vsub": null,
+      "hnote": "Private agreement between the developer and a land trust; the county is not a party.",
+      "evLabel": "Our model text:",
+      "evStatus": "Idea",
+      "evText": "Researched, not yet written as agreement text",
+      "lead": "Damaged wetlands or woods are restored and then protected under a land trust's conservation easement.",
+      "chips": [
+       "Private agreement"
+      ],
+      "tried": "Tried elsewhere? Something similar, not with this kind of project"
+     },
+     {
+      "id": "bldgpower",
+      "sec": "Private agreement (CBA Clause Bank §8.5)",
+      "name": "Backup power and communications at schools and community facilities",
+      "verdict": "Works",
+      "vsub": null,
+      "hnote": "Private agreement between the developer and a community group, with each facility's owner, such as a school board, accepting the equipment in writing; the county is not a party.",
+      "evLabel": "Our model text:",
+      "evStatus": "Drafted",
+      "evText": "Model text written; not yet reviewed by a lawyer",
+      "lead": "A school or community building near you keeps power for its critical needs for a set time during an outage, and where agreed its communications, including when it opens as a shelter.",
+      "chips": [
+       "Private agreement"
+      ],
+      "tried": "Tried elsewhere? Something similar, not with this kind of project"
+     },
+     {
+      "id": "bldgupgrade",
+      "sec": "Private agreement only; not drafted",
+      "name": "Efficiency and storm hardening of public buildings",
+      "verdict": "Works with a condition",
+      "vsub": null,
+      "hnote": "Private agreement between the developer and the building's owner, such as a school board, a university or a nonprofit; the county is not a party.",
+      "evLabel": "Our model text:",
+      "evStatus": "Idea",
+      "evText": "Researched, not yet written as agreement text",
+      "lead": "A school or other public building near you is better protected from storms and costs less to run.",
+      "chips": [
+       "Private agreement"
+      ],
+      "tried": "Tried elsewhere? Something similar, not with this kind of project"
+     },
+     {
+      "id": "sensorsite",
+      "sec": "Private agreement only; not drafted",
+      "name": "Site, power and data line for public environmental sensors",
+      "verdict": "Works with a condition",
+      "vsub": null,
+      "hnote": "Private agreement between the developer and the agency that owns the instruments; the county is not a party.",
+      "evLabel": "Our model text:",
+      "evStatus": "Idea",
+      "evText": "Researched, not yet written as agreement text",
+      "lead": "A public agency's rain, flood, weather or air instrument near the project, with readings open to the public.",
+      "chips": [
+       "Private agreement"
+      ],
+      "tried": "Tried elsewhere? Something similar, not with this kind of project"
+     },
+     {
+      "id": "pondwater",
+      "sec": "Private agreement, or a county purchase for a county site; not drafted",
+      "name": "Harvested stormwater for irrigation",
+      "verdict": "Works with a condition",
+      "vsub": null,
+      "hnote": "Private agreement between the developer and the owner of the receiving site, such as a school board or a nonprofit; for a county park or median, a county purchase of the water. Otherwise the county is not a party.",
+      "evLabel": "Our model text:",
+      "evStatus": "Idea",
+      "evText": "Researched, not yet written as agreement text",
+      "lead": "A school field or park near the project is watered from the project's stormwater pond, using less drinking water or well water, which stays as the backup in dry seasons.",
+      "chips": [
+       "Private agreement, or county purchase for a county site"
+      ],
+      "tried": "Tried elsewhere? Something similar, not with this kind of project"
+     },
+     {
+      "id": "firecrew",
+      "sec": "Private agreement only; not drafted",
+      "name": "Fire break and burn-crew access next to a preserve",
+      "verdict": "Works with a condition",
+      "vsub": null,
+      "hnote": "Private agreement between the developer and the preserve's manager, a state or federal agency or a land trust; the county is not a party.",
+      "evLabel": "Our model text:",
+      "evStatus": "Idea",
+      "evText": "Researched, not yet written as agreement text",
+      "lead": "The preserve next to the project can keep being burned on its schedule, which lowers the risk of a large wildfire nearby.",
+      "chips": [
+       "Private agreement"
+      ],
+      "tried": "Tried elsewhere? Something similar, not with this kind of project"
+     },
+     {
+      "id": "conseasement",
+      "sec": "Private agreement only; not drafted",
+      "name": "Conservation easement beyond required buffers",
+      "verdict": "Works with a condition",
+      "vsub": null,
+      "hnote": "Private agreement between the developer and a community group, with a land trust holding the easement; the county is not a party.",
+      "evLabel": "Our model text:",
+      "evStatus": "Idea",
+      "evText": "Researched, not yet written as agreement text",
+      "lead": "Woods, wetlands or fields near the site are kept undeveloped under a perpetual easement, with a land trust making sure they stay that way.",
+      "chips": [
+       "Private agreement"
+      ],
+      "tried": "Tried elsewhere? Something similar, not with this kind of project"
+     },
+     {
+      "id": "ixconnect",
+      "sec": "Private agreement only; not drafted",
+      "name": "Free space and connections for a nonprofit internet exchange",
+      "verdict": "Works with a condition",
+      "vsub": null,
+      "hnote": "Private agreement between the campus's operator and a nonprofit internet exchange; no local government or school district receives it, and the county is not a party.",
+      "evLabel": "Our model text:",
+      "evStatus": "Idea",
+      "evText": "Researched, not yet written as agreement text",
+      "lead": "Networks in your region can trade traffic nearby, through a nonprofit exchange, which can keep local traffic local and lower networks' costs.",
+      "chips": [
+       "Private agreement"
+      ],
+      "tried": "Tried elsewhere? Only outside the US"
+     }
+    ]
+   },
+   {
+    "title": "Not allowed in Florida (for comparison)",
+    "count": 11,
+    "items": [
+     {
+      "id": "power",
+      "sec": "State law does not allow this",
+      "name": "A share of power for public buildings",
+      "verdict": "State law does not allow this",
+      "vsub": "Blocked in Florida",
+      "hnote": null,
+      "evLabel": "",
+      "evStatus": "",
+      "evText": "",
+      "lead": "If Florida allowed it: Lower power bills at schools and public buildings, so public budgets go further.",
+      "chips": [],
+      "tried": ""
+     },
+     {
+      "id": "cc_wage",
+      "sec": "State law does not allow this",
+      "name": "Wage floor written into a development agreement",
+      "verdict": "State law does not allow this",
+      "vsub": "Blocked in Florida",
+      "hnote": null,
+      "evLabel": "",
+      "evStatus": "",
+      "evText": "",
+      "lead": "If Florida allowed it: A guaranteed pay floor if you work at or for the facility.",
+      "chips": [],
+      "tried": ""
+     },
+     {
+      "id": "cc_health",
+      "sec": "State law does not allow this",
+      "name": "Health insurance for the facility's workers written into a development agreement",
+      "verdict": "State law does not allow this",
+      "vsub": "Blocked in Florida",
+      "hnote": null,
+      "evLabel": "",
+      "evStatus": "",
+      "evText": "",
+      "lead": "If Florida allowed it: Health coverage if you work at or for the facility.",
+      "chips": [],
+      "tried": ""
+     },
+     {
+      "id": "cc_sever",
+      "sec": "State law does not allow this",
+      "name": "Severance for workers whose jobs are automated, written into a development agreement",
+      "verdict": "State law does not allow this",
+      "vsub": "Blocked in Florida",
+      "hnote": null,
+      "evLabel": "",
+      "evStatus": "",
+      "evText": "",
+      "lead": "If Florida allowed it: Severance pay if your job at the facility is automated away.",
+      "chips": [],
+      "tried": ""
+     },
+     {
+      "id": "cc_retrain",
+      "sec": "State law does not allow this",
+      "name": "Paid retraining and first right to new roles for workers whose jobs are automated, written into a development agreement",
+      "verdict": "State law does not allow this",
+      "vsub": "Blocked in Florida",
+      "hnote": null,
+      "evLabel": "",
+      "evStatus": "",
+      "evText": "",
+      "lead": "If Florida allowed it: Paid retraining and first claim on new jobs at the site if automation ends yours.",
+      "chips": [],
+      "tried": ""
+     },
+     {
+      "id": "cc_leave",
+      "sec": "State law does not allow this",
+      "name": "Paid sick and family leave for the facility's workers, written into a development agreement",
+      "verdict": "State law does not allow this",
+      "vsub": "Blocked in Florida",
+      "hnote": null,
+      "evLabel": "",
+      "evStatus": "",
+      "evText": "",
+      "lead": "If Florida allowed it: Paid days off when you or your family are sick.",
+      "chips": [],
+      "tried": ""
+     },
+     {
+      "id": "cc_retire",
+      "sec": "State law does not allow this",
+      "name": "Retirement contributions for the facility's workers, written into a development agreement",
+      "verdict": "State law does not allow this",
+      "vsub": "Blocked in Florida",
+      "hnote": null,
+      "evLabel": "",
+      "evStatus": "",
+      "evText": "",
+      "lead": "If Florida allowed it: Employer contributions toward your retirement.",
+      "chips": [],
+      "tried": ""
+     },
+     {
+      "id": "cc_hire",
+      "sec": "State law does not allow this",
+      "name": "Hiring from hard-hit neighborhoods on public construction",
+      "verdict": "State law does not allow this",
+      "vsub": "Blocked in Florida",
+      "hnote": null,
+      "evLabel": "",
+      "evStatus": "",
+      "evText": "",
+      "lead": "If Florida allowed it: A real path into a construction apprenticeship if you live in a hard-hit neighborhood.",
+      "chips": [],
+      "tried": ""
+     },
+     {
+      "id": "cc_rent",
+      "sec": "State law does not allow this",
+      "name": "Below-market space for child care, nonprofits and makers",
+      "verdict": "State law does not allow this",
+      "vsub": "Blocked in Florida",
+      "hnote": null,
+      "evLabel": "",
+      "evStatus": "",
+      "evText": "",
+      "lead": "If Florida allowed it: Affordable child care or program space close to home.",
+      "chips": [],
+      "tried": ""
+     },
+     {
+      "id": "cc_exact",
+      "sec": "State law does not allow this",
+      "name": "Benefits in a signed agreement protected from later exaction suits",
+      "verdict": "State law does not allow this",
+      "vsub": "Not available in Florida",
+      "hnote": null,
+      "evLabel": "",
+      "evStatus": "",
+      "evText": "",
+      "lead": "If Florida allowed it: Terms in a signed agreement could not later be undone by a lawsuit.",
+      "chips": [],
+      "tried": ""
+     },
+     {
+      "id": "hist_coast",
+      "sec": "State law does not allow this",
+      "name": "Saving an older coastal building from demolition",
+      "verdict": "State law does not allow this",
+      "vsub": "Blocked in Florida for qualifying coastal structures",
+      "hnote": null,
+      "evLabel": "",
+      "evStatus": "",
+      "evText": "",
+      "lead": "If Florida allowed it: The county could review, and possibly stop, the demolition of an older beach-area building you know.",
+      "chips": [],
+      "tried": ""
+     }
+    ]
+   }
+  ],
+  "law": {
+   "title": "What Florida law does not let counties require from a data center",
+   "count_line": "12 of these apply to data centers.",
+   "intro": "Some items on this page cannot be required by a Florida county because a state law has taken the subject away from counties. A private agreement between the developer and a community group can carry some of them, such as protections for the developer's own workers, because these laws limit counties, not private parties. The county is not part of any such agreement. A single act such as a staff mention likely does not draw it in by itself, but an approval, its terms or its timing that turns on the agreement does (Open Legal Questions, Question 1).",
+   "describes": "It describes; it does not recommend a change.",
+   "groups": [
+    {
+     "title": "State law does not allow these",
+     "count": 11,
+     "note": "A Florida law takes this subject away from counties.",
+     "items": [
+      {
+       "name": "A share of power for public buildings",
+       "would": "What it would do: Lower power bills at schools and public buildings, so public budgets go further."
+      },
+      {
+       "name": "Wage floor written into a development agreement",
+       "would": "What it would do: A guaranteed pay floor if you work at or for the facility."
+      },
+      {
+       "name": "Health insurance for the facility's workers written into a development agreement",
+       "would": "What it would do: Health coverage if you work at or for the facility."
+      },
+      {
+       "name": "Severance for workers whose jobs are automated, written into a development agreement",
+       "would": "What it would do: Severance pay if your job at the facility is automated away."
+      },
+      {
+       "name": "Paid retraining and first right to new roles for workers whose jobs are automated, written into a development agreement",
+       "would": "What it would do: Paid retraining and first claim on new jobs at the site if automation ends yours."
+      },
+      {
+       "name": "Paid sick and family leave for the facility's workers, written into a development agreement",
+       "would": "What it would do: Paid days off when you or your family are sick."
+      },
+      {
+       "name": "Retirement contributions for the facility's workers, written into a development agreement",
+       "would": "What it would do: Employer contributions toward your retirement."
+      },
+      {
+       "name": "Hiring from hard-hit neighborhoods on public construction",
+       "would": "What it would do: A real path into a construction apprenticeship if you live in a hard-hit neighborhood."
+      },
+      {
+       "name": "Below-market space for child care, nonprofits and makers",
+       "would": "What it would do: Affordable child care or program space close to home."
+      },
+      {
+       "name": "Benefits in a signed agreement protected from later exaction suits",
+       "would": "What it would do: Terms in a signed agreement could not later be undone by a lawsuit."
+      },
+      {
+       "name": "Saving an older coastal building from demolition",
+       "would": "What it would do: The county could review, and possibly stop, the demolition of an older beach-area building you know."
+      }
+     ]
+    },
+    {
+     "title": "State law may not allow these",
+     "count": 1,
+     "note": "A Florida law may take this subject away from counties. The question is open and no court has decided it, but on balance the law leans that way.",
+     "items": [
+      {
+       "name": "Banning groundwater for cooling where a supplier pumps it or the data center is under 50 megawatts",
+       "would": null
+      }
+     ]
+    }
+   ]
+  },
+  "not_this": {
+   "title": "What this is not",
+   "text": "Passing the test only means an item is not ruled out. It does not mean the item is lawful in a given county, wanted by whoever would receive it, agreed to by a developer, or worth a set amount. Each county item still needs its own written link to the impacts in the county's study, a value, and review by the county attorney. A private agreement item needs the community group's own counsel; the county does not review it."
+  },
+  "descriptions": {
+   "title": "About the descriptions",
+   "text": "The one-line descriptions and \"For your community\" notes explain what each item is for. They are not estimates of value. What a resident actually gets depends on who receives the item, the site and the terms agreed."
+  }
+ }
 }
