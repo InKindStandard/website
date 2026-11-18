@@ -1,0 +1,109 @@
+{
+ "source": {
+  "page": "https://screen.inkindstandard.org/",
+  "repository": "https://github.com/InKindStandard/florida-data-center-screen",
+  "commit": "f51bbfa1d2f411b2d96a1451f1fa000df34c5881",
+  "read": "17 November 2026",
+  "note": "Words saved from the Screen as it stood on the day read, so that the check can hold every quoted word. The data center project and the Core project own them."
+ },
+ "version_line": "Version 12 Nov 2026, following Release 2026.4 of the model instruments (published 6 Nov 2026, doi:10.5281/zenodo.24021154; not reviewed by a lawyer) · County status as of 5 Nov 2026 · Laws checked 6 Nov 2026 · Free to use; this page collects nothing about you",
+ "heading": "What a data center project could provide, and where each item goes",
+ "county_line": "A county does not need any agreement to protect residents.",
+ "labels": {
+  "actions": "data center actions on record from {jurisdictions} counties and cities",
+  "delivered": "provisions delivered and confirmed",
+  "none_delivered": "No benefits under these model instruments have been delivered in Florida."
+ },
+ "legend": {
+  "read": "18 November 2026",
+  "commit": "f51bbfa1d2f411b2d96a1451f1fa000df34c5881",
+  "heading": "What the colored labels mean",
+  "anchor": "lg-cards",
+  "state_law": {
+   "label": "State law does not allow this",
+   "line": "A Florida law takes the subject away from counties. Shown for comparison only."
+  },
+  "passing": "Passing the test only means an item is not ruled out. It does not mean the item is lawful in a given county, wanted by whoever would receive it, agreed to by a developer, or worth a set amount."
+ },
+ "homes": [
+  {
+   "key": "std",
+   "name": "Standards",
+   "line": "Every project must meet the county's standards."
+  },
+  {
+   "key": "item",
+   "name": "County item",
+   "line": "The county can charge an impact fee, or use a development agreement, to cover what is needed to handle the impacts its own impact study measures, such as backup power at county facilities."
+  },
+  {
+   "key": "lease",
+   "name": "County land lease",
+   "line": "On land the county owns, the county also sets the rent: cash rent at full market value, with rent paid in kind possible on top."
+  },
+  {
+   "key": "priv",
+   "name": "Private agreement",
+   "line": "Other benefits, such as computing time or training seats, can come only from a private agreement between the developer and a community group. The county is not a party to that agreement."
+  }
+ ],
+ "counts": {
+  "items": 36,
+  "state_law_does_not_allow": 11,
+  "actions": 31,
+  "jurisdictions": 31,
+  "provisions_delivered": 0
+ },
+ "counts_note": "The 36 items and the 11 that State law does not allow were counted again on 18 November 2026 from the Screen's source at this commit: its filters read All 36 and Not allowed in Florida 11, and its 36 cards carry 11 State-law labels. The Core project confirms them with its release of the record.",
+ "items": [
+  {
+   "id": "tap",
+   "sec": "County agreement, Module M2",
+   "name": "Emergency power for county facilities",
+   "verdict": "Fits provisionally",
+   "vsub": "Only as mitigation the county's impact study supports",
+   "hnote": "Mitigation, sized by the county's impact study. Nothing is delivered from the project site.",
+   "evLabel": "Our model text:",
+   "evStatus": "Drafted",
+   "evText": "Model text written; not yet reviewed by a lawyer",
+   "lead": "If the grid goes down for days, the emergency operations center and the other county emergency facilities the county's study names could keep their lights, cooling and radios running. At a shelter, the equipment is sized only for people evacuated because of an incident at the data center, not for hurricane sheltering. The equipment sits at the emergency facility, behind that facility's meter. The utility owns it, or the developer leases it to the county, or it is given to the county with money set aside to maintain it.",
+   "chips": [
+    "County item",
+    "Built or given once"
+   ]
+  },
+  {
+   "id": "fiber",
+   "sec": "Private agreement (CBA Clause Bank §8.4)",
+   "name": "Dark fiber to schools, colleges and clinics",
+   "verdict": "Works",
+   "vsub": null,
+   "hnote": "Private agreement between the developer and a community group; the county is not a party.",
+   "evLabel": "Our model text:",
+   "evStatus": "Drafted",
+   "evText": "Model text written; not yet reviewed by a lawyer",
+   "lead": "If your school, college or clinic is near the route, the developer may offer it fiber strands directly, under a private agreement. County-run buildings, including county libraries, cannot receive them this way. This does not bring internet service to your home.",
+   "chips": [
+    "Private agreement",
+    "Built or given once"
+   ]
+  },
+  {
+   "id": "compute",
+   "sec": "Private agreement (Model CBA Art. V); on county land, Module M3, Part 2",
+   "name": "Civic Compute Allocation",
+   "verdict": "Works with a condition",
+   "vsub": "Condition: the signer must own the computers or commit cloud capacity",
+   "hnote": "Private agreement between the developer and a community group; the county is not a party. On county-owned land, the county as landowner may take it as rent in kind.",
+   "evLabel": "Our model text:",
+   "evStatus": "Drafted",
+   "evText": "Model text written; not yet reviewed by a lawyer",
+   "lead": "Where the agreement chooses computing time, a state college, university or other institution that already runs computing hosts it, for residents, students, researchers, nonprofits and small businesses, for coursework, research or public data services.",
+   "chips": [
+    "Private agreement",
+    "County land lease",
+    "Every year"
+   ]
+  }
+ ]
+}
