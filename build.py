@@ -41,9 +41,9 @@ def zenodo_list(name):
     return z
 # The menu, in the frame's order (frame v0.6, section 4). A page is listed here only once it is live. "@screen" is the Screen's own page,
 # at the address in src/screen.json ("Public records" in the menu). The reader links stand above the menu, and the footer has three lists.
-NAV = [('materials/', 'Model documents'), ('@screen', 'Public records')]
+NAV = [('materials/', 'Model documents'), ('could-receive/', 'What communities could receive'), ('@screen', 'Public records')]   # frame v0.6, section 4: a page joins the menu once it is live
 READERS = [('contact/', 'Contact')]
-FOOT = {'The work': [('materials/', 'Model documents'), ('@screen', 'Public records')],
+FOOT = {'The work': [('materials/', 'Model documents'), ('could-receive/', 'What communities could receive'), ('@screen', 'Public records')],
         'The project': [('funding/', 'Who pays for the work')],
         'This site': [('contact/', 'Contact'), ('privacy/', 'Privacy statement'), ('accessibility/', 'Accessibility statement')]}
 KEYS = {'title', 'tab', 'path', 'description', 'updated', 'budget', 'ceiling', 'release', 'nav', 'theirs'}
@@ -114,7 +114,8 @@ def published(release):
 
 ICONS = json.loads((SRC / 'icons.json').read_text(encoding='utf-8'))['icons']
 HOME_ICON = {'std': 'STD', 'item': 'ITEM', 'lease': 'LEASE', 'priv': 'PRIV'}
-VERDICT = {'Works': 'ok', 'Works with a condition': 'cond', 'Fits provisionally': 'prov'}   # the classes of the verdicts the home page shows; any other verdict stops the build until its class is chosen
+VERDICT = {'Works': 'ok', 'Works with a condition': 'cond', 'Fits provisionally': 'prov', 'Not settled yet': 'prov', 'Not this kind of benefit': 'na',
+           'State law does not allow this': 'no'}   # the class of each of the Screen's verdicts; any other verdict stops the build until its class is chosen
 
 
 def release_json(rel):
@@ -239,19 +240,27 @@ def home_diagram(root, index):
             + '</svg></div>')
 
 
+def item_card(it, page=False):
+    """One of the Screen's cards, closed to its section, name, verdict, homes and condition, with what it would do in a fold and how far its model text has got
+    under it (decision sheet 15, X2 A and X3 A). On the page What communities could receive (page=True), the fold's title is marked as the Screen's own label,
+    the status lines appear only where the card has them, and the card adds the Screen's line "Tried elsewhere?" (frame v0.6, section 6.1)."""
+    e = html.escape
+    conds = ''.join(f'<p class="cond theirs">{e(x)}</p>' for x in (it['vsub'], it['hnote']) if x)   # the condition and the home note, each on a line of its own, as the record has them (run 19, N1)
+    chips = ''.join(f'<span class="chip theirs">{e(c)}</span>' for c in it['chips'])
+    meta = [f'<p class="ev theirs">{e(it["evLabel"])} {e(it["evStatus"])}</p><p class="evnote theirs">{e(it["evText"])}</p>'] if it['evStatus'] or not page else []
+    if page and it.get('tried'):
+        meta.append(f'<p class="evnote theirs">{e(it["tried"])}</p>')
+    summary = '<summary class="theirs">What it would do</summary>' if page else '<summary>What it would do</summary>'
+    return ('<article class="item" data-reveal>'
+            f'<p class="kick theirs">{e(it["sec"])}</p><h3 class="theirs">{e(it["name"])}</h3>'
+            f'<div class="tags"><span class="vd {VERDICT[it["verdict"]]} theirs">{e(it["verdict"])}</span>{chips}</div>'
+            f'{conds}'
+            f'<details class="more" open data-fold>{summary}<p class="theirs">{e(it["lead"])}</p></details>'
+            + (f'<div class="meta">{"".join(meta)}</div>' if meta else '') + '</article>')
+
+
 def home_items(root, index):
-    s = saved_screen(); e = html.escape
-    out = ['<div class="items">']
-    for it in s['items']:
-        conds = ''.join(f'<p class="cond theirs">{e(x)}</p>' for x in (it['vsub'], it['hnote']) if x)   # the condition and the home note, each on a line of its own, as the record has them (run 19, N1)
-        chips = ''.join(f'<span class="chip theirs">{e(c)}</span>' for c in it['chips'])
-        out.append('<article class="item" data-reveal>'
-                   f'<p class="kick theirs">{e(it["sec"])}</p><h3 class="theirs">{e(it["name"])}</h3>'
-                   f'<div class="tags"><span class="vd {VERDICT[it["verdict"]]} theirs">{e(it["verdict"])}</span>{chips}</div>'
-                   f'{conds}'
-                   f'<details class="more" open data-fold><summary>What it would do</summary><p class="theirs">{e(it["lead"])}</p></details>'
-                   f'<div class="meta"><p class="ev theirs">{e(it["evLabel"])} {e(it["evStatus"])}</p><p class="evnote theirs">{e(it["evText"])}</p></div></article>')
-    return '\n'.join(out + ['</div>'])
+    return '\n'.join(['<div class="items">'] + [item_card(it) for it in saved_screen()['items']] + ['</div>'])
 
 
 def home_numbers(root, index):
@@ -429,10 +438,73 @@ def ledger_screen(root, index):
     return f'<span class="theirs">{html.escape(ver)}</span>'
 
 
+def home_all_link(root, index):
+    """Home's link to the page with every item (frame v0.6, section 5, row 2). The number is the Screen's count, not typed."""
+    return f'<a class="btn btn-2" href="{root}could-receive/{index}">All {saved_screen()["counts"]["items"]} items</a>'
+
+
+# The page What communities could receive (frame v0.6, sections 4 and 6.1; decision sheet 17, T4): the Screen's words as saved by tools/save_screen_words.py
+# under the key "page" of src/screen_saved.json, in the Screen's own order. The check holds every quoted word to that copy.
+def cr_page():
+    p = saved_screen()['page']
+    if [i['name'] for i in p['groups'][3]['items']] != [i['name'] for i in p['law']['groups'][0]['items']]:
+        sys.exit('src/screen_saved.json: the cards State law does not allow are not the items of the law section\'s first group; the page shows them there only')
+    return p
+
+
+def cr_caution(root, index):
+    return f'<p class="muted read theirs">{html.escape(cr_page()["caution"])}</p>'
+
+
+def cr_standards(root, index):
+    """The standards every project must meet, by their names, as the Screen opens its list of them; the full text of each is on the Screen and in the model documents."""
+    s = saved_screen(); st = cr_page()['standards']; e = html.escape
+    first, rest = st['lead'].split('. ', 1)
+    if first + '.' != s['county_line']:
+        sys.exit('src/screen_saved.json: the standards\' paragraph no longer opens with the county line')
+    return (f'<p class="eyebrow theirs">{e(st["summary"])}</p><h2 class="theirs">{e(first)}.</h2><p class="lead theirs">{e(rest)}</p>'
+            '<ul>' + ''.join(f'<li class="theirs">{e(n)}</li>' for n in st['names']) + '</ul>'
+            f'<p class="theirs">{e(st["numbers"])}</p><p class="muted theirs">{e(st["evidence"])}</p>'
+            f'<p><a href="{e(s["source"]["page"])}">Each standard in full, on the public record</a></p>')
+
+
+def cr_jump(root, index):
+    p = cr_page(); e = html.escape
+    links = [(f'#g{n}', g['title'], g['count']) for n, g in enumerate(p['groups'][:3], 1)] + [('#law', p['law']['groups'][0]['title'], p['law']['groups'][0]['count'])]
+    return '<ul>' + ''.join(f'<li><a href="{h}"><span class="theirs">{e(t)}</span> ({c})</a></li>' for h, t, c in links) + '</ul>'
+
+
+def cr_groups(root, index):
+    """The cards of the items allowed in Florida, in the Screen's groups and order. The items State law does not allow are under the law (cr_law), in its words."""
+    e = html.escape; out = []
+    for n, g in enumerate(cr_page()['groups'][:3], 1):
+        note = f'<p class="muted theirs">{e(g["note"])}</p>' if g.get('note') else ''
+        out.append(f'<div class="sec-head-sub" id="g{n}"><h3><span class="theirs">{e(g["title"])}</span> ({g["count"]})</h3>{note}</div>'
+                   '<div class="items">' + '\n'.join(item_card(it, page=True) for it in g['items']) + '</div>')
+    return '\n'.join(out)
+
+
+def cr_law(root, index):
+    L = cr_page()['law']; e = html.escape
+    out = [f'<h2 class="theirs">{e(L["title"])}</h2><p class="theirs"><strong>{e(L["count_line"])}</strong></p><p class="read theirs">{e(L["intro"])}</p>']
+    out.append('<div class="card">')   # one card for both groups, so that the short one does not stand as a tall empty box beside the long one
+    for g, cls in zip(L['groups'], ('no', 'na')):
+        out.append(f'<h3><span class="vd {cls} theirs">{e(g["title"])}</span> ({g["count"]})</h3><p class="muted theirs">{e(g["note"])}</p><ul>'
+                   + ''.join(f'<li><p class="theirs"><strong>{e(i["name"])}</strong></p>' + (f'<p class="theirs">{e(i["would"])}</p>' if i['would'] else '') + '</li>' for i in g['items'])
+                   + '</ul>')
+    return '\n'.join(out + ['</div>'])
+
+
+def cr_not(root, index):
+    s = saved_screen(); n = cr_page()['not_this']; e = html.escape
+    return f'<div class="gaps"><h2 class="theirs">{e(n["title"])}</h2><p class="theirs">{e(n["text"])}</p><p class="theirs">{e(s["labels"]["none_delivered"])}</p></div>'
+
+
 MAKERS = {'ledger-release': ledger_release, 'ledger-screen': ledger_screen, 'home-release': home_release, 'materials-release': materials_release, 'home-homes': home_homes, 'home-diagram': home_diagram,
           'home-items': home_items, 'home-numbers': home_numbers, 'guide-steps': guide_steps, 'begin': begin_list,
           'docs-instruments': docs_list('instruments'), 'docs-guide': docs_list('guide'), 'releases': releases_table, 'cite': cite_list,
-          'home-items-heading': home_items_heading, 'home-law-line': home_law_line, 'home-items-note': home_items_note, 'home-labels': home_labels, 'releases-heading': releases_heading}
+          'home-items-heading': home_items_heading, 'home-law-line': home_law_line, 'home-items-note': home_items_note, 'home-labels': home_labels, 'releases-heading': releases_heading,
+          'home-all-link': home_all_link, 'cr-caution': cr_caution, 'cr-standards': cr_standards, 'cr-jump': cr_jump, 'cr-groups': cr_groups, 'cr-law': cr_law, 'cr-not': cr_not}
 
 
 def link_href(target, root, index):
