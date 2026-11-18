@@ -15,14 +15,15 @@ import html.parser, pathlib, re, sys
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 PUB = ROOT / 'docs'
 HEAD = {'h1': '# ', 'h2': '## ', 'h3': '### ', 'h4': '#### '}
-BLOCK = {'p', 'li', 'h1', 'h2', 'h3', 'h4', 'div', 'ul', 'ol', 'footer', 'main', 'section'}
+BLOCK = {'p', 'li', 'h1', 'h2', 'h3', 'h4', 'div', 'ul', 'ol', 'footer', 'main', 'section', 'article', 'details', 'summary', 'table', 'tr', 'td', 'th', 'dl', 'dt', 'dd', 'figure', 'figcaption'}   # each starts a new line, so that two cells or a term and its meaning are never run together
 VOID = {'meta', 'link', 'img', 'br', 'hr', 'input', 'source', 'path', 'wbr'}
+INLINE = {'span', 'a', 'b', 'strong', 'em', 'i', 'code', 'time'}   # two of these side by side with no space between them are shown apart (a label and its text), so a space is put between them here
 
 
 class Text(html.parser.HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.out, self.line, self.stack, self.title, self.in_title = [], '', [], '', False
+        self.out, self.line, self.stack, self.title, self.in_title, self.after_inline = [], '', [], '', False, False
     def hidden(self):
         return any(h for _, h in self.stack)
     def shown(self):
@@ -38,16 +39,20 @@ class Text(html.parser.HTMLParser):
         if tag == 'title': self.in_title = True
         if tag in BLOCK: self.flush()
         if self.shown():
+            if tag in INLINE and self.after_inline and self.line and not self.line.endswith(' '): self.line += ' '
             if tag in HEAD: self.line = HEAD[tag]
             if tag == 'li': self.line = '- '
             if 'print-only' in cls: self.line += '[on paper only] '
     def handle_endtag(self, tag):
+        if tag in VOID or tag not in [t for t, _ in self.stack]: return   # a self-closing <path/> or <br/> reaches here with no start tag kept; an end tag nothing opened is ignored
         if tag == 'title': self.in_title = False
         if tag in BLOCK: self.flush()
         while self.stack and self.stack[-1][0] != tag: self.stack.pop()
         if self.stack: self.stack.pop()
+        self.after_inline = tag in INLINE
     def handle_data(self, data):
         if self.in_title: self.title += data
+        if data.strip(): self.after_inline = False
         if self.shown(): self.line += data
 
 

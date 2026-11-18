@@ -1,0 +1,16 @@
+{
+ "about": "Line icons drawn for the site, each naming a thing (a home, a party, a reader). Drawn on a 24 by 24 grid, stroked in the text color. Design v1 of 17 November 2026, taken in with decision sheet 15, X1 A. CC0 1.0, as the site code.",
+ "icons": {
+  "STD": "<path d=\"M9 4.5h6V7H9z\"/><path d=\"M9 5.5H6v15h12v-15h-3\"/><path d=\"M9 13.2l2.1 2.1 4-4.3\"/>",
+  "ITEM": "<path d=\"M12 3.2l7 2.8v5.4c0 4.3-2.9 7.7-7 9.4-4.1-1.7-7-5.1-7-9.4V6z\"/><path d=\"M9 12.1l2.1 2.1 4-4.3\"/>",
+  "LEASE": "<circle cx=\"8\" cy=\"15\" r=\"3.6\"/><path d=\"M10.7 12.4L19.5 3.6\"/><path d=\"M15.4 7.7l2.6 2.6\"/><path d=\"M18 5.1l2 2\"/>",
+  "PRIV": "<circle cx=\"8\" cy=\"8.6\" r=\"2.7\"/><circle cx=\"16.4\" cy=\"8.6\" r=\"2.7\"/><path d=\"M3 19.4c.4-3.2 2.3-5 5-5s4.6 1.8 5 5\"/><path d=\"M13.6 14.9c.8-.4 1.7-.5 2.8-.5 2.7 0 4.6 1.8 5 5\"/>",
+  "COUNTY": "<path d=\"M3.5 9.2L12 4l8.5 5.2\"/><path d=\"M5.5 9.5v8.5M10 9.5v8.5M14 9.5v8.5M18.5 9.5v8.5\"/><path d=\"M3.5 20.2h17\"/>",
+  "DEV": "<rect x=\"4.5\" y=\"4\" width=\"15\" height=\"16\" rx=\"1.6\"/><path d=\"M4.5 9.3h15M4.5 14.7h15\"/><path d=\"M7.6 6.7h.01M7.6 12h.01M7.6 17.3h.01\"/>",
+  "GROUP": "<circle cx=\"12\" cy=\"8\" r=\"2.8\"/><path d=\"M6.6 19.5c.4-3.4 2.5-5.3 5.4-5.3s5 1.9 5.4 5.3\"/><circle cx=\"5.2\" cy=\"10.2\" r=\"2\"/><path d=\"M1.8 18c.3-2.2 1.5-3.5 3.3-3.7\"/><circle cx=\"18.8\" cy=\"10.2\" r=\"2\"/><path d=\"M22.2 18c-.3-2.2-1.5-3.5-3.3-3.7\"/>",
+  "HOME": "<path d=\"M3.8 11.2L12 4l8.2 7.2\"/><path d=\"M6 9.8V20h12V9.8\"/><path d=\"M10 20v-5.6h4V20\"/>",
+  "NEWS": "<path d=\"M6 3.6h8.6L18 7v13.4H6z\"/><path d=\"M14.4 3.8v3.4h3.4\"/><path d=\"M9 11.4h6M9 14.6h6M9 17.6h3.4\"/>",
+  "CHECK": "<path d=\"M4.2 6.2l1.5 1.5 2.6-2.9\"/><path d=\"M4.2 12.2l1.5 1.5 2.6-2.9\"/><path d=\"M4.2 18.2l1.5 1.5 2.6-2.9\"/><path d=\"M11.5 6.6h8.3M11.5 12.6h8.3M11.5 18.6h8.3\"/>",
+  "MENU": "<path d=\"M4 7h16M4 12h16M4 17h16\"/>"
+ }
+}

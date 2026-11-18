@@ -36,7 +36,7 @@ zen = json.loads((ROOT / 'src' / 'releases' / f'{rel}.zenodo.json').read_text(en
 have = {k: {f['name'] for f in r['files']} for k, r in zen['records'].items()}
 def read(p):
     if not (files / p).is_file():
-        sys.exit(f'Release {rel}: the file {p} is not in docs/files/{rel}/. Each release names its own change log (CHANGELOG_v{rel}.md).')
+        sys.exit(f'Release {rel}: the file {p} is not in docs/files/{rel}/.' + (f' Each release names its own change log (CHANGELOG_v{rel}.md).' if 'CHANGELOG' in p else ' Put the release\'s files there first, unchanged.'))   # the hint on the change log only where the change log is the file missing (run 20, Note 1)
     return (files / p).read_text(encoding='utf-8')
 start, manifest, changelog = read('instruments/000_START_HERE.md'), read('instruments/002_MANIFEST.txt'), read(f'instruments/CHANGELOG_v{rel}.md')
 

@@ -4,32 +4,47 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <title>{{title_tag}}</title>
 <meta name="description" content="{{description}}">
 <link rel="stylesheet" href="{{root}}assets/site.css">
+<script src="{{root}}assets/site.js"></script>
 <link rel="icon" href="{{root}}assets/favicon.ico" sizes="16x16 32x32 48x48">
 </head>
 <body>
 <a class="skip" href="#main">Skip to the main text</a>
-<header class="band">
-<div class="wrap band-in">
-<a class="brand" href="{{home}}" aria-label="In-Kind Standard, home page">{{logo}}</a>
-<nav aria-label="Main">{{nav}}</nav>
+<header class="mast">
+<div class="wrap mast-top">
+<a class="brand" href="{{home}}">{{mark}}<span><span class="brand-name">In-Kind Standard</span> <span class="brand-sub">Model documents and public records</span></span><span class="vh"> home page</span></a>
+<div class="util">
+<nav aria-label="For particular readers">{{readers}}</nav>
+</div>
+<details class="mnav">
+<summary><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg>Menu</summary>
+<nav aria-label="Main, at phone width">{{navphone}}</nav>
+</details>
+</div>
+<div class="mast-nav">
+<nav class="wrap nav" aria-label="Main">{{nav}}</nav>
 </div>
 </header>
-<main id="main" class="wrap">
+<main id="main">
 {{body}}
-<p class="updated">Page updated {{updated}}.</p>
+<div class="wrap"><p class="updated">Page updated {{updated}}.</p></div>
 </main>
 <footer class="foot">
 <div class="wrap">
-<p class="byline">{{footline}}</p>
-<p class="gaps"><strong>Known gaps:</strong> {{gaps_line}}</p>
-<p>Write to <a href="mailto:contact@inkindstandard.org">contact@inkindstandard.org</a>&nbsp;· <a href="{{home}}#who">Who prepares this work</a></p>
-<p><a href="{{root}}privacy/{{index}}">Privacy statement</a>&nbsp;· <a href="{{root}}accessibility/{{index}}">Accessibility statement</a></p>
-<p class="license">Except where otherwise noted, this page is licensed under CC BY 4.0 (<a href="https://creativecommons.org/licenses/by/4.0/">https://<wbr>creativecommons.org/<wbr>licenses/<wbr>by/<wbr>4.0/</a>). The name In-Kind Standard and its logo are not licensed, and material quoted from others stays under its own terms.</p>
+<div class="foot-grid">
+<div>
+<p class="status">{{footline}}</p>
+<p class="muted known"><strong>Known gaps:</strong> {{gaps_line}}</p>
+<p>Write to <a href="mailto:contact@inkindstandard.org">contact@inkindstandard.org</a></p>
+<p><a href="{{home}}#who">Who prepares this work</a></p>
+</div>
+{{foot_lists}}
+</div>
+<p class="lic">Except where otherwise noted, this page is licensed under CC BY 4.0 (<a href="https://creativecommons.org/licenses/by/4.0/">https://<wbr>creativecommons.org/<wbr>licenses/<wbr>by/<wbr>4.0/</a>). The name In-Kind Standard and its logo are not licensed, and material quoted from others stays under its own terms.</p>
 <p class="print-only">Who prepares this work: https://inkindstandard.org/#who · Privacy statement: https://inkindstandard.org/privacy/ · Accessibility statement: https://inkindstandard.org/accessibility/</p>
 {{printed}}</div>
 </footer>
