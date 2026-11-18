@@ -41,11 +41,11 @@ def zenodo_list(name):
     return z
 # The menu, in the frame's order (frame v0.6, section 4). A page is listed here only once it is live. "@screen" is the Screen's own page,
 # at the address in src/screen.json ("Public records" in the menu). The reader links stand above the menu, and the footer has three lists.
-NAV = [('materials/', 'Model documents'), ('could-receive/', 'What communities could receive'), ('@screen', 'Public records')]   # frame v0.6, section 4: a page joins the menu once it is live
-READERS = [('contact/', 'Contact')]
-FOOT = {'The work': [('materials/', 'Model documents'), ('could-receive/', 'What communities could receive'), ('@screen', 'Public records')],
-        'The project': [('funding/', 'Who pays for the work')],
-        'This site': [('contact/', 'Contact'), ('privacy/', 'Privacy statement'), ('accessibility/', 'Accessibility statement')]}
+NAV = [('materials/', 'Model documents'), ('could-receive/', 'What communities could receive'), ('records/', 'Public records'), ('how-it-works/', 'How we work'), ('governance/', 'Governance'), ('plans/', 'What comes next')]   # frame v0.6, section 4; the whole menu since the founder's request of 18 November 2026, 16:03
+READERS = [('sponsors/', 'For sponsors and funders'), ('press/', 'Press'), ('contact/', 'Contact')]
+FOOT = {'The work': [('materials/', 'Model documents'), ('could-receive/', 'What communities could receive'), ('records/', 'Public records')],
+        'The project': [('how-it-works/', 'How we work'), ('governance/', 'Governance'), ('plans/', 'What comes next'), ('funding/', 'Who pays for the work'), ('updates/', 'Updates and corrections')],
+        'This site': [('sponsors/', 'For sponsors and funders'), ('press/', 'Press and citation'), ('contact/', 'Contact'), ('privacy/', 'Privacy statement'), ('accessibility/', 'Accessibility statement')]}
 KEYS = {'title', 'tab', 'path', 'description', 'updated', 'budget', 'ceiling', 'release', 'nav', 'theirs'}
 KEPT = {'files', 'CNAME'}
 # The byline appears once on the site: the first line of the home page's section "Who prepares this work", placed there
@@ -373,7 +373,7 @@ NUMWORD = {1: 'One', 2: 'Two', 3: 'Three', 4: 'Four', 5: 'Five', 6: 'Six', 7: 'S
 
 def home_items_heading(root, index):
     s = saved_screen()
-    return f'<h3>{NUMWORD[len(s["items"])]} of the {s["counts"]["items"]} items on the public record</h3>'
+    return f'<h3>{NUMWORD[len(s["items"])]} of the {sum(len(i) for _, i in cr_allowed())} items allowed on the public record</h3>'
 
 
 PASSING = ('Works', 'Works with a condition', 'Fits provisionally')   # the Screen's labels for an item that passes its test (in its source, "Passes" and "Passes with proviso"); Home's line on its cards says all of them pass
@@ -441,7 +441,7 @@ def ledger_screen(root, index):
 
 def home_all_link(root, index):
     """Home's link to the page with every item (frame v0.6, section 5, row 2). The number is the Screen's count, not typed."""
-    return f'<a class="btn btn-2" href="{root}could-receive/{index}">All {saved_screen()["counts"]["items"]} items</a>'
+    return f'<a class="btn btn-2" href="{root}could-receive/{index}">All {sum(len(i) for _, i in cr_allowed())} allowed items</a>'
 
 
 # The page What communities could receive (frame v0.6, sections 4 and 6.1; decision sheet 17, T4): the Screen's words as saved by tools/save_screen_words.py
@@ -469,19 +469,26 @@ def cr_standards(root, index):
             f'<p><a href="{e(s["source"]["page"])}">Each standard in full, on the public record</a></p>')
 
 
+def cr_allowed():
+    """The items the page shows: those that pass the In-Kind test, in the Screen's group of drafted items and in its other items allowed (the founder's request of
+    18 November 2026, 16:03: the page shows what is allowed; what was set aside, what fails and what State law does not allow are left to the Screen)."""
+    g = cr_page()['groups']
+    return [(g[0]['title'], [i for i in g[0]['items'] if i['verdict'] in PASSING]), ('Other items allowed', [i for i in g[2]['items'] if i['verdict'] in PASSING])]
+
+
 def cr_jump(root, index):
-    p = cr_page(); e = html.escape
-    links = [(f'#g{n}', g['title'], g['count']) for n, g in enumerate(p['groups'][:3], 1)] + [('#law', p['law']['groups'][0]['title'], p['law']['groups'][0]['count'])]
+    e = html.escape
+    links = [(f'#g{n}', t, len(i)) for n, (t, i) in enumerate(cr_allowed(), 1)]
     return '<ul>' + ''.join(f'<li><a href="{h}"><span class="theirs">{e(t)}</span> ({c})</a></li>' for h, t, c in links) + '</ul>'
 
 
 def cr_groups(root, index):
     """The cards of the items allowed in Florida, in the Screen's groups and order. The items State law does not allow are under the law (cr_law), in its words."""
     e = html.escape; out = []
-    for n, g in enumerate(cr_page()['groups'][:3], 1):
-        note = f'<p class="muted theirs">{e(g["note"])}</p>' if g.get('note') else ''
-        out.append(f'<div class="sec-head-sub" id="g{n}"><h3><span class="theirs">{e(g["title"])}</span> ({g["count"]})</h3>{note}</div>'
-                   '<div class="items">' + '\n'.join(item_card(it, page=True) for it in g['items']) + '</div>')
+    for n, (title, items) in enumerate(cr_allowed(), 1):   # each group folds, to help with scrolling (the founder's request of 18 November 2026, 16:03)
+        mark = ' class="theirs"' if n == 1 else ''
+        out.append(f'<details class="grp" id="g{n}" open data-fold><summary><h3><span{mark}>{e(title)}</span> ({len(items)})</h3></summary>'
+                   '<div class="items">' + '\n'.join(item_card(it, page=True) for it in items) + '</div></details>')
     return '\n'.join(out)
 
 
@@ -500,7 +507,7 @@ def cr_not(root, index):
     s = saved_screen(); n = cr_page()['not_this']; e = html.escape
     d = cr_page()['descriptions']
     return (f'<div class="gaps"><h2 class="theirs">{e(n["title"])}</h2><p class="theirs">{e(n["text"])}</p>'
-            f'<p class="theirs"><strong>{e(d["title"])}.</strong> {e(d["text"])}</p><p class="theirs">{e(s["labels"]["none_delivered"])}</p></div>')
+            f'<p class="theirs"><strong>{e(d["title"])}.</strong> {e(d["text"])}</p><p>No benefits under these model instruments have been delivered anywhere yet.</p></div>')
 
 
 MAKERS = {'ledger-release': ledger_release, 'ledger-screen': ledger_screen, 'home-release': home_release, 'materials-release': materials_release, 'home-homes': home_homes, 'home-diagram': home_diagram,

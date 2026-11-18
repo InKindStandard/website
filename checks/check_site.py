@@ -144,9 +144,12 @@ ROOM = 1.05   # decision sheet 16, S2, option A (approved by the founder on 18 N
 # own words that the founder chose at 11:39 to name the series ("A"), approved with them when he merges. At 12:43 he asked that the benefits page and Home's section on it
 # not read as data centers only; the line naming data centers as the first kind of project puts Home at 440 own words and 1,547 in all, so 420 and 1,550, approved with that change.
 # Every release page has the release page's budget. A new page has none until the founder approves its frame; add it then.
-APPROVED = {'index.html': (420, 1550), 'materials/index.html': (320, 3100), 'contact/index.html': (170, 230),
+APPROVED = {'index.html': (468, 1550), 'materials/index.html': (386, 3151), 'contact/index.html': (170, 230),
             'privacy/index.html': (600, 610), 'accessibility/index.html': (390, 400), '404.html': (40, 60),
-            'funding/index.html': (15, None), 'could-receive/index.html': (160, 3720)}   # frame v0.6, section 4 gave 320, 280, 140, 525, 330 and 40; the pages' own words are over those (run 19, S4), so these are the pages' measured words of 18 November 2026, rounded up to five, approved by the founder (decision sheet 16, S2 A); Home's are 415 and 1,540 since decision sheet 17 (18 November 2026), which added the logistics series' row and the broader opening: 430 own words, inside its room; the funding page's words are the nonprofit project's as released (decision sheet 6, A)
+            'funding/index.html': (15, None), 'could-receive/index.html': (206, 2207),
+            # the founder's request of 18 November 2026, 16:03 ("I want this to look complete"): the pages that were designed but not built, at their measured words, approved on merge
+            'how-it-works/index.html': (1146, 1151), 'governance/index.html': (555, 560), 'plans/index.html': (472, 477), 'sponsors/index.html': (898, 903),
+            'records/index.html': (91, 96), 'press/index.html': (171, 176), 'updates/index.html': (92, 97)}   # frame v0.6, section 4 gave 320, 280, 140, 525, 330 and 40; the pages' own words are over those (run 19, S4), so these are the pages' measured words of 18 November 2026, rounded up to five, approved by the founder (decision sheet 16, S2 A); Home's are 415 and 1,540 since decision sheet 17 (18 November 2026), which added the logistics series' row and the broader opening: 430 own words, inside its room; the funding page's words are the nonprofit project's as released (decision sheet 6, A)
 # The ceilings of Stage 1 are each page's measured words of 18 November 2026, rounded up to ten (decision sheet 5, A); the founder approved them with the pages (decision sheet 16, S2 A, 18 November 2026).
 # Another project's released pages: each page's fragments, in order, and each fragment's SHA-256 as that project released it
 # (the nonprofit project's folder Website_2026-11-14b, its README, and its log entries of 14 November 2026, 01:32 to 01:48 and 01:55 to
@@ -165,11 +168,13 @@ def printed_address_(href_, rel_):
 # The three lists of links in every page's header, each with its label and in order (frame v0.6, section 4, "On every page": the readers' links above the menu;
 # a page joins the menu only once it is live), and the footer's three columns (the same section; the funding page's link is in the footer, as the frame places it).
 # Addresses are read from the site's root; the Screen is another site's page.
-NAVS = [('For particular readers', [('contact/', 'Contact')]),
-        ('Main, at phone width', [('materials/', 'Model documents'), ('could-receive/', 'What communities could receive'), (SCREEN, 'Public records'), ('contact/', 'Contact')]),
-        ('Main', [('materials/', 'Model documents'), ('could-receive/', 'What communities could receive'), (SCREEN, 'Public records')])]
-FOOT = [('The work', [('materials/', 'Model documents'), ('could-receive/', 'What communities could receive'), (SCREEN, 'Public records')]), ('The project', [('funding/', 'Who pays for the work')]),
-        ('This site', [('contact/', 'Contact'), ('privacy/', 'Privacy statement'), ('accessibility/', 'Accessibility statement')])]
+# The whole menu since the founder's request of 18 November 2026, 16:03 ("I want this to look complete").
+NAVS = [('For particular readers', [('sponsors/', 'For sponsors and funders'), ('press/', 'Press'), ('contact/', 'Contact')]),
+        ('Main, at phone width', [('materials/', 'Model documents'), ('could-receive/', 'What communities could receive'), ('records/', 'Public records'), ('how-it-works/', 'How we work'), ('governance/', 'Governance'), ('plans/', 'What comes next'), ('sponsors/', 'For sponsors and funders'), ('press/', 'Press'), ('contact/', 'Contact')]),
+        ('Main', [('materials/', 'Model documents'), ('could-receive/', 'What communities could receive'), ('records/', 'Public records'), ('how-it-works/', 'How we work'), ('governance/', 'Governance'), ('plans/', 'What comes next')])]
+FOOT = [('The work', [('materials/', 'Model documents'), ('could-receive/', 'What communities could receive'), ('records/', 'Public records')]),
+        ('The project', [('how-it-works/', 'How we work'), ('governance/', 'Governance'), ('plans/', 'What comes next'), ('funding/', 'Who pays for the work'), ('updates/', 'Updates and corrections')]),
+        ('This site', [('sponsors/', 'For sponsors and funders'), ('press/', 'Press and citation'), ('contact/', 'Contact'), ('privacy/', 'Privacy statement'), ('accessibility/', 'Accessibility statement')])]
 RELEASE_PAGE = 270   # every release page's budget (decision sheet 2, E4 A gave 220; the page's own words are 268 since run 19, N4, so 270, approved on decision sheet 16, S2 A, 18 November 2026)
 # The logo's mark, the browser icon and the two full-colour files, held as approved (logo kit v2.3; decision sheet 15, X6 A, 17 November 2026). A new mark, icon or file
 # also needs its checksum here, with the founder's approval (RUNBOOK.md, section 6). The mark is src/logo.inc after its note, as the build takes it.
@@ -691,9 +696,7 @@ lg_ = sv_['legend']; c_ = sv_['counts']
 labels_ = re.findall(r'<p class="labels theirs">(.*?)</p>', home_page, flags=re.S)
 if len(labels_) != 1 or pieces_(labels_[0]) != [lg_['passing'], lg_['heading']] or f'<a href="{screen["address"]}#{lg_["anchor"]}">' not in labels_[0]:
     bad(f'index.html: the note on what the labels mean is {[pieces_(x_) for x_ in labels_]!r}; the Screen\'s lines are {[lg_["passing"], lg_["heading"]]!r}, with the heading linked to {screen["address"]}#{lg_["anchor"]} (run 19, S1)')
-law_ = re.findall(r'<p class="law">(.*?)</p>', home_page, flags=re.S)
-law_want_ = [f'{c_["state_law_does_not_allow"]} of the {c_["items"]} items are labeled', lg_['state_law']['label'], lg_['state_law']['line']]
-if [pieces_(x_) for x_ in law_] != [law_want_]: bad(f'index.html: the line on State law is {[pieces_(x_) for x_ in law_]!r}; it reads {law_want_!r}, the count and then the Screen\'s label and line (run 19, S2)')
+if '<p class="law">' in home_page: bad('index.html: the line on what State law does not allow is back; the site shows what is allowed (the founder\'s request of 18 November 2026, 16:03)')
 # Decision sheet 17, T4 (frame v0.6, section 6.1): the page What communities could receive holds the Screen's words as saved under "page" in src/screen_saved.json
 # (tools/save_screen_words.py): every card of the items allowed in Florida, in the Screen's groups and order, with all of its words and only them; the standards
 # by their names, as the Screen opens their list; the items State law does not allow, in the words of the Screen's section on them; and the Screen's lines on
@@ -708,34 +711,30 @@ else:
         secs_ = re.findall(r'<section class="([^"]*)"(?: id="([^"]*)")?>(.*?)</section>', cr_html_, flags=re.S)
         hit_ = [b_ for c_, i_, b_ in secs_ if (id_ is not None and i_ == id_)] if id_ is not None else [secs_[n_][2]]
         return pieces_(hit_[0]) if len(hit_) == 1 else None
-    st_ = pg_['standards']; first_, rest_ = st_['lead'].split('. ', 1)
-    if sec_(n_=2) != [st_['summary'], first_ + '.', rest_, *st_['names'], st_['numbers'], st_['evidence'], 'Each standard in full, on the public record']:
-        bad(f'could-receive/index.html: the standards read {sec_(n_=2)!r}; they are the Screen\'s heading, opening paragraph, names, first line on the numbers and evidence line, then the link (decision sheet 17, T4)')
+    # The founder's request of 18 November 2026, 16:03: the page shows the items allowed and only them, in two groups that fold, the Screen's items drafted in the model
+    # instruments and its other items allowed, each card with all of its words and only them; what was set aside, what fails and what State law does not allow are left to the Screen.
+    cl_ = re.findall(r'<p class="county-line theirs">(.*?)</p>', cr_html_, flags=re.S)
+    if [pieces_(x_) for x_ in cl_] != [[sv_['county_line']]]: bad(f'could-receive/index.html: the county line is {[pieces_(x_) for x_ in cl_]!r}; the Screen gives {sv_["county_line"]!r}')
     def card_want_(i_):
         w_ = [i_['sec'], i_['name'], i_['verdict'], *i_['chips'], *[x_ for x_ in (i_['vsub'], i_['hnote']) if x_], 'What it would do', i_['lead']]
         w_ += [f'{i_["evLabel"]} {i_["evStatus"]}', i_['evText']] if i_['evStatus'] else []
         return w_ + ([i_['tried']] if i_.get('tried') else [])
-    # Group by group (run 27, Must fix 1 and Should fix 2): each group's heading, count and note, then its own cards and only them, so that a card cannot move to another group.
+    PASS_ = ('Works', 'Works with a condition', 'Fits provisionally')
+    groups_want_ = [(pg_['groups'][0]['title'], [i_ for i_ in pg_['groups'][0]['items'] if i_['verdict'] in PASS_]), ('Other items allowed', [i_ for i_ in pg_['groups'][2]['items'] if i_['verdict'] in PASS_])]
     items_ = re.search(r'<section class="sec tray" id="items">(.*?)</section>', cr_html_, flags=re.S)
-    chunks_ = re.split(r'(?=<div class="sec-head-sub" id="g\d">)', items_.group(1) if items_ else '')[1:]
-    if len(chunks_) != 3: bad(f'could-receive/index.html: {len(chunks_)} groups of cards; the saved record has 3 (decision sheet 17, T4)')
-    for k_, (ch_, g_) in enumerate(zip(chunks_, pg_['groups'][:3]), 1):
-        head_ = re.match(r'<div class="sec-head-sub" id="g\d">(.*?)</div>', ch_, flags=re.S)
-        if not head_ or pieces_(head_.group(1)) != [g_['title'], f'({len(g_["items"])})'] + ([g_['note']] if g_.get('note') else []):
-            bad(f'could-receive/index.html: group {k_} is headed {pieces_(head_.group(1)) if head_ else None!r}; the saved record gives "{g_["title"]}", its count and its note (decision sheet 17, T4)')
+    chunks_ = re.split(r'(?=<details class="grp" id="g\d" open data-fold>)', items_.group(1) if items_ else '')[1:]
+    if len(chunks_) != 2: bad(f'could-receive/index.html: {len(chunks_)} groups of cards that fold; the page has 2 (the founder\'s request of 18 November 2026, 16:03)')
+    for k_, (ch_, (t_, its_)) in enumerate(zip(chunks_, groups_want_), 1):
+        head_ = re.match(r'<details class="grp" id="g\d" open data-fold><summary>(.*?)</summary>', ch_, flags=re.S)
+        if not head_ or pieces_(head_.group(1)) != [t_, f'({len(its_)})']: bad(f'could-receive/index.html: group {k_} is headed {pieces_(head_.group(1)) if head_ else None!r}; it is "{t_}" and its count')
         got_ = [pieces_(c_) for c_ in re.findall(r'<article class="item"[^>]*>(.*?)</article>', ch_, flags=re.S)]
-        want_ = [card_want_(i_) for i_ in g_['items']]
-        if got_ != want_:
-            n_ = next((j_ for j_, (a_, b_) in enumerate(zip(got_, want_), 1) if a_ != b_), min(len(got_), len(want_)) + 1)
-            bad(f'could-receive/index.html: group {k_} has {len(got_)} cards where the saved record has {len(want_)}; its card {n_} is not the record\'s (decision sheet 17, T4)')
-    L_ = pg_['law']; law_want_ = ['The law', L_['title'], L_['intro'], L_['describes']]
-    for g_ in L_['groups']:
-        law_want_ += [g_['title'], f'({len(g_["items"])})', g_['note']] + [x_ for i_ in g_['items'] for x_ in (i_['name'], i_['would']) if x_]
-    if sec_(id_='law') != law_want_ + ['The details of each, on the public record']: bad(f'could-receive/index.html: the section on the law is not the Screen\'s, in order, with the link to its details (decision sheet 17, T4; run 26)')
+        if got_ != [card_want_(i_) for i_ in its_]: bad(f'could-receive/index.html: group {k_} has {len(got_)} cards; the saved record\'s allowed items in it are {len(its_)}, and each card holds the record\'s words')
+    if cr_html_.count('<article class="item"') != sum(len(i_) for _, i_ in groups_want_): bad('could-receive/index.html: a card outside the two groups of items allowed')
+    if 'id="law"' in cr_html_: bad('could-receive/index.html: the section on what State law does not allow is back; it is left to the Screen')
     nt_ = re.findall(r'<div class="gaps">(.*?)</div>', cr_html_, flags=re.S)
     d_ = pg_['descriptions']
-    if [pieces_(x_) for x_ in nt_] != [[pg_['not_this']['title'], pg_['not_this']['text'], d_['title'] + '.', d_['text'], sv_['labels']['none_delivered']]]:
-        bad('could-receive/index.html: "What this is not" is not the Screen\'s, with "About the descriptions" and its line that nothing has been delivered (decision sheet 17, T4; run 26)')
+    if [pieces_(x_) for x_ in nt_] != [[pg_['not_this']['title'], pg_['not_this']['text'], d_['title'] + '.', d_['text'], 'No benefits under these model instruments have been delivered anywhere yet.']]:
+        bad('could-receive/index.html: "What this is not" is not the Screen\'s lines, with "About the descriptions" and the page\'s line that nothing has been delivered')
     if cr_html_.count(f'<p class="muted read theirs">{html.escape(pg_["caution"])}</p>') != 1: bad('could-receive/index.html: the Screen\'s line on county staff is not there once (frame v0.6, section 6.1)')
 # Run 19, M1 (Neutrality Test, gate 3, for items built on the 3.18 template): the headline says what the page shows; the page says that it does not weigh the benefits against costs, and that the
 # project chose the three cards as examples, not as a ranking. Run 22 (gate 3 passed) asked that it also say that all three pass the test, and where the model documents' standards
@@ -925,7 +924,7 @@ RGBA = re.compile(r'rgba\((\d{1,3}),(\d{1,3}),(\d{1,3}),(\.\d+|1|0)\)')
 for sname_, st_ in sets_.items():
     for n_, v_ in st_.items():
         if HEX6.fullmatch(v_) or RGBA.fullmatch(v_): continue
-        if n_ == 'band-rule' and re.fullmatch(r'linear-gradient\(90deg(?:,#[0-9A-Fa-f]{6} (?:0|\d+%) \d+%){4}\)', v_): continue
+        if n_ == 'band-rule' and re.fullmatch(r'linear-gradient\(90deg(?:,#[0-9A-Fa-f]{6}){4}\)', v_): continue   # the four colors blend (the founder's request of 18 November 2026, 16:03)
         if n_ in ('sans', 'mono') and v_.startswith('"Atkinson Hyperlegible'): continue
         if (n_, v_) in (('link', 'var(--accent)'), ('focus', 'var(--focus-base)')): continue
         if n_ == 'wm-o' and re.fullmatch(r'\.\d+', v_): continue
