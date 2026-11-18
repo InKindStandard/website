@@ -139,7 +139,7 @@ for f_ in sorted((ROOT / 'src' / 'pages').glob('*.html')):
     if 'release' in head_: RELEASE_OF[path_ + 'index.html'] = head_['release'].strip()
     if 'theirs' in head_: THEIRS_OF[path_ + 'index.html'] = head_['theirs'].split()
 ROOM = 1.05   # decision sheet 16, S2, option A (approved by the founder on 18 November 2026, 08:46): a page may be 5 percent over its budget, where decision sheet 2 allowed 20
-# The numbers in force are also held here, so that a page cannot raise its own: its heading block must give exactly these. The founder approved them on 18 November 2026, 08:46 (decision sheet 16, S2 A), and Home's 415 and 1,540 at 10:16 (decision sheet 17).
+# The numbers in force are also held here, so that a page cannot raise its own: its heading block must give exactly these. The founder approved them on 18 November 2026, 08:46 (decision sheet 16, S2 A), and Home's 415 and 1,540 by 10:17 (decision sheet 17).
 # Every release page has the release page's budget. A new page has none until the founder approves its frame; add it then.
 APPROVED = {'index.html': (415, 1540), 'materials/index.html': (320, 3090), 'contact/index.html': (170, 230),
             'privacy/index.html': (600, 610), 'accessibility/index.html': (390, 400), '404.html': (40, 60),
