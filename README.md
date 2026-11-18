@@ -1,6 +1,6 @@
 # inkindstandard.org
 
-Citizen-prepared working draft · Not legal advice
+Prepared by In-Kind Standard · Citizen-prepared working draft · Not legal advice
 
 This repository holds the source of the website of In-Kind Standard, https://inkindstandard.org. In the project's own words: "In-Kind Standard is a citizen-prepared, nonpartisan project, planned to run as a charitable nonprofit. It writes free model documents that Florida counties may use when a large data center seeks to locate there, and keeps a public record of what Florida counties and cities have done and what communities could receive."
 
