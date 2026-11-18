@@ -130,13 +130,13 @@ for f_ in sorted((ROOT / 'src' / 'pages').glob('*.html')):
     if 'ceiling' in head_: CEILING[path_ if path_.endswith('.html') else path_ + 'index.html'] = int(head_['ceiling'])
     if 'release' in head_: RELEASE_OF[path_ + 'index.html'] = head_['release'].strip()
     if 'theirs' in head_: THEIRS_OF[path_ + 'index.html'] = head_['theirs'].split()
-ROOM = 1.05   # decision sheet 16, S2, option A (proposed on 18 November 2026; the candidate carries it until the founder answers): a page may be 5 percent over its budget, where decision sheet 2 allowed 20
-# The numbers in force are also held here, so that a page cannot raise its own: its heading block must give exactly these. Until the founder answers decision sheet 16, S2, they are proposed, not approved.
+ROOM = 1.05   # decision sheet 16, S2, option A (approved by the founder on 18 November 2026, 08:46): a page may be 5 percent over its budget, where decision sheet 2 allowed 20
+# The numbers in force are also held here, so that a page cannot raise its own: its heading block must give exactly these. The founder approved them on 18 November 2026, 08:46 (decision sheet 16, S2 A; Home's ceiling of 1,520 with S3 C).
 # Every release page has the release page's budget. A new page has none until the founder approves its frame; add it then.
-APPROVED = {'index.html': (405, 1500), 'materials/index.html': (320, 3090), 'contact/index.html': (170, 230),
+APPROVED = {'index.html': (405, 1520), 'materials/index.html': (320, 3090), 'contact/index.html': (170, 230),
             'privacy/index.html': (600, 610), 'accessibility/index.html': (390, 400), '404.html': (40, 60),
-            'funding/index.html': (15, None)}   # frame v0.6, section 4 gave 320, 280, 140, 525, 330 and 40; the pages' own words are over those (run 19, S4), so these are the measured words rounded up to five, for the founder's answer on decision sheet 16, S2 (option A); the funding page's words are the nonprofit project's as released (decision sheet 6, A)
-# The ceilings of Stage 1 are each page's measured words of 18 November 2026, rounded up to ten (decision sheet 5, A); the founder approves them with the pages (decision sheet 16, S2).
+            'funding/index.html': (15, None)}   # frame v0.6, section 4 gave 320, 280, 140, 525, 330 and 40; the pages' own words are over those (run 19, S4), so these are the measured words rounded up to five, approved by the founder (decision sheet 16, S2 A); Home's ceiling is 1,520, not 1,500, since the 23 words of decision sheet 16, S3 C; the funding page's words are the nonprofit project's as released (decision sheet 6, A)
+# The ceilings of Stage 1 are each page's measured words of 18 November 2026, rounded up to ten (decision sheet 5, A); the founder approved them with the pages (decision sheet 16, S2 A, 18 November 2026).
 # Another project's released pages: each page's fragments, in order, and each fragment's SHA-256 as that project released it
 # (the nonprofit project's folder Website_2026-11-14b, its README, and its log entries of 14 November 2026, 01:32 to 01:48 and 01:55 to
 # 02:23: the funding statement v0.5, and the record of ties with its license line; it replaces Website_2026-11-12b, which stays as it was).
@@ -159,7 +159,7 @@ NAVS = [('For particular readers', [('contact/', 'Contact')]),
         ('Main', [('materials/', 'Model documents'), (SCREEN, 'Public records')])]
 FOOT = [('The work', [('materials/', 'Model documents'), (SCREEN, 'Public records')]), ('The project', [('funding/', 'Who pays for the work')]),
         ('This site', [('contact/', 'Contact'), ('privacy/', 'Privacy statement'), ('accessibility/', 'Accessibility statement')])]
-RELEASE_PAGE = 270   # every release page's budget (decision sheet 2, E4 A gave 220; the page's own words are 268 since run 19, N4, so 270 is proposed on decision sheet 16, S2, option A)
+RELEASE_PAGE = 270   # every release page's budget (decision sheet 2, E4 A gave 220; the page's own words are 268 since run 19, N4, so 270, approved on decision sheet 16, S2 A, 18 November 2026)
 # The logo's mark, the browser icon and the two full-colour files, held as approved (logo kit v2.3; decision sheet 15, X6 A, 17 November 2026). A new mark, icon or file
 # also needs its checksum here, with the founder's approval (RUNBOOK.md, section 6). The mark is src/logo.inc after its note, as the build takes it.
 MARK_SHA = '9aca9bd910f141b4b772a8c19b8f2d4f60f23b0d0e2af4a54036d8f42b0c9ae5'
@@ -682,14 +682,20 @@ law_ = re.findall(r'<p class="law">(.*?)</p>', home_page, flags=re.S)
 law_want_ = [f'{c_["state_law_does_not_allow"]} of the {c_["items"]} items are labeled', lg_['state_law']['label'], lg_['state_law']['line']]
 if [pieces_(x_) for x_ in law_] != [law_want_]: bad(f'index.html: the line on State law is {[pieces_(x_) for x_ in law_]!r}; it reads {law_want_!r}, the count and then the Screen\'s label and line (run 19, S2)')
 # Run 19, M1 (Neutrality Test, gate 3, for items built on the 3.18 template): the headline says what the page shows; the page says that it does not weigh the benefits against costs, and that the
-# project chose the three cards as examples, not as a ranking. A change of these words needs the founder's answer (decision sheet 16, S3).
+# project chose the three cards as examples, not as a ranking. Run 22 (gate 3 passed) asked that it also say that all three pass the test, and where the model documents' standards
+# are; the founder chose those words on 18 November 2026, 08:46 (decision sheet 16, S3 C). A change of these words needs his answer.
 HOME_H1 = 'What could a community receive under the model documents?'
-HOME_SAYS = ['Quoted from the public record: the homes, their lines, the cards and the labels. This page does not weigh the benefits against costs.',
-             'This project chose these three as examples, not a ranking.']
+HOME_SAYS = ['<p>Quoted from the public record: the homes, their lines, the cards and the labels. This page does not weigh the benefits against costs. '
+             'What the model documents\' standards cover, among them water, sound and generator testing, is on <a href="materials/" data-url="https://inkindstandard.org/materials/">Model documents</a>.</p>',
+             '<p>This project chose these three, all of which pass the test, as examples, not a ranking.</p>']
 h1s_ = re.findall(r'<h1\b[^>]*>(.*?)</h1>', home_page, flags=re.S)
 if [squash_(re.sub(r'<[^>]+>', '', x_)) for x_ in h1s_] != [HOME_H1]: bad(f'index.html: the headline is {[squash_(re.sub(chr(60) + "[^>]+>", "", x_)) for x_ in h1s_]!r}; it reads "{HOME_H1}" (run 19, M1; decision sheet 16, S3)')
 for s_ in HOME_SAYS:
-    if home_page.count(f'<p>{html.escape(s_, quote=False)}</p>') != 1: bad(f'index.html: the sentence "{s_[:60]}..." is not there once, in a paragraph of its own (run 19, M1)')
+    if home_page.count(s_) != 1: bad(f'index.html: the paragraph "{squash_(re.sub(chr(60) + "[^>]+>", "", s_))[:60]}..." is not there once, as written (run 19, M1; decision sheet 16, S3 C)')
+# Home's notice says that Model documents lists what the standards cover, water, sound and generator testing among them: that page's list, in the release guide's words, must still name them.
+mat_ = (PUB / 'materials' / 'index.html').read_text(encoding='utf-8') if (PUB / 'materials' / 'index.html').is_file() else ''
+cover_ = re.search(r'What the standards cover:</strong>(.*?)</li>', mat_, flags=re.S)
+if not cover_ or not all(w_ in cover_.group(1) for w_ in ('water', 'sound', 'generator testing')): bad('materials/index.html: the list item "What the standards cover:" does not name water, sound and generator testing, as Home\'s notice says it does (decision sheet 16, S3 C)')
 # Run 19, S3 (frame v0.6, section 5, row 4: each figure "with its date and a link to its source"): the five figures each carry a link and a dated line.
 figs_ = re.findall(r'<div class="num">(.*?)</div>', home_page, flags=re.S)
 if len(figs_) != 5: bad(f'index.html: {len(figs_)} figures; there are five')
@@ -1193,7 +1199,7 @@ for q in pages:   # a first visit: the page, the style sheet, the script, every 
 # AI tools wherever a document names AI tools (Political Neutrality Policy, section 3.19); no address but the contact address,
 # no telephone number, nothing hidden from readers and no key in a form services give; the site's word list; tables whose
 # rows agree; and the frame's word budgets. LICENSE is Creative Commons' CC0 1.0 legal code, held by its checksum.
-DOC_BUDGET = {'README.md': (450, 600), 'RUNBOOK.md': (2350, 2350), 'NOTICE.md': (300, 300)}   # (own words, all words); the runbook's was 2250 until run 20 (decision sheet 16)
+DOC_BUDGET = {'README.md': (450, 600), 'RUNBOOK.md': (2350, 2350), 'NOTICE.md': (300, 300)}   # (own words, all words); the runbook's was 2250 until run 20; the founder approved 2350 and the notice's 300 (decision sheet 16, S2 A, 18 November 2026)
 LICENSE_SHA = 'a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499'
 # The runbook says how far over its word budget a page may go; it must say what ROOM is (run 21, Must fix 2: it said "a fifth" when ROOM was 5 percent).
 if (ROOT / 'RUNBOOK.md').is_file():   # a missing runbook is reported with the other documents below (this read once stopped the check with its general stop message, naming the exception, and not with "RUNBOOK.md: missing"; found when the whole planted set was re-run on the fourth freeze)
