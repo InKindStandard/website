@@ -219,7 +219,7 @@ p{margin:0 0 1rem}
 .items{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(20rem,100%),1fr));gap:1.1rem}
 .pill+h3,.pill+h4{margin-top:.85rem}
 h2+.items,h2+.grid-2{margin-top:1.3rem}
-.items+.notice,.grid-2+.notice{margin-top:2rem}
+.items+.notice,.grid-2+.notice,.grid-2+p{margin-top:2rem}
 p:has(>.btn:only-child){margin-top:1.5rem}
 .item{background:var(--card);border:1px solid var(--rule);border-radius:var(--r);padding:1.3rem 1.4rem 1.3rem;box-shadow:var(--sh-1);display:flex;flex-direction:column;gap:.7rem}
 .item .kick{font-family:var(--mono);font-size:.78rem;line-height:1.4;letter-spacing:.05em;text-transform:uppercase;color:var(--ink2);margin:0}
@@ -421,7 +421,7 @@ main :is(p,dd,td,blockquote),main .steps>li>div,main :is(ul,ol):not(.stepper,.st
 @media (max-width:1080px){
 .dg-box{display:none}
 }
-/* The watermark is cropped at the top by the drawing itself, not by the edge of the band, so that no box of it lies over the masthead (a contrast checker reads such a box as a cover) */
+/* The watermark is cropped at the top by the drawing itself, not by the edge of the band, so no box of it lies over the masthead (a contrast checker reads one as a cover) */
 .hero .wm{clip-path:inset(8rem 0 0 0)}
 .phead .wm{clip-path:inset(9rem 0 0 0)}
 @media (max-width:860px){
