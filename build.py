@@ -726,6 +726,9 @@ def reader_docs(rel):
     return found
 
 
+BYLINE_FILE, BYLINE_SHOWN = 'Prepared by Timothy Smith · ', 'Prepared by In-Kind Standard · '   # a release file's byline, and as its reader page shows it
+
+
 def reader_pages(rel, local):
     """The meta and body of each reader page of a release, from its hosted files."""
     zen = zenodo_list(rel); docs = reader_docs(rel); e = html.escape
@@ -739,7 +742,9 @@ def reader_pages(rel, local):
             if label == 'Open the file': label = ''
             path = reader_path(rel, record, name); root = '../' * path.count('/')
             if not path.startswith(f'read/{rel}/{record}/'): continue   # the other record's copy of a shared file
-            body_html, heads = doc_render(q.read_text(encoding='utf-8'), plain=name in PLAIN_FILES)
+            # The founder's choice of 24 November 2026 (option 2): each byline shows the project's name in place of his, and the page says so; the hosted file
+            # is unchanged, its license lines included. The next release of each document carries the project's name itself.
+            body_html, heads = doc_render(q.read_text(encoding='utf-8').replace(BYLINE_FILE, BYLINE_SHOWN), plain=name in PLAIN_FILES)
             top = min((l for l, _, _ in heads), default=2)
             ver = '' if not version else (f'{version}' if version.startswith('Release') else f'Version {version}')
             sub = ' · '.join(x for x in (label, ver) if x)
@@ -751,7 +756,7 @@ def reader_pages(rel, local):
                     f'<p class="eyebrow">Release {rel} · {RECORD_NAME.get(record, record)}</p>\n'
                     f'<h1><span class="theirs">{e(doc)}</span></h1>\n'
                     + (f'<p class="lead">{e(sub)}</p>\n' if sub else '') +
-                    f'<p class="muted read">The text below is the file as the release published it, set out for reading. Not legal advice.</p>\n'
+                    f'<p class="muted read">The text below is the release\'s file, set out for reading, with the project\'s name in place of the founder\'s in its byline. Not legal advice.</p>\n'
                     f'<div class="actions"><a class="btn" download href="{root}files/{rel}/{record}/{e(name)}"><span>Download the file <span class="nb">({fmt}, {kb} KB)</span></span></a>'
                     f'<a class="btn btn-2" href="{root}materials/{rel}/{index}">Every document in Release {rel}</a></div>\n'
                     f'</div>\n</section>\n'
