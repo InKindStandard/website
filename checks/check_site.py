@@ -188,12 +188,12 @@ APPROVED = {'index.html': (468, 1550), 'materials/index.html': (386, 3151), 'con
             'guide/index.html': (880, 890)}   # frame v0.6, section 4 gave 320, 280, 140, 525, 330 and 40; the pages' own words are over those (run 19, S4), so these are the pages' measured words of 18 November 2026, rounded up to five, approved by the founder (decision sheet 16, S2 A); Home's are 415 and 1,540 since decision sheet 17 (18 November 2026), which added the logistics series' row and the broader opening: 430 own words, inside its room; the funding page's words are the nonprofit project's as released (decision sheet 6, A)
 # The ceilings of Stage 1 are each page's measured words of 18 November 2026, rounded up to ten (decision sheet 5, A); the founder approved them with the pages (decision sheet 16, S2 A, 18 November 2026).
 # Another project's released pages: each page's fragments, in order, and each fragment's SHA-256 as that project released it
-# (the nonprofit project's folder Website_2026-11-14b, its README, and its log entries of 14 November 2026, 01:32 to 01:48 and 01:55 to
-# 02:23: the funding statement v0.5, and the record of ties with its license line; it replaces Website_2026-11-12b, which stays as it was).
+# (the nonprofit project's folder Website_2026-11-24: the funding statement v0.6 and the record of ties, released at the founder's word of 24 November 2026,
+# 12:50, with his name taken out of both; it replaces Website_2026-11-14b, which stays as it was).
 # The build places them unchanged; a new version comes in a new dated folder, and is added here when the founder approves the change.
-RELEASED_PAGES = {'funding/index.html': ['nonprofit/Website_2026-11-14b/funding-statement.html', 'nonprofit/Website_2026-11-14b/founder-ties.html']}
-RELEASED_SHA = {'nonprofit/Website_2026-11-14b/funding-statement.html': 'a70929c16defe8a35b3ac2bc7214a25bbf357523ef5aa1d3df7688657111bd5b',
-                'nonprofit/Website_2026-11-14b/founder-ties.html': 'cc65225fbb6a7a4d74972237920c9abd85490b0746886ade0529bd174014626d'}
+RELEASED_PAGES = {'funding/index.html': ['nonprofit/Website_2026-11-24/funding-statement.html', 'nonprofit/Website_2026-11-24/founder-ties.html']}
+RELEASED_SHA = {'nonprofit/Website_2026-11-24/funding-statement.html': 'dbdc9a5b2f9e6118554619f6bc404fa4672e5dd85d36660ebad53dd8991a61a2',
+                'nonprofit/Website_2026-11-24/founder-ties.html': 'df49f943735bc82b9e1c87777aed8b7d9878ae963cf05ba095f964d69f4064b3'}
 SCREEN = 'https://screen.inkindstandard.org/'
 SITE = 'https://inkindstandard.org/'
 def printed_address_(href_, rel_):
@@ -707,7 +707,7 @@ for f_ in sorted((ROOT / 'src' / 'releases').glob('*.json')):
 for f_ in sorted((PUB / 'files').rglob('*')):
     if f_.is_file() and f_.suffix in ('.md', '.txt'): corpus_.append(md_plain_(f_.read_text(encoding='utf-8')))
 corpus_ += [squash_(x_) for x_ in [ABOUT, NOT_A, PAYS, AI_FULL, COMPLAINTS_GAP, GAPS, 'Known gaps: ' + GAPS, LOGISTICS_TITLE] + HOME_GAPS]
-fv_ = re.search(r'Version (\d+\.\d+) · (\d{1,2} [A-Z][a-z]+ 20\d\d) ·', block_text((ROOT / 'src' / 'released' / 'nonprofit' / 'Website_2026-11-14b' / 'funding-statement.html').read_text(encoding='utf-8')))
+fv_ = re.search(r'Version (\d+\.\d+) · (\d{1,2} [A-Z][a-z]+ 20\d\d) ·', block_text((ROOT / 'src' / 'released' / 'nonprofit' / 'Website_2026-11-24' / 'funding-statement.html').read_text(encoding='utf-8')))
 if fv_: corpus_.append(f'Version {fv_.group(1)}, {fv_.group(2)}')   # the version line the home page's ledger gives, made from the released statement's own line
 corpus_text_ = ' | '.join(corpus_)
 # Run 19, M2 and N1 (decision sheet 15, X2 A and X3 A: each card is closed to its name, verdict, home and condition; "a label and its note sit on separate lines, exactly as the record has them";
