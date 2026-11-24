@@ -26,6 +26,7 @@ sys.excepthook = _stopped
 
 ROOT = pathlib.Path(__file__).resolve().parent
 SRC, PUB = ROOT / 'src', ROOT / 'docs'
+PUB_FILES = PUB / 'files'   # the hosted release files, which the reader pages show
 SITE = 'https://inkindstandard.org/'
 CURRENT = '2026.4'   # the release the pages show as current; a new release changes this line and the words that name it (RUNBOOK.md)
 
@@ -594,6 +595,172 @@ def release_blocks(rel, root):
             'gaps': f'<p class="notice"><strong>The release\'s own known gaps:</strong> <span class="theirs">{e(data["gaps"].removeprefix("Known gaps: "))}</span></p>'}
 
 
+# Reader pages (the founder's request of 24 November 2026: "nothing should send the visitor to an unformatted Markdown page").
+# Each hosted .md or .txt file of a release gets a page of its own at read/<release>/<record>/<name>/, which shows the file's text,
+# word for word, as headings, paragraphs, lists and tables, with a list of contents and a button to download the file as released.
+# The file itself is unchanged; every link the site makes to it goes to its page instead (see reader_links), except the download button.
+READER_UPDATED = '24 November 2026'   # the date the reader pages were first made; a change to how they are made changes it
+RECORD_NAME = {'instruments': 'Record 1, the model documents', 'guide': 'Record 2, the guide and the tests'}
+PLAIN_FILES = ('002_MANIFEST.txt',)   # set out in columns with spaces, so shown as written, in a fixed-width block
+HEAD_WORDS = re.compile(r'(?:ARTICLE|PART|CHAPTER|EXHIBIT|SCHEDULE|APPENDIX|ATTACHMENT|ANNEX)\b')
+
+
+def reader_slug(name):
+    return pathlib.PurePosixPath(name).stem.lower().replace('_', '-')
+
+
+def reader_path(rel, record, name):
+    return f'read/{rel}/{record}/{reader_slug(name)}/'
+
+
+def reader_links(body, local):
+    """Points every link to a hosted .md or .txt file at that file's reader page. A link with the download attribute
+    written before its address (the reader page's own button) is left as it is."""
+    index = 'index.html' if local else ''
+    return re.sub(r'(?<!download )href="((?:\.\./)*|/)files/([\w.]+)/(\w+)/([^"/]+\.(?:md|txt))"',
+                  lambda m: f'href="{m.group(1)}{reader_path(m.group(2), m.group(3), html.unescape(m.group(4)))}{index}"', body)
+
+
+def doc_inline(s):
+    """A line of the file: its text escaped, with bold, italic and code shown as such. Nothing is added or left out."""
+    s = html.escape(s, quote=False)
+    s = re.sub(r'`([^`]+)`', r'<code>\1</code>', s)
+    s = re.sub(r'\*\*(?=\S)(.+?)(?<=\S)\*\*', r'<strong>\1</strong>', s)
+    s = re.sub(r'(?<![\w*])\*(?=[^\s*])(.+?)(?<=[^\s*])\*(?![\w*])', r'<em>\1</em>', s)
+    return s
+
+
+def doc_text(s):
+    return html.unescape(re.sub(r'<[^>]+>', '', s))
+
+
+def doc_cells(line):
+    t = line.strip()
+    if t.startswith('|'): t = t[1:]
+    if t.endswith('|') and not t.endswith('\\|'): t = t[:-1]
+    return [c.strip() for c in re.split(r'(?<!\\)\|', t)]
+
+
+def doc_render(text, plain=False):
+    """The file's text as HTML, and its list of headings (level, id, words) for the contents."""
+    text = re.sub(r'<!--.*?-->', '', text, flags=re.S)   # the license tags meant for machines (SPDX); they are not shown
+    if plain:
+        return f'<pre class="plain">{html.escape(text.strip(chr(10)), quote=False)}</pre>', []
+    out, heads, used = [], [], set()
+    lines = text.split('\n')
+
+    def heading(level, inner):
+        words = doc_text(inner).strip()
+        base = re.sub(r'[^a-z0-9]+', '-', words.lower()).strip('-')[:60] or 'part'
+        hid, n = base, 2
+        while hid in used: hid, n = f'{base}-{n}', n + 1
+        used.add(hid)
+        heads.append((level, hid, words))
+        out.append(f'<h{level} id="{hid}">{inner}</h{level}>')
+    i = 0
+    while i < len(lines):
+        line = lines[i]; s = line.strip()
+        if not s: i += 1; continue
+        m = re.match(r'(#{1,6})\s+(.*?)\s*#*\s*$', s)
+        if m:
+            heading(min(6, len(m.group(1)) + 1), doc_inline(m.group(2))); i += 1; continue
+        if re.fullmatch(r'(?:-{3,}|\*{3,}|_{3,})', s):
+            out.append('<hr>'); i += 1; continue
+        if s.startswith('|'):
+            rows = []
+            while i < len(lines) and lines[i].strip().startswith('|'):
+                rows.append(lines[i]); i += 1
+            sep = lambda r: re.fullmatch(r'\|?(?:\s*:?-{2,}:?\s*\|)*\s*:?-{2,}:?\s*\|?', r.strip())
+            head = rows[0] if len(rows) > 1 and sep(rows[1]) else None
+            body_rows = [r for r in (rows[2:] if head else rows) if not sep(r)]
+            t = ['<div class="tbl"><table>']
+            if head: t.append('<thead><tr>' + ''.join(f'<th scope="col">{doc_inline(c)}</th>' for c in doc_cells(head)) + '</tr></thead>')
+            t.append('<tbody>' + ''.join('<tr>' + ''.join(f'<td>{doc_inline(c)}</td>' for c in doc_cells(r)) + '</tr>' for r in body_rows) + '</tbody></table></div>')
+            out.append(''.join(t)); continue
+        if re.match(r'>\s?', s):
+            q = []
+            while i < len(lines) and lines[i].strip().startswith('>'):
+                q.append(re.sub(r'^\s*>\s?', '', lines[i])); i += 1
+            out.append('<blockquote>' + ''.join(f'<p>{doc_inline(x)}</p>' for x in q if x.strip()) + '</blockquote>'); continue
+        if re.match(r'[-*+]\s+\S', s) and not re.fullmatch(r'\*\*.*\*\*', s):
+            items = []
+            while i < len(lines) and re.match(r'\s*[-*+]\s+\S', lines[i]) and not re.fullmatch(r'\*\*.*\*\*', lines[i].strip()):
+                items.append(re.sub(r'^\s*[-*+]\s+', '', lines[i]).strip()); i += 1
+            out.append('<ul>' + ''.join(f'<li>{doc_inline(x)}</li>' for x in items) + '</ul>'); continue
+        if re.match(r'\d+[.)]\s+\S', s):
+            items = []
+            while i < len(lines) and re.match(r'\s*\d+[.)]\s+\S', lines[i]):
+                n, rest = re.match(r'\s*(\d+[.)])\s+(.*)', lines[i]).groups(); items.append((n, rest.strip())); i += 1
+            # The number is the file's own text, so it is kept as text, not drawn by the list.
+            out.append('<ol class="numbered">' + ''.join(f'<li><span class="n">{html.escape(n)}</span> {doc_inline(x)}</li>' for n, x in items) + '</ol>'); continue
+        whole = re.fullmatch(r'\*\*([^*].*?)\*\*', s)
+        if whole and len(s) < 160 and HEAD_WORDS.match(whole.group(1)):   # a part's title, set in bold on a line of its own
+            heading(2, doc_inline(whole.group(1))); i += 1; continue
+        para = []
+        while i < len(lines) and lines[i].strip() and not re.match(r'(#{1,6}\s|\||>|(?:-{3,}|\*{3,}|_{3,})\s*$|[-*+]\s+\S|\d+[.)]\s+\S)', lines[i].strip()):
+            para.append(doc_inline(lines[i].strip())); i += 1
+        if not para: para.append(doc_inline(s)); i += 1
+        out.append('<p>' + '<br>'.join(para) + '</p>')
+    return '\n'.join(out), heads
+
+
+def doc_contents(heads, root_level):
+    """The contents: the top two levels of headings, as links into the page."""
+    keep = [(l, h, w) for l, h, w in heads if l <= root_level + 1]
+    if len(keep) < 2: return ''
+    items = ''.join(f'<li class="l{l - root_level + 1}"><a href="#{h}">{html.escape(w)}</a></li>' for l, h, w in keep)
+    return (f'<nav class="toc toc-side" aria-label="Contents"><p class="toc-h">Contents</p><ol>{items}</ol></nav>\n'
+            f'<details class="toc toc-top"><summary>Contents</summary><ol>{items}</ol></details>\n')
+
+
+def reader_docs(rel):
+    """Each hosted document's name, label and version, from the release's own data, by (record, file)."""
+    data = release_json(rel); found = {}
+    for key, record in (('instruments', 'instruments'), ('guide', 'guide'), ('shared', None)):
+        for d in data[key]:
+            for f in d['files']:
+                r = d.get('record') or f.get('record') or record
+                found[(r, f['file'])] = (d['name'], f['label'], d['version'])
+    return found
+
+
+def reader_pages(rel, local):
+    """The meta and body of each reader page of a release, from its hosted files."""
+    zen = zenodo_list(rel); docs = reader_docs(rel); e = html.escape
+    index = 'index.html' if local else ''
+    for record, r in zen['records'].items():
+        for f in r['files']:
+            name = f['name']
+            if pathlib.PurePosixPath(name).suffix not in FORMATS: continue
+            q = PUB_FILES / rel / record / name
+            doc, label, version = docs.get((record, name), docs.get(('instruments', name), (name, '', '')))
+            if label == 'Open the file': label = ''
+            path = reader_path(rel, record, name); root = '../' * path.count('/')
+            body_html, heads = doc_render(q.read_text(encoding='utf-8'), plain=name in PLAIN_FILES)
+            top = min((l for l, _, _ in heads), default=2)
+            ver = '' if not version else (f'{version}' if version.startswith('Release') else f'Version {version}')
+            sub = ' · '.join(x for x in (label, ver) if x)
+            kb = max(1, round(f['size'] / 1000))
+            fmt = FORMATS[pathlib.PurePosixPath(name).suffix]
+            body = (f'<section class="phead">\n{mark_svg("wm")}\n<div class="wrap">\n'
+                    f'<p class="crumbs"><a href="{root}{index}">Home</a> / <a href="{root}materials/{index}">Model documents</a> / '
+                    f'<a href="{root}materials/{rel}/{index}">Release {rel}</a></p>\n'
+                    f'<p class="eyebrow">Release {rel} · {RECORD_NAME.get(record, record)}</p>\n'
+                    f'<h1><span class="theirs">{e(doc)}</span></h1>\n'
+                    + (f'<p class="lead">{e(sub)}</p>\n' if sub else '') +
+                    f'<p class="muted read">The text below is the file as the release published it, set out for reading. Not legal advice.</p>\n'
+                    f'<div class="actions"><a class="btn" download href="{root}files/{rel}/{record}/{e(name)}"><span>Download the file <span class="nb">({fmt}, {kb} KB)</span></span></a>'
+                    f'<a class="btn btn-2" href="{root}materials/{rel}/{index}">Every document in Release {rel}</a></div>\n'
+                    f'</div>\n</section>\n'
+                    f'<section class="sec">\n<div class="wrap">\n'
+                    f'<article class="doc theirs{" has-toc" if len([h for h in heads if h[0] <= top + 1]) >= 2 else ""}" data-source="files/{rel}/{record}/{e(name)}">\n'
+                    f'{doc_contents(heads, top)}<section class="doc-body">\n{body_html}\n</section>\n</article>\n</div>\n</section>')
+            meta = {'title': f'{doc}' + (f', {label.lower()}' if label else ''), 'tab': doc + (f' ({label.lower()})' if label else ''), 'path': path,
+                    'description': f'{doc}, from Release {rel} of In-Kind Standard\'s model documents, to read here or download.',
+                    'updated': READER_UPDATED, 'budget': '0'}
+            yield meta, body
+
+
 def funding_version():
     """The funding statement's version and date, as its own first line gives them (\"Working draft · Version 0.5 · 12 November 2026 · Released\"), so that no date of another project's release is typed on a page."""
     t = (SRC / 'released' / 'nonprofit' / 'Website_2026-11-14b' / 'funding-statement.html').read_text(encoding='utf-8')
@@ -677,6 +844,7 @@ def render(meta, body, layout, local):
     if '{{byline}}' in body:
         assert path == '' and body.count('{{byline}}') == 1, f'{path!r}: the byline is placed once, on the home page only'
         body = body.replace('{{byline}}', unbroken(BYLINE))
+    body = reader_links(body, local)
     title = meta['title']
     fill = {
         'body': body,
@@ -694,6 +862,8 @@ def render(meta, body, layout, local):
     out = layout
     for k in ('body', 'mark', 'title_tag', 'description', 'footline', 'readers', 'nav', 'navphone', 'foot_lists', 'updated', 'gaps_line', 'printed', 'home', 'root', 'index'):
         out = out.replace('{{' + k + '}}', fill[k])
+    if path.startswith('read/'):   # the reader pages' own style sheet, after the site's
+        out = out.replace('assets/site.css">', 'assets/site.css">\n<link rel="stylesheet" href="' + root + 'assets/read.css">', 1)
     out = print_addresses(out, path)
     if kept:
         assert out.count(STAND_IN) == 1, f'{path}: the released text is not placed once'
@@ -723,6 +893,14 @@ def build(dest, local=False):
             target = new / path if path.endswith('.html') else new / path / 'index.html'
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(render(meta, body, layout, local), encoding='utf-8', newline='\n')
+        for rel in sorted(q.name for q in PUB_FILES.iterdir() if q.is_dir() and (SRC / 'releases' / f'{q.name}.json').is_file()):
+            for meta, body in reader_pages(rel, local):
+                path = meta['path']
+                assert path not in seen, f'two pages at {path!r}'
+                seen.add(path)
+                target = new / path / 'index.html'
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_text(render(meta, body, layout, local), encoding='utf-8', newline='\n')
         for target, _ in NAV + READERS + [x for v in FOOT.values() for x in v]:
             assert target.startswith('@') or target in seen, f'menu item {target!r} has no page'
         # Every page was made: put the new files in place of the old ones.

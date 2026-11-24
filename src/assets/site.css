@@ -1,7 +1,7 @@
 /* In-Kind Standard: the site's style sheet (Stage 1, 17 November 2026), made from design v1 (decision sheet 15, X1 A; frame v0.6, section 8).
-   Colors are the brand kit's: navy #20234D and cream #DFDCB2, with the mark's eight colors, clockwise from the top: violet #7A2DE5,
-   blue #0069E8, teal #07C7DC, green #52F179, gold #FFD700, orange #FA8300, coral #EC544B and pink #DB39A1 (palette B, chosen 24 November 2026). Dark is on the navy, light on the cream. A color is named only in a :root block and is used
-   only through its name (checks/check_site.py). Text shades made from the brand colors for 7 to 1: violet #5700B3 (in light mode, only the condition label), second text #383B66. A mark on cream uses coral's shade #DA433C, for 3 to 1.
+   Colors are the brand kit's: navy #20234D and cream #DFDCB2, with the mark's palette B (24 November 2026): violet #7A2DE5,
+   blue #0069E8, teal #07C7DC, green #52F179, gold #FFD700, orange #FA8300, coral #EC544B, pink #DB39A1. Dark is on the navy, light on the cream. A color is named only in a :root block and is used
+   only through its name (checks/check_site.py). Text shades made from the brand colors for 7 to 1: violet #5700B3 (in light mode, only the condition label), second text #383B66. Marks: coral #DA433C.
    Type is Atkinson Hyperlegible, with its Mono for identifiers and figures, served from this site. */
 @font-face{font-family:"Atkinson Hyperlegible";font-style:normal;font-weight:400;font-display:swap;src:url("fonts/AtkinsonHyperlegible-Regular.woff") format("woff")}
 @font-face{font-family:"Atkinson Hyperlegible";font-style:italic;font-weight:400;font-display:swap;src:url("fonts/AtkinsonHyperlegible-Italic.woff") format("woff")}
@@ -217,6 +217,10 @@ p{margin:0 0 1rem}
 .home[data-h="priv"] .ico{background:var(--h-priv-bg);color:var(--h-priv-ink)}
 .ico svg,.dg-card svg{width:1.45rem;height:1.45rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .items{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(20rem,100%),1fr));gap:1.1rem}
+.pill+h3,.pill+h4{margin-top:.85rem}
+h2+.items,h2+.grid-2{margin-top:1.3rem}
+.items+.notice,.grid-2+.notice{margin-top:2rem}
+p:has(>.btn:only-child){margin-top:1.5rem}
 .item{background:var(--card);border:1px solid var(--rule);border-radius:var(--r);padding:1.3rem 1.4rem 1.3rem;box-shadow:var(--sh-1);display:flex;flex-direction:column;gap:.7rem}
 .item .kick{font-family:var(--mono);font-size:.78rem;line-height:1.4;letter-spacing:.05em;text-transform:uppercase;color:var(--ink2);margin:0}
 .item h3,.item h4{margin:0;font-size:1.18rem;line-height:1.25}
