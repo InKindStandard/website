@@ -1,0 +1,2 @@
+dbdc9a5b2f9e6118554619f6bc404fa4672e5dd85d36660ebad53dd8991a61a2  funding-statement.html
+df49f943735bc82b9e1c87777aed8b7d9878ae963cf05ba095f964d69f4064b3  founder-ties.html

@@ -766,7 +766,7 @@ def reader_pages(rel, local):
 
 def funding_version():
     """The funding statement's version and date, as its own first line gives them (\"Working draft · Version 0.5 · 12 November 2026 · Released\"), so that no date of another project's release is typed on a page."""
-    t = (SRC / 'released' / 'nonprofit' / 'Website_2026-11-14b' / 'funding-statement.html').read_text(encoding='utf-8')
+    t = (SRC / 'released' / 'nonprofit' / 'Website_2026-11-24' / 'funding-statement.html').read_text(encoding='utf-8')
     m = re.search(r'<em>[^<]*· Version (\d+\.\d+) · (\d{1,2} [A-Z][a-z]+ 20\d\d) ·[^<]*</em>', t)
     assert m, "the funding statement's first line is not in the form this build reads"
     return f'Version {m.group(1)}, {m.group(2)}'
