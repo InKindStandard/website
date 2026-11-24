@@ -610,7 +610,9 @@ def reader_slug(name):
 
 
 def reader_path(rel, record, name):
-    return f'read/{rel}/{record}/{reader_slug(name)}/'
+    """A file in both records has one page, under the record the release's data names for it."""
+    shared = {f['file']: d['record'] for d in release_json(rel)['shared'] for f in d['files']} if (SRC / 'releases' / f'{rel}.json').is_file() else {}
+    return f'read/{rel}/{shared.get(name, record)}/{reader_slug(name)}/'
 
 
 def reader_links(body, local):
@@ -736,6 +738,7 @@ def reader_pages(rel, local):
             doc, label, version = docs.get((record, name), docs.get(('instruments', name), (name, '', '')))
             if label == 'Open the file': label = ''
             path = reader_path(rel, record, name); root = '../' * path.count('/')
+            if not path.startswith(f'read/{rel}/{record}/'): continue   # the other record's copy of a shared file
             body_html, heads = doc_render(q.read_text(encoding='utf-8'), plain=name in PLAIN_FILES)
             top = min((l for l, _, _ in heads), default=2)
             ver = '' if not version else (f'{version}' if version.startswith('Release') else f'Version {version}')
