@@ -189,7 +189,10 @@ APPROVED = {'index.html': (468, 1550), 'materials/index.html': (386, 3151), 'con
             'how-it-works/index.html': (1146, 1151), 'governance/index.html': (555, 560), 'plans/index.html': (472, 477), 'sponsors/index.html': (898, 903),
             'records/index.html': (91, 96), 'press/index.html': (171, 176), 'updates/index.html': (92, 97),
             # the all-sector Plain Language Guide: its frame of 24 November 2026 gave 880 own words; the founder chose to include the drafts ("Include the drafts"), approved on merge
-            'guide/index.html': (880, 890)}   # frame v0.6, section 4 gave 320, 280, 140, 525, 330 and 40; the pages' own words are over those (run 19, S4), so these are the pages' measured words of 18 November 2026, rounded up to five, approved by the founder (decision sheet 16, S2 A); Home's are 415 and 1,540 since decision sheet 17 (18 November 2026), which added the logistics series' row and the broader opening: 430 own words, inside its room; the funding page's words are the nonprofit project's as released (decision sheet 6, A)
+            'guide/index.html': (880, 890),   # frame v0.6, section 4 gave 320, 280, 140, 525, 330 and 40; the pages' own words are over those (run 19, S4), so these are the pages' measured words of 18 November 2026, rounded up to five, approved by the founder (decision sheet 16, S2 A); Home's are 415 and 1,540 since decision sheet 17 (18 November 2026), which added the logistics series' row and the broader opening: 430 own words, inside its room; the funding page's words are the nonprofit project's as released (decision sheet 6, A)
+            # What we're working toward: its frame of 24 November 2026 gave 780 own words, approved by the founder ("Approve"); these are the page's measured words, rounded up to five, approved on merge
+            'working-toward/index.html': (760, 765)}
+
 # The ceilings of Stage 1 are each page's measured words of 18 November 2026, rounded up to ten (decision sheet 5, A); the founder approved them with the pages (decision sheet 16, S2 A, 18 November 2026).
 # Another project's released pages: each page's fragments, in order, and each fragment's SHA-256 as that project released it
 # (the nonprofit project's folder Website_2026-11-24: the funding statement v0.6 and the record of ties, released at the founder's word of 24 November 2026,
