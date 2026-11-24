@@ -138,6 +138,40 @@ for f_ in sorted((ROOT / 'src' / 'pages').glob('*.html')):
     if 'ceiling' in head_: CEILING[path_ if path_.endswith('.html') else path_ + 'index.html'] = int(head_['ceiling'])
     if 'release' in head_: RELEASE_OF[path_ + 'index.html'] = head_['release'].strip()
     if 'theirs' in head_: THEIRS_OF[path_ + 'index.html'] = head_['theirs'].split()
+# Reader pages (the founder's request of 24 November 2026: "nothing should send the visitor to an unformatted Markdown page"): each hosted .md or .txt file of a
+# release has a page at read/<release>/<record>/<name>/ that shows the file's text. The text is the release's, so it is held to the file word for word (reader_text_)
+# and then set aside, like another project's released pages, before the page's own words are checked. READER_PAGE is the budget and ceiling of each one's own words,
+# measured when they were made: 42 to 46 own words and at most 62 in all, so 46 and 70 (approved with them on merge).
+READER_PAGE = (46, 70)
+def reader_slug_(name_): return pathlib.PurePosixPath(name_).stem.lower().replace('_', '-')
+READER_OF = {}   # each reader page, by its address: the hosted file it shows. A file in both records has one page, under the record the release's data names for it.
+SHARED_IN_ = {}  # (release, file name): that record
+for d_ in sorted((PUB / 'files').iterdir()) if (PUB / 'files').is_dir() else []:
+    rj_ = ROOT / 'src' / 'releases' / f'{d_.name}.json'
+    if rj_.is_file(): SHARED_IN_.update({(d_.name, f_['file']): x_['record'] for x_ in json.loads(rj_.read_text(encoding='utf-8'))['shared'] for f_ in x_['files']})
+    for f_ in sorted(d_.rglob('*')):
+        if f_.is_file() and f_.suffix in ('.md', '.txt') and len(f_.relative_to(d_).parts) == 2 and SHARED_IN_.get((d_.name, f_.name), f_.parent.name) == f_.parent.name:
+            READER_OF[f'read/{d_.name}/{f_.parent.name}/{reader_slug_(f_.name)}/index.html'] = f_
+for r_ in READER_OF: BUDGET[r_], CEILING[r_] = READER_PAGE
+def reader_text_(rel_, t_):
+    """A reader page with the release's text set aside, once that text is shown to be its file's, word for word: the same words and figures in the same
+    order, the file's comments for machines (its SPDX license tags) left out; and each line of the contents is one of the page's headings."""
+    m_ = re.search(r'<article class="doc theirs(?: has-toc)?" data-source="files/([^"]+)">(.*?)</article>', t_, flags=re.S)
+    if not m_ or len(re.findall(r'<article\b', t_)) != 1: bad(f'{rel_}: no single <article class="doc theirs"> holding the file\'s text'); return t_
+    src_ = READER_OF.get(rel_)
+    if src_ is None or src_.relative_to(PUB / 'files').as_posix() != html.unescape(m_.group(1)): bad(f'{rel_}: shows {m_.group(1)}, not its own file'); return t_
+    toc_ = re.findall(r'<nav class="toc toc-side"[^>]*>.*?</nav>|<details class="toc toc-top">.*?</details>', m_.group(2), flags=re.S)
+    body_ = m_.group(2)
+    for x_ in toc_: body_ = body_.replace(x_, '')
+    sq_ = lambda x_: re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', x_))).strip()
+    words_ = lambda x_: re.findall(r'[A-Za-z0-9]+', x_)
+    shown_ = words_(html.unescape(re.sub(r'<[^>]+>', ' ', body_)))
+    if shown_ != words_(re.sub(r'<!--.*?-->', '', src_.read_text(encoding='utf-8'), flags=re.S)): bad(f'{rel_}: its text is not {src_.name} word for word')
+    heads_ = {sq_(re.sub(r'<[^>]+>', '', h_)) for h_ in re.findall(r'<h[2-6] id="[^"]+">(.*?)</h[2-6]>', body_)}
+    for x_ in toc_:
+        for e_ in re.findall(r'<a href="#[^"]+">(.*?)</a>', x_):
+            if sq_(e_) not in heads_: bad(f'{rel_}: a line of its contents is not one of its headings: {sq_(e_)[:60]}')
+    return t_.replace(m_.group(0), '')
 ROOM = 1.05   # decision sheet 16, S2, option A (approved by the founder on 18 November 2026, 08:46): a page may be 5 percent over its budget, where decision sheet 2 allowed 20
 # The numbers in force are also held here, so that a page cannot raise its own: its heading block must give exactly these. The founder approved them on 18 November 2026, 08:46 (decision sheet 16, S2 A), and Home's 415 and 1,540 by 10:17 (decision sheet 17), when its own words were 430; with the link to What communities could receive they are 433. What communities could receive has the 160 that frame v0.6 gives it (section 4) and the ceiling of
 # decision sheet 5's rule, its measured 3,711 words rounded up to ten, for the founder's approval with the page (decision sheet 17, T4). Model documents' ceiling is 3,100, its measured 3,098 words rounded up to ten, with the three changes in the site's
@@ -149,7 +183,9 @@ APPROVED = {'index.html': (468, 1550), 'materials/index.html': (386, 3151), 'con
             'funding/index.html': (15, None), 'could-receive/index.html': (206, 2207),
             # the founder's request of 18 November 2026, 16:03 ("I want this to look complete"): the pages that were designed but not built, at their measured words, approved on merge
             'how-it-works/index.html': (1146, 1151), 'governance/index.html': (555, 560), 'plans/index.html': (472, 477), 'sponsors/index.html': (898, 903),
-            'records/index.html': (91, 96), 'press/index.html': (171, 176), 'updates/index.html': (92, 97)}   # frame v0.6, section 4 gave 320, 280, 140, 525, 330 and 40; the pages' own words are over those (run 19, S4), so these are the pages' measured words of 18 November 2026, rounded up to five, approved by the founder (decision sheet 16, S2 A); Home's are 415 and 1,540 since decision sheet 17 (18 November 2026), which added the logistics series' row and the broader opening: 430 own words, inside its room; the funding page's words are the nonprofit project's as released (decision sheet 6, A)
+            'records/index.html': (91, 96), 'press/index.html': (171, 176), 'updates/index.html': (92, 97),
+            # the all-sector Plain Language Guide: its frame of 24 November 2026 gave 880 own words; the founder chose to include the drafts ("Include the drafts"), approved on merge
+            'guide/index.html': (880, 890)}   # frame v0.6, section 4 gave 320, 280, 140, 525, 330 and 40; the pages' own words are over those (run 19, S4), so these are the pages' measured words of 18 November 2026, rounded up to five, approved by the founder (decision sheet 16, S2 A); Home's are 415 and 1,540 since decision sheet 17 (18 November 2026), which added the logistics series' row and the broader opening: 430 own words, inside its room; the funding page's words are the nonprofit project's as released (decision sheet 6, A)
 # The ceilings of Stage 1 are each page's measured words of 18 November 2026, rounded up to ten (decision sheet 5, A); the founder approved them with the pages (decision sheet 16, S2 A, 18 November 2026).
 # Another project's released pages: each page's fragments, in order, and each fragment's SHA-256 as that project released it
 # (the nonprofit project's folder Website_2026-11-14b, its README, and its log entries of 14 November 2026, 01:32 to 01:48 and 01:55 to
@@ -178,10 +214,11 @@ FOOT = [('The work', [('materials/', 'Model documents'), ('could-receive/', 'Wha
 RELEASE_PAGE = 270   # every release page's budget (decision sheet 2, E4 A gave 220; the page's own words are 268 since run 19, N4, so 270, approved on decision sheet 16, S2 A, 18 November 2026)
 # The logo's mark, the browser icon and the two full-colour files, held as approved (logo kit v2.3; decision sheet 15, X6 A, 17 November 2026). A new mark, icon or file
 # also needs its checksum here, with the founder's approval (RUNBOOK.md, section 6). The mark is src/logo.inc after its note, as the build takes it.
+# The two full-colour files and the icon recolored to the founder's palette B on 24 November 2026 ("B. I think I'd rather it be true to the spectrum"), approved on merge.
 MARK_SHA = '9aca9bd910f141b4b772a8c19b8f2d4f60f23b0d0e2af4a54036d8f42b0c9ae5'
-ICON_SHA = '1a51afde2dd22cdaae7635cad12b209b731604b19380298c991f7c8e163bd4c2'
-LOGO_FILES = {'assets/logo.svg': 'd03e7569fc6bec5d417e7656e7f73d6a545bc5f470b89627ebd93ff55100e2f0',            # the mark on navy
-              'assets/logo-on-cream.svg': '7a72a46a3731179dacf75dcf6b1d932698aabf879e7e2bad7979d874c869dec7'}   # and on cream: the only image files on the site
+ICON_SHA = 'fe3d018754c7d158cf1093b294276f3abe275be206e772f3fbb61202cfa85b99'
+LOGO_FILES = {'assets/logo.svg': '47bf522435e93b54bad8cda09f89203e22540ea1aa20b6d31c50f9ad1a44171c',            # the mark on navy
+              'assets/logo-on-cream.svg': 'e8f66e53aedc4f53c16376efbcbd9828726e2df8763189c1b05639c7beccaf93'}   # and on cream: the only image files on the site
 RELEASE_CEILING = {'2026.4': 1570}   # each release page's ceiling, approved with its page (decision sheet 5, A)
 VOID = {'meta', 'link', 'img', 'br', 'hr', 'input', 'source', 'path', 'wbr'}
 # The 41 elements whose start tag ends an open paragraph (the HTML standard's parsing rules), so none may sit inside one.
@@ -223,7 +260,7 @@ def sums_of(path):
 ASK = [r'\bdonat(?:e|es|ed|ing|ion|ions)\b', r'\bgive to\b', r'\bsupport us\b', r'\bsupport (?:the|our) (?:project|work)\b', r'\bmake a gift\b',
        r'\bcontribute to (?:the|our) (?:project|work)\b', r'\bsponsor us\b', r'\bbecome a (?:donor|sponsor|member)\b', r'\bfund (?:us|our work|the project)\b']
 # The asset files, by name: every file in src/assets/ is published, so nothing else may be there (run 7, N1).
-ASSETS = {'site.css', 'site.js', 'favicon.ico', 'logo.svg', 'logo-on-cream.svg', 'fonts/AtkinsonHyperlegible-Regular.woff', 'fonts/AtkinsonHyperlegible-Bold.woff',
+ASSETS = {'site.css', 'read.css', 'site.js', 'favicon.ico', 'logo.svg', 'logo-on-cream.svg', 'fonts/AtkinsonHyperlegible-Regular.woff', 'fonts/AtkinsonHyperlegible-Bold.woff',
           'fonts/AtkinsonHyperlegible-Italic.woff', 'fonts/AtkinsonHyperlegible-BoldItalic.woff', 'fonts/AtkinsonHyperlegibleMono-wght.woff',
           'fonts/OFL-AtkinsonHyperlegible.txt', 'fonts/OFL-AtkinsonHyperlegibleMono.txt'}
 
@@ -383,7 +420,7 @@ def release_page(rel):
     m = re.fullmatch(r'materials/(\d{4}\.\d+)/index\.html', rel)
     return bool(m) and RELEASE_OF.get(rel) == m.group(1) and m.group(1) in zlists
 for rel_ in sorted(BUDGET):
-    want_ = (RELEASE_PAGE, RELEASE_CEILING.get(RELEASE_OF.get(rel_))) if release_page(rel_) else APPROVED.get(rel_)
+    want_ = (RELEASE_PAGE, RELEASE_CEILING.get(RELEASE_OF.get(rel_))) if release_page(rel_) else READER_PAGE if rel_ in READER_OF else APPROVED.get(rel_)
     if want_ is None: bad(f'{rel_}: no approved word budget; it is added to APPROVED once the founder approves the page\'s frame')
     elif (BUDGET[rel_], CEILING.get(rel_)) != want_: bad(f'{rel_}: its heading block gives budget {BUDGET[rel_]} and ceiling {CEILING.get(rel_)}; the approved are {want_[0]} and {want_[1]}')
     elif want_[1] is None and rel_ not in RELEASED_PAGES: bad(f'{rel_}: no approved ceiling on all its words; it is added once the founder approves one (decision sheet 5)')
@@ -394,6 +431,7 @@ POLICIES_GAP = 'The policies this page names are working drafts not yet publishe
 shared, counts, every, names, texts, theirs, texts_own, units_ = {}, {}, {}, {}, {}, {}, {}, {}
 for p in pages:
     rel = p.relative_to(PUB).as_posix(); t = p.read_text(encoding='utf-8')
+    if rel in READER_OF: t = reader_text_(rel, t)
     block = ''
     if rel in RELEASED_PAGES or rel in THEIRS_OF:
         names_ = RELEASED_PAGES.get(rel)
@@ -848,11 +886,13 @@ for rel_id, z in zlists.items():
             if note['text'] not in re.sub(r'\s+', ' ', words_of(note['source'])) or note['text'] not in page_text: bad(f'{rel_id}: "{note["text"][:50]}" is not word for word in {note["source"]}, or not on the page')
         if r['credit']:
             c = r['credit']
-            if c['text'] not in page_text or f'files/{rel_id}/{r["key"]}/{c["file"]}">{c["link"]}</a>' not in page or c['file'] not in {f['name'] for f in zr['files']}: bad(f'{rel_id}: the line on crediting {r["label"]} is missing or does not link its license file')
+            if c['text'] not in page_text or f'read/{rel_id}/{SHARED_IN_.get((rel_id, c["file"]), r["key"])}/{reader_slug_(c["file"])}/">{c["link"]}</a>' not in page or c['file'] not in {f['name'] for f in zr['files']}: bad(f'{rel_id}: the line on crediting {r["label"]} is missing or does not link its license file')
         if zr['doi'] != r['doi'] or zr['license'] != r['license']: bad(f'{rel_id}: DOI or license of {r["key"]} differs from Zenodo\'s')
         if f', {zr["license"]}, {GLOSS[zr["license"]]}' not in materials_bt_ or f'License: {zr["license"]}' not in page_text: bad(f'{rel_id}: the license of {r["key"]} is not shown as Zenodo has it')
     if data['title'] != TITLE or TITLE not in page_text: bad(f'{rel_id}: the public title is missing from the release page')
-    linked = {md5.get((k, n)) for k, n in re.findall(r'href="(?:\.\./)*files/' + re.escape(rel_id) + r'/(\w+)/([^"]+)"', page)}
+    by_slug_ = {(k, reader_slug_(n)): n for k, n in md5}
+    linked = {md5.get((k, n)) for k, n in re.findall(r'href="(?:\.\./)*files/' + re.escape(rel_id) + r'/(\w+)/([^"]+)"', page)} | \
+             {md5.get((k, by_slug_.get((k, n)))) for k, n in re.findall(r'href="(?:\.\./)*read/' + re.escape(rel_id) + r'/(\w+)/([\w.-]+)/(?:index\.html)?"', page)}
     unlinked = sorted(n for (k, n), m in md5.items() if m not in linked)
     if unlinked: bad(f'{rel_id}: hosted but not linked from the release page: {unlinked}')
 materials = texts.get('materials/index.html', '')
@@ -1144,7 +1184,7 @@ for q in pages:
     rel_ = q.relative_to(PUB).as_posix()
     if rel_ in ('index.html', 'materials/index.html', f'materials/{newest}/index.html'): continue
     for key_, rec_ in cur.items():
-        if rec_['doi'] in q.read_text(encoding='utf-8'): bad(f'{rel_}: the current release\'s own DOI for {key_} ({rec_["doi"]}) belongs on the home page, Materials and the release page only')
+        if rec_['doi'] in (reader_text_(rel_, q.read_text(encoding='utf-8')) if rel_ in READER_OF else q.read_text(encoding='utf-8')): bad(f'{rel_}: the current release\'s own DOI for {key_} ({rec_["doi"]}) belongs on the home page, Materials and the release page only')
 # Each release's page names its own release in its heading, its trail and its opening line, gives its own date, and links only its
 # own files; the home page's and Materials' buttons lead to the newest release, in those words (C4-12).
 MONTHS_ = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
@@ -1248,7 +1288,9 @@ if css_b_ > 40000: bad(f'assets/site.css is {css_b_} bytes; the frame\'s limit i
 if js_b_ > 30000: bad(f'assets/site.js is {js_b_} bytes; the frame\'s limit is 30 KB (frame v0.6, section 7, "Speed")')
 fonts_b_ = sum(f_.stat().st_size for f_ in (PUB / 'assets' / 'fonts').glob('*.woff')); logo_b_ = max(f_.stat().st_size for f_ in (PUB / 'assets').glob('logo*.svg'))
 for q in pages:   # a first visit: the page, the style sheet, the script, every font the style sheet names, the largest logo where the page holds one and the icon (hosted documents are not pages)
-    w_ = q.stat().st_size + css_b_ + js_b_ + fonts_b_ + (logo_b_ if '<img ' in q.read_text(encoding='utf-8') else 0) + (PUB / 'favicon.ico').stat().st_size
+    rq_ = q.relative_to(PUB).as_posix()
+    own_b_ = len(reader_text_(rq_, q.read_text(encoding='utf-8')).encode('utf-8')) + (PUB / 'assets' / 'read.css').stat().st_size if rq_ in READER_OF else q.stat().st_size
+    w_ = own_b_ + css_b_ + js_b_ + fonts_b_ + (logo_b_ if '<img ' in q.read_text(encoding='utf-8') else 0) + (PUB / 'favicon.ico').stat().st_size
     if w_ > 350000: bad(f'{q.relative_to(PUB).as_posix()}: a first visit loads up to {w_} bytes; the frame\'s limit is 350 KB (frame v0.6, section 7, "Speed")')
 
 # The repository's own documents, README.md, RUNBOOK.md and NOTICE.md (the frame for the repository's files, approved 13 November

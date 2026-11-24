@@ -1,7 +1,7 @@
 /* In-Kind Standard: the site's style sheet (Stage 1, 17 November 2026), made from design v1 (decision sheet 15, X1 A; frame v0.6, section 8).
-   Colors are the brand kit's: navy #20234D and cream #DFDCB2, with the mark's violet #4E00FF, teal #6AC4CE,
-   green #72FF5C, red #C74033 and gold #FFD700. Dark is on the navy, light on the cream. A color is named only in a :root block and is used
-   only through its name (checks/check_site.py). Text shades made from the brand colors for 7 to 1: violet #3A00BF (in light mode, only the condition label), second text #383B66.
+   Colors are the brand kit's: navy #20234D and cream #DFDCB2, with the mark's palette B (24 November 2026): violet #7A2DE5,
+   blue #0069E8, teal #07C7DC, green #52F179, gold #FFD700, orange #FA8300, coral #EC544B, pink #DB39A1. Dark is on the navy, light on the cream. A color is named only in a :root block and is used
+   only through its name (checks/check_site.py). Text shades made from the brand colors for 7 to 1: violet #5700B3 (in light mode, only the condition label), second text #383B66. Marks: coral #DA433C.
    Type is Atkinson Hyperlegible, with its Mono for identifiers and figures, served from this site. */
 @font-face{font-family:"Atkinson Hyperlegible";font-style:normal;font-weight:400;font-display:swap;src:url("fonts/AtkinsonHyperlegible-Regular.woff") format("woff")}
 @font-face{font-family:"Atkinson Hyperlegible";font-style:italic;font-weight:400;font-display:swap;src:url("fonts/AtkinsonHyperlegible-Italic.woff") format("woff")}
@@ -12,15 +12,15 @@
 --bg:#FFFFFF;--surface:#ECEAD0;--card:#ECEAD0;--tray:#F6F5E9;--tint:#DFDCB2;
 --ink:#20234D;--ink2:#383B66;--rule:#DFDCB2;--rule2:#C9C59B;--ctl:#63668F;--accent:#20234D;
 --mast:#20234D;--mast-ink:#FFFFFF;--mast-sub:#FFFFFF;--mast-line:rgba(255,255,255,.3);--mast-ring:rgba(255,255,255,.6);--gold:#FFD700;--gold-ink:#3A2C00;--gold-hover:#FFE55C;
---band:#FFFFFF;--band-ink:#20234D;--band-sub:#383B66;--band-eye:#383B66;--band-link:#20234D;--band-focus:#4E00FF;--band-mark:#C74033;--band-line:rgba(32,35,77,.4);--band-card:rgba(223,220,178,.5);--wm-o:.06;
---band-rule:linear-gradient(90deg,#4E00FF,#6AC4CE,#72FF5C,#C74033);
+--band:#FFFFFF;--band-ink:#20234D;--band-sub:#383B66;--band-eye:#383B66;--band-link:#20234D;--band-focus:#7A2DE5;--band-mark:#DA433C;--band-line:rgba(32,35,77,.4);--band-card:rgba(223,220,178,.5);--wm-o:.06;
+--band-rule:linear-gradient(90deg,#7A2DE5,#07C7DC,#52F179,#EC544B);
 --band-btn:#20234D;--band-btn-ink:#FFFFFF;--band-btn-hover:#2E3268;--band-btn2:#20234D;--band-btn2-line:rgba(32,35,77,.65);--band-btn2-hover:rgba(223,220,178,.6);
---nums:#ECEAD0;--nums-ink:#20234D;--nums-sub:#383B66;--nums-eye:#383B66;--fig:#20234D;--nums-focus:#4E00FF;--nums-link:#20234D;--nums-mark:#C74033;--nums-btn:#20234D;--nums-btn-ink:#FFFFFF;--nums-btn-hover:#2E3268;--nums-btn2:#20234D;--nums-btn2-line:rgba(32,35,77,.65);--nums-btn2-hover:rgba(255,255,255,.55);
---mark:#C74033;--tab-on:#4E00FF;--gaps-top:#C74033;
---ico-bg:#6AC4CE;--ico-ink:#20234D;--h-std-bg:#4E00FF;--h-std-ink:#FFFFFF;--h-item-bg:#6AC4CE;--h-item-ink:#20234D;--h-lease-bg:#72FF5C;--h-lease-ink:#20234D;--h-priv-bg:#C74033;--h-priv-ink:#FFFFFF;
---btn:#20234D;--btn-hover:#2E3268;--btn-ink:#FFFFFF;--btn-line:#20234D;--focus-base:#4E00FF;
+--nums:#ECEAD0;--nums-ink:#20234D;--nums-sub:#383B66;--nums-eye:#383B66;--fig:#20234D;--nums-focus:#7A2DE5;--nums-link:#20234D;--nums-mark:#DA433C;--nums-btn:#20234D;--nums-btn-ink:#FFFFFF;--nums-btn-hover:#2E3268;--nums-btn2:#20234D;--nums-btn2-line:rgba(32,35,77,.65);--nums-btn2-hover:rgba(255,255,255,.55);
+--mark:#DA433C;--tab-on:#7A2DE5;--gaps-top:#DA433C;
+--ico-bg:#07C7DC;--ico-ink:#20234D;--h-std-bg:#7A2DE5;--h-std-ink:#FFFFFF;--h-item-bg:#07C7DC;--h-item-ink:#20234D;--h-lease-bg:#52F179;--h-lease-ink:#20234D;--h-priv-bg:#EC544B;--h-priv-ink:#15173A;
+--btn:#20234D;--btn-hover:#2E3268;--btn-ink:#FFFFFF;--btn-line:#20234D;--focus-base:#7A2DE5;
 --pub-bg:#20234D;--pub-ink:#FFFFFF;
---v-ok:#20234D;--v-ok-bg:#72FF5C;--v-ok-line:#20234D;--v-prov:#20234D;--v-prov-bg:#6AC4CE;--v-cond:#3A00BF;--v-cond-bg:#EBE5FF;--v-no:#7A1E12;--v-no-bg:#F8DED9;--v-na:#383B66;--v-na-bg:#F6F5E9;
+--v-ok:#20234D;--v-ok-bg:#52F179;--v-ok-line:#20234D;--v-prov:#20234D;--v-prov-bg:#07C7DC;--v-cond:#5700B3;--v-cond-bg:#EBE5FF;--v-no:#7A1E12;--v-no-bg:#F8DED9;--v-na:#383B66;--v-na-bg:#F6F5E9;
 --sh-1:0 1px 2px rgba(32,35,77,.07),0 2px 8px -2px rgba(32,35,77,.10);
 --sh-2:0 1px 1px rgba(32,35,77,.06),0 10px 24px -8px rgba(32,35,77,.24);
 --sh-3:0 2px 4px rgba(32,35,77,.09),0 18px 36px -10px rgba(32,35,77,.32);
@@ -33,11 +33,11 @@
 --mast:#15173A;--bg:#20234D;--surface:#262A5A;--card:#2A2E62;--tray:#181A3C;--tint:#333876;
 --ink:#EEF1FA;--ink2:#CDD5EA;--rule:#3A3F78;--rule2:#5C629F;--ctl:#8388C6;--accent:#D3DBF2;
 --band:#20234D;--band-ink:#FFFFFF;--band-sub:#D6E0F2;--band-eye:#FFD700;--band-link:#FFFFFF;--band-focus:#FFD700;--band-mark:#FFD700;--band-line:rgba(255,255,255,.4);--band-card:rgba(255,255,255,.08);--wm-o:.055;
---band-rule:linear-gradient(90deg,#FFD700,#E77827,#E844A6,#0028FF);
+--band-rule:linear-gradient(90deg,#FFD700,#FA8300,#DB39A1,#0069E8);
 --band-btn:#FFD700;--band-btn-ink:#3A2C00;--band-btn-hover:#FFE55C;--band-btn2:#FFFFFF;--band-btn2-line:rgba(255,255,255,.65);--band-btn2-hover:rgba(255,255,255,.12);
 --nums:#15173A;--nums-ink:#FFFFFF;--nums-sub:#D6E0F2;--nums-eye:#FFD700;--fig:#FFD700;--nums-focus:#FFD700;--nums-link:#FFFFFF;--nums-mark:#FFD700;--nums-btn:#FFD700;--nums-btn-ink:#3A2C00;--nums-btn-hover:#FFE55C;--nums-btn2:#FFFFFF;--nums-btn2-line:rgba(255,255,255,.65);--nums-btn2-hover:rgba(255,255,255,.12);
 --mark:#FFD700;--tab-on:#FFD700;--gaps-top:#FFD700;
---ico-bg:#FFD700;--ico-ink:#3A2C00;--h-std-bg:#FFD700;--h-std-ink:#3A2C00;--h-item-bg:#E77827;--h-item-ink:#15173A;--h-lease-bg:#E844A6;--h-lease-ink:#15173A;--h-priv-bg:#0028FF;--h-priv-ink:#FFFFFF;
+--ico-bg:#FFD700;--ico-ink:#3A2C00;--h-std-bg:#FFD700;--h-std-ink:#3A2C00;--h-item-bg:#FA8300;--h-item-ink:#15173A;--h-lease-bg:#DB39A1;--h-lease-ink:#0D0E24;--h-priv-bg:#0069E8;--h-priv-ink:#FFFFFF;
 --btn:#353A80;--btn-hover:#40469A;--btn-ink:#FFFFFF;--btn-line:#D3DBF2;--focus-base:#FFD700;
 --pub-bg:#D3DBF2;--pub-ink:#181A3C;
 --v-ok:#3A2C00;--v-ok-bg:#FFD700;--v-ok-line:#FFD700;--v-prov:#D3DBF2;--v-prov-bg:#30356F;--v-cond:#FFB695;--v-cond-bg:#3E2517;--v-no:#F2B8BE;--v-no-bg:#3F2429;--v-na:#CDD5EA;--v-na-bg:#2B2F60;
@@ -50,11 +50,11 @@
 --mast:#15173A;--bg:#20234D;--surface:#262A5A;--card:#2A2E62;--tray:#181A3C;--tint:#333876;
 --ink:#EEF1FA;--ink2:#CDD5EA;--rule:#3A3F78;--rule2:#5C629F;--ctl:#8388C6;--accent:#D3DBF2;
 --band:#20234D;--band-ink:#FFFFFF;--band-sub:#D6E0F2;--band-eye:#FFD700;--band-link:#FFFFFF;--band-focus:#FFD700;--band-mark:#FFD700;--band-line:rgba(255,255,255,.4);--band-card:rgba(255,255,255,.08);--wm-o:.055;
---band-rule:linear-gradient(90deg,#FFD700,#E77827,#E844A6,#0028FF);
+--band-rule:linear-gradient(90deg,#FFD700,#FA8300,#DB39A1,#0069E8);
 --band-btn:#FFD700;--band-btn-ink:#3A2C00;--band-btn-hover:#FFE55C;--band-btn2:#FFFFFF;--band-btn2-line:rgba(255,255,255,.65);--band-btn2-hover:rgba(255,255,255,.12);
 --nums:#15173A;--nums-ink:#FFFFFF;--nums-sub:#D6E0F2;--nums-eye:#FFD700;--fig:#FFD700;--nums-focus:#FFD700;--nums-link:#FFFFFF;--nums-mark:#FFD700;--nums-btn:#FFD700;--nums-btn-ink:#3A2C00;--nums-btn-hover:#FFE55C;--nums-btn2:#FFFFFF;--nums-btn2-line:rgba(255,255,255,.65);--nums-btn2-hover:rgba(255,255,255,.12);
 --mark:#FFD700;--tab-on:#FFD700;--gaps-top:#FFD700;
---ico-bg:#FFD700;--ico-ink:#3A2C00;--h-std-bg:#FFD700;--h-std-ink:#3A2C00;--h-item-bg:#E77827;--h-item-ink:#15173A;--h-lease-bg:#E844A6;--h-lease-ink:#15173A;--h-priv-bg:#0028FF;--h-priv-ink:#FFFFFF;
+--ico-bg:#FFD700;--ico-ink:#3A2C00;--h-std-bg:#FFD700;--h-std-ink:#3A2C00;--h-item-bg:#FA8300;--h-item-ink:#15173A;--h-lease-bg:#DB39A1;--h-lease-ink:#0D0E24;--h-priv-bg:#0069E8;--h-priv-ink:#FFFFFF;
 --btn:#353A80;--btn-hover:#40469A;--btn-ink:#FFFFFF;--btn-line:#D3DBF2;--focus-base:#FFD700;
 --pub-bg:#D3DBF2;--pub-ink:#181A3C;
 --v-ok:#3A2C00;--v-ok-bg:#FFD700;--v-ok-line:#FFD700;--v-prov:#D3DBF2;--v-prov-bg:#30356F;--v-cond:#FFB695;--v-cond-bg:#3E2517;--v-no:#F2B8BE;--v-no-bg:#3F2429;--v-na:#CDD5EA;--v-na-bg:#2B2F60;
@@ -217,6 +217,10 @@ p{margin:0 0 1rem}
 .home[data-h="priv"] .ico{background:var(--h-priv-bg);color:var(--h-priv-ink)}
 .ico svg,.dg-card svg{width:1.45rem;height:1.45rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .items{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(20rem,100%),1fr));gap:1.1rem}
+.pill+h3,.pill+h4{margin-top:.85rem}
+h2+.items,h2+.grid-2{margin-top:1.3rem}
+.items+.notice,.grid-2+.notice,.grid-2+p{margin-top:2rem}
+p:has(>.btn:only-child){margin-top:1.5rem}
 .item{background:var(--card);border:1px solid var(--rule);border-radius:var(--r);padding:1.3rem 1.4rem 1.3rem;box-shadow:var(--sh-1);display:flex;flex-direction:column;gap:.7rem}
 .item .kick{font-family:var(--mono);font-size:.78rem;line-height:1.4;letter-spacing:.05em;text-transform:uppercase;color:var(--ink2);margin:0}
 .item h3,.item h4{margin:0;font-size:1.18rem;line-height:1.25}
@@ -417,7 +421,7 @@ main :is(p,dd,td,blockquote),main .steps>li>div,main :is(ul,ol):not(.stepper,.st
 @media (max-width:1080px){
 .dg-box{display:none}
 }
-/* The watermark is cropped at the top by the drawing itself, not by the edge of the band, so that no box of it lies over the masthead (a contrast checker reads such a box as a cover) */
+/* The watermark is cropped at the top by the drawing itself, not by the edge of the band, so no box of it lies over the masthead (a contrast checker reads one as a cover) */
 .hero .wm{clip-path:inset(8rem 0 0 0)}
 .phead .wm{clip-path:inset(9rem 0 0 0)}
 @media (max-width:860px){
@@ -437,7 +441,7 @@ main :is(p,dd,td,blockquote),main .steps>li>div,main :is(ul,ol):not(.stepper,.st
 }
 .grp{margin-top:1.6rem}.grp>summary{cursor:pointer;min-height:2.75rem}.grp>summary h3{display:inline}
 @media print{
-:root,:root[data-theme],:root:not([data-theme="light"]){--bg:#FFFFFF;--surface:#ECEAD0;--card:#ECEAD0;--tray:#F6F5E9;--tint:#DFDCB2;--ink:#20234D;--ink2:#383B66;--rule:#DFDCB2;--rule2:#C9C59B;--ctl:#63668F;--accent:#20234D;--mast:#20234D;--mast-ink:#FFFFFF;--mast-sub:#FFFFFF;--mast-line:rgba(255,255,255,.3);--mast-ring:rgba(255,255,255,.6);--gold:#FFD700;--gold-ink:#3A2C00;--gold-hover:#FFE55C;--band:#FFFFFF;--band-ink:#20234D;--band-sub:#383B66;--band-eye:#383B66;--band-link:#20234D;--band-focus:#4E00FF;--band-mark:#C74033;--band-line:rgba(32,35,77,.4);--band-card:rgba(223,220,178,.5);--wm-o:.06;--band-rule:linear-gradient(90deg,#4E00FF,#6AC4CE,#72FF5C,#C74033);--band-btn:#20234D;--band-btn-ink:#FFFFFF;--band-btn-hover:#2E3268;--band-btn2:#20234D;--band-btn2-line:rgba(32,35,77,.65);--band-btn2-hover:rgba(223,220,178,.6);--nums:#ECEAD0;--nums-ink:#20234D;--nums-sub:#383B66;--nums-eye:#383B66;--fig:#20234D;--nums-focus:#4E00FF;--nums-link:#20234D;--nums-mark:#C74033;--nums-btn:#20234D;--nums-btn-ink:#FFFFFF;--nums-btn-hover:#2E3268;--nums-btn2:#20234D;--nums-btn2-line:rgba(32,35,77,.65);--nums-btn2-hover:rgba(255,255,255,.55);--mark:#C74033;--tab-on:#4E00FF;--gaps-top:#C74033;--ico-bg:#6AC4CE;--ico-ink:#20234D;--h-std-bg:#4E00FF;--h-std-ink:#FFFFFF;--h-item-bg:#6AC4CE;--h-item-ink:#20234D;--h-lease-bg:#72FF5C;--h-lease-ink:#20234D;--h-priv-bg:#C74033;--h-priv-ink:#FFFFFF;--btn:#20234D;--btn-hover:#2E3268;--btn-ink:#FFFFFF;--btn-line:#20234D;--focus-base:#4E00FF;--pub-bg:#20234D;--pub-ink:#FFFFFF;--v-ok:#20234D;--v-ok-bg:#72FF5C;--v-ok-line:#20234D;--v-prov:#20234D;--v-prov-bg:#6AC4CE;--v-cond:#3A00BF;--v-cond-bg:#EBE5FF;--v-no:#7A1E12;--v-no-bg:#F8DED9;--v-na:#383B66;--v-na-bg:#F6F5E9;--sh-1:0 1px 2px rgba(32,35,77,.07),0 2px 8px -2px rgba(32,35,77,.10);--sh-2:0 1px 1px rgba(32,35,77,.06),0 10px 24px -8px rgba(32,35,77,.24);--sh-3:0 2px 4px rgba(32,35,77,.09),0 18px 36px -10px rgba(32,35,77,.32);--r:12px;--r-s:6px;--sans:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;--mono:"Atkinson Hyperlegible Mono",ui-monospace,"Cascadia Mono",Consolas,monospace;--link:var(--accent);--focus:var(--focus-base);}
+:root,:root[data-theme],:root:not([data-theme="light"]){--bg:#FFFFFF;--surface:#ECEAD0;--card:#ECEAD0;--tray:#F6F5E9;--tint:#DFDCB2;--ink:#20234D;--ink2:#383B66;--rule:#DFDCB2;--rule2:#C9C59B;--ctl:#63668F;--accent:#20234D;--mast:#20234D;--mast-ink:#FFFFFF;--mast-sub:#FFFFFF;--mast-line:rgba(255,255,255,.3);--mast-ring:rgba(255,255,255,.6);--gold:#FFD700;--gold-ink:#3A2C00;--gold-hover:#FFE55C;--band:#FFFFFF;--band-ink:#20234D;--band-sub:#383B66;--band-eye:#383B66;--band-link:#20234D;--band-focus:#7A2DE5;--band-mark:#DA433C;--band-line:rgba(32,35,77,.4);--band-card:rgba(223,220,178,.5);--wm-o:.06;--band-rule:linear-gradient(90deg,#7A2DE5,#07C7DC,#52F179,#EC544B);--band-btn:#20234D;--band-btn-ink:#FFFFFF;--band-btn-hover:#2E3268;--band-btn2:#20234D;--band-btn2-line:rgba(32,35,77,.65);--band-btn2-hover:rgba(223,220,178,.6);--nums:#ECEAD0;--nums-ink:#20234D;--nums-sub:#383B66;--nums-eye:#383B66;--fig:#20234D;--nums-focus:#7A2DE5;--nums-link:#20234D;--nums-mark:#DA433C;--nums-btn:#20234D;--nums-btn-ink:#FFFFFF;--nums-btn-hover:#2E3268;--nums-btn2:#20234D;--nums-btn2-line:rgba(32,35,77,.65);--nums-btn2-hover:rgba(255,255,255,.55);--mark:#DA433C;--tab-on:#7A2DE5;--gaps-top:#DA433C;--ico-bg:#07C7DC;--ico-ink:#20234D;--h-std-bg:#7A2DE5;--h-std-ink:#FFFFFF;--h-item-bg:#07C7DC;--h-item-ink:#20234D;--h-lease-bg:#52F179;--h-lease-ink:#20234D;--h-priv-bg:#EC544B;--h-priv-ink:#15173A;--btn:#20234D;--btn-hover:#2E3268;--btn-ink:#FFFFFF;--btn-line:#20234D;--focus-base:#7A2DE5;--pub-bg:#20234D;--pub-ink:#FFFFFF;--v-ok:#20234D;--v-ok-bg:#52F179;--v-ok-line:#20234D;--v-prov:#20234D;--v-prov-bg:#07C7DC;--v-cond:#5700B3;--v-cond-bg:#EBE5FF;--v-no:#7A1E12;--v-no-bg:#F8DED9;--v-na:#383B66;--v-na-bg:#F6F5E9;--sh-1:0 1px 2px rgba(32,35,77,.07),0 2px 8px -2px rgba(32,35,77,.10);--sh-2:0 1px 1px rgba(32,35,77,.06),0 10px 24px -8px rgba(32,35,77,.24);--sh-3:0 2px 4px rgba(32,35,77,.09),0 18px 36px -10px rgba(32,35,77,.32);--r:12px;--r-s:6px;--sans:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;--mono:"Atkinson Hyperlegible Mono",ui-monospace,"Cascadia Mono",Consolas,monospace;--link:var(--accent);--focus:var(--focus-base);}
 html{font-size:11pt}
 body{background:var(--bg);color:var(--ink);font-size:1rem}
 .skip,.mast-nav,.util,.mnav,.tabs,.dg-box,.wm{display:none!important}

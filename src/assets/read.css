@@ -1,0 +1,37 @@
+/* In-Kind Standard: the reader pages' style sheet (24 November 2026). A hosted release file, shown word for word for reading.
+   Loaded after site.css, on the reader pages only, and uses only site.css's color names. */
+.doc{font-size:1.06rem}
+.doc.has-toc{display:grid;grid-template-columns:minmax(13rem,17rem) minmax(0,1fr);gap:3rem;align-items:start}
+.doc-body{max-width:46rem;min-width:0}
+.doc-body h2{font-size:1.55rem;margin:2.6rem 0 .9rem;padding-top:1.2rem;border-top:1px solid var(--rule)}
+.doc-body h3{font-size:1.25rem;margin:2rem 0 .6rem}
+.doc-body h4,.doc-body h5,.doc-body h6{font-size:1.06rem;margin:1.6rem 0 .5rem}
+.doc-body>:first-child{margin-top:0;border-top:0;padding-top:0}
+.doc-body h2,.doc-body h3,.doc-body h4{scroll-margin-top:1.5rem}
+.doc-body p,.doc-body li{line-height:1.65}
+.doc-body ul,.doc-body ol{padding-left:1.4rem;margin:0 0 1.1rem}
+.doc-body li{margin:0 0 .4rem}
+.doc-body ol.numbered{list-style:none;padding-left:0}
+.doc-body ol.numbered .n{font-weight:700;margin-right:.25rem}
+.doc-body hr{border:0;border-top:1px solid var(--rule2);margin:2.2rem 0}
+.doc-body blockquote{margin:0 0 1.2rem;padding:.9rem 1.2rem;background:var(--card);border-left:5px solid var(--tab-on);border-radius:var(--r-s)}
+.doc-body blockquote p:last-child{margin-bottom:0}
+.doc-body code{font-family:var(--mono);font-size:.9em;background:var(--tray);padding:.05rem .3rem;border-radius:4px}
+.doc-body .tbl{overflow-x:auto;margin:0 0 1.4rem;border:1px solid var(--rule2);border-radius:var(--r-s)}
+.doc-body table{border-collapse:collapse;width:100%;font-size:.95rem}
+.doc-body th,.doc-body td{text-align:left;vertical-align:top;padding:.55rem .75rem;border-bottom:1px solid var(--rule)}
+.doc-body thead th{background:var(--card);border-bottom:2px solid var(--rule2)}
+.doc-body tbody tr:last-child td{border-bottom:0}
+.doc-body pre.plain{font-family:var(--mono);font-size:.86rem;line-height:1.5;white-space:pre;overflow-x:auto;background:var(--tray);border:1px solid var(--rule);border-radius:var(--r-s);padding:1rem 1.2rem}
+.toc ol{list-style:none;margin:0;padding:0}
+.toc li{margin:0;font-size:.92rem;line-height:1.35}
+.toc li a{display:block;padding:.35rem 0 .35rem .7rem;border-left:3px solid var(--rule);color:var(--ink2);text-decoration:none}
+.toc li a:hover{border-left-color:var(--tab-on);color:var(--ink);text-decoration:underline}
+.toc li.l2 a{padding-left:1.5rem;font-size:.88rem}
+.toc-h{font-size:.8125rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--ink2);margin:0 0 .7rem}
+.toc-side{position:sticky;top:1.2rem;max-height:calc(100vh - 2.4rem);overflow-y:auto;padding-right:.4rem}
+.toc-top{display:none;margin:0 0 1.8rem;background:var(--card);border:1px solid var(--rule2);border-radius:var(--r-s);padding:.2rem 1rem}
+.toc-top summary{cursor:pointer;font-weight:700;min-height:2.75rem;display:flex;align-items:center}
+.toc-top ol{margin:.2rem 0 .8rem}
+@media (max-width:860px){.doc.has-toc{display:block}.toc-side{display:none}.toc-top{display:block}}
+@media print{.toc{display:none}.doc.has-toc{display:block}.doc-body .tbl{overflow:visible}.doc-body pre.plain{white-space:pre-wrap}}
