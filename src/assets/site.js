@@ -2,7 +2,7 @@
    It adds, and nothing more: the color theme switch, the readers' tabs, the stepper's line, the reveal, the count-up and the
    drawing of who is party to what; it closes the disclosures that the pages write open, and opens them again for print. Every page reads, links and prints in full without it.
    Nothing is hidden until this script has shown it can bring it back. No libraries, no network calls, no cookies.
-   The theme choice is kept in the browser's own storage on this device, under "iks-theme", and nowhere else.
+   The theme choice is kept in the browser's own storage on this device, under "iks-theme", and nowhere else; a link to the Screen carries it after its #, which no site receives.
    When the device asks for reduced motion, the reveal, the count-up, the drawing and the stepper's line do not run. */
 (function () {
   'use strict';
@@ -14,6 +14,14 @@
   function save(v) { try { if (v) window.localStorage.setItem(KEY, v); else window.localStorage.removeItem(KEY); } catch (e) { /* storage may be off: the choice then lasts for this page only */ } }
   function apply(v) { if (v) root.setAttribute('data-theme', v); else root.removeAttribute('data-theme'); }
   apply(saved());
+
+  /* A choice carried from the Screen (screen.inkindstandard.org): a link from it ends in theme=light, theme=dark or theme=device after its # (after any place on the page, joined with &). Browsers never send the part after #
+     to either site. The choice is kept as if it were pressed here, and the mark is taken off the address. (Founder's choice of 24 November 2026: carry it in links, no cookie.) */
+  var carried = window.location.hash;
+  var at = carried.lastIndexOf('theme=');
+  var mark = at === 1 || (at > 1 && carried.charAt(at - 1) === '&') ? carried.slice(at + 6) : null;
+  var c = mark === 'light' ? 'light' : mark === 'dark' ? 'dark' : mark === 'device' ? '' : null;
+  if (c !== null) { save(c); apply(c); window.history.replaceState(null, '', window.location.pathname + window.location.search + carried.slice(0, at > 1 ? at - 1 : 0)); }
 
   function ready(fn) { if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fn); else fn(); }
   function each(list, fn) { Array.prototype.forEach.call(list, fn); }
@@ -49,6 +57,17 @@
     }
     each(document.querySelectorAll('.util, .mnav'), function (h) { h.appendChild(makeSwitch()); });
     paint();
+
+    /* Carrying the choice to the Screen: when a link to it is followed, the choice is written after the link's #, and the Screen keeps it. A link that already has its own # is left as it is. */
+    function carry(ev) {
+      var a = ev.target && ev.target.closest ? ev.target.closest('a') : null;
+      if (!a || a.hostname !== 'screen.inkindstandard.org') return;
+      var h = a.hash, at = h.lastIndexOf('theme=');
+      if (at === 1 || (at > 1 && h.charAt(at - 1) === '&')) h = h.slice(0, at > 1 ? at - 1 : 0);
+      a.hash = (h ? h.slice(1) + '&' : '') + 'theme=' + (saved() || 'device');
+    }
+    document.addEventListener('click', carry, true);
+    document.addEventListener('auxclick', carry, true);
 
     /* The readers' tabs. Without this script each reader's way is a short list under its own heading. */
     each(document.querySelectorAll('[data-tabs]'), function (box, n) {

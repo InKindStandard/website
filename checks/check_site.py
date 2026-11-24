@@ -1247,6 +1247,15 @@ js_code_ = js_code_of_(js_)
 if js_code_ is None:
     bad("src/assets/site.js: a double quote, a backtick or a string left open; the script's text is written with single quotes only, so that these rules can read it")
     js_code_ = re.sub(r'(?m)^\s*//.*$', '', re.sub(r'/\*.*?\*/', '', js_, flags=re.S))
+# The one exception (founder's choice of 24 November 2026, "1 for now": the theme choice is carried in links between the site and the Screen, with no cookie). The script may read
+# the address's # part once, take a #theme= mark off the address once with history.replaceState, and write the choice after the # of a link to the Screen once (a.hash), and nothing more.
+CARRY_ = [r"var\s+carried\s*=\s*window\s*\.\s*location\s*\.\s*hash\s*;",
+          r"window\s*\.\s*history\s*\.\s*replaceState\s*\(\s*null\s*,\s*''\s*,\s*window\s*\.\s*location\s*\.\s*pathname\s*\+\s*window\s*\.\s*location\s*\.\s*search\s*\+\s*carried\s*\.\s*slice\s*\(\s*0\s*,\s*at\s*>\s*1\s*\?\s*at\s*-\s*1\s*:\s*0\s*\)\s*\)",
+          r"a\s*\.\s*hash\s*=\s*\(\s*h\s*\?\s*h\s*\.\s*slice\s*\(\s*1\s*\)\s*\+\s*'&'\s*:\s*''\s*\)\s*\+\s*'theme='\s*\+\s*\(\s*saved\s*\(\s*\)\s*\|\|\s*'device'\s*\)"]
+for c_ in CARRY_:
+    if len(re.findall(c_, js_code_)) != 1: bad('src/assets/site.js: the theme carry to the Screen must appear exactly once, as written (founder\'s choice of 24 November 2026)')
+    js_code_ = re.sub(c_, ' ', js_code_)
+if re.search(r'\bhistory\b|\.\s*hash\s*=(?!=)', js_code_): bad('src/assets/site.js: an address changed outside the one theme carry to the Screen; frame v0.6, section 7')
 for pat_, why_ in ((r'\b(?:fetch|XMLHttpRequest|WebSocket|EventSource|sendBeacon|importScripts|Worker|SharedWorker|serviceWorker|indexedDB|openDatabase)\b', 'a call to the network, a worker or a database'),
                    (r'\bdocument\s*\.\s*cookie\b', 'a cookie'), (r'\b(?:eval|Function)\s*\(', 'code made from text'), (r'\bdocument\s*\.\s*write', 'document.write'),
                    (r'\bsetInterval\b', 'a timer that repeats'), (r'\bsetTimeout\b', 'a timer'), (r'\bimport\b|\brequire\s*\(', 'a library'), (r'https?:|//[A-Za-z]', 'an address'),
