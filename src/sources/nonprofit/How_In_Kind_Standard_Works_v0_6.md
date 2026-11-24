@@ -1,8 +1,8 @@
 # How In-Kind Standard Works
 
-*Working draft · Version 0.5 · 12 November 2026 · Released*
+*Working draft · Version 0.6 · 24 November 2026 · Released*
 
-Prepared by Timothy Smith · Citizen-prepared working draft · Not legal advice
+Prepared by In-Kind Standard · Citizen-prepared working draft · Not legal advice
 
 Except where otherwise noted, this page is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The name In-Kind Standard and its logo are not licensed, and material quoted from others stays under its own terms.
 
@@ -20,6 +20,8 @@ Except where otherwise noted, this page is licensed under CC BY 4.0 (https://cre
 In-Kind Standard is a nonpartisan, educational project that gives communities and their local governments free model documents, plain explanations and public records about large projects, such as data centers, so that they can decide knowing the facts: what they could gain, and what it would cost them.
 
 It is citizen-prepared and planned to become a charitable nonprofit. It is not a government body, a law firm, an advocacy group or a developer, and it enforces nothing. It does not say whether any project should be approved or built, and never urges a county to decide a particular way. It takes no money or help from anyone with a direct financial stake in how its documents are written or applied, and nothing it does, funds or recommends may let the public be watched.
+
+The aim behind the work is everyday basics, such as a home, food, water and power, that cost less and stay that way, reached through practical steps that anyone can check; it is a direction, not a forecast, and it sets no rule for any county.
 
 ## 2. The roles we play
 
@@ -80,3 +82,5 @@ Questions, corrections and complaints about our work: contact@inkindstandard.org
 ---
 
 **The full rules.** This page sets no rules of its own. Where a line sums up a rule, the rule is set in full in one of the project's documents, which governs: the Political Neutrality Policy, the Gift Acceptance Policy, the Complaints Policy, the Compensation Policy, the Conflict of Interest Policy, the Records and Privacy Policy, the Advisory Committee Charter and the funding statement. The other lines describe what the project does today or plans.
+
+**Changes in version 0.6.** Section 1 adds one paragraph stating the aim behind the work, as the website's page "What we're working toward" explains it. The byline names the project in place of the founder. Nothing else changes.

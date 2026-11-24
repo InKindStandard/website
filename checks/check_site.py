@@ -47,8 +47,8 @@ ABOUT = ('In-Kind Standard is a citizen-prepared, nonpartisan project, planned t
          'that Florida counties may use when a large data center seeks to locate there, and keeps a public record of what Florida counties and '
          'cities have done and what communities could receive.')                                    # "About this project", in each policy
 NOT_A = ('It is not a government body, a law firm, an advocacy group or a developer, and it enforces nothing. It does not say whether any '
-         'project should be approved or built, and never urges a county to decide a particular way.')   # How In-Kind Standard Works v0.5, section 1 (as in v0.4 and v0.3)
-# Home's opening quotes How In-Kind Standard Works v0.5, section 1, which speaks of large projects, such as data centers, in place of ABOUT, which speaks of data
+         'project should be approved or built, and never urges a county to decide a particular way.')   # How In-Kind Standard Works v0.6, section 1 (as in v0.5, v0.4 and v0.3)
+# Home's opening quotes How In-Kind Standard Works v0.6, section 1 (as v0.5), which speaks of large projects, such as data centers, in place of ABOUT, which speaks of data
 # centers only and stays the README's (decision sheet 17, T1 A, 18 November 2026): its first paragraph, and the first sentence of its second before NOT_A.
 WORKS_WHAT = ('In-Kind Standard is a nonpartisan, educational project that gives communities and their local governments free model doc'
               'uments, plain explanations and public records about large projects, such as data centers, so that they can decide knowing the facts: what they could gain, and what it would cost them.')
@@ -61,7 +61,7 @@ AI_FULL = ('AI tools help draft and check the work, and the founder reviews ever
 PAYS = 'No one but the founder has paid for it: the founder pays its small costs himself, and the project has received no money or other gifts.'   # the funding statement v0.5 (as in v0.4 and v0.3)
 HOME_GAPS = ['No county has adopted the model documents, and no lawyer has reviewed them.',
              'Their fees and mitigation amounts stay blank until studies for the county that uses them supply them, and none of those studies has been done.',
-             'The project has no organization of its own yet, and no fiscal sponsor (an established nonprofit that would oversee the work and hold its money) or board.']   # How In-Kind Standard Works v0.5, "Known gaps" (as in v0.4)
+             'The project has no organization of its own yet, and no fiscal sponsor (an established nonprofit that would oversee the work and hold its money) or board.']   # How In-Kind Standard Works v0.6, "Known gaps" (as in v0.5 and v0.4)
 # The line on AI tools (Political Neutrality Policy v0.20, section 3.19, which reads as in v0.19 and v0.18): a page that mentions AI tools carries
 # these words. The two pages that say how the work is made carry their whole sentence, word for word: the home page the funding
 # statement's (AI_FULL), the accessibility statement the site's own (AI_SITE).
@@ -102,7 +102,7 @@ CASES = ['where the law requires it;', "where another of the project's policies 
 SERVICE = ('A service that processes personal details for the project, bound in writing to keep them confidential, may hold them for that '
            'purpose only; that is not sharing.')                                                    # the policy's own sentence (section 4.3)
 # The Contact page takes complaints about the project's own work, so it carries the released known gap on them, word for word
-# (How In-Kind Standard Works v0.5, "Known gaps", the fifth, as in v0.4).
+# (How In-Kind Standard Works v0.6, "Known gaps", the fifth, as in v0.5 and v0.4).
 COMPLAINTS_GAP = ('Because the founder prepared and approved all the published work, every complaint about it waits, with no date set, for an '
                   'advisory committee not yet formed; the founder is looking for its members. Reports of factual errors that show the official record '
                   'or text are checked and, if wrong, corrected now.')
@@ -686,7 +686,7 @@ if f'<a href="{screen["address"]}">{html.escape(screen["title"])}</a>' not in ho
 # Words marked as another project's are not counted against a budget, so each run of them must really be another project's: found, word for word, in what that project released, in
 # what the site hosts of it, or in the saved data the build reads (frame v0.6, section 6; decision sheet 16). A sentence marked as theirs that is in none of these would let the page's
 # own words go uncounted. A run ends at a block, a table cell, a list item or a line break; a capital that begins a sentence may be a small letter where it is quoted mid-sentence.
-HIKSW_SHA = 'b9489293ba34e1d472c57ac386e0226122b6f580d356820ff3dbc52eef44e9cb'   # the nonprofit project's How In-Kind Standard Works v0.5, as saved in src/sources/nonprofit/
+HIKSW_SHA = 'e42a3fae11bbab063e861cccb22f3faed1c823c62e55810a0acfd1e94623e7e0'   # the nonprofit project's How In-Kind Standard Works v0.6 (released at the founder's word of 24 November 2026, 18:57 UTC, with the aim sentence and the project's name in the byline), as saved in src/sources/nonprofit/
 def squash_(s_): return re.sub(r'\s+', ' ', html.unescape(s_).replace('\u00a0', ' ').replace('\u202f', ' ').replace('\u200b', '')).strip()
 def md_plain_(md_):
     md_ = re.sub(r'!\[([^\]]*)\]\([^)]*\)', r'\1', md_); md_ = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', md_)
@@ -701,9 +701,9 @@ def strings_of_(o_):
     elif isinstance(o_, list):
         for v_ in o_: yield from strings_of_(v_)
     elif isinstance(o_, int) and not isinstance(o_, bool): yield str(o_)
-hik_ = ROOT / 'src' / 'sources' / 'nonprofit' / 'How_In_Kind_Standard_Works_v0_5.md'
+hik_ = ROOT / 'src' / 'sources' / 'nonprofit' / 'How_In_Kind_Standard_Works_v0_6.md'
 if not hik_.is_file() or hashlib.sha256(hik_.read_bytes()).hexdigest() != HIKSW_SHA:
-    bad('src/sources/nonprofit/How_In_Kind_Standard_Works_v0_5.md: missing, or not the nonprofit project\'s released text; a new version also needs its checksum in HIKSW_SHA, with the founder\'s approval')
+    bad('src/sources/nonprofit/How_In_Kind_Standard_Works_v0_6.md: missing, or not the nonprofit project\'s released text; a new version also needs its checksum in HIKSW_SHA, with the founder\'s approval')
 corpus_ = [md_plain_(hik_.read_text(encoding='utf-8'))] if hik_.is_file() else []
 for names_ in RELEASED_PAGES.values():
     for n_ in names_: corpus_.append(block_text((ROOT / 'src' / 'released' / n_).read_text(encoding='utf-8')))
