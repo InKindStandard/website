@@ -142,7 +142,7 @@ for f_ in sorted((ROOT / 'src' / 'pages').glob('*.html')):
 # release has a page at read/<release>/<record>/<name>/ that shows the file's text. The text is the release's, so it is held to the file word for word (reader_text_)
 # and then set aside, like another project's released pages, before the page's own words are checked. READER_PAGE is the budget and ceiling of each one's own words,
 # measured when they were made: 42 to 46 own words and at most 62 in all, so 46 and 70 (approved with them on merge).
-READER_PAGE = (46, 70)
+READER_PAGE = (54, 70)   # 46 until 24 November 2026, when the line on the byline added 8 words (approved with it on merge)
 def reader_slug_(name_): return pathlib.PurePosixPath(name_).stem.lower().replace('_', '-')
 READER_OF = {}   # each reader page, by its address: the hosted file it shows. A file in both records has one page, under the record the release's data names for it.
 SHARED_IN_ = {}  # (release, file name): that record
@@ -166,7 +166,11 @@ def reader_text_(rel_, t_):
     sq_ = lambda x_: re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', x_))).strip()
     words_ = lambda x_: re.findall(r'[A-Za-z0-9]+', x_)
     shown_ = words_(html.unescape(re.sub(r'<[^>]+>', ' ', body_)))
-    if shown_ != words_(re.sub(r'<!--.*?-->', '', src_.read_text(encoding='utf-8'), flags=re.S)): bad(f'{rel_}: its text is not {src_.name} word for word')
+    # The one change (the founder's choice of 24 November 2026, option 2): each byline shows the project's name in place of the founder's, and the page says so.
+    file_ = src_.read_text(encoding='utf-8')
+    if f'Prepared by {NAME} ·' in html.unescape(body_): bad(f'{rel_}: a byline still shows the founder\'s name')
+    if f'Prepared by {NAME} ·' in file_ and 'with the project\'s name in place of the founder\'s in its byline' not in t_: bad(f'{rel_}: shows the project\'s name in the byline without saying so')
+    if shown_ != words_(re.sub(r'<!--.*?-->', '', file_.replace(f'Prepared by {NAME} ·', 'Prepared by In-Kind Standard ·'), flags=re.S)): bad(f'{rel_}: its text is not {src_.name} word for word, but for its byline')
     heads_ = {sq_(re.sub(r'<[^>]+>', '', h_)) for h_ in re.findall(r'<h[2-6] id="[^"]+">(.*?)</h[2-6]>', body_)}
     for x_ in toc_:
         for e_ in re.findall(r'<a href="#[^"]+">(.*?)</a>', x_):
