@@ -178,10 +178,11 @@ FOOT = [('The work', [('materials/', 'Model documents'), ('could-receive/', 'Wha
 RELEASE_PAGE = 270   # every release page's budget (decision sheet 2, E4 A gave 220; the page's own words are 268 since run 19, N4, so 270, approved on decision sheet 16, S2 A, 18 November 2026)
 # The logo's mark, the browser icon and the two full-colour files, held as approved (logo kit v2.3; decision sheet 15, X6 A, 17 November 2026). A new mark, icon or file
 # also needs its checksum here, with the founder's approval (RUNBOOK.md, section 6). The mark is src/logo.inc after its note, as the build takes it.
+# The two full-colour files and the icon recolored to the founder's palette B on 24 November 2026 ("B. I think I'd rather it be true to the spectrum"), approved on merge.
 MARK_SHA = '9aca9bd910f141b4b772a8c19b8f2d4f60f23b0d0e2af4a54036d8f42b0c9ae5'
-ICON_SHA = '1a51afde2dd22cdaae7635cad12b209b731604b19380298c991f7c8e163bd4c2'
-LOGO_FILES = {'assets/logo.svg': 'd03e7569fc6bec5d417e7656e7f73d6a545bc5f470b89627ebd93ff55100e2f0',            # the mark on navy
-              'assets/logo-on-cream.svg': '7a72a46a3731179dacf75dcf6b1d932698aabf879e7e2bad7979d874c869dec7'}   # and on cream: the only image files on the site
+ICON_SHA = 'fe3d018754c7d158cf1093b294276f3abe275be206e772f3fbb61202cfa85b99'
+LOGO_FILES = {'assets/logo.svg': '47bf522435e93b54bad8cda09f89203e22540ea1aa20b6d31c50f9ad1a44171c',            # the mark on navy
+              'assets/logo-on-cream.svg': 'e8f66e53aedc4f53c16376efbcbd9828726e2df8763189c1b05639c7beccaf93'}   # and on cream: the only image files on the site
 RELEASE_CEILING = {'2026.4': 1570}   # each release page's ceiling, approved with its page (decision sheet 5, A)
 VOID = {'meta', 'link', 'img', 'br', 'hr', 'input', 'source', 'path', 'wbr'}
 # The 41 elements whose start tag ends an open paragraph (the HTML standard's parsing rules), so none may sit inside one.
